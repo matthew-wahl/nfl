@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ben Roethlisberger	PIT	41	56	462	18	31.0	395	7.1	222	5.4	4.0	240	5.9	3	5.4%	9	16.1%	2	12	2	2	2	9.0
+Chris Boswell	PIT	1	1	2	1	100.0	2	2.0	2	2.0	2.0	0	0.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Antonio Brown	PIT	0	1	0	0	0.0	12	12.0	0		0.0	0		0	0.0%	1	100.0%	0	0	0	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Case Keenum	DEN	15	28	197	12	40.0	294	10.5	139	9.3	5.0	58	3.9	2	7.4%	6	22.2%	2	21	4	2	0	"
+advanced_rushing
+"James Conner	PIT	13	53	3	38	2.9	15	1.2	2	6.5
+Ben Roethlisberger	PIT	2	18	1	18	9.0	0	0.0	0	
+Ryan Switzer	PIT	1	4	0	2	2.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Phillip Lindsay	DEN	14	110	4	99	7.1	11	0.8	0	
+Royce Freeman	DEN	6	17	1	11	1.8	6	1.0	0	
+Case Keenum	DEN	3	-3	0	-3	-1.0	0	0.0	0	"
+advanced_receiving
+"JuJu Smith-Schuster	PIT	17	13	189	7	94	7.2	95	7.3	2	6.5	1	5.9
+Antonio Brown	PIT	13	9	67	3	41	4.6	26	2.9	1	9.0	0	0.0
+Ryan Switzer	PIT	8	6	67	3	55	9.2	12	2.0	0		0	0.0
+James Conner	PIT	4	4	42	0	-16	-4.0	58	14.5	0		0	0.0
+Jesse James	PIT	4	4	35	2	25	6.3	10	2.5	0		0	0.0
+Vance McDonald	PIT	5	3	27	2	19	6.3	8	2.7	1	3.0	1	20.0
+Jaylen Samuels	PIT	2	1	12	1	0	0.0	12	12.0	1	1.0	0	0.0
+Xavier Grimble	PIT	1	1	23		4	4.0	19	19.0	0		0	0.0
+Alejandro Villanueva	PIT	1	1	2	1	2	2.0	0	0.0	0		0	0.0
+James Washington	PIT	3	0	0		0		0		0		1	33.3
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Emmanuel Sanders	DEN	12	7	86	5	70	10.0	16	2.3	0		0	0.0
+Matt LaCosse	DEN	4	3	34	2	18	6.0	16	5.3	0		0	0.0
+Jeff Heuerman	DEN	3	2	44	2	20	10.0	24	12.0	1	2.0	0	0.0
+Devontae Booker	DEN	2	1	6	1	5	5.0	1	1.0	0		0	0.0
+DaeSean Hamilton	DEN	2	1	13	1	12	12.0	1	1.0	0		0	0.0
+Courtland Sutton	DEN	4	1	14	1	14	14.0	0	0.0	0		2	50.0
+Brian Parker	DEN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Terrell Edmunds	PIT	0	6	4	66.7%	43	10.8	7.2	0	87.5	10.3	38	5	0	0	0	0.0	0	9	0	0.0%
+Joe Haden	PIT	0	7	4	57.1%	68	17.0	9.7	0	90.2	16.7	53	15	1	0	0	0.0	0	3	0	0.0%
+Jonathan Bostic	PIT	0	3	3	100.0%	50	16.7	16.7	0	118.7	8.3	25	25	9	1	0	0.0	1	4	0	0.0%
+Coty Sensabaugh	PIT	0	5	3	60.0%	29	9.7	5.8	1	115.8	6.8	23	6	0	0	0	0.0	0	2	0	0.0%
+Sean Davis	PIT	0	3	3	100.0%	57	19.0	19.0	1	158.3	18.0	54	3	0	0	0	0.0	0	3	0	0.0%
+Vince Williams	PIT	0	3	1	33.3%	15	15.0	5.0	0	50.7	6.0	4	11	11	0	1	1.0	2	3	1	25.0%
+T.J. Watt	PIT	0	1	1	100.0%	3	3.0	3.0	0	79.2	3.0	3	0	10	0	0	0.0	0	1	0	0.0%
+L.J. Fort	PIT	0	2	1	50.0%	6	6.0	3.0	0	56.2	6.5	5	1	5	0	0	0.0	0	4	0	0.0%
+Cameron Heyward	PIT	0	0	0										0	2	0	0.5	3	3	0	0.0%
+Javon Hargrave	PIT	0	0	0										0	0	0	0.5	1	4	0	0.0%
+Anthony Chickillo	PIT	0	0	0										9	0	1	0.0	1	0	0	
+Morgan Burnett	PIT	0	2	0	0.0%					39.6	17.5			0	0	0	0.0	0	1	0	0.0%
+Mike Hilton	PIT	0	2	0	0.0%					39.6	7.5			2	0	0	0.0	0	0	0	
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Bradley Roby	DEN	0	12	9	75.0%	167	18.6	13.9	1	144.4	10.8	91	76	0	0	0	0.0	0	6	1	14.3%
+Todd Davis	DEN	0	10	8	80.0%	57	7.1	5.7	1	123.7	1.0	8	49	3	0	0	0.0	0	10	0	0.0%
+Chris Harris	DEN	1	11	7	63.6%	55	7.9	5.0	0	38.1	4.7	39	16	0	0	0	0.0	0	6	0	0.0%
+Justin Simmons	DEN	0	8	7	87.5%	94	13.4	11.8	0	115.6	10.8	63	31	2	0	0	0.0	0	9	0	0.0%
+Darian Stewart	DEN	0	6	6	100.0%	61	10.2	10.2	0	109.0	3.8	23	38	0	0	0	0.0	0	3	2	40.0%
+Tramaine Brock	DEN	0	5	3	60.0%	13	4.3	2.6	0	64.6	8.0	3	10	0	0	0	0.0	0	3	1	25.0%
+Will Parks	DEN	0	3	2	66.7%	14	7.0	4.7	0	77.1	8.3	10	4	4	0	0	0.0	0	6	0	0.0%
+Isaac Yiadom	DEN	0	5	2	40.0%	32	16.0	6.4	0	62.1	18.8	23	9	0	0	0	0.0	0	2	0	0.0%
+Su'a Cravens	DEN	0	2	2	100.0%	19	9.5	9.5	0	106.2	9.5	19	0	1	0	0	0.0	0	2	0	0.0%
+Josey Jewell	DEN	0	2	2	100.0%	19	9.5	9.5	0	106.2	1.5	3	16	0	0	0	0.0	0	6	0	0.0%
+Bradley Chubb	DEN	0	2	1	50.0%	6	6.0	3.0	0	56.2	6.5	1	5	6	0	0	0.0	0	4	1	20.0%
+Shane Ray	DEN	0	1	1	100.0%	9	9.0	9.0	0	104.2	4.0	4	5	2	0	0	0.0	0	1	0	0.0%
+Von Miller	DEN	0	0	0										6	1	0	1.0	2	2	0	0.0%
+Shelby Harris	DEN	1	1	0	0.0%					0.0	2.0			0	0	2	0.0	2	2	1	33.3%
+Shaquil Barrett	DEN	0	0	0										3	0	0	1.0	1	1	0	0.0%
+Adam Gotsis	DEN	0	0	0										0	0	1	0.0	1	2	0	0.0%
+Zach Kerr	DEN	0	0	0										0	1	0	0.0	1	5	0	0.0%"

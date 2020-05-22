@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Josh Allen	BUF	18	33	231	10	28.6	518	15.7	152	8.4	4.6	79	4.4	2	6.9%	5	17.2%	2	10	7	5	7	18.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ryan Tannehill	MIA	16	24	137	10	37.0	241	10.0	99	6.2	4.1	38	2.4	1	4.2%	4	16.7%	3	7	0	6	0	"
+advanced_rushing
+"LeSean McCoy	BUF	15	52	3	14	0.9	38	2.5	0	
+Josh Allen	BUF	9	135	7	80	8.9	55	6.1	0	
+Chris Ivory	BUF	6	4		-5	-0.8	9	1.5	0	
+Marcus Murphy	BUF	1	7		5	5.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Frank Gore	MIA	8	21	0	6	0.8	15	1.9	0	
+Kenyan Drake	MIA	7	31	1	2	0.3	29	4.1	1	7.0
+Kalen Ballage	MIA	4	3		-3	-0.8	6	1.5	0	
+Ryan Tannehill	MIA	3	-5	0	-5	-1.7	0	0.0	0	
+Brandon Bolden	MIA	1	10	1	6	6.0	4	4.0	0	"
+advanced_receiving
+"Zay Jones	BUF	9	4	67	3	62	15.5	5	1.3	0		1	11.1
+LeSean McCoy	BUF	4	4	12	1	-6	-1.5	18	4.5	0		0	0.0
+Isaiah McKenzie	BUF	4	4	46	2	36	9.0	10	2.5	0		0	0.0
+Kelvin Benjamin	BUF	4	2	20		20	10.0	0	0.0	0		0	0.0
+Charles Clay	BUF	2	1	9	1	0	0.0	9	9.0	0		1	50.0
+Patrick DiMarco	BUF	1	1	38	1	11	11.0	27	27.0	0		0	0.0
+Robert Foster	BUF	3	1	27	1	17	17.0	10	10.0	0		0	0.0
+Deonte Thompson	BUF	1	1	12	1	12	12.0	0	0.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Brice Butler	MIA	4	4	25	2	26	6.5	-1	-0.3	0		0	0.0
+DeVante Parker	MIA	7	4	43	3	38	9.5	5	1.3	0		0	0.0
+Kenny Stills	MIA	6	4	37	3	31	7.8	6	1.5	0		0	0.0
+Kenyan Drake	MIA	4	2	13	1	-1	-0.5	14	7.0	0		1	25.0
+Frank Gore	MIA	1	1	10	1	4	4.0	6	6.0	0		0	0.0
+Nick O'Leary	MIA	1	1	9		1	1.0	8	8.0	0		0	0.0
+Isaiah Ford	MIA	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Tremaine Edmunds	BUF	0	6	6	100.0%	43	7.2	7.2	1	136.1	2.3	14	29	4	0	1	0.0	1	4	0	0.0%
+Matt Milano	BUF	0	4	4	100.0%	47	11.8	11.8	1	155.2	6.5	26	21	3	0	1	0.0	1	8	3	27.3%
+Tre'Davious White	BUF	0	6	4	66.7%	29	7.3	4.8	0	77.8	18.2	30	-1	0	0	0	0.0	0	4	1	20.0%
+Levi Wallace	BUF	0	5	3	60.0%	21	7.0	4.2	0	69.6	8.6	16	5	0	0	0	0.0	0	4	0	0.0%
+Micah Hyde	BUF	1	8	3	37.5%	35	11.7	4.4	2	51.6	18.3	35	0	0	0	0	0.0	0	4	0	0.0%
+Jordan Poyer	BUF	0	2	1	50.0%	13	13.0	6.5	1	110.4	18.0	13	0	5	0	1	0.0	1	5	0	0.0%
+Rafael Bush	BUF	0	1	1	100.0%	9	9.0	9.0	0	104.2	8.0	8	1	1	0	0	1.0	1	3	0	0.0%
+Taron Johnson	BUF	0	1	1	100.0%	11	11.0	11.0	0	112.5	6.0	6	5	0	0	0	0.0	0	2	1	33.3%
+Trent Murphy	BUF	0	0	0										0	0	1	1.0	2	2	0	0.0%
+Lorenzo Alexander	BUF	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Jerry Hughes	BUF	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Kyle Williams	BUF	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Shaq Lawson	BUF	0	2	0	0.0%					39.6	12.5			0	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Bobby McCain	MIA	0	5	4	80.0%	58	14.5	11.6	1	154.6	12.0	48	10	2	0	0	1.0	1	4	1	20.0%
+Minkah Fitzpatrick	MIA	0	5	4	80.0%	25	6.3	5.0	0	87.5	13.4	25	0	0	0	0	0.0	0	5	0	0.0%
+Kiko Alonso	MIA	0	3	3	100.0%	44	14.7	14.7	0	118.7	5.7	17	27	5	0	0	0.0	0	11	1	8.3%
+Raekwon McMillan	MIA	0	3	3	100.0%	66	22.0	22.0	1	158.3	11.3	34	32	1	0	0	0.0	0	8	0	0.0%
+Jerome Baker	MIA	0	2	2	100.0%	15	7.5	7.5	0	97.9	-1.5	-3	18	4	0	0	0.0	0	1	0	0.0%
+Xavien Howard	MIA	2	8	2	25.0%	39	19.5	4.9	0	7.8	25.5	29	10	0	0	0	0.0	0	4	1	20.0%
+Reshad Jones	MIA	0	2	1	50.0%	22	22.0	11.0	0	89.6	23.5	22	0	1	0	0	0.0	0	7	0	0.0%
+Akeem Spence	MIA	0	0	0										0	1	3	0.0	4	0	1	100.0%
+Cameron Wake	MIA	0	0	0										0	3	0	0.0	3	2	1	33.3%
+Evander Hood	MIA	0	0	0										0	3	0	0.0	3	1	0	0.0%
+Charles Harris	MIA	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Andre Branch	MIA	0	0	0										0	2	0	0.0	2	2	0	0.0%
+Robert Quinn	MIA	0	0	0										0	1	0	1.0	2	2	0	0.0%
+Sylvester Williams	MIA	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Davon Godchaux	MIA	0	0	0										0	0	1	0.0	1	2	1	33.3%
+T.J. McDonald	MIA	0	0	0										1	0	0	0.0	0	4	1	20.0%"

@@ -1,0 +1,71 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jared Goff	LAR	25	40	297	13	31.7	273	6.8	175	7.0	4.4	122	4.9	5	13.5%	6	16.2%	1	16	4	5	2	5.0
+Johnny Hekker	LAR	1	1	12	1	100.0	3	3.0	3	3.0	3.0	9	9.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Drew Brees	NOR	26	40	249	12	28.6	241	6.0	113	4.3	2.8	136	5.2	2	5.3%	7	18.4%	2	6	3	4	0	
+Taysom Hill	NOR	0	1	0	0	0.0	-1	-1.0	0		0.0	0		1	100.0%	0	0.0%	0	1	1	0	0	"
+advanced_rushing
+"C.J. Anderson	LAR	16	44	2	12	0.8	32	2.0	1	16.0
+Todd Gurley	LAR	4	10	1	5	1.3	5	1.3	0	
+Jared Goff	LAR	3	10	1	8	2.7	2	0.7	0	
+Robert Woods	LAR	2	-3	0	-4	-2.0	1	0.5	0	
+Josh Reynolds	LAR	1	16	1	13	13.0	3	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Mark Ingram	NOR	9	31	3	23	2.6	8	0.9	1	9.0
+Alvin Kamara	NOR	8	15	1	0	0.0	15	1.9	0	
+Drew Brees	NOR	2	-2	0	-2	-1.0	0	0.0	0	
+Taysom Hill	NOR	1	0	0	0	0.0	0	0.0	0	
+Zach Line	NOR	1	4	1	1	1.0	3	3.0	0	"
+advanced_receiving
+"Brandin Cooks	LAR	8	7	107	5	77	11.0	30	4.3	0		1	12.5
+Robert Woods	LAR	10	6	33	1	16	2.7	17	2.8	0		1	10.0
+Tyler Higbee	LAR	4	4	25	2	3	0.8	22	5.5	0		0	0.0
+Josh Reynolds	LAR	7	4	74	3	51	12.8	23	5.8	2	2.0	1	14.3
+Gerald Everett	LAR	4	2	50	2	25	12.5	25	12.5	0		0	0.0
+Todd Gurley	LAR	3	1	3	0	-1	-1.0	4	4.0	0		2	66.7
+C.J. Anderson	LAR	1	1	5	0	4	4.0	1	1.0	0		0	0.0
+Sam Shields	LAR	1	1	12	1	3	3.0	9	9.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Alvin Kamara	NOR	13	11	96	5	27	2.5	69	6.3	0		2	15.4
+Michael Thomas	NOR	7	4	36	1	21	5.3	15	3.8	0		0	0.0
+Ted Ginn	NOR	6	3	58	2	50	16.7	8	2.7	0		1	16.7
+Garrett Griffin	NOR	2	2	12	1	0	0.0	12	6.0	0		0	0.0
+Mark Ingram	NOR	2	2	6	0	4	2.0	2	1.0	0		0	0.0
+Josh Hill	NOR	1	1	24	1	-1	-1.0	25	25.0	0		0	0.0
+Tre'Quan Smith	NOR	3	1	10	1	10	10.0	0	0.0	0		0	0.0
+Taysom Hill	NOR	1	1	2	1	-3	-3.0	5	5.0	0		0	0.0
+Austin Carr	NOR	1	1	5		5	5.0	0	0.0	0		0	0.0
+Tommylee Lewis	NOR	1	0	0		0		0		0		0	0.0
+Dan Arnold	NOR	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Cory Littleton	LAR	0	9	8	88.9%	65	8.1	7.2	0	96.8	1.3	13	52	3	0	0	0.0	0	12	0	0.0%
+Mark Barron	LAR	0	8	6	75.0%	61	10.2	7.6	0	96.4	4.6	14	47	0	0	0	0.0	0	9	0	0.0%
+Aqib Talib	LAR	0	6	5	83.3%	63	12.6	10.5	2	150.0	12.0	56	7	0	0	0	0.0	0	2	0	0.0%
+John Johnson	LAR	1	3	2	66.7%	8	4.0	2.7	0	30.6	8.3	5	3	2	0	0	0.0	0	4	0	0.0%
+Marcus Peters	LAR	0	4	2	50.0%	28	14.0	7.0	0	72.9	5.8	14	14	0	0	0	0.0	0	3	0	0.0%
+Michael Brockers	LAR	0	1	1	100.0%	7	7.0	7.0	0	95.8	-5.0	-5	12	0	1	0	0.0	1	4	0	0.0%
+Nickell Robey-Coleman	LAR	0	8	1	12.5%	9	9.0	1.1	0	39.6	7.8	9	0	0	0	0	0.0	0	1	0	0.0%
+Samson Ebukam	LAR	0	1	1	100.0%	6	6.0	6.0	0	91.7	-1.0	-1	7	3	0	0	0.0	0	3	0	0.0%
+Lamarcus Joyner	LAR	0	1	1	100.0%	43	43.0	43.0	0	118.7	42.0	42	1	2	0	0	0.0	0	3	0	0.0%
+John Franklin-Myers	LAR	0	1	1	100.0%	21	21.0	21.0	0	118.7	13.0	13	8	0	0	0	0.0	0	2	0	0.0%
+Aaron Donald	LAR	0	0	0										0	2	3	0.0	5	2	1	33.3%
+Dante Fowler	LAR	0	0	0										6	1	1	0.5	3	5	0	0.0%
+Ndamukong Suh	LAR	0	0	0										0	0	0	1.5	2	4	2	33.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Demario Davis	NOR	1	8	7	87.5%	76	10.9	9.5	0	66.7	6.8	50	26	10	0	0	0.0	0	14	1	6.7%
+P.J. Williams	NOR	0	10	7	70.0%	75	10.7	7.5	0	91.7	4.8	42	33	5	0	0	0.0	0	8	1	11.1%
+Eli Apple	NOR	0	8	5	62.5%	50	10.0	6.3	0	80.2	8.6	43	7	1	0	1	0.0	1	4	1	20.0%
+Marcus Williams	NOR	0	6	5	83.3%	124	24.8	20.7	0	118.7	15.7	68	56	1	0	0	0.0	0	5	2	28.6%
+Alex Anzalone	NOR	0	4	2	50.0%	10	5.0	2.5	1	95.8	2.5	7	3	6	0	0	0.0	0	2	1	33.3%
+Marshon Lattimore	NOR	0	3	2	66.7%	19	9.5	6.3	0	84.0	7.7	18	1	1	0	0	0.0	0	6	1	14.3%
+A.J. Klein	NOR	0	2	2	100.0%	11	5.5	5.5	0	89.6	2.5	5	6	4	0	0	0.0	0	7	2	22.2%
+Alex Okafor	NOR	0	1	1	100.0%	7	7.0	7.0	0	95.8	7.0	7	0	0	0	2	0.0	2	4	0	0.0%
+Vonn Bell	NOR	0	3	1	33.3%	12	12.0	4.0	0	46.5	14.3	4	8	2	0	1	0.0	1	4	1	20.0%
+Justin Hardee	NOR	0	1	1	100.0%	12	12.0	12.0	0	116.7	3.0	3	9	0	0	0	0.0	0	1	0	0.0%
+Cameron Jordan	NOR	0	0	0										6	2	0	1.0	3	3	0	0.0%
+David Onyemata	NOR	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Taylor Stallworth	NOR	0	0	0										0	0	1	0.0	1	2	0	0.0%
+Marcus Davenport	NOR	0	0	0										3	0	0	0.0	0	3	0	0.0%"

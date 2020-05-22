@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Dak Prescott	DAL	22	35	257	10	28.6	360	10.3	124	5.6	3.5	133	6.0	1	3.0%	6	18.2%	0	11	4	5	1	11.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Daniel Jones	NYG	26	41	210	11	23.9	240	5.9	81	3.1	2.0	129	5.0	2	5.0%	9	22.5%	5	10	4	6	4	6.0"
+advanced_rushing
+"Ezekiel Elliott	DAL	23	139	8	108	4.7	31	1.3	0	
+Tony Pollard	DAL	3	21	2	9	3.0	12	4.0	1	3.0
+Dak Prescott	DAL	3	12	1	9	3.0	3	1.0	0	
+Randall Cobb	DAL	1	0	0	0	0.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Saquon Barkley	NYG	14	28	2	23	1.6	5	0.4	0	
+Daniel Jones	NYG	6	54	3	54	9.0	0	0.0	0	
+Evan Engram	NYG	1	2	0	2	2.0	0	0.0	0	
+Golden Tate	NYG	1	16	1	12	12.0	4	4.0	0	"
+advanced_receiving
+"Jason Witten	DAL	9	8	58	2	30	3.8	28	3.5	0		0	0.0
+Randall Cobb	DAL	8	6	35	3	22	3.7	13	2.2	0		0	0.0
+Amari Cooper	DAL	7	4	80	2	51	12.8	29	7.3	0		0	0.0
+Michael Gallup	DAL	6	2	33	2	16	8.0	17	8.5	0		0	0.0
+Blake Jarwin	DAL	1	1	42	1	9	9.0	33	33.0	0		0	0.0
+Tony Pollard	DAL	3	1	9	0	-4	-4.0	13	13.0	0		1	33.3
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Saquon Barkley	NYG	8	6	67	1	-16	-2.7	83	13.8	0		0	0.0
+Evan Engram	NYG	8	6	48	3	30	5.0	18	3.0	0		0	0.0
+Golden Tate	NYG	6	6	42	3	32	5.3	10	1.7	0		0	0.0
+Bennie Fowler	NYG	6	3	22	2	22	7.3	0	0.0	0		0	0.0
+Rhett Ellison	NYG	5	2	17		11	5.5	6	3.0	0		1	20.0
+Cody Latimer	NYG	3	2	8	2	6	3.0	2	1.0	0		0	0.0
+Darius Slayton	NYG	4	1	6		-4	-4.0	10	10.0	0		1	25.0
+Wayne Gallman	NYG	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Chidobe Awuzie	DAL	0	11	6	54.5%	45	7.5	4.1	1	94.9	13.0	32	13	0	0	0	0.0	0	7	0	0.0%
+Jaylon Smith	DAL	0	7	4	57.1%	30	7.5	4.3	0	67.6	7.0	28	2	3	0	0	0.5	1	12	0	0.0%
+Jourdan Lewis	DAL	0	6	4	66.7%	70	17.5	11.7	0	106.2	-0.8	-10	80	2	0	0	0.0	0	6	0	0.0%
+Byron Jones	DAL	0	6	4	66.7%	42	10.5	7.0	0	86.8	8.2	35	7	0	0	0	0.0	0	4	0	0.0%
+Sean Lee	DAL	0	6	4	66.7%	4	1.0	0.7	0	70.1	2.0	4	0	2	0	0	0.0	0	12	0	0.0%
+Robert Quinn	DAL	0	1	1	100.0%	6	6.0	6.0	0	91.7	-4.0	-4	10	0	1	0	0.5	2	2	0	0.0%
+Jeff Heath	DAL	0	1	1	100.0%	4	4.0	4.0	0	83.3	-3.0	-3	7	4	1	1	0.0	2	3	1	25.0%
+Xavier Woods	DAL	1	1	1	100.0%	4	4.0	4.0	0	43.7	3.0	3	1	0	0	0	0.0	0	3	0	0.0%
+DeMarcus Lawrence	DAL	0	0	0										0	1	2	1.0	4	4	0	0.0%
+Michael Bennett	DAL	0	0	0										0	0	3	1.0	4	3	0	0.0%
+Maliek Collins	DAL	0	0	0										0	1	0	1.0	2	2	0	0.0%
+Dorance Armstrong	DAL	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Darian Thompson	DAL	0	1	0	0.0%					39.6	0.0			0	0	0	0.0	0	2	0	0.0%
+Joe Thomas	DAL	0	0	0										1	0	0	0.0	0	3	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Deandre Baker	NYG	0	9	6	66.7%	76	12.7	8.4	1	129.9	9.9	55	21	0	0	0	0.0	0	5	0	0.0%
+Corey Ballentine	NYG	0	7	4	57.1%	32	8.0	4.6	0	68.7	12.6	7	25	2	0	1	0.0	1	4	0	0.0%
+Alec Ogletree	NYG	0	4	4	100.0%	58	14.5	14.5	1	158.3	5.5	22	36	6	0	0	0.0	0	6	1	14.3%
+Jabrill Peppers	NYG	0	3	2	66.7%	17	8.5	5.7	0	81.2	4.0	5	12	3	1	0	0.0	1	12	0	0.0%
+David Mayo	NYG	0	3	2	66.7%	17	8.5	5.7	0	81.2	8.0	7	10	2	0	0	0.0	0	3	0	0.0%
+Lorenzo Carter	NYG	0	1	1	100.0%	3	3.0	3.0	0	79.2	3.0	3	0	2	0	1	0.0	1	4	0	0.0%
+Antoine Bethea	NYG	1	1	1	100.0%	45	45.0	45.0	1	118.7	20.0	20	25	0	0	0	0.0	0	9	0	0.0%
+Janoris Jenkins	NYG	0	4	1	25.0%	4	4.0	1.0	0	39.6	24.3	4	0	0	0	0	0.0	0	3	1	25.0%
+Deone Bucannon	NYG	0	2	1	50.0%	5	5.0	2.5	0	56.2	-2.0	1	4	2	0	0	0.0	0	1	0	0.0%
+Oshane Ximines	NYG	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Leonard Williams	NYG	0	0	0										0	1	1	0.0	2	3	0	0.0%
+Dalvin Tomlinson	NYG	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Dexter Lawrence	NYG	0	0	0										0	0	1	0.0	1	2	0	0.0%
+Markus Golden	NYG	0	0	0										1	1	0	0.0	1	5	0	0.0%"

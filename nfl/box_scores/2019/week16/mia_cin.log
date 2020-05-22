@@ -1,0 +1,70 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Andy Dalton	CIN	33	56	396	21	35.0	586	10.5	287	8.7	5.1	109	3.3	3	5.7%	10	18.9%	4	16	3	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ryan Fitzpatrick	MIA	31	52	419	21	38.9	510	9.8	285	9.2	5.5	134	4.3	2	3.9%	10	19.6%	2	19	3	10	1	15.0"
+advanced_rushing
+"Joe Mixon	CIN	21	50	1	24	1.1	26	1.2	0	
+Giovani Bernard	CIN	2	3	1	1	0.5	2	1.0	0	
+John Ross	CIN	2	6	0	4	2.0	2	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Myles Gaskin	MIA	16	55	4	21	1.3	34	2.1	0	
+Patrick Laird	MIA	8	17		5	0.6	12	1.5	1	8.0
+Ryan Fitzpatrick	MIA	5	9	1	9	1.8	0	0.0	0	
+De'Lance Turner	MIA	4	6		1	0.3	5	1.3	0	
+Albert Wilson	MIA	1	9	0	8	8.0	1	1.0	0	"
+advanced_receiving
+"Tyler Boyd	CIN	15	9	128	7	89	9.9	39	4.3	1	9.0	1	6.7
+Alex Erickson	CIN	9	6	55	3	45	7.5	10	1.7	1	6.0	0	0.0
+John Ross	CIN	13	6	84	5	72	12.0	12	2.0	0		2	15.4
+Tyler Eifert	CIN	8	4	57	3	46	11.5	11	2.8	0		0	0.0
+C.J. Uzomah	CIN	4	4	37	2	25	6.3	12	3.0	0		0	0.0
+Giovani Bernard	CIN	3	2	12	0	9	4.5	3	1.5	0		0	0.0
+Joe Mixon	CIN	2	2	23	1	1	0.5	22	11.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Albert Wilson	MIA	7	7	79	4	21	3.0	58	8.3	0		0	0.0
+Mike Gesicki	MIA	12	6	82	4	71	11.8	11	1.8	0		0	0.0
+DeVante Parker	MIA	15	5	111	5	102	20.4	9	1.8	0		1	6.7
+Isaiah Ford	MIA	6	5	68	3	46	9.2	22	4.4	2	2.5	0	0.0
+Allen Hurns	MIA	2	2	41	2	31	15.5	10	5.0	0		0	0.0
+Durham Smythe	MIA	2	2	18	1	17	8.5	1	0.5	0		0	0.0
+Patrick Laird	MIA	1	1	1		-3	-3.0	4	4.0	0		0	0.0
+Myles Gaskin	MIA	3	1	3	0	-3	-3.0	6	6.0	0		0	0.0
+Clive Walford	MIA	2	1	15	1	11	11.0	4	4.0	0		1	50.0
+Christian Wilkins	MIA	1	1	1	1	0	0.0	1	1.0	0		0	0.0"
+advanced_defense
+"B.W. Webb	CIN	0	9	6	66.7%	83	13.8	9.2	0	96.1	11.6	70	13	0	0	0	0.0	0	7	1	12.5%
+Shawn Williams	CIN	0	5	5	100.0%	44	8.8	8.8	0	103.3	4.0	20	24	5	1	1	1.0	3	13	4	23.5%
+Darqueze Dennard	CIN	0	8	5	62.5%	68	13.6	8.5	1	129.2	8.1	35	33	2	0	1	0.0	1	8	1	11.1%
+William Jackson	CIN	0	10	4	40.0%	111	27.8	11.1	2	121.2	18.0	101	10	0	0	0	0.0	0	2	0	0.0%
+Nick Vigil	CIN	0	5	3	60.0%	34	11.3	6.8	0	80.4	3.4	17	17	7	1	0	0.0	1	4	1	20.0%
+Germaine Pratt	CIN	0	3	2	66.7%	14	7.0	4.7	0	77.1	3.0	9	5	5	0	0	0.0	0	11	0	0.0%
+Jessie Bates	CIN	0	2	2	100.0%	20	10.0	10.0	1	147.9	9.5	19	1	2	0	0	0.0	0	4	1	20.0%
+Carl Lawson	CIN	0	1	1	100.0%	28	28.0	28.0	0	118.7	9.0	9	19	0	1	4	0.0	5	2	0	0.0%
+Darius Phillips	CIN	1	4	1	25.0%	6	6.0	1.5	0	0.0	14.3	5	1	1	1	0	0.0	1	1	0	0.0%
+Clayton Fejedelem	CIN	0	1	1	100.0%	7	7.0	7.0	0	95.8	4.0	4	3	0	0	0	0.0	0	3	0	0.0%
+Hardy Nickerson	CIN	0	1	1	100.0%	4	4.0	4.0	0	83.3	4.0	4	0	2	0	0	0.0	0	1	0	0.0%
+Carlos Dunlap	CIN	0	0	0										1	0	2	0.0	2	4	0	0.0%
+Geno Atkins	CIN	0	0	0										0	0	1	0.0	1	0	0	
+Sam Hubbard	CIN	0	1	0	0.0%					39.6	9.0			1	0	0	1.0	1	7	0	0.0%
+Andrew Billings	CIN	0	0	0										0	0	1	0.0	1	3	0	0.0%
+Greg Mabin	CIN	0	1	0	0.0%					39.6	19.0			0	0	0	0.0	0	0	0	
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Nik Needham	MIA	0	9	7	77.8%	117	16.7	13.0	2	158.3	12.0	88	29	0	0	0	0.0	0	4	1	20.0%
+Tae Hayes	MIA	0	9	4	44.4%	55	13.8	6.1	0	64.6	19.6	39	16	2	0	0	0.0	0	3	1	25.0%
+Montre Hartage	MIA	0	4	4	100.0%	36	9.0	9.0	0	104.2	7.0	28	8	0	0	0	0.0	0	4	0	0.0%
+Eric Rowe	MIA	0	9	4	44.4%	43	10.8	4.8	0	59.0	8.1	38	5	2	0	0	0.0	0	4	0	0.0%
+Jerome Baker	MIA	0	5	3	60.0%	31	10.3	6.2	0	77.9	4.2	17	14	6	0	0	0.5	1	12	1	7.7%
+Nate Brooks	MIA	0	6	3	50.0%	23	7.7	3.8	0	59.7	9.7	19	4	0	0	0	0.0	0	4	0	0.0%
+Linden Stephens	MIA	0	2	2	100.0%	27	13.5	13.5	0	118.7	13.0	26	1	0	0	0	0.0	0	1	0	0.0%
+Jomal Wiltz	MIA	0	4	2	50.0%	17	8.5	4.3	0	61.5	5.0	1	16	1	0	0	0.0	0	3	3	50.0%
+Vince Biegel	MIA	0	1	1	100.0%	-2	-2.0	-2.0	0	79.2	2.0	2	-4	7	0	0	0.5	1	2	0	0.0%
+Andrew Van Ginkel	MIA	0	1	1	100.0%	6	6.0	6.0	0	91.7	-5.0	-5	11	10	0	1	0.0	1	2	1	33.3%
+Calvin Munson	MIA	0	1	1	100.0%	10	10.0	10.0	0	108.3	1.0	1	9	2	0	0	0.0	0	5	0	0.0%
+Christian Wilkins	MIA	0	0	0										0	1	0	1.0	2	3	0	0.0%
+Zach Sieler	MIA	0	0	0										0	1	0	1.0	2	7	1	12.5%
+Trent Harris	MIA	0	0	0										8	1	0	0.5	2	5	1	16.7%
+Davon Godchaux	MIA	0	0	0										0	0	0	0.5	1	6	2	25.0%
+Adrian Colbert	MIA	0	1	0	0.0%					39.6	47.0			0	0	0	0.0	0	4	0	0.0%"

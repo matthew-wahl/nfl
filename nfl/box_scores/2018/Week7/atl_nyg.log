@@ -1,0 +1,70 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Eli Manning	NYG	27	38	399	15	35.7	277	7.3	188	7.0	4.9	211	7.8	3	7.9%	6	15.8%	4	12	5	3	1	7.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Matt Ryan	ATL	31	39	379	15	35.7	305	7.8	231	7.5	5.9	148	4.8	2	5.4%	3	8.1%	3	14	7	2	0	"
+advanced_rushing
+"Saquon Barkley	NYG	14	43	4	13	0.9	30	2.1	2	7.0
+Eli Manning	NYG	3	7	0	7	2.3	0	0.0	0	
+Odell Beckham	NYG	1	-1	0	-1	-1.0	0	0.0	0	
+Evan Engram	NYG	1	10	1	2	2.0	8	8.0	1	1.0
+Elijhaa Penny	NYG	1	2	1	2	2.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Tevin Coleman	ATL	11	50	3	48	4.4	2	0.2	1	11.0
+Ito Smith	ATL	7	16	1	15	2.1	1	0.1	0	
+Matt Ryan	ATL	2	1	1	1	0.5	0	0.0	0	"
+advanced_receiving
+"Saquon Barkley	NYG	10	9	51	2	-31	-3.4	82	9.1	0		1	10.0
+Odell Beckham	NYG	11	8	143	7	104	13.0	39	4.9	0		0	0.0
+Sterling Shepard	NYG	8	5	167	4	105	21.0	62	12.4	0		2	25.0
+Rhett Ellison	NYG	2	2	11	1	9	4.5	2	1.0	0		0	0.0
+Evan Engram	NYG	4	2	16	0	-3	-1.5	19	9.5	1	2.0	0	0.0
+Bennie Fowler	NYG	1	1	11	1	4	4.0	7	7.0	0		0	0.0
+Scott Simonson	NYG	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Julio Jones	ATL	12	9	104	6	77	8.6	27	3.0	0		1	8.3
+Calvin Ridley	ATL	6	5	43	3	22	4.4	21	4.2	0		0	0.0
+Austin Hooper	ATL	4	3	48	1	39	13.0	9	3.0	0		1	25.0
+Marvin Hall	ATL	3	3	63	1	55	18.3	8	2.7	0		0	0.0
+Ricky Ortiz	ATL	2	2	7		0	0.0	7	3.5	1	2.0	0	0.0
+Justin Hardy	ATL	2	2	24	1	12	6.0	12	6.0	0		0	0.0
+Mohamed Sanu	ATL	2	2	21	1	6	3.0	15	7.5	0		0	0.0
+Tevin Coleman	ATL	2	2	32	1	9	4.5	23	11.5	0		0	0.0
+Ito Smith	ATL	2	2	29	1	5	2.5	24	12.0	0		0	0.0
+Eric Saubert	ATL	1	1	8		6	6.0	2	2.0	0		0	0.0"
+advanced_defense
+"Janoris Jenkins	NYG	0	12	9	75.0%	132	14.7	11.0	1	138.2	11.9	111	21	0	0	0	0.0	0	5	1	16.7%
+Alec Ogletree	NYG	0	8	8	100.0%	74	9.3	9.3	0	105.2	0.5	4	70	4	0	1	0.0	1	4	3	42.9%
+Landon Collins	NYG	0	5	5	100.0%	35	7.0	7.0	0	95.8	6.0	30	5	3	0	0	0.0	0	8	0	0.0%
+Curtis Riley	NYG	0	4	4	100.0%	59	14.8	14.8	0	118.7	8.0	32	27	1	0	0	0.0	0	7	1	12.5%
+Eli Apple	NYG	0	4	3	75.0%	30	10.0	7.5	0	95.8	6.8	19	11	0	0	0	0.0	0	6	1	14.3%
+B.W. Webb	NYG	0	3	1	33.3%	36	36.0	12.0	0	79.9	21.7	27	9	3	0	0	1.0	1	2	0	0.0%
+Kareem Martin	NYG	0	1	1	100.0%	8	8.0	8.0	0	100.0	6.0	6	2	0	1	0	0.0	1	3	0	0.0%
+Olivier Vernon	NYG	0	0	0										4	2	0	0.0	2	2	0	0.0%
+B.J. Hill	NYG	0	0	0										0	2	0	0.0	2	4	0	0.0%
+Lorenzo Carter	NYG	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Josh Mauro	NYG	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Mario Edwards	NYG	0	0	0										0	0	1	0.0	1	0	0	
+Kerry Wynn	NYG	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Damon Harrison	NYG	0	0	0										0	1	0	0.0	1	3	0	0.0%
+Tae Davis	NYG	0	0	0										1	0	0	0.0	0	2	0	0.0%
+Michael Thomas	NYG	0	0	0										3	0	0	0.0	0	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Robert Alford	ATL	0	7	7	100.0%	224	32.0	32.0	1	158.3	20.6	144	80	0	0	0	0.0	0	4	0	0.0%
+Desmond Trufant	ATL	0	7	5	71.4%	70	14.0	10.0	0	103.3	11.3	42	28	0	0	0	0.0	0	8	0	0.0%
+Vic Beasley	ATL	0	4	3	75.0%	27	9.0	6.8	0	92.7	-1.3	-5	32	0	2	0	0.0	2	1	1	50.0%
+Foyesade Oluokun	ATL	0	4	3	75.0%	16	5.3	4.0	0	81.2	-0.5	-5	21	1	0	1	0.0	1	6	1	14.3%
+De'Vondre Campbell	ATL	0	2	2	100.0%	16	8.0	8.0	0	100.0	2.0	4	12	4	0	0	0.0	0	3	0	0.0%
+Duke Riley	ATL	0	2	2	100.0%	6	3.0	3.0	0	79.2	-0.5	-1	7	0	0	0	0.0	0	3	1	25.0%
+Brooks Reed	ATL	0	1	1	100.0%	-8	-8.0	-8.0	0	79.2	-9.0	-9	1	1	1	0	0.0	1	3	0	0.0%
+Isaiah Oliver	ATL	0	1	1	100.0%	10	10.0	10.0	0	108.3	-9.0	-9	19	0	0	0	0.0	0	1	0	0.0%
+Sharrod Neasman	ATL	0	1	1	100.0%	11	11.0	11.0	0	112.5	0.0	0	11	0	0	0	0.0	0	4	2	33.3%
+Jack Crawford	ATL	0	0	0										0	3	0	1.0	4	2	0	0.0%
+Grady Jarrett	ATL	0	0	0										0	1	0	2.0	3	5	0	0.0%
+Takkarist McKinley	ATL	0	0	0										0	0	1	1.0	2	4	1	20.0%
+Brian Poole	ATL	0	1	0	0.0%					39.6	14.0			7	0	1	0.0	1	5	0	0.0%
+Damontae Kazee	ATL	0	4	0	0.0%					39.6	8.0			0	0	0	0.0	0	5	1	16.7%
+Terrell McClain	ATL	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Bruce Carter	ATL	0	1	0	0.0%					39.6	3.0			0	0	0	0.0	0	3	1	25.0%"

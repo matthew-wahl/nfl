@@ -1,0 +1,69 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ryan Tannehill	MIA	11	20	100	4	18.2	216	10.8	45	4.1	2.3	55	5.0	0	0.0%	5	25.0%	2	3	5	2	0	
+Brock Osweiler	MIA	4	5	35	4	80.0	43	8.6	6	1.5	1.2	29	7.3	0	0.0%	1	20.0%	0	1	1	1	1	7.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Tom Brady	NWE	23	35	274	13	37.1	279	8.0	93	4.0	2.7	181	7.9	1	3.0%	4	12.1%	0	4	2	6	0	"
+advanced_rushing
+"Frank Gore	MIA	11	41	1	28	2.5	13	1.2	0	
+Kenyan Drake	MIA	3	3	0	-1	-0.3	4	1.3	1	3.0
+Kalen Ballage	MIA	1	3		3	3.0	0	0.0	0	
+Brock Osweiler	MIA	1	7	0	7	7.0	0	0.0	0	
+Ryan Tannehill	MIA	1	0	0	0	0.0	0	0.0	0	
+Albert Wilson	MIA	1	2	0	0	0.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Sony Michel	NWE	25	112	6	51	2.0	61	2.4	1	25.0
+James White	NWE	8	44	2	30	3.8	14	1.8	0	
+Kenjon Barner	NWE	3	11	1	11	3.7	0	0.0	0	
+Brian Hoyer	NWE	3	-3		-3	-1.0	0	0.0	0	
+Cordarrelle Patterson	NWE	1	11	1	-11	-11.0	22	22.0	1	1.0"
+advanced_receiving
+"Albert Wilson	MIA	6	4	19	1	8	2.0	11	2.8	0		0	0.0
+Kenny Stills	MIA	6	3	40	2	30	10.0	10	3.3	0		0	0.0
+Danny Amendola	MIA	3	2	21	1	8	4.0	13	6.5	0		0	0.0
+Frank Gore	MIA	3	2	16	2	0	0.0	16	8.0	2	1.0	0	0.0
+Jakeem Grant	MIA	2	2	17	1	1	0.5	16	8.0	0		0	0.0
+Kenyan Drake	MIA	2	1	13	1	2	2.0	11	11.0	0		0	0.0
+Mike Gesicki	MIA	2	1	9		2	2.0	7	7.0	0		0	0.0
+Durham Smythe	MIA	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+James White	NWE	10	8	68	3	2	0.3	66	8.3	1	8.0	0	0.0
+Phillip Dorsett	NWE	7	4	55	2	22	5.5	33	8.3	2	2.0	0	0.0
+Rob Gronkowski	NWE	7	4	44	3	35	8.8	9	2.3	0		0	0.0
+Cordarrelle Patterson	NWE	5	3	54	1	15	5.0	39	13.0	0		1	20.0
+Josh Gordon	NWE	2	2	32	2	17	8.5	15	7.5	2	1.0	0	0.0
+Dwayne Allen	NWE	2	1	-4		-6	-6.0	2	2.0	0		0	0.0
+Chris Hogan	NWE	1	1	25	1	8	8.0	17	17.0	0		0	0.0
+James Develin	NWE	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Kiko Alonso	MIA	0	8	5	62.5%	48	9.6	6.0	1	118.7	8.8	37	11	3	0	1	0.0	1	12	1	7.7%
+Xavien Howard	MIA	0	5	5	100.0%	90	18.0	18.0	3	158.3	10.0	50	40	0	0	0	0.0	0	1	0	0.0%
+Torry McTyer	MIA	0	4	4	100.0%	77	19.3	19.3	0	118.7	6.5	26	51	0	0	0	0.0	0	2	1	33.3%
+Maurice Smith	MIA	0	4	3	75.0%	46	15.3	11.5	0	112.5	16.8	23	23	0	0	0	0.0	0	3	2	40.0%
+T.J. McDonald	MIA	0	5	3	60.0%	37	12.3	7.4	0	82.9	11.6	15	22	1	0	0	0.0	0	5	1	16.7%
+Jerome Baker	MIA	0	4	2	50.0%	5	2.5	1.3	0	56.2	8.5	-8	13	0	0	0	0.0	0	10	0	0.0%
+Jordan Phillips	MIA	0	1	1	100.0%	9	9.0	9.0	0	104.2	0.0	0	9	0	0	0	0.0	0	1	0	0.0%
+Raekwon McMillan	MIA	0	2	1	50.0%	9	9.0	4.5	0	62.5	5.0	6	3	0	0	0	0.0	0	6	0	0.0%
+Minkah Fitzpatrick	MIA	1	5	1	20.0%	4	4.0	0.8	0	0.0	8.6	-3	7	0	0	0	0.0	0	10	0	0.0%
+Bobby McCain	MIA	1	2	1	50.0%	13	13.0	6.5	0	31.2	12.5	8	5	0	0	0	0.0	0	2	1	33.3%
+Charles Harris	MIA	0	1	1	100.0%	-4	-4.0	-4.0	0	79.2	-6.0	-6	2	0	0	0	0.0	0	4	0	0.0%
+Cameron Wake	MIA	0	0	0										0	2	1	0.0	3	3	0	0.0%
+Robert Quinn	MIA	0	0	0										0	0	3	0.0	3	3	0	0.0%
+Davon Godchaux	MIA	0	0	0										0	1	1	0.0	2	5	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Jason McCourty	NWE	0	8	5	62.5%	40	8.0	5.0	0	75.0	8.8	14	26	0	0	0	0.0	0	3	0	0.0%
+Jonathan Jones	NWE	0	7	4	57.1%	33	8.3	4.7	0	69.3	8.6	25	8	0	0	0	0.0	0	8	0	0.0%
+Kyle Van Noy	NWE	0	3	2	66.7%	18	9.0	6.0	0	82.6	2.0	3	15	4	2	1	0.0	3	4	1	20.0%
+Patrick Chung	NWE	0	2	2	100.0%	40	20.0	20.0	0	118.7	12.0	24	16	0	0	0	0.0	0	4	0	0.0%
+Stephon Gilmore	NWE	0	4	2	50.0%	13	6.5	3.3	0	57.3	21.5	9	4	0	0	0	0.0	0	2	0	0.0%
+Nicholas Grigsby	NWE	0	1	1	100.0%	10	10.0	10.0	0	108.3	-1.0	-1	11	1	0	0	0.0	0	2	1	33.3%
+Devin McCourty	NWE	0	2	1	50.0%	6	6.0	3.0	1	95.8	19.0	1	5	0	0	0	0.0	0	3	1	25.0%
+Elandon Roberts	NWE	0	2	1	50.0%	18	18.0	9.0	0	81.2	5.5	6	12	0	0	0	0.0	0	3	0	0.0%
+John Simon	NWE	0	0	0										2	2	0	1.0	3	5	0	0.0%
+Lawrence Guy	NWE	0	0	0										0	0	2	0.0	2	5	0	0.0%
+Trey Flowers	NWE	0	0	0										1	1	0	0.0	1	1	0	0.0%
+Adam Butler	NWE	0	0	0										0	0	0	1.0	1	2	0	0.0%
+J.C. Jackson	NWE	1	1	0	0.0%					0.0	35.0			0	0	0	0.0	0	0	0	
+Dont'a Hightower	NWE	0	0	0										1	0	0	0.0	0	2	0	0.0%"

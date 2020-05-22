@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jacoby Brissett	IND	17	28	146	8	25.8	140	5.0	42	2.5	1.5	104	6.1	0	0.0%	3	12.0%	3	6	4	2	4	5.3
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Marcus Mariota	TEN	19	28	154	7	21.9	136	4.9	83	4.4	3.0	71	3.7	2	7.7%	4	15.4%	4	4	1	1	3	8.3"
+advanced_rushing
+"Marlon Mack	IND	20	51	5	10	0.5	41	2.1	1	20.0
+Jacoby Brissett	IND	7	25	3	8	1.1	17	2.4	0	
+Jordan Wilkins	IND	5	82	2	17	3.4	65	13.0	0	
+Nyheim Hines	IND	2	9	1	6	3.0	3	1.5	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Derrick Henry	TEN	15	82	7	5	0.3	77	5.1	1	15.0
+Marcus Mariota	TEN	5	32	1	25	5.0	7	1.4	0	
+Dion Lewis	TEN	3	9	1	0	0.0	9	3.0	0	
+Adam Humphries	TEN	1	1		1	1.0	0	0.0	0	"
+advanced_receiving
+"T.Y. Hilton	IND	6	4	43	2	26	6.5	17	4.3	0		0	0.0
+Chester Rogers	IND	4	3	24	2	-5	-1.7	29	9.7	0		0	0.0
+Eric Ebron	IND	4	3	25	2	9	3.0	16	5.3	0		0	0.0
+Marlon Mack	IND	3	2	12	0	1	0.5	11	5.5	0		0	0.0
+Jack Doyle	IND	3	2	21	1	3	1.5	18	9.0	0		0	0.0
+Nyheim Hines	IND	2	1	5	0	-4	-4.0	9	9.0	0		0	0.0
+Jordan Wilkins	IND	1	1	4	0	0	0.0	4	4.0	0		0	0.0
+Parris Campbell	IND	1	1	12	1	12	12.0	0	0.0	0		0	0.0
+Mo Alie-Cox	IND	1	0	0		0		0		0		0	0.0
+Deon Cain	IND	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Delanie Walker	TEN	6	4	39	2	33	8.3	6	1.5	0		0	0.0
+Corey Davis	TEN	5	3	38	1	19	6.3	19	6.3	0		0	0.0
+A.J. Brown	TEN	5	3	25	1	17	5.7	8	2.7	0		1	20.0
+Derrick Henry	TEN	3	2	12	0	-6	-3.0	18	9.0	0		1	33.3
+Adam Humphries	TEN	2	2	-1		-9	-4.5	8	4.0	0		0	0.0
+Tajae Sharpe	TEN	2	2	24	1	24	12.0	0	0.0	0		0	0.0
+Darius Jennings	TEN	1	1	11	1	7	7.0	4	4.0	0		0	0.0
+Dion Lewis	TEN	1	1	5	0	-3	-3.0	8	8.0	0		0	0.0
+David Quessenberry	TEN	1	1	1	1	1	1.0	0	0.0	0		0	0.0"
+advanced_defense
+"Kenny Moore	IND	0	8	5	62.5%	35	7.0	4.4	0	72.4	3.3	19	16	2	0	0	0.0	0	3	0	0.0%
+Darius Leonard	IND	0	5	4	80.0%	36	9.0	7.2	1	136.2	8.2	30	6	0	0	0	1.0	1	10	0	0.0%
+Matthew Adams	IND	0	2	2	100.0%	31	15.5	15.5	0	118.7	6.0	12	19	0	0	0	0.0	0	2	0	0.0%
+Anthony Walker	IND	0	2	2	100.0%	9	4.5	4.5	0	85.4	-3.5	-7	16	0	0	0	0.0	0	1	2	66.7%
+Clayton Geathers	IND	0	2	2	100.0%	15	7.5	7.5	0	97.9	6.0	12	3	0	0	0	0.0	0	3	0	0.0%
+Malik Hooker	IND	0	1	1	100.0%	12	12.0	12.0	0	116.7	12.0	12	0	0	0	0	0.0	0	3	1	25.0%
+Rock Ya-Sin	IND	0	1	1	100.0%	15	15.0	15.0	0	118.7	15.0	15	0	1	0	0	0.0	0	3	0	0.0%
+Pierre Desir	IND	0	1	1	100.0%	-1	-1.0	-1.0	0	79.2	-4.0	-4	3	0	0	0	0.0	0	4	0	0.0%
+Khari Willis	IND	0	1	1	100.0%	9	9.0	9.0	0	104.2	9.0	9	0	0	0	0	0.0	0	7	0	0.0%
+Quincy Wilson	IND	0	3	1	33.3%	5	5.0	1.7	0	42.4	0.3	-3	8	0	0	0	0.0	0	1	0	0.0%
+Tyquan Lewis	IND	0	0	0										0	2	0	0.0	2	1	1	50.0%
+Denico Autry	IND	0	0	0										0	0	0	2.0	2	4	0	0.0%
+Grover Stewart	IND	0	0	0										0	0	0	1.0	1	4	0	0.0%
+Justin Houston	IND	0	0	0										1	0	1	0.0	1	4	0	0.0%
+Bobby Okereke	IND	0	1	0	0.0%					39.6	30.0			0	0	0	0.0	0	0	0	
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Malcolm Butler	TEN	0	7	5	71.4%	50	10.0	7.1	1	131.0	9.1	22	28	0	0	0	0.0	0	6	0	0.0%
+Logan Ryan	TEN	1	8	4	50.0%	36	9.0	4.5	1	62.5	5.4	6	30	2	0	0	0.0	0	4	0	0.0%
+Jayon Brown	TEN	0	4	3	75.0%	7	2.3	1.8	0	77.1	-0.3	-1	8	3	1	0	0.0	1	9	1	10.0%
+Adoree' Jackson	TEN	0	2	2	100.0%	20	10.0	10.0	0	108.3	2.5	5	15	0	0	0	0.0	0	1	0	0.0%
+Kenny Vaccaro	TEN	0	2	2	100.0%	12	6.0	6.0	1	131.2	3.5	7	5	3	0	0	0.0	0	8	1	11.1%
+Rashaan Evans	TEN	0	1	1	100.0%	8	8.0	8.0	0	100.0	1.0	1	7	2	0	0	0.0	0	7	2	22.2%
+Harold Landry	TEN	0	1	0	0.0%					39.6	5.0			6	1	0	1.0	2	6	1	14.3%
+Jurrell Casey	TEN	0	0	0										0	2	0	0.0	2	5	1	16.7%
+Matt Dickerson	TEN	0	0	0										0	1	1	0.0	2	0	1	100.0%
+Isaiah Mack	TEN	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Cameron Wake	TEN	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Kamalei Correa	TEN	0	0	0										2	0	0	0.0	0	0	0	
+Sharif Finch	TEN	0	0	0										1	0	0	0.0	0	2	0	0.0%"

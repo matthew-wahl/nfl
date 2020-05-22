@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Russell Wilson	SEA	21	31	277	15	41.7	358	11.5	187	8.9	6.0	90	4.3	2	6.9%	4	13.8%	5	8	2	5	7	9.1
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Aaron Rodgers	GNB	16	27	243	12	41.4	223	8.3	149	9.3	5.5	94	5.9	2	9.1%	2	9.1%	2	12	2	3	1	14.0"
+advanced_rushing
+"Marshawn Lynch	SEA	12	26	2	0	0.0	26	2.2	1	12.0
+Russell Wilson	SEA	7	64	5	53	7.6	11	1.6	0	
+Travis Homer	SEA	3	13	1	4	1.3	9	3.0	0	
+David Moore	SEA	1	6		5	5.0	1	1.0	0	
+Luke Willson	SEA	1	1		0	0.0	1	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Aaron Jones	GNB	21	62	4	31	1.5	31	1.5	2	10.5
+Aaron Rodgers	GNB	5	14	2	13	2.6	1	0.2	0	
+Tyler Ervin	GNB	2	25	1	7	3.5	18	9.0	2	1.0
+Allen Lazard	GNB	1	5		2	2.0	3	3.0	0	
+Jamaal Williams	GNB	1	3		0	0.0	3	3.0	0	"
+advanced_receiving
+"Tyler Lockett	SEA	10	9	136	8	111	12.3	25	2.8	0		0	0.0
+Jacob Hollister	SEA	6	5	47	2	36	7.2	11	2.2	0		1	16.7
+D.K. Metcalf	SEA	5	4	59	3	40	10.0	19	4.8	0		0	0.0
+Travis Homer	SEA	3	2	27	2	1	0.5	26	13.0	0		0	0.0
+Luke Willson	SEA	1	1	8		-1	-1.0	9	9.0	0		0	0.0
+Malik Turner	SEA	3	0	0		0		0		0		1	33.3
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Davante Adams	GNB	11	8	160	8	97	12.1	63	7.9	1	8.0	1	9.1
+Jimmy Graham	GNB	4	3	49	3	34	11.3	15	5.0	0		0	0.0
+Geronimo Allison	GNB	1	1	11	1	11	11.0	0	0.0	0		0	0.0
+Aaron Jones	GNB	2	1	4	0	3	3.0	1	1.0	0		0	0.0
+Jace Sternberger	GNB	1	1	2		-1	-1.0	3	3.0	0		0	0.0
+Marquez Valdes-Scantling	GNB	1	1	8		4	4.0	4	4.0	0		0	0.0
+Jamaal Williams	GNB	1	1	9		1	1.0	8	8.0	0		0	0.0
+Jake Kumerow	GNB	1	0	0		0		0		0		1	100.0"
+advanced_defense
+"Tre Flowers	SEA	0	5	4	80.0%	85	21.3	17.0	2	158.3	12.4	56	29	0	0	0	0.0	0	7	1	12.5%
+Bradley McDougald	SEA	0	4	4	100.0%	55	13.8	13.8	0	118.7	5.3	21	34	5	0	0	0.0	0	4	1	20.0%
+K.J. Wright	SEA	0	3	2	66.7%	38	19.0	12.7	0	109.7	9.7	31	7	3	0	0	0.5	1	7	1	12.5%
+Shaquill Griffin	SEA	0	4	2	50.0%	18	9.0	4.5	0	62.5	5.8	11	7	1	0	0	0.0	0	3	0	0.0%
+Jadeveon Clowney	SEA	0	1	1	100.0%	2	2.0	2.0	0	79.2	-1.0	-1	3	0	2	1	0.5	4	7	0	0.0%
+Bobby Wagner	SEA	0	1	1	100.0%	4	4.0	4.0	0	83.3	3.0	3	1	7	0	1	0.0	1	5	0	0.0%
+Delano Hill	SEA	0	1	1	100.0%	9	9.0	9.0	0	104.2	5.0	5	4	0	0	0	0.0	0	1	0	0.0%
+Ugochukwu Amadi	SEA	0	1	1	100.0%	32	32.0	32.0	0	118.7	23.0	23	9	0	0	0	0.0	0	1	0	0.0%
+Shaquem Griffin	SEA	0	0	0										2	0	0	1.0	1	1	0	0.0%
+Quinton Jefferson	SEA	0	0	0										0	0	1	0.0	1	0	1	100.0%
+Quandre Diggs	SEA	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Bryan Mone	SEA	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Cody Barton	SEA	0	1	0	0.0%					39.6	-4.0			3	0	0	0.0	0	3	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Jaire Alexander	GNB	0	8	6	75.0%	59	9.8	7.4	1	134.9	10.5	39	20	0	0	0	0.0	0	9	0	0.0%
+Kevin King	GNB	0	4	4	100.0%	65	16.3	16.3	0	118.7	14.8	59	6	0	0	0	0.0	0	5	0	0.0%
+Adrian Amos	GNB	0	4	3	75.0%	47	15.7	11.8	0	113.5	18.0	29	18	1	0	0	0.0	0	5	0	0.0%
+Blake Martinez	GNB	0	4	2	50.0%	45	22.5	11.3	0	90.6	18.8	40	5	3	1	0	0.0	1	10	0	0.0%
+Ibraheim Campbell	GNB	0	1	1	100.0%	11	11.0	11.0	0	112.5	2.0	2	9	1	0	0	0.0	0	1	0	0.0%
+Darnell Savage	GNB	0	1	1	100.0%	14	14.0	14.0	0	118.7	14.0	14	0	0	0	0	0.0	0	5	0	0.0%
+Chandon Sullivan	GNB	0	3	1	33.3%	3	3.0	1.0	0	42.4	3.3	1	2	0	0	0	0.0	0	1	0	0.0%
+Za'Darius Smith	GNB	0	0	0										6	1	2	2.0	5	2	1	33.3%
+Preston Smith	GNB	0	0	0										3	0	2	2.0	4	2	3	60.0%
+Montravius Adams	GNB	0	0	0										0	0	1	0.0	1	0	0	
+Kenny Clark	GNB	0	0	0										0	0	0	1.0	1	4	2	33.3%
+B.J. Goodson	GNB	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Rashan Gary	GNB	0	0	0										2	0	0	0.0	0	2	0	0.0%"

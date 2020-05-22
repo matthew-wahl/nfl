@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Lamar Jackson	BAL	22	43	267	14	30.4	483	11.2	137	6.2	3.2	130	5.9	0	0.0%	16	37.2%	3	11	3	2	4	6.8
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Patrick Mahomes	KAN	27	37	374	14	36.8	326	8.8	184	6.8	5.0	190	7.0	1	2.9%	6	17.1%	1	17	0	7	1	11.0"
+advanced_rushing
+"Mark Ingram	BAL	16	103	8	38	2.4	65	4.1	0	
+Lamar Jackson	BAL	8	46	3	29	3.6	17	2.1	0	
+Gus Edwards	BAL	7	53	4	16	2.3	37	5.3	0	
+Justice Hill	BAL	1	1		0	0.0	1	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Darrel Williams	KAN	9	62	2	43	4.8	19	2.1	0	
+LeSean McCoy	KAN	8	54	4	18	2.3	36	4.5	0	
+Patrick Mahomes	KAN	4	9	1	8	2.0	1	0.3	0	
+Darwin Thompson	KAN	3	8	1	1	0.3	7	2.3	0	
+Mecole Hardman	KAN	1	7	1	6	6.0	1	1.0	0	"
+advanced_receiving
+"Nick Boyle	BAL	5	4	58	2	18	4.5	40	10.0	0		0	0.0
+Mark Ingram	BAL	4	4	32	2	0	0.0	32	8.0	0		0	0.0
+Mark Andrews	BAL	7	3	15	1	12	4.0	3	1.0	0		0	0.0
+Willie Snead	BAL	5	3	47	3	31	10.3	16	5.3	0		0	0.0
+Marquise Brown	BAL	9	2	49	2	44	22.0	5	2.5	0		0	0.0
+Gus Edwards	BAL	2	2	15	1	-8	-4.0	23	11.5	0		0	0.0
+Hayden Hurst	BAL	5	2	14	1	8	4.0	6	3.0	0		0	0.0
+Seth Roberts	BAL	2	2	37	2	32	16.0	5	2.5	0		0	0.0
+Miles Boykin	BAL	1	0	0		0		0		0		0	0.0
+Justice Hill	BAL	3	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Travis Kelce	KAN	8	7	89	5	73	10.4	16	2.3	0		0	0.0
+Darrel Williams	KAN	5	5	47	2	-9	-1.8	56	11.2	0		0	0.0
+Sammy Watkins	KAN	8	5	64	2	45	9.0	19	3.8	0		1	12.5
+Demarcus Robinson	KAN	4	3	43	2	43	14.3	0	0.0	0		0	0.0
+LeSean McCoy	KAN	3	3	26	1	-4	-1.3	30	10.0	0		0	0.0
+Mecole Hardman	KAN	5	2	97	2	30	15.0	67	33.5	0		0	0.0
+Byron Pringle	KAN	1	1	7		7	7.0	0	0.0	0		0	0.0
+Blake Bell	KAN	1	1	1		-1	-1.0	2	2.0	0		0	0.0"
+advanced_defense
+"Patrick Onwuasor	BAL	0	5	5	100.0%	91	18.2	18.2	0	118.7	11.6	58	33	11	0	1	0.0	1	7	0	0.0%
+Chuck Clark	BAL	0	5	5	100.0%	33	6.6	6.6	0	94.2	3.0	15	18	1	0	0	0.0	0	6	0	0.0%
+Brandon Carr	BAL	0	6	4	66.7%	55	13.8	9.2	1	135.4	14.8	52	3	1	0	1	0.0	1	4	0	0.0%
+Anthony Averett	BAL	0	3	3	100.0%	33	11.0	11.0	0	112.5	3.0	9	24	1	0	0	0.0	0	1	2	66.7%
+Maurice Canady	BAL	0	4	2	50.0%	12	6.0	3.0	0	56.2	6.5	6	6	0	0	0	0.0	0	3	0	0.0%
+Kenny Young	BAL	0	2	2	100.0%	25	12.5	12.5	1	158.3	-2.0	-4	29	2	0	0	0.0	0	7	0	0.0%
+Marlon Humphrey	BAL	0	4	2	50.0%	18	9.0	4.5	0	62.5	8.5	13	5	0	0	0	0.0	0	5	1	16.7%
+Tony Jefferson	BAL	0	2	2	100.0%	92	46.0	46.0	1	158.3	20.5	41	51	3	0	0	0.0	0	7	1	12.5%
+Matt Judon	BAL	0	1	1	100.0%	16	16.0	16.0	0	118.7	-3.0	-3	19	10	0	3	1.0	4	4	1	20.0%
+Pernell McPhee	BAL	0	0	0										14	1	1	0.0	2	1	0	0.0%
+Chris Wormley	BAL	0	0	0										0	0	1	0.0	1	0	0	
+Earl Thomas	BAL	0	2	0	0.0%					39.6	16.5			3	0	0	0.0	0	5	0	0.0%
+Tyus Bowser	BAL	0	0	0										5	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Anthony Hitchens	KAN	0	6	4	66.7%	43	10.8	7.2	0	87.5	3.5	9	34	0	0	0	0.0	0	8	1	11.1%
+Tyrann Mathieu	KAN	0	8	4	50.0%	34	8.5	4.3	0	61.5	10.3	13	21	5	0	0	0.0	0	4	3	42.9%
+Kendall Fuller	KAN	0	4	4	100.0%	52	13.0	13.0	0	118.7	6.5	26	26	2	0	0	0.0	0	8	0	0.0%
+Damien Wilson	KAN	0	5	3	60.0%	12	4.0	2.4	0	64.6	3.6	2	10	6	0	0	0.5	1	5	0	0.0%
+Ben Niemann	KAN	0	3	2	66.7%	14	7.0	4.7	0	77.1	9.0	7	7	1	0	0	0.0	0	2	0	0.0%
+Charvarius Ward	KAN	0	4	2	50.0%	35	17.5	8.8	0	80.2	25.0	31	4	0	0	0	0.0	0	5	1	16.7%
+Bashaud Breeland	KAN	0	8	2	25.0%	49	24.5	6.1	0	52.6	22.4	44	5	0	0	0	0.0	0	4	2	33.3%
+Darron Lee	KAN	0	1	1	100.0%	23	23.0	23.0	0	118.7	8.0	8	15	1	0	0	0.0	0	4	0	0.0%
+Daniel Sorensen	KAN	0	2	1	50.0%	10	10.0	5.0	0	64.6	2.0	1	9	1	0	0	0.0	0	2	1	33.3%
+Emmanuel Ogbah	KAN	0	0	0										0	1	2	1.5	5	2	0	0.0%
+Chris Jones	KAN	0	0	0										0	1	0	0.0	1	2	1	33.3%
+Alex Okafor	KAN	0	0	0										0	1	0	0.0	1	4	1	20.0%
+Frank Clark	KAN	0	0	0										0	0	0	1.0	1	3	1	25.0%
+Derrick Nnadi	KAN	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Juan Thornhill	KAN	0	2	0	0.0%					39.6	12.5			1	0	0	0.0	0	2	2	50.0%"

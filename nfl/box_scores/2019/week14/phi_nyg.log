@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Eli Manning	NYG	15	30	203	6	18.8	264	8.8	120	8.0	4.0	83	5.5	1	3.4%	6	20.7%	2	5	0	3	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Carson Wentz	PHI	33	50	325	16	30.2	314	6.3	154	4.7	3.1	171	5.2	3	6.1%	7	14.3%	3	18	6	7	1	4.0"
+advanced_rushing
+"Saquon Barkley	NYG	17	66	5	43	2.5	23	1.4	3	5.7
+Eli Manning	NYG	2	-1	0	-1	-0.5	0	0.0	0	
+Sterling Shepard	NYG	1	8		8	8.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Miles Sanders	PHI	15	45	2	14	0.9	31	2.1	3	5.0
+Boston Scott	PHI	10	59	4	45	4.5	14	1.4	1	10.0
+Carson Wentz	PHI	5	9	2	6	1.2	3	0.6	0	
+Jay Ajayi	PHI	2	5	1	2	1.0	3	1.5	0	"
+advanced_receiving
+"Darius Slayton	NYG	8	5	154	5	101	20.2	53	10.6	1	5.0	0	0.0
+Sterling Shepard	NYG	7	4	28		24	6.0	4	1.0	0		0	0.0
+Saquon Barkley	NYG	4	3	1	0	-9	-3.0	10	3.3	0		0	0.0
+Kaden Smith	NYG	5	2	9		0	0.0	9	4.5	0		1	20.0
+Golden Tate	NYG	5	1	11	1	4	4.0	7	7.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Zach Ertz	PHI	13	9	91	4	78	8.7	13	1.4	0		0	0.0
+Boston Scott	PHI	6	6	69	4	-11	-1.8	80	13.3	1	6.0	0	0.0
+Joshua Perkins	PHI	5	5	37	3	27	5.4	10	2.0	0		0	0.0
+Miles Sanders	PHI	5	4	24	1	-9	-2.3	33	8.3	0		1	20.0
+Greg Ward	PHI	9	4	34	2	12	3.0	22	5.5	1	4.0	0	0.0
+Dallas Goedert	PHI	6	3	41	1	29	9.7	12	4.0	1	3.0	1	16.7
+JJ Arcega-Whiteside	PHI	3	2	29	1	28	14.0	1	0.5	0		0	0.0
+Jay Ajayi	PHI	1	0	0	0	0		0		0		1	100.0
+Alshon Jeffery	PHI	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Alec Ogletree	NYG	0	6	6	100.0%	71	11.8	11.8	1	155.6	5.2	31	40	7	0	1	0.0	1	9	3	25.0%
+Janoris Jenkins	NYG	0	8	6	75.0%	55	9.2	6.9	0	93.2	2.5	21	34	4	0	0	0.0	0	6	0	0.0%
+Sam Beal	NYG	0	7	5	71.4%	51	10.2	7.3	0	92.0	12.4	38	13	0	0	0	0.0	0	7	0	0.0%
+Julian Love	NYG	0	10	5	50.0%	35	7.0	3.5	1	91.7	3.7	14	21	1	0	0	0.0	0	6	2	25.0%
+David Mayo	NYG	0	3	3	100.0%	13	4.3	4.3	0	84.7	-2.3	-7	20	4	0	0	0.0	0	5	3	37.5%
+Michael Thomas	NYG	0	3	3	100.0%	23	7.7	7.7	0	98.6	2.0	6	17	2	0	0	0.0	0	3	0	0.0%
+Deone Bucannon	NYG	0	3	2	66.7%	36	18.0	12.0	0	107.6	5.0	18	18	3	0	0	0.0	0	2	0	0.0%
+Antoine Bethea	NYG	0	4	2	50.0%	34	17.0	8.5	0	79.2	14.0	26	8	0	0	0	0.0	0	13	0	0.0%
+Deandre Baker	NYG	0	6	1	16.7%	7	7.0	1.2	0	39.6	11.5	7	0	0	0	0	0.0	0	1	0	0.0%
+Markus Golden	NYG	0	0	0										8	4	3	1.0	8	2	2	50.0%
+Dalvin Tomlinson	NYG	0	0	0										0	1	2	0.0	3	5	0	0.0%
+Oshane Ximines	NYG	0	0	0										3	0	0	2.0	2	2	0	0.0%
+Dexter Lawrence	NYG	0	0	0										0	0	1	0.0	1	3	1	25.0%
+Kareem Martin	NYG	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Leonard Williams	NYG	0	0	0										0	1	0	0.0	1	5	0	0.0%
+Lorenzo Carter	NYG	0	0	0										7	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Ronald Darby	PHI	0	7	5	71.4%	151	30.2	21.6	2	153.3	17.9	96	55	1	0	0	0.0	0	5	1	16.7%
+Nathan Gerry	PHI	0	5	3	60.0%	10	3.3	2.0	0	64.6	-0.6	-4	14	1	0	0	0.0	0	4	2	33.3%
+Duke Riley	PHI	0	2	2	100.0%	5	2.5	2.5	0	79.2	-0.5	-1	6	0	0	0	0.0	0	1	0	0.0%
+Rodney McLeod	PHI	0	1	1	100.0%	10	10.0	10.0	0	108.3	10.0	10	0	1	0	0	0.0	0	3	1	25.0%
+Nigel Bradham	PHI	0	3	1	33.3%	2	2.0	0.7	0	42.4	12.3	2	0	1	0	0	0.0	0	4	0	0.0%
+Malcolm Jenkins	PHI	0	4	1	25.0%	7	7.0	1.8	0	39.6	8.0	6	1	2	0	0	0.0	0	4	0	0.0%
+Jalen Mills	PHI	0	3	1	33.3%	7	7.0	2.3	0	42.4	8.7	7	0	0	0	0	0.0	0	5	1	16.7%
+Avonte Maddox	PHI	0	2	1	50.0%	11	11.0	5.5	0	66.7	14.0	4	7	2	0	0	0.0	0	3	0	0.0%
+Josh Sweat	PHI	0	0	0										0	0	2	0.0	2	1	0	0.0%
+Vinny Curry	PHI	0	0	0										0	0	0	2.0	2	2	1	33.3%
+Fletcher Cox	PHI	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Brandon Graham	PHI	0	0	0										0	1	0	0.0	1	1	0	0.0%
+T.J. Edwards	PHI	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Sidney Jones	PHI	0	1	0	0.0%					39.6	5.0			0	0	0	0.0	0	0	0	"

@@ -1,0 +1,65 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jared Goff	LAR	23	39	186	12	30.0	273	7.0	90	3.9	2.3	96	4.2	3	7.9%	8	21.1%	1	7	2	5	1	3.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Cam Newton	CAR	25	38	239	13	31.7	238	6.3	125	5.0	3.3	114	4.6	1	2.7%	9	24.3%	3	9	6	2	1	3.0"
+advanced_rushing
+"Todd Gurley	LAR	14	97	4	30	2.1	67	4.8	3	4.7
+Malcolm Brown	LAR	11	53	4	-2	-0.2	55	5.0	5	2.2
+Jared Goff	LAR	4	0	0	0	0.0	0	0.0	0	
+Robert Woods	LAR	2	16	1	14	7.0	2	1.0	0	
+Darrell Henderson	LAR	1	0		-2	-2.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Christian McCaffrey	CAR	19	128	7	60	3.2	68	3.6	4	4.8
+Cam Newton	CAR	3	-2	0	-2	-0.7	0	0.0	0	
+Alex Armah	CAR	1	1	1	1	1.0	0	0.0	0	"
+advanced_receiving
+"Robert Woods	LAR	13	8	70	3	24	3.0	46	5.8	1	8.0	1	7.7
+Cooper Kupp	LAR	10	7	46	3	24	3.4	22	3.1	0		0	0.0
+Tyler Higbee	LAR	5	4	20	2	5	1.3	15	3.8	0		0	0.0
+Brandin Cooks	LAR	6	2	39	2	27	13.5	12	6.0	0		0	0.0
+Gerald Everett	LAR	1	1	7	1	6	6.0	1	1.0	0		0	0.0
+Todd Gurley	LAR	1	1	4	1	4	4.0	0	0.0	0		0	0.0
+Josh Reynolds	LAR	2	0	0		0		0		0		2	100.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Christian McCaffrey	CAR	11	10	81	3	26	2.6	55	5.5	1	10.0	0	0.0
+D.J. Moore	CAR	10	7	76	5	61	8.7	15	2.1	0		0	0.0
+Greg Olsen	CAR	9	4	36	2	20	5.0	16	4.0	0		1	11.1
+Curtis Samuel	CAR	4	3	32	2	8	2.7	24	8.0	1	3.0	0	0.0
+Jarius Wright	CAR	1	1	14	1	10	10.0	4	4.0	0		0	0.0
+Chris Hogan	CAR	1	0	0		0		0		0		0	0.0
+Ian Thomas	CAR	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Cory Littleton	LAR	1	14	10	71.4%	80	8.0	5.7	0	55.7	2.9	25	55	2	0	0	0.0	0	14	0	0.0%
+John Johnson	LAR	0	5	3	60.0%	44	14.7	8.8	0	88.7	13.0	33	11	1	0	0	0.0	0	11	1	8.3%
+Marcus Peters	LAR	0	4	3	75.0%	40	13.3	10.0	0	106.2	10.0	30	10	0	0	0	0.0	0	4	0	0.0%
+Taylor Rapp	LAR	0	5	3	60.0%	17	5.7	3.4	0	66.2	4.0	8	9	0	0	0	0.0	0	7	0	0.0%
+Nickell Robey-Coleman	LAR	0	3	2	66.7%	22	11.0	7.3	0	88.2	15.7	17	5	0	0	0	0.0	0	2	0	0.0%
+Samson Ebukam	LAR	0	1	1	100.0%	14	14.0	14.0	0	118.7	8.0	8	6	3	1	0	0.0	1	1	1	50.0%
+Eric Weddle	LAR	0	1	1	100.0%	2	2.0	2.0	0	79.2	0.0	0	2	0	0	0	0.0	0	6	0	0.0%
+Aqib Talib	LAR	0	3	1	33.3%	16	16.0	5.3	0	52.1	13.3	8	8	0	0	0	0.0	0	1	0	0.0%
+Marqui Christian	LAR	0	1	1	100.0%	15	15.0	15.0	0	118.7	13.0	13	2	0	0	0	0.0	0	4	2	33.3%
+Bryce Hager	LAR	0	1	1	100.0%	4	4.0	4.0	0	83.3	-4.0	-4	8	1	0	0	0.0	0	3	1	25.0%
+Dante Fowler	LAR	0	0	0										1	1	1	2.0	4	2	0	0.0%
+Aaron Donald	LAR	0	0	0										0	2	1	0.0	3	1	1	50.0%
+Clay Matthews	LAR	0	1	0	0.0%					39.6	12.0			2	1	0	1.0	2	3	1	25.0%
+Michael Brockers	LAR	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Morgan Fox	LAR	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Shaq Thompson	CAR	0	8	5	62.5%	29	5.8	3.6	0	69.3	3.0	12	17	1	1	0	0.0	1	9	1	10.0%
+Eric Reid	CAR	0	5	4	80.0%	39	9.8	7.8	1	138.7	7.0	20	19	0	0	0	0.0	0	5	2	28.6%
+Javien Elliott	CAR	0	6	4	66.7%	34	8.5	5.7	0	81.2	5.2	12	22	1	0	0	0.0	0	4	1	20.0%
+James Bradberry	CAR	1	6	3	50.0%	20	6.7	3.3	0	18.1	11.3	12	8	0	0	0	1.0	1	4	2	33.3%
+Donte Jackson	CAR	0	5	3	60.0%	38	12.7	7.6	0	83.7	14.4	29	9	0	0	0	0.0	0	3	0	0.0%
+Rashaan Gaulden	CAR	0	2	2	100.0%	10	5.0	5.0	0	87.5	-3.0	-6	16	0	0	0	0.0	0	1	1	50.0%
+Tre Boston	CAR	0	1	1	100.0%	15	15.0	15.0	0	118.7	12.0	12	3	0	0	0	0.0	0	9	0	0.0%
+Luke Kuechly	CAR	0	2	1	50.0%	5	5.0	2.5	0	56.2	4.5	4	1	2	0	0	0.0	0	8	1	11.1%
+Ross Cockrell	CAR	0	2	1	50.0%	7	7.0	3.5	0	58.3	11.5	6	1	0	0	0	0.0	0	1	1	50.0%
+Brian Burns	CAR	0	0	0										0	0	2	0.0	2	2	1	33.3%
+Kawann Short	CAR	0	0	0										0	0	2	0.0	2	3	0	0.0%
+Mario Addison	CAR	0	0	0										0	0	1	0.0	1	0	0	
+Gerald McCoy	CAR	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Jermaine Carter	CAR	0	1	0	0.0%					39.6	7.0			3	0	0	0.0	0	3	0	0.0%
+D.J. Moore	CAR	0	1	0	0.0%					39.6	9.0			0	0	0	0.0	0	0	0	"

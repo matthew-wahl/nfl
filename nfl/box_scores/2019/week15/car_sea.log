@@ -1,0 +1,62 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Russell Wilson	SEA	20	26	286	10	35.7	280	10.8	182	9.1	7.0	104	5.2	0	0.0%	4	16.7%	2	2	5	4	1	1.0
+Josh Gordon	SEA	0	1	0	0	0.0	33	33.0	0		0.0	0		0	0.0%	0	0.0%	0	0	0	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Kyle Allen	CAR	25	41	277	18	42.9	229	5.6	73	2.9	1.8	204	8.2	2	5.3%	6	15.8%	1	6	4	2	4	6.3
+Christian McCaffrey	CAR	0	1	0	0	0.0	16	16.0	0		0.0	0		0	0.0%	1	100.0%	0	0	0	0	0	"
+advanced_rushing
+"Chris Carson	SEA	24	133	8	78	3.3	55	2.3	2	12.0
+C.J. Prosise	SEA	5	15	1	11	2.2	4	0.8	0	
+Russell Wilson	SEA	3	-1	0	-1	-0.3	0	0.0	0	
+Travis Homer	SEA	2	7	1	4	2.0	3	1.5	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Christian McCaffrey	CAR	19	87	6	65	3.4	22	1.2	0	
+Kyle Allen	CAR	5	25	2	20	4.0	5	1.0	1	5.0
+Curtis Samuel	CAR	4	23	1	17	4.3	6	1.5	0	
+D.J. Moore	CAR	1	10	1	8	8.0	2	2.0	0	"
+advanced_receiving
+"Tyler Lockett	SEA	9	8	120	5	79	9.9	41	5.1	0		0	0.0
+Jacob Hollister	SEA	3	3	23		0	0.0	23	7.7	0		0	0.0
+Malik Turner	SEA	3	3	26	1	19	6.3	7	2.3	0		0	0.0
+D.K. Metcalf	SEA	4	2	36	2	35	17.5	1	0.5	0		0	0.0
+Jaron Brown	SEA	1	1	9		2	2.0	7	7.0	0		0	0.0
+Chris Carson	SEA	2	1	4	0	-3	-3.0	7	7.0	0		0	0.0
+Josh Gordon	SEA	1	1	58	1	53	53.0	5	5.0	0		0	0.0
+C.J. Prosise	SEA	1	1	10	1	-3	-3.0	13	13.0	0		0	0.0
+George Fant	SEA	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Christian McCaffrey	CAR	10	8	88	4	-16	-2.0	104	13.0	1	8.0	1	10.0
+D.J. Moore	CAR	12	8	113	8	71	8.9	42	5.3	1	8.0	0	0.0
+Curtis Samuel	CAR	7	5	31	3	8	1.6	23	4.6	0		0	0.0
+Ian Thomas	CAR	3	2	23	2	6	3.0	17	8.5	0		1	33.3
+Chris Hogan	CAR	3	1	13	1	4	4.0	9	9.0	0		0	0.0
+Jarius Wright	CAR	4	1	9		0	0.0	9	9.0	0		0	0.0"
+advanced_defense
+"Tre Flowers	SEA	0	10	6	60.0%	63	10.5	6.3	0	78.3	10.5	37	26	0	0	0	0.0	0	6	0	0.0%
+Cody Barton	SEA	0	6	5	83.3%	50	10.0	8.3	0	101.4	-1.0	-8	58	5	0	1	0.0	1	10	2	16.7%
+Bradley McDougald	SEA	0	7	5	71.4%	66	13.2	9.4	0	100.9	9.1	41	25	1	0	0	0.0	0	6	2	25.0%
+Bobby Wagner	SEA	1	6	3	50.0%	41	13.7	6.8	0	32.6	2.3	-5	46	0	0	0	0.0	0	10	0	0.0%
+Ugochukwu Amadi	SEA	0	2	2	100.0%	10	5.0	5.0	0	87.5	-3.5	-7	17	2	0	0	0.0	0	3	0	0.0%
+K.J. Wright	SEA	2	4	2	50.0%	29	14.5	7.3	0	34.4	2.0	6	23	1	0	0	0.0	0	4	2	33.3%
+Delano Hill	SEA	0	3	1	33.3%	13	13.0	4.3	0	47.9	16.7	4	9	0	0	0	0.0	0	5	0	0.0%
+Akeem King	SEA	0	1	1	100.0%	5	5.0	5.0	1	127.1	5.0	5	0	0	0	0	0.0	0	5	0	0.0%
+Jarran Reed	SEA	0	0	0										0	1	1	0.0	2	2	1	33.3%
+Al Woods	SEA	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Rasheem Green	SEA	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Quandre Diggs	SEA	0	0	0										0	0	0	0.0	0	8	1	11.1%
+Marquise Blair	SEA	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Luke Kuechly	CAR	0	6	5	83.3%	43	8.6	7.2	0	96.5	2.0	16	27	1	0	2	0.0	2	17	0	0.0%
+Donte Jackson	CAR	0	5	5	100.0%	134	26.8	26.8	1	158.3	23.6	118	16	0	0	0	0.0	0	4	2	33.3%
+Shaq Thompson	CAR	0	3	3	100.0%	32	10.7	10.7	0	111.1	4.0	12	20	1	0	1	0.0	1	6	0	0.0%
+Eric Reid	CAR	0	3	3	100.0%	36	12.0	12.0	1	156.2	10.0	30	6	0	0	0	0.0	0	6	0	0.0%
+James Bradberry	CAR	0	5	2	40.0%	27	13.5	5.4	0	57.9	16.6	6	21	0	0	0	0.0	0	5	0	0.0%
+Ross Cockrell	CAR	0	2	2	100.0%	14	7.0	7.0	0	95.8	0.0	0	14	0	0	0	0.0	0	5	4	44.4%
+Bruce Irvin	CAR	0	0	0										0	2	2	1.0	5	4	0	0.0%
+Mario Addison	CAR	0	0	0										0	2	0	0.0	2	1	0	0.0%
+Vernon Butler	CAR	0	0	0										0	1	0	1.0	2	5	1	16.7%
+Wes Horton	CAR	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Tre Boston	CAR	1	1	0	0.0%					0.0	41.0			0	0	0	0.0	0	2	3	60.0%"

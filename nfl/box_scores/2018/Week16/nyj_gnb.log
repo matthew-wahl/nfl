@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Aaron Rodgers	GNB	37	55	442	19	32.2	383	7.0	196	5.3	3.6	246	6.6	2	3.8%	9	17.3%	4	17	6	4	3	10.7
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Sam Darnold	NYJ	24	35	341	18	48.6	371	10.6	211	8.8	6.0	130	5.4	1	3.0%	5	15.2%	2	11	5	0	1	1.0"
+advanced_rushing
+"Jamaal Williams	GNB	15	95	6	37	2.5	58	3.9	2	7.5
+Aaron Rodgers	GNB	5	32	3	30	6.0	2	0.4	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Elijah McGuire	NYJ	14	35	2	18	1.3	17	1.2	0	
+Sam Darnold	NYJ	3	4	1	4	1.3	0	0.0	0	
+Trenton Cannon	NYJ	2	4		-4	-2.0	8	4.0	0	
+Rontez Miles	NYJ	1	4	1	4	4.0	0	0.0	0	"
+advanced_receiving
+"Davante Adams	GNB	18	11	71	4	38	3.5	33	3.0	0		0	0.0
+Jamaal Williams	GNB	9	6	61	2	-5	-0.8	66	11.0	0		0	0.0
+Equanimeous St. Brown	GNB	5	5	94	3	44	8.8	50	10.0	0		0	0.0
+Marquez Valdes-Scantling	GNB	9	5	75	3	42	8.4	33	6.6	0		2	22.2
+Jimmy Graham	GNB	4	3	34	2	16	5.3	18	6.0	0		0	0.0
+Jake Kumerow	GNB	3	3	68	2	46	15.3	22	7.3	0		0	0.0
+Lance Kendricks	GNB	2	2	26	1	7	3.5	19	9.5	0		0	0.0
+Robert Tonyan	GNB	1	1	11	1	6	6.0	5	5.0	0		0	0.0
+Danny Vitale	GNB	2	1	2	1	2	2.0	0	0.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Robby Anderson	NYJ	13	9	140	7	106	11.8	34	3.8	0		0	0.0
+Chris Herndon	NYJ	7	6	82	5	53	8.8	29	4.8	0		0	0.0
+Jermaine Kearse	NYJ	4	4	55	3	28	7.0	27	6.8	0		0	0.0
+Elijah McGuire	NYJ	5	3	50	3	10	3.3	40	13.3	1	3.0	1	20.0
+Trenton Cannon	NYJ	2	1	5		5	5.0	0	0.0	0		0	0.0
+Jordan Leggett	NYJ	1	1	9		9	9.0	0	0.0	0		0	0.0
+Deontay Burnett	NYJ	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Blake Martinez	GNB	0	5	5	100.0%	70	14.0	14.0	1	158.3	3.4	17	53	4	0	0	1.0	1	7	2	22.2%
+Josh Jones	GNB	0	6	5	83.3%	68	13.6	11.3	0	113.9	12.2	48	20	4	0	0	0.0	0	12	1	7.7%
+Jaire Alexander	GNB	0	4	4	100.0%	51	12.8	12.8	0	118.7	9.3	37	14	0	0	0	0.0	0	4	0	0.0%
+Tony Brown	GNB	0	6	3	50.0%	25	8.3	4.2	1	100.7	9.3	17	8	0	0	0	0.0	0	6	0	0.0%
+Eddie Pleasant	GNB	0	4	3	75.0%	32	10.7	8.0	0	97.9	13.3	26	6	5	0	0	0.0	0	2	2	50.0%
+Bashaud Breeland	GNB	0	3	2	66.7%	33	16.5	11.0	0	103.5	14.3	28	5	3	0	0	0.0	0	3	0	0.0%
+Reggie Gilbert	GNB	0	1	1	100.0%	7	7.0	7.0	0	95.8	5.0	5	2	2	2	0	0.0	2	1	0	0.0%
+Kentrell Brice	GNB	0	1	1	100.0%	26	26.0	26.0	0	118.7	17.0	17	9	0	0	0	0.0	0	1	0	0.0%
+Josh Jackson	GNB	0	2	1	50.0%	12	12.0	6.0	0	68.7	17.0	9	3	0	0	0	0.0	0	0	1	100.0%
+Tramon Williams	GNB	0	4	1	25.0%	33	33.0	8.3	1	101.0	15.5	21	12	0	0	0	0.0	0	1	0	0.0%
+Dean Lowry	GNB	0	0	0										0	2	0	0.0	2	4	0	0.0%
+Kyler Fackrell	GNB	0	1	0	0.0%					39.6	15.0			5	0	0	1.0	1	2	1	33.3%
+Tyler Lancaster	GNB	0	0	0										0	1	0	0.0	1	5	0	0.0%
+Antonio Morrison	GNB	0	0	0										2	0	0	0.0	0	2	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Trumaine Johnson	NYJ	0	13	9	69.2%	78	8.7	6.0	0	84.8	8.3	59	19	0	0	0	0.0	0	7	0	0.0%
+Buster Skrine	NYJ	0	10	8	80.0%	64	8.0	6.4	0	93.3	0.5	4	60	3	0	0	0.0	0	7	1	12.5%
+Avery Williamson	NYJ	0	8	6	75.0%	98	16.3	12.3	0	115.6	10.0	41	57	12	1	0	0.0	1	8	0	0.0%
+Jamal Adams	NYJ	0	6	5	83.3%	97	19.4	16.2	1	158.3	11.0	49	48	3	0	0	0.0	0	10	1	9.1%
+Morris Claiborne	NYJ	0	9	5	55.6%	52	10.4	5.8	1	109.5	8.9	33	19	0	0	0	0.0	0	6	0	0.0%
+Neville Hewitt	NYJ	0	4	3	75.0%	27	9.0	6.8	0	92.7	7.5	12	15	8	0	0	1.0	1	9	1	10.0%
+Brandon Copeland	NYJ	0	1	1	100.0%	26	26.0	26.0	0	118.7	-2.0	-2	28	5	0	0	0.0	0	3	0	0.0%
+Darryl Roberts	NYJ	0	3	1	33.3%	49	49.0	16.3	1	121.5	27.0	28	21	0	0	0	0.0	0	3	2	40.0%
+Henry Anderson	NYJ	0	1	0	0.0%					39.6	-3.0			0	3	0	1.0	4	4	0	0.0%
+Frankie Luvu	NYJ	0	1	0	0.0%					39.6	6.0			8	1	1	1.0	3	2	0	0.0%
+Leonard Williams	NYJ	0	0	0										0	0	1	1.0	2	2	0	0.0%
+Jordan Jenkins	NYJ	0	0	0										7	1	0	0.0	1	1	1	50.0%
+Bronson Kaufusi	NYJ	0	0	0										0	0	1	0.0	1	0	1	100.0%
+Tarell Basham	NYJ	0	0	0										2	0	1	0.0	1	1	0	0.0%
+Nathan Shepherd	NYJ	0	0	0										0	0	0	0.0	0	0	1	100.0%"

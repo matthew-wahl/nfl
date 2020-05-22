@@ -1,0 +1,57 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Dak Prescott	DAL	20	32	266	11	33.3	234	7.3	151	7.6	4.7	115	5.8	3	9.4%	6	18.8%	1	7	2	0	1	2.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jared Goff	LAR	15	28	186	11	39.3	237	8.5	115	7.7	4.1	71	4.7	1	3.7%	8	29.6%	0	9	2	0	1	11.0"
+advanced_rushing
+"Ezekiel Elliott	DAL	20	47	4	14	0.7	33	1.7	1	20.0
+Dak Prescott	DAL	2	3	2	2	1.0	1	0.5	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+C.J. Anderson	LAR	23	123	11	75	3.3	48	2.1	0	
+Todd Gurley	LAR	16	115	3	92	5.8	23	1.4	1	16.0
+Jared Goff	LAR	6	12	2	12	2.0	0	0.0	0	
+Brandin Cooks	LAR	1	5	1	5	5.0	0	0.0	0	
+Josh Reynolds	LAR	1	9	0	7	7.0	2	2.0	0	
+Robert Woods	LAR	1	9	0	5	5.0	4	4.0	0	"
+advanced_receiving
+"Amari Cooper	DAL	9	6	65	1	19	3.2	46	7.7	0		1	11.1
+Michael Gallup	DAL	9	6	119	4	90	15.0	29	4.8	0		0	0.0
+Ezekiel Elliott	DAL	5	2	19	2	9	4.5	10	5.0	0		1	20.0
+Blake Jarwin	DAL	2	2	17	2	4	2.0	13	6.5	0		0	0.0
+Tavon Austin	DAL	1	1	-2		-4	-4.0	2	2.0	0		0	0.0
+Cole Beasley	DAL	2	1	15	1	8	8.0	7	7.0	0		0	0.0
+Noah Brown	DAL	1	1	13		13	13.0	0	0.0	0		0	0.0
+Dalton Schultz	DAL	2	1	20	1	12	12.0	8	8.0	0		0	0.0
+Rico Gathers	DAL	1	0	0		0		0		0		1	100.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Robert Woods	LAR	8	6	69	4	37	6.2	32	5.3	1	6.0	0	0.0
+Brandin Cooks	LAR	6	4	65	3	62	15.5	3	0.8	0		0	0.0
+Todd Gurley	LAR	2	2	3	1	2	1.0	1	0.5	0		0	0.0
+Tyler Higbee	LAR	4	2	30	2	-1	-0.5	31	15.5	0		0	0.0
+Josh Reynolds	LAR	4	1	19	1	15	15.0	4	4.0	0		0	0.0
+C.J. Anderson	LAR	1	0	0	0	0		0		0		1	100.0
+Gerald Everett	LAR	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Chidobe Awuzie	DAL	0	5	4	80.0%	40	10.0	8.0	0	100.0	13.0	31	9	0	0	0	0.0	0	6	1	14.3%
+Byron Jones	DAL	0	6	4	66.7%	69	17.3	11.5	0	105.6	11.5	62	7	0	0	0	0.0	0	4	0	0.0%
+Jaylon Smith	DAL	0	4	4	100.0%	39	9.8	9.8	0	107.3	5.3	21	18	9	0	0	0.0	0	9	0	0.0%
+Jeff Heath	DAL	0	5	3	60.0%	19	6.3	3.8	0	67.9	8.2	3	16	0	0	0	0.0	0	8	1	11.1%
+Anthony Brown	DAL	0	4	3	75.0%	3	1.0	0.8	0	77.1	3.3	-1	4	2	0	0	0.0	0	4	0	0.0%
+Jourdan Lewis	DAL	0	1	1	100.0%	5	5.0	5.0	0	87.5	3.0	3	2	0	0	0	0.0	0	2	0	0.0%
+Sean Lee	DAL	0	1	1	100.0%	11	11.0	11.0	0	112.5	-4.0	-4	15	0	0	0	0.0	0	7	0	0.0%
+Randy Gregory	DAL	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Leighton Vander Esch	DAL	0	0	0										2	1	0	0.0	1	4	2	33.3%
+Xavier Woods	DAL	0	2	0	0.0%					39.6	14.5			0	0	0	0.0	0	8	2	20.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Marcus Peters	LAR	0	9	7	77.8%	101	14.4	11.2	0	113.4	8.4	68	33	0	0	0	0.0	0	1	3	75.0%
+Lamarcus Joyner	LAR	0	4	4	100.0%	101	25.3	25.3	1	158.3	18.0	72	29	1	0	0	0.0	0	6	2	25.0%
+Mark Barron	LAR	0	5	2	40.0%	25	12.5	5.0	0	56.2	7.0	7	18	2	0	0	0.0	0	5	1	16.7%
+Aqib Talib	LAR	0	5	2	40.0%	14	7.0	2.8	0	47.9	5.6	-4	18	0	0	0	0.0	0	7	0	0.0%
+Cory Littleton	LAR	0	4	2	50.0%	16	8.0	4.0	0	60.4	3.0	6	10	3	0	0	0.0	0	7	1	12.5%
+Samson Ebukam	LAR	0	1	1	100.0%	-2	-2.0	-2.0	0	79.2	-4.0	-4	2	5	1	0	0.0	1	2	0	0.0%
+Nickell Robey-Coleman	LAR	0	1	1	100.0%	7	7.0	7.0	0	95.8	3.0	3	4	0	0	0	0.0	0	2	0	0.0%
+John Johnson	LAR	0	2	1	50.0%	4	4.0	2.0	0	56.2	5.5	3	1	0	0	0	0.0	0	7	1	12.5%
+Ndamukong Suh	LAR	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Dante Fowler	LAR	0	1	0	0.0%					39.6	1.0			0	0	0	1.0	1	3	0	0.0%"

@@ -1,0 +1,61 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Cam Newton	CAR	26	42	265	13	30.2	252	6.0	116	4.5	2.8	149	5.7	1	2.4%	10	23.8%	1	17	8	2	2	3.5
+Taylor Heinicke	CAR	1	1	33	1	100.0	31	31.0	31	31.0	31.0	2	2.0	0	0.0%	0	0.0%	0	1	0	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Baker Mayfield	CLE	18	22	238	5	21.7	242	11.0	165	9.2	7.5	73	4.1	3	13.6%	1	4.5%	1	7	5	0	1	1.0
+Jarvis Landry	CLE	0	1	0	0	0.0	31	31.0	0		0.0	0		0	0.0%	0	0.0%	0	0	0	0	0	"
+advanced_rushing
+"Christian McCaffrey	CAR	16	63	3	9	0.6	54	3.4	1	16.0
+Cam Newton	CAR	5	23	2	12	2.4	11	2.2	0	
+Alex Armah	CAR	1	0		0	0.0	0	0.0	0	
+Cameron Artis-Payne	CAR	1	5	1	1	1.0	4	4.0	0	
+D.J. Moore	CAR	1	0	0	0	0.0	0	0.0	0	
+Jarius Wright	CAR	1	5	0	2	2.0	3	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Nick Chubb	CLE	13	66	4	23	1.8	43	3.3	1	13.0
+Baker Mayfield	CLE	4	2	0	2	0.5	0	0.0	0	
+Duke Johnson	CLE	2	-6		-7	-3.5	1	0.5	2	1.0
+Jarvis Landry	CLE	2	54	2	32	16.0	22	11.0	0	"
+advanced_receiving
+"Ian Thomas	CAR	11	9	77	6	36	4.0	41	4.6	0		0	0.0
+Christian McCaffrey	CAR	7	6	38	2	-12	-2.0	50	8.3	0		0	0.0
+D.J. Moore	CAR	8	5	67	2	20	4.0	47	9.4	2	2.5	1	12.5
+Curtis Samuel	CAR	8	4	80	3	74	18.5	6	1.5	0		0	0.0
+Jarius Wright	CAR	5	3	36	1	29	9.7	7	2.3	0		0	0.0
+Devin Funchess	CAR	3	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Nick Chubb	CLE	6	4	17	0	-7	-1.8	24	6.0	0		1	16.7
+Jarvis Landry	CLE	4	3	57	1	53	17.7	4	1.3	0		0	0.0
+David Njoku	CLE	4	3	35	1	27	9.0	8	2.7	0		1	25.0
+Rashard Higgins	CLE	3	2	19	1	13	6.5	6	3.0	0		1	33.3
+Dontrell Hilliard	CLE	2	2	20		12	6.0	8	4.0	0		0	0.0
+Breshad Perriman	CLE	2	2	81	2	68	34.0	13	6.5	0		0	0.0
+Antonio Callaway	CLE	1	1	0		-2	-2.0	2	2.0	0		0	0.0
+Orson Charles	CLE	1	1	9		-1	-1.0	10	10.0	0		0	0.0"
+advanced_defense
+"Donte Jackson	CAR	0	7	6	85.7%	155	25.8	22.1	1	158.3	24.6	141	14	1	0	0	0.0	0	10	1	9.1%
+Luke Kuechly	CAR	0	7	6	85.7%	12	2.0	1.7	0	79.2	-1.7	-16	28	1	0	0	0.0	0	11	1	8.3%
+Thomas Davis	CAR	0	4	3	75.0%	43	14.3	10.8	0	109.4	10.8	22	21	0	1	0	0.0	1	6	1	14.3%
+James Bradberry	CAR	0	3	2	66.7%	37	18.5	12.3	0	109.0	17.7	31	6	0	0	0	0.0	0	3	0	0.0%
+Captain Munnerlyn	CAR	0	2	1	50.0%	12	12.0	6.0	0	68.7	18.0	4	8	3	0	0	1.0	1	2	0	0.0%
+Eric Reid	CAR	0	2	1	50.0%	51	51.0	25.5	1	135.4	41.5	51	0	0	0	0	0.0	0	4	0	0.0%
+Shaq Thompson	CAR	0	1	1	100.0%	7	7.0	7.0	0	95.8	5.0	5	2	2	0	0	0.0	0	2	0	0.0%
+Mike Adams	CAR	0	0	0										1	0	0	0.0	0	1	1	50.0%
+Kawann Short	CAR	0	0	0										0	0	0	0.0	0	1	2	66.7%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Jamie Collins	CLE	0	7	7	100.0%	40	5.7	5.7	0	90.5	1.0	7	33	9	0	0	0.0	0	7	2	22.2%
+Briean Boddy-Calhoun	CLE	0	6	4	66.7%	52	13.0	8.7	0	93.7	8.8	45	7	2	0	1	0.0	1	5	1	16.7%
+Terrance Mitchell	CLE	0	7	4	57.1%	99	24.8	14.1	0	101.8	11.3	61	38	1	0	0	0.0	0	5	0	0.0%
+Joe Schobert	CLE	0	5	3	60.0%	39	13.0	7.8	0	84.6	4.4	17	22	6	2	0	0.0	2	7	2	22.2%
+T.J. Carrie	CLE	0	6	3	50.0%	42	14.0	7.0	0	72.9	17.7	35	7	2	1	0	0.0	1	4	1	20.0%
+Damarious Randall	CLE	1	7	2	28.6%	13	6.5	1.9	0	0.0	12.9	9	4	2	0	0	0.0	0	9	1	10.0%
+Derrick Kindred	CLE	0	2	2	100.0%	24	12.0	12.0	0	116.7	1.5	3	21	4	0	0	0.0	0	2	1	33.3%
+Myles Garrett	CLE	0	1	1	100.0%	7	7.0	7.0	0	95.8	2.0	2	5	2	1	2	1.0	4	5	1	16.7%
+Genard Avery	CLE	0	3	1	33.3%	3	3.0	1.0	0	42.4	9.3	1	2	8	3	0	0.0	3	4	0	0.0%
+Tanner Vallejo	CLE	0	1	1	100.0%	7	7.0	7.0	0	95.8	0.0	0	7	0	0	0	0.0	0	3	0	0.0%
+Jabrill Peppers	CLE	0	2	1	50.0%	3	3.0	1.5	0	56.2	-5.5	-5	8	4	0	0	0.0	0	2	1	33.3%
+Larry Ogunjobi	CLE	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Emmanuel Ogbah	CLE	0	0	0										1	0	0	0.0	0	2	1	33.3%"

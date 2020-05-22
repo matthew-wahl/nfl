@@ -1,0 +1,67 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ryan Fitzpatrick	MIA	28	41	320	18	41.9	376	9.2	203	7.3	5.0	117	4.2	2	4.9%	8	19.5%	2	21	1	2	4	3.8
+Albert Wilson	MIA	1	2	20	1	50.0	20	10.0	-3	-3.0	-1.5	23	23.0	0	0.0%	1	50.0%	0	2	0	0	0	
+Matt Haack	MIA	0	1	0			30	30.0	0		0.0	0		0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Tom Brady	NWE	16	29	221	8	26.7	308	10.6	137	8.6	4.7	84	5.3	2	6.9%	8	27.6%	1	6	0	1	0	"
+advanced_rushing
+"Patrick Laird	MIA	11	21	2	21	1.9	0	0.0	0	
+Ryan Fitzpatrick	MIA	5	15	1	15	3.0	0	0.0	0	
+Samaje Perine	MIA	5	16	1	11	2.2	5	1.0	1	5.0
+Isaiah Ford	MIA	1	11	1	0	0.0	11	11.0	1	1.0
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Sony Michel	NWE	18	74	4	49	2.7	25	1.4	1	18.0
+Rex Burkhead	NWE	6	48	3	22	3.7	26	4.3	1	6.0
+James White	NWE	2	4	0	4	2.0	0	0.0	0	
+N'Keal Harry	NWE	1	9	1	0	0.0	9	9.0	0	"
+advanced_receiving
+"DeVante Parker	MIA	11	8	137	6	100	12.5	37	4.6	0		0	0.0
+Isaiah Ford	MIA	9	7	54	4	36	5.1	18	2.6	1	7.0	0	0.0
+Albert Wilson	MIA	8	5	59	4	47	9.4	12	2.4	0		1	12.5
+Mike Gesicki	MIA	7	4	34	2	12	3.0	22	5.5	0		0	0.0
+Patrick Laird	MIA	5	4	48	3	1	0.3	47	11.8	0		0	0.0
+Durham Smythe	MIA	3	1	8		4	4.0	4	4.0	0		1	33.3
+Deon Lacey	MIA	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Julian Edelman	NWE	7	3	26	1	34	11.3	-8	-2.7	0		1	14.3
+N'Keal Harry	NWE	7	3	29	1	21	7.0	8	2.7	0		0	0.0
+Mohamed Sanu	NWE	5	3	35	2	23	7.7	12	4.0	0		1	20.0
+James White	NWE	3	3	33	2	6	2.0	27	9.0	0		0	0.0
+Rex Burkhead	NWE	1	1	6	0	4	4.0	2	2.0	0		0	0.0
+Phillip Dorsett	NWE	4	1	50	1	38	38.0	12	12.0	0		0	0.0
+Elandon Roberts	NWE	1	1	38	1	7	7.0	31	31.0	1	1.0	0	0.0
+Ben Watson	NWE	1	1	4		4	4.0	0	0.0	0		0	0.0"
+advanced_defense
+"Nik Needham	MIA	0	7	6	85.7%	65	10.8	9.3	0	105.4	9.7	56	9	0	0	0	0.0	0	5	1	16.7%
+Andrew Van Ginkel	MIA	0	2	2	100.0%	8	4.0	4.0	0	83.3	3.5	7	1	4	0	1	0.0	1	6	1	14.3%
+Nate Brooks	MIA	0	5	2	40.0%	68	34.0	13.6	0	87.5	18.6	54	14	0	0	0	0.0	0	3	0	0.0%
+Montre Hartage	MIA	0	2	1	50.0%	12	12.0	6.0	0	68.7	10.5	5	7	0	0	0	0.0	0	2	0	0.0%
+Eric Rowe	MIA	1	2	1	50.0%	3	3.0	1.5	0	16.7	3.5	3	0	0	0	0	0.0	0	5	0	0.0%
+Walt Aikens	MIA	0	1	1	100.0%	13	13.0	13.0	1	158.3	-3.0	-3	16	1	0	0	0.0	0	0	0	
+Calvin Munson	MIA	0	1	1	100.0%	6	6.0	6.0	0	91.7	4.0	4	2	2	0	0	0.0	0	2	3	60.0%
+Jerome Baker	MIA	0	1	1	100.0%	8	8.0	8.0	0	100.0	4.0	4	4	3	0	0	0.0	0	8	0	0.0%
+Trent Harris	MIA	0	0	0										1	0	0	1.0	1	6	0	0.0%
+Samuel Eguavoen	MIA	0	0	0										1	0	0	0.0	0	0	0	
+Adrian Colbert	MIA	0	0	0										0	0	0	0.0	0	5	1	16.7%
+Tae Hayes	MIA	0	7	0	0.0%					39.6	14.3			0	0	0	0.0	0	4	0	0.0%
+Christian Wilkins	MIA	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Stephon Gilmore	NWE	0	9	7	77.8%	119	17.0	13.2	0	118.7	15.4	87	32	0	0	0	0.0	0	8	0	0.0%
+Patrick Chung	NWE	0	9	6	66.7%	57	9.5	6.3	1	121.1	9.1	25	32	7	0	0	0.0	0	5	0	0.0%
+J.C. Jackson	NWE	0	7	5	71.4%	32	6.4	4.6	0	80.7	7.7	23	9	1	0	0	0.0	0	7	0	0.0%
+Jonathan Jones	NWE	0	6	5	83.3%	61	12.2	10.2	0	109.0	7.5	41	20	0	0	0	0.0	0	4	1	20.0%
+Devin McCourty	NWE	0	4	3	75.0%	37	12.3	9.3	0	103.1	9.0	13	24	1	0	0	0.0	0	4	0	0.0%
+Duron Harmon	NWE	0	2	1	50.0%	5	5.0	2.5	0	56.2	8.5	5	0	0	0	0	0.0	0	2	0	0.0%
+Joejuan Williams	NWE	0	2	1	50.0%	9	9.0	4.5	0	62.5	8.5	9	0	0	0	0	0.0	0	2	0	0.0%
+Jamie Collins	NWE	0	0	0										7	1	0	1.0	2	3	0	0.0%
+Dont'a Hightower	NWE	0	0	0										8	1	1	0.0	2	6	0	0.0%
+Lawrence Guy	NWE	0	0	0										0	1	0	1.0	2	3	0	0.0%
+Adam Butler	NWE	0	1	0	0.0%					39.6	1.0			0	0	1	0.0	1	1	0	0.0%
+Kyle Van Noy	NWE	0	1	0	0.0%					39.6	5.0			11	0	0	0.0	0	5	0	0.0%
+Chase Winovich	NWE	0	0	0										1	0	0	0.0	0	1	0	0.0%
+John Simon	NWE	0	0	0										1	0	0	0.0	0	3	0	0.0%
+Deatrich Wise	NWE	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Ja'Whaun Bentley	NWE	0	0	0										0	0	0	0.0	0	1	1	50.0%"

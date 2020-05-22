@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Matt Ryan	ATL	31	44	378	18	40.0	379	8.6	227	7.3	5.2	151	4.9	0	0.0%	3	7.1%	1	8	3	4	1	10.0
+Mohamed Sanu	ATL	1	1	5	1	100.0	1	1.0	1	1.0	1.0	4	4.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jameis Winston	TAM	22	35	345	16	44.4	416	11.9	256	11.6	7.3	89	4.0	2	6.1%	5	15.2%	1	7	2	3	1	15.0"
+advanced_rushing
+"Jeremy Langford	ATL	9	25	1	-2	-0.2	27	3.0	0	
+Tevin Coleman	ATL	8	45	3	11	1.4	34	4.3	1	8.0
+Brian Hill	ATL	8	30	1	16	2.0	14	1.8	0	
+Matt Ryan	ATL	4	7	1	6	1.5	1	0.3	0	
+Mohamed Sanu	ATL	1	2	1	0	0.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Peyton Barber	TAM	15	66	3	28	1.9	38	2.5	3	5.0
+Jacquizz Rodgers	TAM	3	3		1	0.3	2	0.7	0	
+Jameis Winston	TAM	2	23	1	18	9.0	5	2.5	0	"
+advanced_receiving
+"Julio Jones	ATL	13	9	138	7	116	12.9	22	2.4	0		0	0.0
+Mohamed Sanu	ATL	10	7	90	4	27	3.9	63	9.0	0		0	0.0
+Austin Hooper	ATL	6	5	67	3	50	10.0	17	3.4	0		0	0.0
+Calvin Ridley	ATL	5	5	32	3	16	3.2	16	3.2	0		0	0.0
+Russell Gage	ATL	2	2	14		7	3.5	7	3.5	0		0	0.0
+Tevin Coleman	ATL	1	1	9	0	3	3.0	6	6.0	0		0	0.0
+Brian Hill	ATL	1	1	9	0	4	4.0	5	5.0	2	0.5	0	0.0
+Logan Paulsen	ATL	1	1	19	1	4	4.0	15	15.0	0		0	0.0
+Matt Ryan	ATL	1	1	5	1	1	1.0	4	4.0	0		0	0.0
+Marvin Hall	ATL	1	0	0		0		0		0		0	0.0
+Justin Hardy	ATL	2	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Mike Evans	TAM	8	6	106	5	61	10.2	45	7.5	0		0	0.0
+Chris Godwin	TAM	9	6	114	4	92	15.3	22	3.7	0		0	0.0
+Adam Humphries	TAM	6	5	66	4	55	11.0	11	2.2	0		1	16.7
+Cameron Brate	TAM	4	2	39	2	30	15.0	9	4.5	0		1	25.0
+Bobo Wilson	TAM	1	1	16	1	16	16.0	0	0.0	0		0	0.0
+Jacquizz Rodgers	TAM	1	1	2		1	1.0	1	1.0	0		0	0.0
+Peyton Barber	TAM	1	1	2	0	1	1.0	1	1.0	0		0	0.0
+Justin Watson	TAM	1	0	0		0		0		0		0	0.0
+Antony Auclair	TAM	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Brian Poole	ATL	0	7	6	85.7%	110	18.3	15.7	0	118.7	10.6	59	51	2	0	0	0.0	0	3	1	25.0%
+Desmond Trufant	ATL	0	8	5	62.5%	68	13.6	8.5	1	129.2	11.8	59	9	0	0	0	0.0	0	2	0	0.0%
+Robert Alford	ATL	0	5	4	80.0%	71	17.8	14.2	1	158.3	11.8	54	17	0	0	0	0.0	0	3	1	25.0%
+Deion Jones	ATL	0	3	3	100.0%	25	8.3	8.3	1	141.0	7.7	23	2	1	0	0	0.0	0	4	1	20.0%
+Sharrod Neasman	ATL	0	4	3	75.0%	32	10.7	8.0	1	137.5	15.3	31	1	0	0	0	0.0	0	3	0	0.0%
+Damontae Kazee	ATL	1	2	2	100.0%	43	21.5	21.5	0	79.2	17.0	34	9	0	0	0	0.0	0	5	0	0.0%
+Foyesade Oluokun	ATL	0	2	1	50.0%	21	21.0	10.5	0	87.5	10.0	13	8	1	1	0	0.0	1	7	1	12.5%
+Bruce Irvin	ATL	0	1	0	0.0%					39.6	0.0			0	1	1	0.0	2	2	0	0.0%
+Takkarist McKinley	ATL	0	0	0										0	0	1	1.0	2	1	0	0.0%
+Grady Jarrett	ATL	0	0	0										0	1	1	0.0	2	2	0	0.0%
+De'Vondre Campbell	ATL	0	1	0	0.0%					39.6	5.0			3	0	0	0.0	0	9	1	10.0%
+Jordan Richards	ATL	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Jack Crawford	ATL	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Javien Elliott	TAM	0	5	5	100.0%	48	9.6	9.6	0	106.7	3.0	15	33	3	0	1	0.0	1	5	0	0.0%
+Andrew Adams	TAM	1	7	5	71.4%	49	9.8	7.0	0	51.2	4.1	17	32	0	0	0	0.0	0	4	3	42.9%
+Carlton Davis	TAM	0	5	4	80.0%	47	11.8	9.4	0	105.8	10.8	38	9	0	0	0	0.0	0	2	1	33.3%
+Lavonte David	TAM	0	4	4	100.0%	41	10.3	10.3	0	109.4	1.8	7	34	2	0	0	0.0	0	10	1	9.1%
+Ryan Smith	TAM	0	6	4	66.7%	67	16.8	11.2	1	143.7	12.2	56	11	0	0	0	0.0	0	4	0	0.0%
+Brent Grimes	TAM	0	8	4	50.0%	44	11.0	5.5	1	106.2	11.0	35	9	0	0	0	0.0	0	5	1	16.7%
+Jordan Whitehead	TAM	0	4	3	75.0%	44	14.7	11.0	0	110.4	13.3	37	7	0	0	0	0.0	0	3	0	0.0%
+Isaiah Johnson	TAM	0	3	2	66.7%	51	25.5	17.0	1	149.3	26.3	45	6	1	0	0	0.0	0	4	0	0.0%
+Adarius Taylor	TAM	0	2	2	100.0%	28	14.0	14.0	0	118.7	4.5	9	19	0	0	0	0.0	0	7	0	0.0%
+Gerald McCoy	TAM	0	0	0										0	0	3	0.0	3	4	0	0.0%
+Jason Pierre-Paul	TAM	0	0	0										0	1	0	1.0	2	4	0	0.0%
+Vinny Curry	TAM	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Beau Allen	TAM	0	0	0										0	0	0	0.0	0	2	1	33.3%"

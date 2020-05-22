@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Patrick Mahomes	KAN	28	45	304	13	28.3	357	7.9	146	5.2	3.2	158	5.6	2	4.7%	8	18.6%	1	10	16	5	1	8.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Case Keenum	DEN	21	33	245	10	27.0	282	8.5	149	7.1	4.5	96	4.6	3	9.1%	7	21.2%	4	8	7	5	0	"
+advanced_rushing
+"Kareem Hunt	KAN	19	121	7	43	2.3	78	4.1	4	4.8
+Patrick Mahomes	KAN	3	7	1	7	2.3	0	0.0	0	
+Spencer Ware	KAN	2	6		3	1.5	3	1.5	0	
+Tyreek Hill	KAN	1	2	0	2	2.0	0	0.0	0	
+De'Anthony Thomas	KAN	1	6	0	6	6.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Phillip Lindsay	DEN	12	69	4	64	5.3	5	0.4	0	
+Royce Freeman	DEN	8	67	4	24	3.0	43	5.4	4	2.0
+Devontae Booker	DEN	1	5	1	5	5.0	0	0.0	0	
+Emmanuel Sanders	DEN	1	18	1	14	14.0	4	4.0	1	1.0"
+advanced_receiving
+"Tyreek Hill	KAN	13	9	54	3	29	3.2	25	2.8	0		1	7.7
+Travis Kelce	KAN	12	7	78	2	39	5.6	39	5.6	1	7.0	0	0.0
+Chris Conley	KAN	6	4	13	1	4	1.0	9	2.3	0		0	0.0
+Kareem Hunt	KAN	4	3	54	3	-1	-0.3	55	18.3	3	1.0	1	25.0
+Demetrius Harris	KAN	3	2	59	2	46	23.0	13	6.5	0		0	0.0
+Demarcus Robinson	KAN	3	2	31	1	31	15.5	0	0.0	0		0	0.0
+De'Anthony Thomas	KAN	2	1	15	1	-2	-2.0	17	17.0	0		0	0.0
+Sammy Watkins	KAN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Emmanuel Sanders	DEN	7	5	45	3	33	6.6	12	2.4	1	5.0	0	0.0
+Jeff Heuerman	DEN	7	4	57	2	28	7.0	29	7.3	0		1	14.3
+Demaryius Thomas	DEN	7	4	24	2	9	2.3	15	3.8	0		1	14.3
+Courtland Sutton	DEN	6	3	51	1	50	16.7	1	0.3	0		1	16.7
+Phillip Lindsay	DEN	2	2	10	0	0	0.0	10	5.0	0		0	0.0
+Devontae Booker	DEN	2	1	9	0	-4	-4.0	13	13.0	0		0	0.0
+Andy Janovich	DEN	1	1	32	1	32	32.0	0	0.0	0		0	0.0
+Matt LaCosse	DEN	1	1	17	1	1	1.0	16	16.0	0		0	0.0"
+advanced_defense
+"Kendall Fuller	KAN	0	10	7	70.0%	76	10.9	7.6	0	92.1	10.9	63	13	1	0	0	0.0	0	7	2	22.2%
+Orlando Scandrick	KAN	0	7	4	57.1%	33	8.3	4.7	0	69.3	8.1	26	7	0	0	0	0.0	0	5	2	28.6%
+Anthony Hitchens	KAN	0	4	3	75.0%	16	5.3	4.0	0	81.2	1.3	5	11	4	0	0	0.0	0	3	0	0.0%
+Justin Houston	KAN	0	2	1	50.0%	9	9.0	4.5	0	62.5	-3.0	-4	13	1	1	0	1.0	2	2	0	0.0%
+Breeland Speaks	KAN	0	1	1	100.0%	17	17.0	17.0	0	118.7	1.0	1	16	0	1	0	0.0	1	2	0	0.0%
+Reggie Ragland	KAN	0	1	1	100.0%	32	32.0	32.0	0	118.7	32.0	32	0	1	0	0	0.0	0	3	0	0.0%
+Steven Nelson	KAN	0	4	1	25.0%	9	9.0	2.3	0	39.6	12.5	8	1	0	0	0	0.0	0	3	1	25.0%
+Ron Parker	KAN	0	2	1	50.0%	36	36.0	18.0	0	95.8	12.5	22	14	0	0	0	0.0	0	5	2	28.6%
+Dee Ford	KAN	0	0	0										3	3	2	1.0	6	3	0	0.0%
+Chris Jones	KAN	0	0	0										0	1	2	0.0	3	0	0	
+Armani Watts	KAN	0	0	0										2	0	1	1.0	2	1	0	0.0%
+Allen Bailey	KAN	0	0	0										0	0	0	1.0	1	1	1	50.0%
+Eric Murray	KAN	1	1	0	0.0%					0.0	25.0			0	0	0	0.0	0	6	0	0.0%
+Terrance Smith	KAN	0	0	0										4	0	0	0.0	0	1	0	0.0%
+Xavier Williams	KAN	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Chris Harris	DEN	0	8	7	87.5%	49	7.0	6.1	1	131.8	5.3	33	16	1	0	0	0.0	0	6	1	14.3%
+Bradley Roby	DEN	0	9	4	44.4%	26	6.5	2.9	0	51.6	8.4	0	26	1	0	0	0.0	0	3	1	25.0%
+Adam Jones	DEN	0	8	4	50.0%	12	3.0	1.5	0	56.2	8.8	6	6	0	0	0	0.0	0	4	1	20.0%
+Brandon Marshall	DEN	0	5	3	60.0%	34	11.3	6.8	0	80.4	4.2	12	22	3	0	0	0.0	0	6	1	14.3%
+Justin Simmons	DEN	0	4	3	75.0%	36	12.0	9.0	0	102.1	9.5	31	5	2	0	0	0.0	0	8	0	0.0%
+Todd Davis	DEN	0	2	2	100.0%	27	13.5	13.5	0	118.7	2.0	4	23	2	0	1	0.5	2	7	3	30.0%
+Shaquil Barrett	DEN	0	4	2	50.0%	40	20.0	10.0	0	85.4	16.5	22	18	1	0	0	0.0	0	3	0	0.0%
+Shane Ray	DEN	0	1	1	100.0%	27	27.0	27.0	0	118.7	-1.0	-1	28	1	2	0	0.0	2	1	0	0.0%
+Darian Stewart	DEN	0	2	1	50.0%	24	24.0	12.0	0	93.7	15.0	19	5	2	1	0	0.0	1	3	2	40.0%
+Derek Wolfe	DEN	0	0	0										0	4	2	0.0	6	3	0	0.0%
+Bradley Chubb	DEN	0	0	0										0	2	2	0.0	4	2	0	0.0%
+Zach Kerr	DEN	0	0	0										0	2	0	0.5	3	2	0	0.0%
+Von Miller	DEN	0	0	0										0	3	0	0.0	3	1	0	0.0%
+Adam Gotsis	DEN	0	0	0										0	1	0	0.0	1	3	1	25.0%
+Josey Jewell	DEN	0	1	0	0.0%					39.6	2.0			0	0	0	0.0	0	2	0	0.0%"

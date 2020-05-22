@@ -1,0 +1,65 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Matt Ryan	ATL	20	35	182	9	25.0	260	7.4	93	4.7	2.7	89	4.5	0	0.0%	4	12.5%	1	12	1	4	2	6.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Drew Brees	NOR	32	45	287	12	23.5	260	5.8	137	4.3	3.0	150	4.7	1	2.3%	7	16.3%	6	10	2	4	0	
+Taysom Hill	NOR	1	1	17	1	100.0	17	17.0	17	17.0	17.0	0	0.0	0	0.0%	0	0.0%	0	0	0	0	0	"
+advanced_rushing
+"Brian Hill	ATL	20	61	2	25	1.3	36	1.8	0	
+Devonta Freeman	ATL	10	38	3	17	1.7	21	2.1	0	
+Matt Ryan	ATL	2	13	2	13	6.5	0	0.0	0	
+Kenjon Barner	ATL	1	12	1	11	11.0	1	1.0	0	
+Calvin Ridley	ATL	1	19	1	15	15.0	4	4.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Latavius Murray	NOR	5	12	2	5	1.0	7	1.4	0	
+Alvin Kamara	NOR	4	24	0	10	2.5	14	3.5	0	
+Ted Ginn	NOR	1	5	1	4	4.0	1	1.0	0	
+Taysom Hill	NOR	1	11	1	5	5.0	6	6.0	0	"
+advanced_receiving
+"Russell Gage	ATL	5	4	23		9	2.3	14	3.5	0		0	0.0
+Austin Hooper	ATL	5	4	17	2	6	1.5	11	2.8	0		0	0.0
+Devonta Freeman	ATL	4	3	10	0	0	0.0	10	3.3	0		0	0.0
+Julio Jones	ATL	9	3	79	3	42	14.0	37	12.3	0		0	0.0
+Calvin Ridley	ATL	5	3	28	2	19	6.3	9	3.0	0		0	0.0
+Christian Blake	ATL	2	2	15	1	15	7.5	0	0.0	0		0	0.0
+Brian Hill	ATL	2	1	10	1	2	2.0	8	8.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Michael Thomas	NOR	14	13	152	7	103	7.9	49	3.8	0		0	0.0
+Alvin Kamara	NOR	10	8	50	1	-1	-0.1	51	6.4	0		0	0.0
+Jared Cook	NOR	10	6	74	4	47	7.8	27	4.5	0		0	0.0
+Zach Line	NOR	2	2	5		-2	-1.0	7	3.5	0		0	0.0
+Latavius Murray	NOR	2	2	7	0	-8	-4.0	15	7.5	0		0	0.0
+Taysom Hill	NOR	1	1	3	0	2	2.0	1	1.0	0		0	0.0
+Tre'Quan Smith	NOR	2	1	13	1	13	13.0	0	0.0	0		0	0.0
+Ted Ginn	NOR	3	0	0	0	0		0		0		1	33.3"
+advanced_defense
+"Isaiah Oliver	ATL	0	8	8	100.0%	89	11.1	11.1	0	113.0	8.3	66	23	1	0	1	0.0	1	6	0	0.0%
+Kendall Sheffield	ATL	0	8	6	75.0%	33	5.5	4.1	0	81.8	4.3	-1	34	2	0	0	0.0	0	5	0	0.0%
+Foyesade Oluokun	ATL	0	6	5	83.3%	34	6.8	5.7	0	90.3	5.2	25	9	0	0	0	0.0	0	8	0	0.0%
+De'Vondre Campbell	ATL	0	6	4	66.7%	30	7.5	5.0	0	78.5	7.8	18	12	7	0	0	1.0	1	6	0	0.0%
+Ricardo Allen	ATL	0	5	2	40.0%	18	9.0	3.6	0	50.4	6.2	17	1	0	0	0	0.0	0	5	0	0.0%
+Blidi Wreh-Wilson	ATL	0	4	2	50.0%	31	15.5	7.8	0	76.0	13.5	19	12	0	0	0	0.0	0	4	1	20.0%
+Deion Jones	ATL	0	2	1	50.0%	6	6.0	3.0	0	56.2	4.0	4	2	2	0	0	0.0	0	5	0	0.0%
+Kemal Ishmael	ATL	0	1	1	100.0%	22	22.0	22.0	0	118.7	13.0	13	9	1	0	0	0.0	0	1	1	50.0%
+Jordan Miller	ATL	0	1	1	100.0%	13	13.0	13.0	0	118.7	8.0	8	5	0	0	0	0.0	0	1	0	0.0%
+Damontae Kazee	ATL	0	1	1	100.0%	13	13.0	13.0	0	118.7	13.0	13	0	0	0	0	0.0	0	5	0	0.0%
+Grady Jarrett	ATL	0	0	0										0	0	2	2.5	5	3	0	0.0%
+Vic Beasley	ATL	0	0	0										0	0	0	1.5	2	4	1	20.0%
+Takkarist McKinley	ATL	0	0	0										0	1	1	0.0	2	2	0	0.0%
+Adrian Clayborn	ATL	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Jack Crawford	ATL	0	1	0	0.0%					39.6	4.0			0	0	0	0.0	0	0	0	
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Eli Apple	NOR	0	8	6	75.0%	98	16.3	12.3	0	115.6	9.9	45	53	0	0	0	0.0	0	5	1	16.7%
+Demario Davis	NOR	0	6	3	50.0%	4	1.3	0.7	0	56.2	3.3	2	2	9	0	0	1.0	1	11	0	0.0%
+P.J. Williams	NOR	0	7	3	42.9%	36	12.0	5.1	0	59.2	14.4	32	4	1	0	0	0.0	0	5	0	0.0%
+A.J. Klein	NOR	0	2	2	100.0%	19	9.5	9.5	1	145.8	2.5	5	14	7	0	0	0.0	0	7	0	0.0%
+Chauncey Gardner-Johnson	NOR	0	3	2	66.7%	11	5.5	3.7	0	72.9	2.3	-4	15	1	0	0	0.0	0	0	1	100.0%
+Kiko Alonso	NOR	0	1	1	100.0%	1	1.0	1.0	0	79.2	1.0	1	0	2	0	1	0.0	1	7	0	0.0%
+Marcus Williams	NOR	1	2	1	50.0%	8	8.0	4.0	1	60.4	19.0	8	0	0	0	0	0.0	0	7	0	0.0%
+Marshon Lattimore	NOR	0	2	1	50.0%	3	3.0	1.5	0	56.2	4.0	4	-1	0	0	0	0.0	0	2	0	0.0%
+Vonn Bell	NOR	0	2	1	50.0%	2	2.0	1.0	0	56.2	15.0	0	2	3	0	0	0.0	0	7	0	0.0%
+David Onyemata	NOR	0	0	0										0	0	2	0.0	2	4	0	0.0%
+Malcom Brown	NOR	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Cameron Jordan	NOR	0	0	0										0	0	1	0.0	1	2	0	0.0%"

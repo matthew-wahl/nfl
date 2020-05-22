@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jameis Winston	TAM	21	43	301	17	37.0	458	10.7	230	11.0	5.3	71	3.4	3	7.9%	9	23.7%	3	21	2	1	6	8.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ryan Tannehill	TEN	21	33	193	11	30.6	337	10.2	117	5.6	3.5	76	3.6	0	0.0%	4	12.1%	3	19	1	3	0	"
+advanced_rushing
+"Ronald Jones	TAM	11	35	1	19	1.7	16	1.5	0	
+Peyton Barber	TAM	10	20	1	11	1.1	9	0.9	0	
+Jameis Winston	TAM	8	53	3	41	5.1	12	1.5	0	
+Dare Ogunbowale	TAM	1	-2	0	-2	-2.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Derrick Henry	TEN	16	75	3	39	2.4	36	2.3	2	8.0
+Ryan Tannehill	TEN	4	-3	0	-4	-1.0	1	0.3	0	
+Brett Kern	TEN	1	0		0	0.0	0	0.0	0	"
+advanced_receiving
+"Mike Evans	TAM	12	11	198	8	178	16.2	20	1.8	0		1	8.3
+Chris Godwin	TAM	8	4	43	3	22	5.5	21	5.3	0		0	0.0
+Cameron Brate	TAM	6	3	32	3	28	9.3	4	1.3	0		1	16.7
+Peyton Barber	TAM	3	1	8	1	-2	-2.0	10	10.0	0		0	0.0
+Dare Ogunbowale	TAM	3	1	3	1	-1	-1.0	4	4.0	0		1	33.3
+Ronald Jones	TAM	3	1	17	1	5	5.0	12	12.0	0		0	0.0
+Breshad Perriman	TAM	4	0	0		0		0		0		0	0.0
+Scott Miller	TAM	1	0	0		0		0		0		0	0.0
+Tanner Hudson	TAM	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Jonnu Smith	TEN	7	6	78	4	43	7.2	35	5.8	1	6.0	0	0.0
+Adam Humphries	TEN	6	3	24	2	15	5.0	9	3.0	0		0	0.0
+Anthony Firkser	TEN	5	3	43	2	28	9.3	15	5.0	0		0	0.0
+Tajae Sharpe	TEN	3	3	18	2	17	5.7	1	0.3	0		0	0.0
+Corey Davis	TEN	6	2	9		6	3.0	3	1.5	0		0	0.0
+A.J. Brown	TEN	3	2	11	1	10	5.0	1	0.5	0		0	0.0
+Dion Lewis	TEN	1	1	2		2	2.0	0	0.0	0		0	0.0
+Derrick Henry	TEN	1	1	8	0	-4	-4.0	12	12.0	0		0	0.0
+MyCole Pruitt	TEN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Lavonte David	TAM	0	7	7	100.0%	59	8.4	8.4	0	101.8	4.4	31	28	4	0	0	0.0	0	12	0	0.0%
+Vernon Hargreaves	TAM	0	9	6	66.7%	66	11.0	7.3	1	125.2	10.9	31	35	0	0	0	0.0	0	5	1	16.7%
+Carlton Davis	TAM	0	7	3	42.9%	22	7.3	3.1	2	90.5	10.9	21	1	0	0	0	0.0	0	2	0	0.0%
+Devin White	TAM	0	3	2	66.7%	23	11.5	7.7	0	89.6	8.3	20	3	1	0	0	0.0	0	6	0	0.0%
+Jordan Whitehead	TAM	0	2	2	100.0%	16	8.0	8.0	0	100.0	4.0	8	8	4	0	0	0.0	0	2	2	50.0%
+Sean Murphy-Bunting	TAM	0	3	1	33.3%	7	7.0	2.3	0	42.4	24.3	6	1	0	0	0	0.0	0	2	0	0.0%
+Shaquil Barrett	TAM	0	0	0										13	0	1	1.0	2	4	0	0.0%
+Jason Pierre-Paul	TAM	0	0	0										0	0	1	1.0	2	3	1	25.0%
+Carl Nassib	TAM	0	0	0										12	1	0	1.0	2	4	0	0.0%
+Vita Vea	TAM	0	1	0	0.0%					39.6	4.0			0	0	1	0.0	1	3	0	0.0%
+Andrew Adams	TAM	0	1	0	0.0%					39.6	22.0			1	0	0	0.0	0	5	1	16.7%
+Anthony Nelson	TAM	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Logan Ryan	TEN	1	9	6	66.7%	50	8.3	5.6	1	78.2	13.6	39	11	3	0	0	1.0	1	8	1	11.1%
+LeShaun Sims	TEN	0	10	6	60.0%	84	14.0	8.4	1	120.4	12.7	76	8	0	0	0	0.0	0	4	0	0.0%
+Rashaan Evans	TEN	0	3	3	100.0%	32	10.7	10.7	0	111.1	0.3	1	31	4	0	0	0.0	0	11	1	8.3%
+Kenny Vaccaro	TEN	0	3	2	66.7%	46	23.0	15.3	0	109.7	14.3	38	8	6	0	1	0.0	1	7	0	0.0%
+Jayon Brown	TEN	0	7	2	28.6%	29	14.5	4.1	0	44.3	4.7	16	13	5	0	0	0.0	0	8	0	0.0%
+Kevin Byard	TEN	0	1	1	100.0%	46	46.0	46.0	0	118.7	46.0	46	0	0	0	0	0.0	0	5	0	0.0%
+Malcolm Butler	TEN	1	4	1	25.0%	14	14.0	3.5	0	2.1	16.0	14	0	0	0	0	0.0	0	2	0	0.0%
+Jurrell Casey	TEN	0	0	0										0	1	0	1.0	2	5	0	0.0%
+Harold Landry	TEN	0	0	0										12	0	0	1.0	1	4	1	20.0%
+Amani Hooker	TEN	0	1	0	0.0%					39.6	14.0			1	0	0	0.0	0	2	0	0.0%
+Wesley Woodyard	TEN	0	2	0	0.0%					39.6	6.0			2	0	0	0.0	0	1	0	0.0%
+Reggie Gilbert	TEN	0	0	0										5	0	0	0.0	0	1	0	0.0%
+Kamalei Correa	TEN	0	1	0	0.0%					39.6	0.0			4	0	0	0.0	0	3	0	0.0%"

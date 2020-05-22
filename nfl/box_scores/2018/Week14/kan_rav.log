@@ -1,0 +1,67 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Lamar Jackson	BAL	13	24	147	12	46.2	275	11.5	108	8.3	4.5	39	3.0	1	4.2%	7	29.2%	2	9	5	1	2	-1.0
+Robert Griffin	BAL	0	2	0			32	16.0	0		0.0	0		0	0.0%	1	50.0%	0	2	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Patrick Mahomes	KAN	35	53	377	18	32.1	408	7.7	106	3.0	2.0	271	7.7	4	8.9%	4	8.9%	3	23	13	12	0	"
+advanced_rushing
+"Gus Edwards	BAL	16	67	3	36	2.3	31	1.9	1	16.0
+Lamar Jackson	BAL	14	67	2	56	4.0	11	0.8	0	
+Kenneth Dixon	BAL	8	59	5	27	3.4	32	4.0	2	4.0
+Ty Montgomery	BAL	2	1		0	0.0	1	0.5	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Spencer Ware	KAN	15	75	5	42	2.8	33	2.2	1	15.0
+Damien Williams	KAN	8	14	1	8	1.0	6	0.8	0	
+Patrick Mahomes	KAN	2	-3	0	-3	-1.5	0	0.0	0	
+Tyreek Hill	KAN	1	6	1	6	6.0	0	0.0	0	
+Anthony Sherman	KAN	1	2	1	1	1.0	1	1.0	0	"
+advanced_receiving
+"Willie Snead	BAL	7	5	61	5	55	11.0	6	1.2	0		0	0.0
+Michael Crabtree	BAL	4	3	31	3	26	8.7	5	1.7	0		0	0.0
+John Brown	BAL	6	2	23	2	23	11.5	0	0.0	0		0	0.0
+Maxx Williams	BAL	1	1	10	1	3	3.0	7	7.0	0		0	0.0
+Ty Montgomery	BAL	3	1	1		-3	-3.0	4	4.0	0		0	0.0
+Kenneth Dixon	BAL	1	1	21	1	4	4.0	17	17.0	0		0	0.0
+Chris Moore	BAL	2	0	0		0		0		0		0	0.0
+Mark Andrews	BAL	2	0	0		0		0		0		1	50.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyreek Hill	KAN	14	8	139	6	48	6.0	91	11.4	0		2	14.3
+Travis Kelce	KAN	9	7	77	6	60	8.6	17	2.4	0		1	11.1
+Demarcus Robinson	KAN	7	5	42	1	16	3.2	26	5.2	0		0	0.0
+Spencer Ware	KAN	5	5	54	2	-12	-2.4	66	13.2	3	1.7	0	0.0
+Damien Williams	KAN	5	4	16	1	-3	-0.8	19	4.8	1	4.0	0	0.0
+Demetrius Harris	KAN	3	3	28	2	-2	-0.7	30	10.0	1	3.0	0	0.0
+Chris Conley	KAN	3	2	13		3	1.5	10	5.0	0		0	0.0
+Darrel Williams	KAN	1	1	8		-4	-4.0	12	12.0	0		0	0.0
+Anthony Sherman	KAN	1	0	0	0	0		0		0		1	100.0"
+advanced_defense
+"Jimmy Smith	BAL	0	11	8	72.7%	53	6.6	4.8	0	82.8	3.2	19	34	0	0	0	0.0	0	11	2	15.4%
+C.J. Mosley	BAL	0	6	5	83.3%	21	4.2	3.5	1	120.8	0.3	-2	23	12	0	1	0.0	1	6	0	0.0%
+Eric Weddle	BAL	0	6	4	66.7%	47	11.8	7.8	0	90.3	12.3	30	17	3	1	1	0.0	2	6	1	14.3%
+Brandon Carr	BAL	0	5	4	80.0%	34	8.5	6.8	0	95.0	4.8	20	14	6	1	0	0.0	1	5	0	0.0%
+Anthony Levine	BAL	0	4	4	100.0%	46	11.5	11.5	1	154.2	7.5	30	16	4	0	0	0.0	0	2	0	0.0%
+Chuck Clark	BAL	1	6	3	50.0%	37	12.3	6.2	1	69.4	9.3	12	25	3	2	0	0.0	2	4	4	50.0%
+Terrell Suggs	BAL	0	2	2	100.0%	44	22.0	22.0	0	118.7	5.0	10	34	2	2	1	0.5	4	4	0	0.0%
+Marlon Humphrey	BAL	0	5	2	40.0%	26	13.0	5.2	0	57.1	24.2	8	18	0	0	0	0.0	0	5	0	0.0%
+Matt Judon	BAL	0	1	1	100.0%	6	6.0	6.0	0	91.7	-3.0	-3	9	0	2	4	1.0	7	2	1	33.3%
+Patrick Onwuasor	BAL	0	1	1	100.0%	1	1.0	1.0	0	79.2	-2.0	-2	3	7	0	2	0.0	2	4	1	20.0%
+Kenny Young	BAL	0	1	1	100.0%	11	11.0	11.0	0	112.5	0.0	0	11	2	0	1	0.0	1	0	1	100.0%
+Anthony Averett	BAL	0	1	1	100.0%	18	18.0	18.0	0	118.7	12.0	12	6	0	0	0	0.0	0	2	0	0.0%
+Za'Darius Smith	BAL	0	0	0										1	2	2	0.5	5	4	0	0.0%
+Tavon Young	BAL	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Steven Nelson	KAN	0	4	3	75.0%	32	10.7	8.0	1	137.5	12.3	31	1	0	0	0	0.0	0	3	0	0.0%
+Kendall Fuller	KAN	0	10	3	30.0%	27	9.0	2.7	0	39.6	16.6	21	6	0	0	0	0.0	0	7	0	0.0%
+Orlando Scandrick	KAN	0	6	3	50.0%	40	13.3	6.7	0	71.5	11.2	33	7	0	0	0	0.0	0	3	0	0.0%
+Ron Parker	KAN	0	3	2	66.7%	30	15.0	10.0	0	99.3	12.0	27	3	1	1	0	0.0	1	4	1	20.0%
+Anthony Hitchens	KAN	0	2	2	100.0%	11	5.5	5.5	1	129.2	0.0	0	11	1	0	0	0.0	0	8	0	0.0%
+Daniel Sorensen	KAN	0	2	1	50.0%	9	9.0	4.5	1	102.1	33.0	9	0	4	1	0	0.0	1	3	0	0.0%
+Reggie Ragland	KAN	0	1	1	100.0%	21	21.0	21.0	0	118.7	4.0	4	17	0	0	0	0.0	0	6	1	14.3%
+Chris Jones	KAN	0	0	0										0	1	0	1.0	2	3	1	25.0%
+Xavier Williams	KAN	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Justin Houston	KAN	0	0	0										4	0	0	1.0	1	6	0	0.0%
+Dorian O'Daniel	KAN	0	0	0										1	1	0	0.0	1	1	0	0.0%
+Eric Murray	KAN	0	0	0										1	0	1	0.0	1	0	0	
+Dee Ford	KAN	0	0	0										3	0	0	0.0	0	5	0	0.0%"

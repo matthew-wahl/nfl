@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Baker Mayfield	CLE	12	27	279	11	33.3	422	15.6	216	18.0	8.0	63	5.3	1	4.2%	7	29.2%	6	8	5	2	4	7.3
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Andy Dalton	CIN	16	28	190	12	41.4	241	8.6	108	6.8	3.9	82	5.1	3	11.1%	3	11.1%	1	6	1	0	2	6.0"
+advanced_rushing
+"Nick Chubb	CLE	13	41	1	10	0.8	31	2.4	0	
+Baker Mayfield	CLE	4	29	2	25	6.3	4	1.0	1	4.0
+Kareem Hunt	CLE	3	4	0	2	0.7	2	0.7	1	3.0
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Joe Mixon	CIN	26	162	6	35	1.3	127	4.9	6	4.3
+Andy Dalton	CIN	8	10	3	6	0.8	4	0.5	0	
+Giovani Bernard	CIN	3	4		-2	-0.7	6	2.0	0	
+Alex Erickson	CIN	1	5	0	4	4.0	1	1.0	0	
+John Ross	CIN	1	-2	0	-2	-2.0	0	0.0	0	"
+advanced_receiving
+"Odell Beckham	CLE	6	3	81	3	72	24.0	9	3.0	0		0	0.0
+Kareem Hunt	CLE	4	3	32	3	5	1.7	27	9.0	0		0	0.0
+Jarvis Landry	CLE	6	2	82	2	63	31.5	19	9.5	1	2.0	0	0.0
+Damion Ratley	CLE	3	2	64	2	64	32.0	0	0.0	0		0	0.0
+Nick Chubb	CLE	2	1	1	0	-5	-5.0	6	6.0	1	1.0	0	0.0
+KhaDarel Hodge	CLE	2	1	19	1	17	17.0	2	2.0	0		0	0.0
+Demetrius Harris	CLE	1	0	0		0		0		0		1	100.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyler Boyd	CIN	7	5	59	4	39	7.8	20	4.0	0		1	14.3
+C.J. Uzomah	CIN	6	5	25	2	14	2.8	11	2.2	0		0	0.0
+Tyler Eifert	CIN	2	2	34	2	22	11.0	12	6.0	0		0	0.0
+John Ross	CIN	5	2	42	2	30	15.0	12	6.0	0		1	20.0
+Alex Erickson	CIN	4	1	16	1	6	6.0	10	10.0	0		0	0.0
+Joe Mixon	CIN	1	1	14	1	-3	-3.0	17	17.0	0		0	0.0
+Giovani Bernard	CIN	1	0	0		0		0		0		1	100.0
+Cethan Carter	CIN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Mack Wilson	CLE	0	6	5	83.3%	75	15.0	12.5	0	118.7	4.8	31	44	1	0	0	0.0	0	9	1	10.0%
+Joe Schobert	CLE	0	5	4	80.0%	27	6.8	5.4	0	89.2	3.6	15	12	2	0	0	0.0	0	8	0	0.0%
+Denzel Ward	CLE	1	9	3	33.3%	49	16.3	5.4	0	13.0	10.8	29	20	0	0	0	0.0	0	6	0	0.0%
+Damarious Randall	CLE	0	4	1	25.0%	15	15.0	3.8	1	82.3	17.8	15	0	3	0	0	0.5	1	3	2	40.0%
+Bryan Cox	CLE	0	1	1	100.0%	-7	-7.0	-7.0	0	79.2	-6.0	-6	-1	0	1	0	0.0	1	4	1	20.0%
+Greedy Williams	CLE	0	2	1	50.0%	28	28.0	14.0	0	95.8	18.5	24	4	0	0	0	0.0	0	3	3	50.0%
+Sheldrick Redwine	CLE	0	2	1	50.0%	14	14.0	7.0	0	72.9	26.5	6	8	0	0	0	0.0	0	4	3	42.9%
+Larry Ogunjobi	CLE	0	0	0										0	2	0	0.0	2	6	0	0.0%
+Olivier Vernon	CLE	0	0	0										1	0	0	0.5	1	2	2	50.0%
+Sheldon Richardson	CLE	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Juston Burris	CLE	0	1	0	0.0%					39.6	0.0			1	0	0	0.0	0	2	0	0.0%
+Chad Thomas	CLE	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Porter Gustin	CLE	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Eric Murray	CLE	0	0	0										4	0	0	0.0	0	1	1	50.0%
+Sione Takitaki	CLE	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Darius Phillips	CIN	2	9	5	55.6%	138	27.6	15.3	2	100.5	25.2	120	18	0	0	0	0.0	0	1	0	0.0%
+B.W. Webb	CIN	1	5	3	60.0%	101	33.7	20.2	1	104.2	26.2	80	21	0	0	0	0.0	0	4	1	20.0%
+Shawn Williams	CIN	0	3	3	100.0%	76	25.3	25.3	1	158.3	22.3	67	9	1	0	0	0.0	0	3	3	50.0%
+Nick Vigil	CIN	0	5	2	40.0%	11	5.5	2.2	0	47.9	1.4	-6	17	5	0	0	0.0	0	4	2	33.3%
+Clayton Fejedelem	CIN	0	3	1	33.3%	18	18.0	6.0	0	54.9	31.3	18	0	0	0	0	0.0	0	1	0	0.0%
+Jessie Bates	CIN	0	2	1	50.0%	25	25.0	12.5	0	95.8	24.5	23	2	0	0	0	0.0	0	1	1	50.0%
+Carlos Dunlap	CIN	0	0	0										1	2	0	2.5	5	5	0	0.0%
+Carl Lawson	CIN	0	1	0	0.0%					39.6	0.0			1	0	2	2.0	4	4	0	0.0%
+Sam Hubbard	CIN	0	0	0										1	1	0	1.5	3	6	2	25.0%
+Geno Atkins	CIN	0	0	0										0	2	0	0.0	2	5	0	0.0%
+Josh Tupou	CIN	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Germaine Pratt	CIN	0	1	0	0.0%					39.6	0.0			4	0	0	0.0	0	5	0	0.0%
+Andrew Billings	CIN	0	0	0										0	0	0	0.0	0	2	1	33.3%"

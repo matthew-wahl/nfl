@@ -1,0 +1,74 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Lamar Jackson	BAL	17	20	324	12	57.1	224	11.2	180	10.6	9.0	144	8.5	1	5.3%	1	5.3%	1	9	3	0	0	
+Robert Griffin	BAL	6	6	55	5	83.3	38	6.3	38	6.3	6.3	17	2.8	0	0.0%	0	0.0%	0	4	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ryan Fitzpatrick	MIA	14	29	185	10	32.3	402	13.9	135	9.6	4.7	50	3.6	1	3.4%	10	34.5%	2	12	6	7	1	8.0
+Josh Rosen	MIA	1	3	5			17	5.7	4	4.0	1.3	1	1.0	0	0.0%	0	0.0%	1	3	0	1	0	"
+advanced_rushing
+"Gus Edwards	BAL	17	56	4	30	1.8	26	1.5	1	17.0
+Mark Ingram	BAL	14	107	3	41	2.9	66	4.7	2	7.0
+Justice Hill	BAL	7	27	2	19	2.7	8	1.1	0	
+Robert Griffin	BAL	4	9	0	3	0.8	6	1.5	1	4.0
+Lamar Jackson	BAL	3	6	0	4	1.3	2	0.7	0	
+Anthony Levine	BAL	1	60	1	60	60.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Kalen Ballage	MIA	5	-1	0	-3	-0.6	2	0.4	0	
+Kenyan Drake	MIA	4	12	0	6	1.5	6	1.5	0	
+Ryan Fitzpatrick	MIA	1	8	1	8	8.0	0	0.0	0	
+Mark Walton	MIA	1	1		0	0.0	1	1.0	0	
+Albert Wilson	MIA	1	1	0	1	1.0	0	0.0	0	"
+advanced_receiving
+"Mark Andrews	BAL	8	8	108	6	74	9.3	34	4.3	0		0	0.0
+Marquise Brown	BAL	5	4	147	3	56	14.0	91	22.8	2	2.0	0	0.0
+Nick Boyle	BAL	3	3	26	2	12	4.0	14	4.7	0		0	0.0
+Hayden Hurst	BAL	3	3	41	2	25	8.3	16	5.3	0		0	0.0
+Willie Snead	BAL	3	2	41	2	40	20.0	1	0.5	0		1	33.3
+Miles Boykin	BAL	1	1	5	1	5	5.0	0	0.0	0		0	0.0
+Patrick Ricard	BAL	1	1	1	1	1	1.0	0	0.0	0		0	0.0
+Seth Roberts	BAL	1	1	10		5	5.0	5	5.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+DeVante Parker	MIA	7	3	75	3	75	25.0	0	0.0	0		0	0.0
+Preston Williams	MIA	5	3	24	2	24	8.0	0	0.0	2	1.5	0	0.0
+Kenyan Drake	MIA	3	2	15	1	4	2.0	11	5.5	0		0	0.0
+Mike Gesicki	MIA	6	2	31	1	17	8.5	14	7.0	0		0	0.0
+Albert Wilson	MIA	4	2	13	1	5	2.5	8	4.0	0		1	25.0
+Kalen Ballage	MIA	1	1	13	1	-5	-5.0	18	18.0	0		0	0.0
+Jakeem Grant	MIA	4	1	-3		-3	-3.0	0	0.0	0		0	0.0
+Allen Hurns	MIA	2	1	22	1	22	22.0	0	0.0	0		0	0.0"
+advanced_defense
+"Anthony Averett	BAL	0	13	8	61.5%	105	13.1	8.1	1	112.7	16.8	99	6	0	0	0	0.0	0	4	1	20.0%
+Patrick Onwuasor	BAL	0	4	4	100.0%	57	14.3	14.3	0	118.7	6.5	26	31	7	1	1	1.0	3	6	2	25.0%
+Kenny Young	BAL	0	1	1	100.0%	26	26.0	26.0	0	118.7	13.0	13	13	4	0	2	0.0	2	2	0	0.0%
+Tony Jefferson	BAL	0	3	1	33.3%	5	5.0	1.7	0	42.4	8.3	4	1	2	1	0	0.0	1	3	1	25.0%
+Earl Thomas	BAL	1	1	1	100.0%	-3	-3.0	-3.0	0	39.6	-3.0	-3	0	1	0	0	0.0	0	1	0	0.0%
+Matt Judon	BAL	0	0	0										2	1	1	1.0	3	3	0	0.0%
+Pernell McPhee	BAL	0	0	0										5	0	1	1.0	2	2	0	0.0%
+Chris Wormley	BAL	0	0	0										0	1	1	0.0	2	0	0	
+Chuck Clark	BAL	0	3	0	0.0%					39.6	3.0			3	1	0	0.0	1	1	0	0.0%
+Patrick Ricard	BAL	0	0	0										0	0	1	0.0	1	0	0	
+Tyus Bowser	BAL	0	0	0										5	0	1	0.0	1	1	0	0.0%
+Anthony Levine	BAL	0	1	0	0.0%					39.6	8.0			4	1	0	0.0	1	0	0	
+Marlon Humphrey	BAL	1	4	0	0.0%					0.0	20.8			0	0	0	0.0	0	1	0	0.0%
+Brynden Trawick	BAL	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Brandon Carr	BAL	0	2	0	0.0%					39.6	19.5			0	0	0	0.0	0	0	1	100.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Minkah Fitzpatrick	MIA	0	6	6	100.0%	117	19.5	19.5	3	158.3	9.3	56	61	0	0	0	0.0	0	5	1	16.7%
+Eric Rowe	MIA	0	6	6	100.0%	82	13.7	13.7	2	158.3	3.8	23	59	0	0	0	0.0	0	11	2	15.4%
+Walt Aikens	MIA	0	4	4	100.0%	53	13.3	13.3	0	118.7	8.5	34	19	0	0	0	0.0	0	6	0	0.0%
+Reshad Jones	MIA	0	2	2	100.0%	27	13.5	13.5	0	118.7	9.0	18	9	2	1	0	0.0	1	5	0	0.0%
+Jomal Wiltz	MIA	0	2	2	100.0%	72	36.0	36.0	1	158.3	33.0	66	6	0	0	0	0.0	0	1	0	0.0%
+Samuel Eguavoen	MIA	0	1	1	100.0%	7	7.0	7.0	0	95.8	4.0	4	3	5	0	0	0.5	1	5	2	28.6%
+Raekwon McMillan	MIA	0	1	1	100.0%	9	9.0	9.0	0	104.2	8.0	8	1	1	0	0	0.0	0	4	0	0.0%
+Xavien Howard	MIA	0	1	1	100.0%	12	12.0	12.0	0	116.7	9.0	9	3	0	0	0	0.0	0	5	0	0.0%
+Jonathan Ledbetter	MIA	0	0	0										0	1	0	0.5	2	4	1	20.0%
+Charles Harris	MIA	0	0	0										0	1	0	0.0	1	2	0	0.0%
+John Jenkins	MIA	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Chris Lammons	MIA	0	2	0	0.0%					39.6	21.5			0	0	0	0.0	0	0	0	
+Bobby McCain	MIA	0	0	0										0	0	0	0.0	0	3	1	25.0%
+James Crawford	MIA	0	0	0										3	0	0	0.0	0	1	0	0.0%
+Avery Moss	MIA	0	0	0										5	0	0	0.0	0	5	1	16.7%
+Christian Wilkins	MIA	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Jerome Baker	MIA	0	0	0										2	0	0	0.0	0	9	0	0.0%"

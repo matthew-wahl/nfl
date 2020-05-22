@@ -1,0 +1,58 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Alex Smith	WAS	20	32	178	10	31.3	235	7.3	85	4.3	2.7	93	4.7	2	6.5%	5	16.1%	0	9	1	4	1	3.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Eli Manning	NYG	30	47	316	15	27.8	338	7.2	160	5.3	3.4	156	5.2	3	6.5%	5	10.9%	7	6	2	1	0	"
+advanced_rushing
+"Adrian Peterson	WAS	26	149	4	93	3.6	56	2.2	0	
+Alex Smith	WAS	3	13	1	13	4.3	0	0.0	0	
+Chris Thompson	WAS	3	13	1	10	3.3	3	1.0	1	3.0
+Paul Richardson	WAS	1	7	0	5	5.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Saquon Barkley	NYG	13	38	1	27	2.1	11	0.8	0	
+Wayne Gallman	NYG	1	-1		-1	-1.0	0	0.0	0	"
+advanced_receiving
+"Jordan Reed	WAS	12	7	38	3	13	1.9	25	3.6	0		1	8.3
+Josh Doctson	WAS	5	5	49	3	35	7.0	14	2.8	0		0	0.0
+Maurice Harris	WAS	2	2	20	1	6	3.0	14	7.0	0		0	0.0
+Paul Richardson	WAS	5	2	34	1	27	13.5	7	3.5	0		0	0.0
+Chris Thompson	WAS	3	2	9	0	1	0.5	8	4.0	0		0	0.0
+Vernon Davis	WAS	3	1	21	1	1	1.0	20	20.0	0		1	33.3
+Adrian Peterson	WAS	1	1	7	1	2	2.0	5	5.0	1	1.0	0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Saquon Barkley	NYG	10	9	73	3	13	1.4	60	6.7	0		0	0.0
+Odell Beckham	NYG	11	8	136	6	96	12.0	40	5.0	0		0	0.0
+Evan Engram	NYG	9	5	25	1	7	1.4	18	3.6	0		2	22.2
+Bennie Fowler	NYG	7	4	48	2	25	6.3	23	5.8	1	4.0	1	14.3
+Sterling Shepard	NYG	8	4	34	3	19	4.8	15	3.8	1	4.0	0	0.0
+Rhett Ellison	NYG	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"D.J. Swearinger	WAS	2	10	7	70.0%	59	8.4	5.9	1	78.7	9.1	40	19	0	0	0	0.0	0	5	2	28.6%
+Mason Foster	WAS	0	8	6	75.0%	41	6.8	5.1	0	85.9	3.0	3	38	5	0	0	0.0	0	13	1	7.1%
+Josh Norman	WAS	0	7	5	71.4%	70	14.0	10.0	0	103.3	9.9	38	32	0	0	0	0.0	0	4	1	20.0%
+Greg Stroman	WAS	0	8	4	50.0%	95	23.8	11.9	0	93.2	17.9	71	24	0	0	0	0.0	0	6	1	14.3%
+Josh Harvey-Clemons	WAS	0	5	3	60.0%	9	3.0	1.8	0	64.6	1.6	-2	11	1	0	0	1.0	1	3	0	0.0%
+Fabian Moreau	WAS	0	4	3	75.0%	18	6.0	4.5	0	83.3	3.3	10	8	1	0	0	0.0	0	5	0	0.0%
+Zach Brown	WAS	0	3	2	66.7%	15	7.5	5.0	0	78.5	4.0	7	8	0	0	0	0.0	0	6	1	14.3%
+Ryan Kerrigan	WAS	0	2	1	50.0%	24	24.0	12.0	0	93.7	7.5	9	15	2	0	0	1.5	2	4	0	0.0%
+Matthew Ioannidis	WAS	0	0	0										0	0	1	2.5	4	5	0	0.0%
+Jonathan Allen	WAS	0	0	0										0	0	0	1.0	1	3	0	0.0%
+Preston Smith	WAS	0	1	0	0.0%					39.6	0.0			1	1	0	0.0	1	3	0	0.0%
+Pernell McPhee	WAS	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Da'Ron Payne	WAS	0	0	0										0	0	0	1.0	1	4	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+B.J. Goodson	NYG	0	8	5	62.5%	55	11.0	6.9	0	82.8	2.3	6	49	1	0	0	0.0	0	8	1	11.1%
+Nathan Stupar	NYG	0	5	4	80.0%	22	5.5	4.4	1	124.6	1.6	3	19	1	0	0	0.0	0	3	1	25.0%
+Janoris Jenkins	NYG	0	4	3	75.0%	25	8.3	6.3	0	90.6	8.8	20	5	0	0	0	0.0	0	6	1	14.3%
+Grant Haley	NYG	0	2	2	100.0%	16	8.0	8.0	0	100.0	7.5	15	1	3	0	0	0.0	0	4	0	0.0%
+Curtis Riley	NYG	0	3	1	33.3%	12	12.0	4.0	0	46.5	22.0	4	8	1	0	1	0.0	1	0	1	100.0%
+Tae Davis	NYG	0	2	1	50.0%	25	25.0	12.5	0	95.8	11.5	18	7	1	0	0	0.0	0	6	1	14.3%
+Kareem Martin	NYG	0	1	1	100.0%	4	4.0	4.0	0	83.3	2.0	2	2	0	0	0	0.0	0	2	0	0.0%
+B.W. Webb	NYG	0	1	1	100.0%	9	9.0	9.0	0	104.2	9.0	9	0	0	0	0	0.0	0	4	0	0.0%
+Landon Collins	NYG	0	3	1	33.3%	7	7.0	2.3	0	42.4	9.3	5	2	0	0	0	0.0	0	5	0	0.0%
+Michael Thomas	NYG	0	1	1	100.0%	3	3.0	3.0	0	79.2	3.0	3	0	0	0	0	0.0	0	2	0	0.0%
+Olivier Vernon	NYG	0	0	0										0	1	2	0.0	3	3	0	0.0%
+Lorenzo Carter	NYG	0	0	0										5	1	1	0.0	2	3	0	0.0%
+Sean Chandler	NYG	0	1	0	0.0%					39.6	12.0			0	0	0	0.0	0	2	1	33.3%"

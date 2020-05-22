@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Derek Carr	OAK	24	33	268	10	27.8	228	6.9	149	6.2	4.5	119	5.0	0	0.0%	2	6.7%	3	8	3	2	1	5.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Philip Rivers	LAC	22	27	339	13	46.4	185	6.9	145	6.6	5.4	194	8.8	0	0.0%	1	3.8%	1	5	0	1	0	"
+advanced_rushing
+"Marshawn Lynch	OAK	9	31	2	14	1.6	17	1.9	0	
+Doug Martin	OAK	2	1		-1	-0.5	2	1.0	0	
+Derek Carr	OAK	1	5	0	-7	-7.0	12	12.0	0	
+Jalen Richard	OAK	1	4	1	2	2.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Melvin Gordon	LAC	19	58	3	28	1.5	30	1.6	1	19.0
+Austin Ekeler	LAC	6	15	1	9	1.5	6	1.0	0	
+Philip Rivers	LAC	3	-2	0	-2	-0.7	0	0.0	0	
+Keenan Allen	LAC	1	5	0	-1	-1.0	6	6.0	1	1.0
+Melvin Ingram	LAC	1	0		0	0.0	0	0.0	0	
+Mike Williams	LAC	1	3	0	3	3.0	0	0.0	0	"
+advanced_receiving
+"Jalen Richard	OAK	6	6	53	1	-2	-0.3	55	9.2	0		0	0.0
+Jared Cook	OAK	6	4	20	1	19	4.8	1	0.3	1	4.0	0	0.0
+Jordy Nelson	OAK	4	4	43	3	22	5.5	21	5.3	1	4.0	0	0.0
+Seth Roberts	OAK	7	4	41	2	36	9.0	5	1.3	0		0	0.0
+Martavis Bryant	OAK	3	3	91	2	64	21.3	27	9.0	0		0	0.0
+Marshawn Lynch	OAK	2	2	10	0	2	1.0	8	4.0	0		0	0.0
+Amari Cooper	OAK	1	1	10	1	8	8.0	2	2.0	0		0	0.0
+Derek Carrier	OAK	1	0	0		0		0		0		0	0.0
+Doug Martin	OAK	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Keenan Allen	LAC	9	8	90	4	54	6.8	36	4.5	0		0	0.0
+Melvin Gordon	LAC	4	4	62	2	2	0.5	60	15.0	0		0	0.0
+Mike Williams	LAC	4	3	45	2	33	11.0	12	4.0	0		0	0.0
+Tyrell Williams	LAC	3	3	66	2	47	15.7	19	6.3	0		0	0.0
+Antonio Gates	LAC	2	2	19	1	14	7.0	5	2.5	0		0	0.0
+Austin Ekeler	LAC	3	1	44	1	-3	-3.0	47	47.0	0		0	0.0
+Virgil Green	LAC	1	1	13	1	-2	-2.0	15	15.0	0		0	0.0"
+advanced_defense
+"Daryl Worley	OAK	0	7	5	71.4%	29	5.8	4.1	0	78.9	1.7	13	16	0	0	0	0.0	0	8	3	27.3%
+Tahir Whitehead	OAK	0	4	4	100.0%	78	19.5	19.5	2	158.3	-1.0	-4	82	3	0	0	0.0	0	9	1	10.0%
+Rashaan Melvin	OAK	0	3	3	100.0%	62	20.7	20.7	0	118.7	16.3	49	13	0	0	0	0.0	0	2	0	0.0%
+Leon Hall	OAK	0	4	3	75.0%	61	20.3	15.3	0	116.7	1.5	9	52	0	0	0	0.0	0	1	1	50.0%
+Marquel Lee	OAK	0	2	2	100.0%	21	10.5	10.5	0	110.4	3.0	6	15	2	0	1	0.0	1	4	0	0.0%
+Reggie Nelson	OAK	0	2	2	100.0%	35	17.5	17.5	0	118.7	14.5	29	6	3	0	0	0.0	0	4	0	0.0%
+Marcus Gilchrist	OAK	0	2	1	50.0%	16	16.0	8.0	0	77.1	28.5	13	3	0	0	0	0.0	0	5	1	16.7%
+Erik Harris	OAK	0	1	1	100.0%	3	3.0	3.0	0	79.2	1.0	1	2	0	0	0	0.0	0	6	0	0.0%
+Gareon Conley	OAK	0	1	1	100.0%	48	48.0	48.0	0	118.7	39.0	39	9	0	0	0	0.0	0	1	0	0.0%
+Dominique Rodgers-Cromartie	OAK	0	1	1	100.0%	8	8.0	8.0	0	100.0	1.0	1	7	0	0	0	0.0	0	1	0	0.0%
+Bruce Irvin	OAK	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Arden Key	OAK	0	0	0										1	0	0	0.0	0	1	1	50.0%
+Fadol Brown	OAK	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Johnathan Hankins	OAK	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Trevor Williams	LAC	0	7	5	71.4%	72	14.4	10.3	0	104.5	12.4	47	25	0	0	0	0.0	0	4	1	20.0%
+Denzel Perryman	LAC	0	4	4	100.0%	18	4.5	4.5	0	85.4	3.5	14	4	2	1	0	0.0	1	7	0	0.0%
+Adrian Phillips	LAC	0	8	4	50.0%	30	7.5	3.8	0	59.4	6.5	18	12	1	0	0	0.0	0	6	0	0.0%
+Michael Davis	LAC	0	3	3	100.0%	31	10.3	10.3	0	109.7	5.0	15	16	0	0	0	0.0	0	1	1	50.0%
+Derwin James	LAC	0	3	3	100.0%	14	4.7	4.7	0	86.1	-0.7	-2	16	2	0	0	0.0	0	5	2	28.6%
+Jatavis Brown	LAC	0	2	2	100.0%	1	0.5	0.5	0	79.2	2.5	5	-4	2	1	0	0.0	1	2	1	33.3%
+Jahleel Addae	LAC	0	2	2	100.0%	67	33.5	33.5	0	118.7	24.0	48	19	0	0	0	0.0	0	4	0	0.0%
+Desmond King	LAC	0	3	2	66.7%	9	4.5	3.0	1	109.7	3.0	4	5	1	0	0	0.0	0	1	2	66.7%
+Casey Hayward	LAC	0	2	2	100.0%	18	9.0	9.0	0	104.2	5.5	11	7	0	0	0	0.0	0	1	0	0.0%
+Darius Philon	LAC	0	0	0										0	0	1	1.0	2	2	0	0.0%
+Melvin Ingram	LAC	1	0	0										2	1	0	1.0	2	7	1	12.5%
+Isaac Rochell	LAC	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Uchenna Nwosu	LAC	0	0	0										0	0	1	0.0	1	1	0	0.0%"

@@ -1,0 +1,60 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Daniel Jones	NYG	21	36	150	9	24.3	246	6.8	73	3.5	2.0	77	3.7	1	2.9%	8	23.5%	1	7	7	7	2	13.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Mitchell Trubisky	CHI	25	41	278	14	32.6	365	8.9	149	6.0	3.6	129	5.2	2	4.9%	10	24.4%	2	6	4	4	3	6.3"
+advanced_rushing
+"Saquon Barkley	NYG	17	59	2	20	1.2	39	2.3	0	
+Daniel Jones	NYG	2	27	1	20	10.0	7	3.5	0	
+Wayne Gallman	NYG	1	1		1	1.0	0	0.0	0	
+Sterling Shepard	NYG	1	22	1	19	19.0	3	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+David Montgomery	CHI	13	22	1	6	0.5	16	1.2	0	
+Mitchell Trubisky	CHI	7	18	2	6	0.9	12	1.7	1	7.0
+Tarik Cohen	CHI	6	25	2	16	2.7	9	1.5	0	"
+advanced_receiving
+"Sterling Shepard	NYG	9	5	15	1	11	2.2	4	0.8	0		0	0.0
+Kaden Smith	NYG	6	5	17	1	6	1.2	11	2.2	0		0	0.0
+Darius Slayton	NYG	7	4	67	4	36	9.0	31	7.8	1	4.0	0	0.0
+Golden Tate	NYG	7	3	33	1	31	10.3	2	0.7	0		0	0.0
+Saquon Barkley	NYG	3	2	1	0	-9	-4.5	10	5.0	0		1	33.3
+Cody Latimer	NYG	1	1	7	1	7	7.0	0	0.0	0		0	0.0
+Scott Simonson	NYG	1	1	10	1	7	7.0	3	3.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tarik Cohen	CHI	9	7	29	1	-4	-0.6	33	4.7	0		0	0.0
+Anthony Miller	CHI	9	6	77	5	61	10.2	16	2.7	0		0	0.0
+Allen Robinson	CHI	10	6	131	5	78	13.0	53	8.8	0		0	0.0
+Ben Braunecker	CHI	4	2	9	2	5	2.5	4	2.0	0		1	25.0
+David Montgomery	CHI	3	2	9	0	-3	-1.5	12	6.0	2	1.0	0	0.0
+Taylor Gabriel	CHI	3	1	19	1	19	19.0	0	0.0	0		1	33.3
+Jesper Horsted	CHI	1	1	4		-1	-1.0	5	5.0	0		0	0.0
+Javon Wims	CHI	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Corey Ballentine	NYG	0	13	10	76.9%	185	18.5	14.2	1	143.9	13.0	126	59	0	0	0	0.0	0	9	0	0.0%
+Alec Ogletree	NYG	1	8	6	75.0%	26	4.3	3.3	0	38.5	1.9	-3	29	4	0	0	0.0	0	2	2	50.0%
+Janoris Jenkins	NYG	0	7	3	42.9%	25	8.3	3.6	0	52.7	8.9	21	4	0	0	0	0.0	0	5	1	16.7%
+Antoine Bethea	NYG	0	3	2	66.7%	19	9.5	6.3	0	84.0	7.3	14	5	0	0	0	0.0	0	3	0	0.0%
+Dexter Lawrence	NYG	0	1	1	100.0%	4	4.0	4.0	0	83.3	-1.0	-1	5	0	1	1	0.0	2	2	0	0.0%
+Deone Bucannon	NYG	0	1	1	100.0%	14	14.0	14.0	0	118.7	8.0	8	6	0	0	0	0.0	0	5	1	16.7%
+Jabrill Peppers	NYG	0	1	1	100.0%	-2	-2.0	-2.0	0	79.2	-6.0	-6	4	1	0	0	0.0	0	5	1	16.7%
+Lorenzo Carter	NYG	0	1	0	0.0%					39.6	20.0			4	0	1	1.0	2	4	1	20.0%
+Markus Golden	NYG	0	0	0										5	1	0	1.0	2	4	1	20.0%
+Oshane Ximines	NYG	0	0	0										3	1	0	0.0	1	1	0	0.0%
+Dalvin Tomlinson	NYG	0	0	0										0	0	1	0.0	1	3	1	25.0%
+Leonard Williams	NYG	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Deandre Baker	NYG	0	2	0	0.0%					39.6	8.0			0	0	0	0.0	0	1	0	0.0%
+David Mayo	NYG	0	1	0	0.0%					39.6	3.0			2	0	0	0.0	0	7	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Prince Amukamara	CHI	0	7	4	57.1%	61	15.3	8.7	0	86.0	9.1	31	30	0	0	0	0.0	0	4	1	20.0%
+Kyle Fuller	CHI	0	7	3	42.9%	12	4.0	1.7	0	50.3	8.4	8	4	0	0	0	0.0	0	3	0	0.0%
+Ha Ha Clinton-Dix	CHI	0	4	3	75.0%	10	3.3	2.5	1	116.7	3.5	7	3	1	0	0	0.0	0	7	0	0.0%
+Buster Skrine	CHI	0	5	3	60.0%	38	12.7	7.6	1	123.3	9.6	32	6	2	0	0	0.0	0	4	1	20.0%
+Nick Kwiatkoski	CHI	0	3	2	66.7%	2	1.0	0.7	0	70.1	5.3	0	2	2	1	0	0.0	1	5	1	16.7%
+Roquan Smith	CHI	0	4	2	50.0%	1	0.5	0.3	0	56.2	1.0	2	-1	3	0	0	0.0	0	4	0	0.0%
+Leonard Floyd	CHI	0	1	1	100.0%	10	10.0	10.0	0	108.3	7.0	7	3	3	1	4	0.0	5	1	1	50.0%
+Bilal Nichols	CHI	0	1	1	100.0%	2	2.0	2.0	0	79.2	-3.0	-3	5	0	0	0	0.0	0	2	0	0.0%
+Eddie Jackson	CHI	0	2	1	50.0%	13	13.0	6.5	0	70.8	14.0	12	1	1	0	0	0.0	0	6	1	14.3%
+Khalil Mack	CHI	0	0	0										2	3	1	1.0	5	3	0	0.0%
+Roy Robertson-Harris	CHI	0	0	0										0	1	2	0.0	3	1	0	0.0%"

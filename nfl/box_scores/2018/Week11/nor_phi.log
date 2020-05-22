@@ -1,0 +1,74 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Carson Wentz	PHI	19	33	156	9	25.0	315	9.5	84	4.4	2.5	72	3.8	0	0.0%	9	27.3%	3	9	4	2	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Drew Brees	NOR	22	30	363	20	66.7	372	12.4	248	11.3	8.3	115	5.2	2	6.7%	6	20.0%	0	10	1	1	0	
+Taysom Hill	NOR	1	2	10	1	50.0	24	12.0	-1	-1.0	-0.5	11	11.0	0	0.0%	1	50.0%	0	0	0	0	0	"
+advanced_rushing
+"Josh Adams	PHI	7	53	2	44	6.3	9	1.3	0	
+Corey Clement	PHI	2	11		8	4.0	3	1.5	0	
+Wendell Smallwood	PHI	1	-4		-4	-4.0	0	0.0	0	
+Golden Tate	PHI	1	-8	0	-8	-8.0	0	0.0	0	
+Carson Wentz	PHI	1	6	0	6	6.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Mark Ingram	NOR	16	103	5	43	2.7	60	3.8	3	5.3
+Alvin Kamara	NOR	13	71	1	47	3.6	24	1.8	3	4.3
+Taysom Hill	NOR	3	4	0	-2	-0.7	6	2.0	1	3.0
+Dwayne Washington	NOR	3	-3		-5	-1.7	2	0.7	0	
+Teddy Bridgewater	NOR	1	-1		-1	-1.0	0	0.0	0	
+Zach Line	NOR	1	-1		-1	-1.0	0	0.0	0	"
+advanced_receiving
+"Golden Tate	PHI	8	5	48	2	36	7.2	12	2.4	0		0	0.0
+Alshon Jeffery	PHI	5	4	33	3	32	8.0	1	0.3	0		0	0.0
+Josh Adams	PHI	6	3	19	1	-5	-1.7	24	8.0	0		0	0.0
+Jordan Matthews	PHI	4	3	37	2	23	7.7	14	4.7	1	3.0	0	0.0
+Corey Clement	PHI	2	2	4		-14	-7.0	18	9.0	0		0	0.0
+Zach Ertz	PHI	3	2	15	1	12	6.0	3	1.5	0		0	0.0
+Nelson Agholor	PHI	2	0	0		0		0		0		0	0.0
+Dallas Goedert	PHI	3	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tre'Quan Smith	NOR	13	10	157	9	121	12.1	36	3.6	2	5.0	0	0.0
+Michael Thomas	NOR	4	4	92	4	58	14.5	34	8.5	0		0	0.0
+Keith Kirkwood	NOR	5	3	33	3	20	6.7	13	4.3	1	3.0	1	20.0
+Dan Arnold	NOR	2	2	25	1	25	12.5	0	0.0	0		0	0.0
+Josh Hill	NOR	4	2	26	2	-4	-2.0	30	15.0	1	2.0	1	25.0
+Austin Carr	NOR	2	1	3	1	3	3.0	0	0.0	0		0	0.0
+Alvin Kamara	NOR	1	1	37	1	24	24.0	13	13.0	0		0	0.0
+Taysom Hill	NOR	1	0	0	0	0		0		0		0	0.0"
+advanced_defense
+"Rasul Douglas	PHI	0	8	7	87.5%	110	15.7	13.8	2	158.3	12.8	78	32	0	0	0	0.0	0	3	0	0.0%
+Corey Graham	PHI	0	5	4	80.0%	77	19.3	15.4	2	158.3	17.6	63	14	0	0	0	0.0	0	9	0	0.0%
+Chandon Sullivan	PHI	0	3	3	100.0%	69	23.0	23.0	0	118.7	18.3	55	14	0	0	0	0.0	0	4	0	0.0%
+Sidney Jones	PHI	0	5	3	60.0%	42	14.0	8.4	0	87.1	10.4	26	16	0	0	0	0.0	0	2	1	33.3%
+Nigel Bradham	PHI	0	5	3	60.0%	42	14.0	8.4	1	126.7	8.4	23	19	3	0	0	0.0	0	5	2	28.6%
+Malcolm Jenkins	PHI	0	4	3	75.0%	49	16.3	12.3	1	155.2	13.3	25	24	5	0	0	0.0	0	9	3	25.0%
+Cre'von LeBlanc	PHI	0	3	2	66.7%	24	12.0	8.0	1	130.6	9.3	21	3	0	0	0	0.0	0	2	0	0.0%
+Avonte Maddox	PHI	0	3	1	33.3%	19	19.0	6.3	0	56.2	12.0	13	6	0	0	0	0.0	0	2	0	0.0%
+De'Vante Bausby	PHI	0	1	1	100.0%	11	11.0	11.0	0	112.5	6.0	6	5	0	0	0	0.0	0	3	0	0.0%
+Jordan Hicks	PHI	0	1	1	100.0%	10	10.0	10.0	0	108.3	3.0	3	7	2	0	0	0.0	0	7	1	12.5%
+Josh Sweat	PHI	0	0	0										0	0	1	0.0	1	0	0	
+Brandon Graham	PHI	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Michael Bennett	PHI	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Fletcher Cox	PHI	0	0	0										0	0	0	0.0	0	2	1	33.3%
+Treyvon Hester	PHI	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Marshon Lattimore	NOR	1	6	4	66.7%	31	7.8	5.2	0	39.6	13.7	22	9	0	0	0	0.0	0	4	0	0.0%
+P.J. Williams	NOR	0	4	3	75.0%	25	8.3	6.3	0	90.6	6.0	17	8	0	0	0	0.0	0	2	0	0.0%
+Alex Anzalone	NOR	0	2	2	100.0%	17	8.5	8.5	0	102.1	0.0	0	17	4	1	0	0.0	1	3	0	0.0%
+A.J. Klein	NOR	0	3	2	66.7%	19	9.5	6.3	0	84.0	2.7	5	14	3	0	0	0.0	0	2	0	0.0%
+Justin Hardee	NOR	0	2	2	100.0%	26	13.0	13.0	0	118.7	10.0	20	6	0	0	0	0.0	0	2	1	33.3%
+Eli Apple	NOR	0	8	2	25.0%	27	13.5	3.4	0	41.1	15.0	26	1	0	0	0	0.0	0	2	0	0.0%
+Demario Davis	NOR	0	2	2	100.0%	3	1.5	1.5	0	79.2	-4.0	-8	11	5	0	0	0.0	0	3	0	0.0%
+Vonn Bell	NOR	0	3	1	33.3%	8	8.0	2.7	0	42.4	10.0	7	1	1	0	0	0.0	0	3	0	0.0%
+Josh Robinson	NOR	0	1	1	100.0%	9	9.0	9.0	0	104.2	6.0	6	3	0	0	0	0.0	0	1	0	0.0%
+Kurt Coleman	NOR	0	1	1	100.0%	10	10.0	10.0	0	108.3	2.0	2	8	0	0	0	0.0	0	1	0	0.0%
+Marcus Williams	NOR	0	1	1	100.0%	15	15.0	15.0	0	118.7	14.0	14	1	2	0	0	0.0	0	1	0	0.0%
+Cameron Jordan	NOR	0	0	0										0	2	1	0.0	3	1	0	0.0%
+Trey Hendrickson	NOR	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Craig Robertson	NOR	0	0	0										1	0	0	1.0	1	2	0	0.0%
+Alex Okafor	NOR	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Sheldon Rankins	NOR	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Ken Crawley	NOR	0	1	0	0.0%					39.6	26.0			0	0	0	0.0	0	0	0	
+Chris Banjo	NOR	2	2	0	0.0%					0.0	36.0			0	0	0	0.0	0	2	0	0.0%"

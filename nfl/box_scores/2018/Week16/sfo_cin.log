@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Mitchell Trubisky	CHI	25	29	246	12	37.5	179	6.2	140	5.6	4.8	106	4.2	1	3.4%	1	3.4%	3	5	8	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Nick Mullens	SFO	22	38	241	11	28.2	299	7.9	165	7.5	4.3	76	3.5	1	2.7%	5	13.5%	1	12	10	5	0	"
+advanced_rushing
+"Jordan Howard	CHI	13	53	5	31	2.4	22	1.7	0	
+Tarik Cohen	CHI	6	12	0	-8	-1.3	20	3.3	3	2.0
+Mitchell Trubisky	CHI	5	3	1	3	0.6	0	0.0	0	
+Taylor Gabriel	CHI	1	8	0	4	4.0	4	4.0	0	
+Anthony Miller	CHI	1	4	0	4	4.0	0	0.0	0	
+Taquan Mizzell	CHI	1	1	0	0	0.0	1	1.0	0	
+Allen Robinson	CHI	1	9	0	6	6.0	3	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Jeff Wilson	SFO	11	27	3	1	0.1	26	2.4	4	2.8
+Matt Breida	SFO	4	20	1	13	3.3	7	1.8	0	"
+advanced_receiving
+"Allen Robinson	CHI	8	6	85	4	66	11.0	19	3.2	0		1	12.5
+Trey Burton	CHI	5	5	30		22	4.4	8	1.6	1	5.0	0	0.0
+Taylor Gabriel	CHI	3	3	28	1	7	2.3	21	7.0	1	3.0	0	0.0
+Anthony Miller	CHI	3	3	24	2	7	2.3	17	5.7	0		0	0.0
+Jordan Howard	CHI	3	2	17	1	-4	-2.0	21	10.5	0		0	0.0
+Taquan Mizzell	CHI	2	2	27	1	21	10.5	6	3.0	0		0	0.0
+Ben Braunecker	CHI	1	1	18	1	17	17.0	1	1.0	0		0	0.0
+Josh Bellamy	CHI	1	1	6	1	-4	-4.0	10	10.0	0		0	0.0
+Tarik Cohen	CHI	1	1	7	1	4	4.0	3	3.0	2	0.5	0	0.0
+Adam Shaheen	CHI	2	1	4		4	4.0	0	0.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+George Kittle	SFO	12	7	74	3	42	6.0	32	4.6	1	7.0	0	0.0
+Kendrick Bourne	SFO	5	4	73	4	42	10.5	31	7.8	2	2.0	0	0.0
+Marquise Goodwin	SFO	8	3	29	2	29	9.7	0	0.0	0		1	12.5
+Dante Pettis	SFO	5	3	21	1	12	4.0	9	3.0	2	1.5	0	0.0
+Jeff Wilson	SFO	2	2	11	0	8	4.0	3	1.5	0		0	0.0
+Richie James	SFO	1	1	4		4	4.0	0	0.0	0		0	0.0
+Trent Taylor	SFO	2	1	23	1	22	22.0	1	1.0	0		0	0.0
+Matt Breida	SFO	1	1	6	0	6	6.0	0	0.0	0		0	0.0"
+advanced_defense
+"Kyle Fuller	CHI	0	8	6	75.0%	92	15.3	11.5	0	112.5	10.6	64	28	0	0	0	0.0	0	2	3	60.0%
+Adrian Amos	CHI	0	6	4	66.7%	45	11.3	7.5	0	88.9	9.2	40	5	0	0	0	0.0	0	8	0	0.0%
+Prince Amukamara	CHI	0	6	4	66.7%	57	14.3	9.5	0	97.2	9.3	56	1	0	0	0	0.0	0	2	0	0.0%
+Danny Trevathan	CHI	1	7	4	57.1%	36	9.0	5.1	0	31.5	3.9	12	24	3	0	0	0.0	0	7	1	12.5%
+Khalil Mack	CHI	0	1	1	100.0%	8	8.0	8.0	0	100.0	-4.0	-4	12	2	4	3	0.0	7	5	1	16.7%
+Roquan Smith	CHI	0	3	1	33.3%	1	1.0	0.3	0	42.4	2.3	1	0	2	1	0	1.0	2	9	1	10.0%
+Leonard Floyd	CHI	0	1	1	100.0%	4	4.0	4.0	0	83.3	4.0	4	0	0	0	2	0.0	2	1	2	66.7%
+Deon Bush	CHI	0	4	1	25.0%	18	18.0	4.5	0	45.8	7.3	17	1	0	0	0	0.0	0	2	0	0.0%
+Sherrick McManis	CHI	0	5	1	20.0%	8	8.0	1.6	0	39.6	16.6	4	4	2	0	0	0.0	0	1	1	50.0%
+Kevin Toliver	CHI	0	1	1	100.0%	6	6.0	6.0	0	91.7	4.0	4	2	0	0	0	0.0	0	2	0	0.0%
+Akiem Hicks	CHI	0	0	0										0	3	0	0.0	3	1	1	50.0%
+Eddie Goldman	CHI	0	0	0										0	2	0	0.0	2	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+K'Waun Williams	SFO	0	6	6	100.0%	33	5.5	5.5	0	89.6	-0.3	-2	35	0	0	0	0.0	0	5	3	37.5%
+Elijah Lee	SFO	0	5	5	100.0%	39	7.8	7.8	0	99.2	7.0	35	4	3	0	0	0.0	0	11	1	8.3%
+Tarvarius Moore	SFO	0	6	5	83.3%	39	7.8	6.5	1	133.3	3.7	22	17	0	0	0	0.0	0	7	0	0.0%
+Fred Warner	SFO	0	3	2	66.7%	14	7.0	4.7	0	77.1	11.7	11	3	4	0	0	0.0	0	5	2	28.6%
+Marcell Harris	SFO	0	3	2	66.7%	52	26.0	17.3	0	109.7	22.0	48	4	0	0	0	0.0	0	5	1	16.7%
+D.J. Reed	SFO	0	2	2	100.0%	11	5.5	5.5	0	89.6	0.5	1	10	0	0	0	0.0	0	3	0	0.0%
+Arik Armstead	SFO	0	1	1	100.0%	16	16.0	16.0	0	118.7	-5.0	-5	21	0	1	0	0.0	1	1	0	0.0%
+Antone Exum	SFO	0	2	1	50.0%	26	26.0	13.0	0	95.8	25.0	26	0	0	0	0	0.0	0	1	0	0.0%
+Cassius Marsh	SFO	0	0	0										0	3	0	2.0	5	3	0	0.0%
+DeForest Buckner	SFO	0	0	0										0	2	0	1.0	3	3	1	25.0%
+Jullian Taylor	SFO	0	0	0										0	0	1	0.0	1	2	0	0.0%
+Ronald Blair	SFO	0	0	0										0	1	0	0.0	1	3	0	0.0%
+D.J. Jones	SFO	0	0	0										0	1	0	0.0	1	3	1	25.0%
+Richard Sherman	SFO	0	0	0										0	0	0	0.0	0	3	1	25.0%"

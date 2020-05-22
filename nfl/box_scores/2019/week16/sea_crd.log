@@ -1,0 +1,67 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Kyler Murray	ARI	11	18	118	6	31.6	135	7.5	39	3.5	2.2	79	7.2	0	0.0%	4	22.2%	1	3	3	0	3	6.0
+Brett Hundley	ARI	4	9	49	2	20.0	77	8.6	22	5.5	2.4	27	6.8	1	11.1%	0	0.0%	1	3	0	0	2	13.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Russell Wilson	SEA	16	31	169	8	22.2	317	10.2	59	3.7	1.9	110	6.9	1	3.4%	7	24.1%	5	11	5	3	1	6.0"
+advanced_rushing
+"Kenyan Drake	ARI	24	166	6	105	4.4	61	2.5	3	8.0
+Brett Hundley	ARI	6	35	3	9	1.5	26	4.3	0	
+Kyler Murray	ARI	6	40	2	36	6.0	4	0.7	0	
+David Johnson	ARI	2	3		0	0.0	3	1.5	0	
+Christian Kirk	ARI	2	9	1	0	0.0	9	4.5	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Chris Carson	SEA	8	40	2	18	2.3	22	2.8	1	8.0
+Travis Homer	SEA	5	16	1	7	1.4	9	1.8	0	
+C.J. Prosise	SEA	4	14		10	2.5	4	1.0	0	
+Russell Wilson	SEA	2	2	0	2	1.0	0	0.0	0	
+David Moore	SEA	1	19	1	8	8.0	11	11.0	0	"
+advanced_receiving
+"Larry Fitzgerald	ARI	7	4	48	3	1	0.3	47	11.8	0		0	0.0
+Kenyan Drake	ARI	4	3	18	0	-5	-1.7	23	7.7	0		0	0.0
+Maxx Williams	ARI	2	2	36	1	26	13.0	10	5.0	0		0	0.0
+Pharoh Cooper	ARI	2	2	14	1	12	6.0	2	1.0	0		0	0.0
+Damiere Byrd	ARI	1	1	11	1	3	3.0	8	8.0	0		0	0.0
+Charles Clay	ARI	1	1	16	1	16	16.0	0	0.0	0		0	0.0
+Dan Arnold	ARI	3	1	20	1	12	12.0	8	8.0	0		0	0.0
+David Johnson	ARI	1	1	4		-4	-4.0	8	8.0	0		0	0.0
+Christian Kirk	ARI	5	0	0	0	0		0		0		1	20.0
+Darrell Daniels	ARI	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Travis Homer	SEA	8	6	26	0	-2	-0.3	28	4.7	0		0	0.0
+Jacob Hollister	SEA	6	5	64	4	38	7.6	26	5.2	0		0	0.0
+Chris Carson	SEA	1	1	20	1	1	1.0	19	19.0	0		0	0.0
+Tyler Lockett	SEA	7	1	12	1	9	9.0	3	3.0	0		0	0.0
+David Moore	SEA	2	1	21	0	10	10.0	11	11.0	0		0	0.0
+Malik Turner	SEA	3	1	23	1	1	1.0	22	22.0	0		0	0.0
+Nick Bellore	SEA	1	1	3	1	2	2.0	1	1.0	0		0	0.0
+D.K. Metcalf	SEA	1	0	0		0		0		0		1	100.0"
+advanced_defense
+"Joe Walker	ARI	0	6	5	83.3%	20	4.0	3.3	1	120.1	0.8	-1	21	5	0	0	0.0	0	5	2	28.6%
+Chris Jones	ARI	0	7	3	42.9%	49	16.3	7.0	0	67.0	23.9	29	20	2	0	0	0.0	0	3	0	0.0%
+Cassius Marsh	ARI	0	2	2	100.0%	26	13.0	13.0	0	118.7	-0.5	-1	27	4	1	0	1.0	2	3	0	0.0%
+Jordan Hicks	ARI	0	4	2	50.0%	40	20.0	10.0	0	85.4	10.8	16	24	4	0	0	0.0	0	6	0	0.0%
+Chris Banjo	ARI	0	2	2	100.0%	22	11.0	11.0	0	112.5	7.5	15	7	0	0	0	0.0	0	2	0	0.0%
+Jalen Thompson	ARI	0	2	1	50.0%	1	1.0	0.5	0	56.2	2.5	1	0	1	0	0	0.0	0	3	0	0.0%
+Byron Murphy	ARI	0	3	1	33.3%	11	11.0	3.7	0	45.1	16.0	0	11	2	0	0	0.0	0	2	1	33.3%
+Chandler Jones	ARI	0	0	0										8	1	2	4.0	7	6	0	0.0%
+Haason Reddick	ARI	0	0	0										6	2	1	0.0	3	4	0	0.0%
+Budda Baker	ARI	0	1	0	0.0%					39.6	0.0			3	1	0	0.0	1	9	0	0.0%
+Corey Peters	ARI	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Kylie Fitts	ARI	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Patrick Peterson	ARI	0	2	0	0.0%					39.6	3.5			0	0	0	0.0	0	3	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Bobby Wagner	SEA	0	4	4	100.0%	38	9.5	9.5	1	145.8	0.3	1	37	3	0	0	1.0	1	13	0	0.0%
+Tre Flowers	SEA	0	4	3	75.0%	24	8.0	6.0	0	89.6	1.5	2	22	0	0	0	0.0	0	6	1	14.3%
+Ugochukwu Amadi	SEA	0	4	3	75.0%	34	11.3	8.5	0	100.0	2.3	12	22	3	0	0	0.0	0	2	0	0.0%
+K.J. Wright	SEA	0	3	3	100.0%	27	9.0	9.0	0	104.2	1.7	5	22	2	0	0	0.0	0	13	1	7.1%
+Bradley McDougald	SEA	0	2	1	50.0%	28	28.0	14.0	0	95.8	16.5	25	3	2	0	0	0.5	1	7	2	22.2%
+Akeem King	SEA	0	8	1	12.5%	16	16.0	2.0	0	39.6	18.4	16	0	0	0	0	0.0	0	3	0	0.0%
+Shaquem Griffin	SEA	0	0	0										4	2	0	0.0	2	1	0	0.0%
+Branden Jackson	SEA	0	1	0	0.0%					39.6	-4.0			0	1	0	0.0	1	3	2	40.0%
+Mychal Kendricks	SEA	0	1	0	0.0%					39.6	15.0			1	1	0	0.0	1	5	1	16.7%
+Jarran Reed	SEA	0	0	0										0	0	0	0.5	1	3	0	0.0%
+Poona Ford	SEA	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Ezekiel Ansah	SEA	0	0	0										0	0	0	0.0	0	1	1	50.0%"

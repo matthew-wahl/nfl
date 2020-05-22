@@ -1,0 +1,73 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Matt Barkley	BUF	15	25	232	12	46.2	310	12.4	155	10.3	6.2	77	5.1	0	0.0%	4	16.0%	1	8	2	3	0	
+Logan Thomas	BUF	1	1	15	1	100.0	8	8.0	8	8.0	8.0	7	7.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Josh McCown	NYJ	17	34	135	7	18.9	185	5.4	29	1.7	0.9	106	6.2	2	5.9%	10	29.4%	3	7	4	4	1	4.0"
+advanced_rushing
+"LeSean McCoy	BUF	26	113	4	61	2.3	52	2.0	0	
+Marcus Murphy	BUF	14	69	4	32	2.3	37	2.6	0	
+Matt Barkley	BUF	3	-2	0	-2	-0.7	0	0.0	0	
+Isaiah McKenzie	BUF	3	32	2	21	7.0	11	3.7	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Isaiah Crowell	NYJ	7	19	2	-3	-0.4	22	3.1	1	7.0
+Elijah McGuire	NYJ	6	30	2	10	1.7	20	3.3	0	
+Trenton Cannon	NYJ	4	30	1	13	3.3	17	4.3	1	4.0
+Josh McCown	NYJ	1	4	0	1	1.0	3	3.0	0	"
+advanced_receiving
+"Zay Jones	BUF	11	8	93	7	58	7.3	35	4.4	0		0	0.0
+Robert Foster	BUF	4	3	105	3	93	31.0	12	4.0	0		0	0.0
+Dion Dawkins	BUF	1	1	7	1	7	7.0	0	0.0	0		0	0.0
+Andre Holmes	BUF	1	1	22	1	11	11.0	11	11.0	1	1.0	0	0.0
+Logan Thomas	BUF	1	1	1	0	-3	-3.0	4	4.0	0		0	0.0
+LeSean McCoy	BUF	1	1	5	0	1	1.0	4	4.0	0		0	0.0
+Isaiah McKenzie	BUF	1	1	14	1	-4	-4.0	18	18.0	1	1.0	0	0.0
+Kelvin Benjamin	BUF	3	0	0		0		0		0		0	0.0
+Terrelle Pryor	BUF	3	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Quincy Enunwa	NYJ	8	4	18	1	-3	-0.8	21	5.3	1	4.0	0	0.0
+Chris Herndon	NYJ	4	3	34	1	5	1.7	29	9.7	0		0	0.0
+Elijah McGuire	NYJ	6	3	27	3	8	2.7	19	6.3	1	3.0	0	0.0
+Isaiah Crowell	NYJ	2	2	18	1	-3	-1.5	21	10.5	0		0	0.0
+Jermaine Kearse	NYJ	5	2	16		10	5.0	6	3.0	0		0	0.0
+Trenton Cannon	NYJ	4	1	5	0	-4	-4.0	9	9.0	0		2	50.0
+Charone Peake	NYJ	1	1	11	1	11	11.0	0	0.0	0		0	0.0
+Jordan Leggett	NYJ	1	1	6		5	5.0	1	1.0	0		0	0.0
+Rishard Matthews	NYJ	1	0	0		0		0		0		0	0.0
+Eric Tomlinson	NYJ	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Tremaine Edmunds	BUF	0	12	8	66.7%	76	9.5	6.3	0	84.0	2.4	19	57	3	1	0	0.0	1	8	5	38.5%
+Tre'Davious White	BUF	0	3	3	100.0%	12	4.0	4.0	0	83.3	0.3	1	11	0	0	0	0.0	0	2	2	50.0%
+Rafael Bush	BUF	0	4	2	50.0%	19	9.5	4.8	0	63.5	14.3	17	2	1	0	0	0.0	0	6	0	0.0%
+Ryan Lewis	BUF	0	2	2	100.0%	10	5.0	5.0	0	87.5	-2.5	-5	15	0	0	0	0.0	0	2	1	33.3%
+Matt Milano	BUF	1	4	1	25.0%	18	18.0	4.5	0	6.2	9.8	-3	21	5	1	0	0.0	1	6	2	25.0%
+Taron Johnson	BUF	0	1	1	100.0%	0	0.0	0.0	0	79.2	0.0	0	0	0	0	0	0.0	0	2	0	0.0%
+Jerry Hughes	BUF	0	1	0	0.0%					39.6	0.0			0	1	1	1.0	3	3	0	0.0%
+Kyle Williams	BUF	0	0	0										0	1	1	0.0	2	1	1	50.0%
+Lorenzo Alexander	BUF	0	0	0										5	1	1	0.0	2	2	0	0.0%
+Shaq Lawson	BUF	0	0	0										0	0	1	1.0	2	3	1	25.0%
+Jordan Poyer	BUF	0	3	0	0.0%					39.6	9.3			3	0	0	1.0	1	6	1	14.3%
+Eddie Yarbrough	BUF	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Deon Lacey	BUF	0	1	0	0.0%					39.6	-7.0			0	0	0	0.0	0	3	0	0.0%
+Jordan Phillips	BUF	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Micah Hyde	BUF	1	4	0	0.0%					0.0	19.0			0	0	0	0.0	0	2	1	33.3%
+Levi Wallace	BUF	0	2	0	0.0%					39.6	11.0			0	0	0	0.0	0	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Buster Skrine	NYJ	0	8	6	75.0%	81	13.5	10.1	1	146.4	11.0	47	34	0	0	0	0.0	0	5	2	28.6%
+Trumaine Johnson	NYJ	0	6	4	66.7%	72	18.0	12.0	0	107.6	14.5	56	16	0	0	0	0.0	0	3	1	25.0%
+Morris Claiborne	NYJ	0	6	2	33.3%	57	28.5	9.5	0	69.4	17.7	39	18	0	0	0	0.0	0	4	1	20.0%
+Jamal Adams	NYJ	0	2	1	50.0%	10	10.0	5.0	0	64.6	9.0	5	5	7	0	1	0.5	2	4	1	20.0%
+Jordan Jenkins	NYJ	0	1	1	100.0%	5	5.0	5.0	0	87.5	1.0	1	4	2	0	0	0.5	1	3	1	25.0%
+Charone Peake	NYJ	0	1	1	100.0%	15	15.0	15.0	0	118.7	8.0	8	7	0	0	0	0.0	0	1	0	0.0%
+Darron Lee	NYJ	0	1	1	100.0%	12	12.0	12.0	0	116.7	2.0	2	10	2	0	0	0.0	0	11	1	8.3%
+Jeremiah Attaochu	NYJ	0	1	1	100.0%	7	7.0	7.0	1	135.4	7.0	7	0	2	0	0	0.0	0	2	0	0.0%
+Henry Anderson	NYJ	0	0	0										0	1	1	0.0	2	3	0	0.0%
+Leonard Williams	NYJ	0	0	0										0	0	1	0.0	1	2	4	66.7%
+Brandon Copeland	NYJ	0	0	0										1	1	0	0.0	1	2	0	0.0%
+Nathan Shepherd	NYJ	0	0	0										0	0	0	0.0	0	5	1	16.7%
+Marcus Maye	NYJ	0	3	0	0.0%					39.6	13.0			0	0	0	0.0	0	5	2	28.6%
+Tarell Basham	NYJ	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Avery Williamson	NYJ	0	1	0	0.0%					39.6	18.0			4	0	0	0.0	0	11	0	0.0%
+Frankie Luvu	NYJ	0	0	0										2	0	0	0.0	0	1	0	0.0%"

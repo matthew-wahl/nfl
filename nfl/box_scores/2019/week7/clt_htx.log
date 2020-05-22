@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Deshaun Watson	HOU	23	34	308	15	40.5	268	7.9	183	8.0	5.4	125	5.4	2	6.1%	6	18.2%	3	7	2	3	3	10.7
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jacoby Brissett	IND	26	39	326	18	45.0	281	7.2	145	5.6	3.7	181	7.0	2	5.6%	6	16.7%	1	21	4	6	2	4.0
+Zach Pascal	IND	0	1	0	0	0.0	21	21.0	0		0.0	0		0	0.0%	1	100.0%	0	0	0	0	0	"
+advanced_rushing
+"Carlos Hyde	HOU	12	35	2	13	1.1	22	1.8	2	6.0
+Duke Johnson	HOU	7	34	2	22	3.1	12	1.7	0	
+Deshaun Watson	HOU	3	32	1	5	1.7	27	9.0	1	3.0
+Bryan Anger	HOU	1	-5		-5	-5.0	0	0.0	0	
+Keke Coutee	HOU	1	4	1	4	4.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Marlon Mack	IND	18	44		21	1.2	23	1.3	1	18.0
+Jacoby Brissett	IND	5	6	0	4	0.8	2	0.4	0	
+Jordan Wilkins	IND	2	9		6	3.0	3	1.5	0	
+Nyheim Hines	IND	1	3	0	2	2.0	1	1.0	0	"
+advanced_receiving
+"DeAndre Hopkins	HOU	12	9	106	7	80	8.9	26	2.9	1	9.0	0	0.0
+Kenny Stills	HOU	5	4	105	4	69	17.3	36	9.0	0		1	20.0
+Keke Coutee	HOU	5	3	25	1	6	2.0	19	6.3	0		0	0.0
+Jordan Akins	HOU	2	2	17	1	8	4.0	9	4.5	0		0	0.0
+Darren Fells	HOU	2	2	27	1	17	8.5	10	5.0	1	2.0	0	0.0
+Duke Johnson	HOU	5	2	22	1	0	0.0	22	11.0	1	2.0	0	0.0
+Will Fuller	HOU	1	1	6		3	3.0	3	3.0	0		0	0.0
+Carlos Hyde	HOU	1	0	0	0	0		0		0		1	100.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+T.Y. Hilton	IND	11	6	74	5	39	6.5	35	5.8	1	6.0	2	18.2
+Zach Pascal	IND	7	6	106	6	48	8.0	58	9.7	0		0	0.0
+Eric Ebron	IND	5	4	70	4	35	8.8	35	8.8	0		0	0.0
+Jack Doyle	IND	5	3	21	1	-5	-1.7	26	8.7	0		0	0.0
+Marlon Mack	IND	3	3	12		2	0.7	10	3.3	0		0	0.0
+Chester Rogers	IND	2	2	24	1	21	10.5	3	1.5	0		0	0.0
+Nyheim Hines	IND	2	1	13	1	2	2.0	11	11.0	0		0	0.0
+Jordan Wilkins	IND	1	1	6		3	3.0	3	3.0	0		0	0.0"
+advanced_defense
+"Phillip Gaines	HOU	0	15	9	60.0%	114	12.7	7.6	1	106.0	10.5	65	49	0	0	0	0.0	0	7	0	0.0%
+Lonnie Johnson	HOU	0	7	6	85.7%	81	13.5	11.6	1	154.5	6.1	43	38	0	0	0	0.0	0	7	2	22.2%
+Benardrick McKinney	HOU	0	3	3	100.0%	37	12.3	12.3	0	118.1	2.7	8	29	7	0	0	0.0	0	8	0	0.0%
+Zach Cunningham	HOU	0	2	2	100.0%	16	8.0	8.0	1	139.6	-0.5	-1	17	6	1	0	0.0	1	7	0	0.0%
+Brennan Scarlett	HOU	0	1	1	100.0%	6	6.0	6.0	0	91.7	3.0	3	3	4	0	0	0.5	1	4	0	0.0%
+Jahleel Addae	HOU	0	1	1	100.0%	33	33.0	33.0	0	118.7	22.0	22	11	4	0	0	0.0	0	2	0	0.0%
+Xavier Crawford	HOU	0	1	1	100.0%	5	5.0	5.0	0	87.5	2.0	2	3	0	0	0	0.0	0	0	0	
+Jacob Martin	HOU	0	1	1	100.0%	16	16.0	16.0	0	118.7	5.0	5	11	3	0	0	0.0	0	2	0	0.0%
+Angelo Blackson	HOU	0	1	1	100.0%	3	3.0	3.0	1	118.7	-3.0	-3	6	0	0	0	0.0	0	1	0	0.0%
+Justin Reid	HOU	0	3	1	33.3%	1	1.0	0.3	0	42.4	9.7	-3	4	2	0	0	0.0	0	1	0	0.0%
+J.J. Watt	HOU	0	0	0										0	2	6	0.0	8	3	0	0.0%
+Whitney Mercilus	HOU	0	1	0	0.0%					39.6	13.0			8	1	0	0.5	2	4	0	0.0%
+Tashaun Gipson	HOU	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Pierre Desir	IND	1	14	9	64.3%	114	12.7	8.1	1	83.6	9.3	75	39	0	0	0	0.0	0	7	1	12.5%
+Khari Willis	IND	0	6	5	83.3%	43	8.6	7.2	1	136.1	4.5	20	23	2	0	0	0.0	0	5	1	16.7%
+Rock Ya-Sin	IND	0	4	4	100.0%	96	24.0	24.0	0	118.7	17.0	68	28	0	0	0	0.0	0	7	0	0.0%
+Darius Leonard	IND	1	6	3	50.0%	28	9.3	4.7	0	23.6	7.5	22	6	2	0	0	0.0	0	10	1	9.1%
+Quincy Wilson	IND	0	3	3	100.0%	38	12.7	12.7	0	118.7	3.7	11	27	0	0	0	0.0	0	1	1	50.0%
+Anthony Walker	IND	0	2	2	100.0%	19	9.5	9.5	0	106.2	9.0	18	1	2	0	0	0.0	0	1	0	0.0%
+George Odum	IND	0	2	2	100.0%	40	20.0	20.0	0	118.7	14.5	29	11	0	0	0	0.0	0	5	0	0.0%
+Jabaal Sheard	IND	0	1	1	100.0%	11	11.0	11.0	0	112.5	8.0	8	3	0	1	0	1.0	2	4	1	20.0%
+Shakial Taylor	IND	0	3	1	33.3%	15	15.0	5.0	0	50.7	10.3	4	11	2	0	0	0.0	0	1	1	50.0%
+Al-Quadin Muhammad	IND	0	1	1	100.0%	8	8.0	8.0	0	100.0	2.0	2	6	0	0	0	0.0	0	1	1	50.0%
+Clayton Geathers	IND	0	1	1	100.0%	13	13.0	13.0	0	118.7	12.0	12	1	0	0	0	0.0	0	3	0	0.0%
+Rolan Milligan	IND	0	1	1	100.0%	2	2.0	2.0	0	79.2	2.0	2	0	0	0	0	0.0	0	3	0	0.0%
+Justin Houston	IND	0	0	0										0	1	2	2.0	5	3	1	25.0%
+Denico Autry	IND	0	0	0										0	0	1	0.0	1	1	0	0.0%"

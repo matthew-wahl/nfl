@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ben Roethlisberger	PIT	30	38	353	16	39.0	267	7.0	140	4.7	3.7	213	7.1	1	2.7%	4	10.8%	3	12	4	3	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ryan Fitzpatrick	TAM	30	50	411	22	41.5	556	11.1	290	9.7	5.8	121	4.0	1	2.0%	11	22.4%	3	18	9	9	4	7.0"
+advanced_rushing
+"James Conner	PIT	15	61	2	29	1.9	32	2.1	4	3.8
+Ben Roethlisberger	PIT	4	-1	1	-1	-0.3	0	0.0	0	
+Stevan Ridley	PIT	3	18		10	3.3	8	2.7	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Peyton Barber	TAM	8	33	1	28	3.5	5	0.6	1	8.0
+Ryan Fitzpatrick	TAM	5	27	1	27	5.4	0	0.0	0	
+Jacquizz Rodgers	TAM	2	-1	0	-1	-0.5	0	0.0	0	
+Adam Humphries	TAM	1	4	0	4	4.0	0	0.0	0	"
+advanced_receiving
+"JuJu Smith-Schuster	PIT	11	9	116	6	69	7.7	47	5.2	0		0	0.0
+Antonio Brown	PIT	9	6	50	1	14	2.3	36	6.0	1	6.0	1	11.1
+James Conner	PIT	6	5	34	2	2	0.4	32	6.4	1	5.0	0	0.0
+Vance McDonald	PIT	4	4	112	4	22	5.5	90	22.5	2	2.0	0	0.0
+Ryan Switzer	PIT	3	3	9	1	5	1.7	4	1.3	0		0	0.0
+James Washington	PIT	2	2	25	2	25	12.5	0	0.0	0		0	0.0
+Jesse James	PIT	1	1	7		3	3.0	4	4.0	0		0	0.0
+Xavier Grimble	PIT	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Mike Evans	TAM	11	6	137	5	120	20.0	17	2.8	0		0	0.0
+O.J. Howard	TAM	8	6	72	5	41	6.8	31	5.2	1	6.0	0	0.0
+Chris Godwin	TAM	10	5	74	4	40	8.0	34	6.8	1	5.0	1	10.0
+Cameron Brate	TAM	4	3	34	3	27	9.0	7	2.3	1	3.0	0	0.0
+DeSean Jackson	TAM	5	3	37	3	35	11.7	2	0.7	0		0	0.0
+Adam Humphries	TAM	5	3	30	1	18	6.0	12	4.0	1	3.0	0	0.0
+Jacquizz Rodgers	TAM	3	2	18	1	4	2.0	14	7.0	0		0	0.0
+Shaun Wilson	TAM	2	2	9		5	2.5	4	2.0	0		0	0.0
+Peyton Barber	TAM	2	0	0	0	0		0		0		0	0.0"
+advanced_defense
+"Coty Sensabaugh	PIT	0	9	7	77.8%	91	13.0	10.1	1	145.8	10.0	68	23	1	0	0	0.0	0	5	0	0.0%
+T.J. Watt	PIT	0	4	4	100.0%	57	14.3	14.3	0	118.7	9.3	37	20	0	1	2	0.0	3	4	2	33.3%
+Artie Burns	PIT	0	7	4	57.1%	115	28.8	16.4	1	141.4	22.4	109	6	1	0	0	0.0	0	4	1	20.0%
+Mike Hilton	PIT	1	6	4	66.7%	55	13.8	9.2	0	56.2	7.7	33	22	2	0	0	0.0	0	5	1	16.7%
+Joe Haden	PIT	0	8	3	37.5%	23	7.7	2.9	1	85.4	12.6	21	2	0	0	0	0.0	0	3	0	0.0%
+Vince Williams	PIT	0	4	2	50.0%	24	12.0	6.0	0	68.7	10.3	5	19	4	0	1	0.0	1	5	2	28.6%
+Nat Berhe	PIT	0	2	2	100.0%	16	8.0	8.0	0	100.0	2.5	5	11	1	0	0	0.0	0	2	0	0.0%
+Bud Dupree	PIT	1	1	1	100.0%	13	13.0	13.0	0	79.2	4.0	4	9	6	1	2	1.0	4	3	0	0.0%
+Jonathan Bostic	PIT	0	5	1	20.0%	11	11.0	2.2	0	39.6	5.6	2	9	8	2	0	1.0	3	6	0	0.0%
+Sean Davis	PIT	0	3	1	33.3%	6	6.0	2.0	0	42.4	23.7	6	0	2	0	1	0.0	1	6	2	25.0%
+Stephon Tuitt	PIT	0	0	0										0	3	2	0.0	5	2	0	0.0%
+Anthony Chickillo	PIT	0	0	0										0	1	0	1.0	2	1	0	0.0%
+Cameron Heyward	PIT	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Terrell Edmunds	PIT	1	3	0	0.0%					0.0	17.0			1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+M.J. Stewart	TAM	0	9	8	88.9%	62	7.8	6.9	0	95.4	2.0	17	45	3	0	0	0.0	0	9	0	0.0%
+Kwon Alexander	TAM	0	4	4	100.0%	39	9.8	9.8	0	107.3	3.8	15	24	8	0	0	0.0	0	8	0	0.0%
+Carlton Davis	TAM	0	6	4	66.7%	31	7.8	5.2	0	79.2	9.7	22	9	0	0	0	0.0	0	3	1	25.0%
+Brent Grimes	TAM	0	5	4	80.0%	97	24.3	19.4	1	158.3	18.2	57	40	0	0	0	0.0	0	6	1	14.3%
+Lavonte David	TAM	0	5	4	80.0%	8	2.0	1.6	0	79.2	0.8	-1	9	7	0	0	0.0	0	9	1	10.0%
+Justin Evans	TAM	1	4	3	75.0%	20	6.7	5.0	1	85.4	4.8	14	6	0	0	0	0.0	0	6	1	14.3%
+Jordan Whitehead	TAM	0	1	1	100.0%	7	7.0	7.0	0	95.8	3.0	3	4	0	0	0	0.0	0	4	0	0.0%
+Jason Pierre-Paul	TAM	0	0	0										0	1	1	2.0	4	5	1	16.7%
+Vinny Curry	TAM	0	0	0										0	1	0	0.5	2	3	1	25.0%
+William Gholston	TAM	0	0	0										0	0	2	0.0	2	2	0	0.0%
+Gerald McCoy	TAM	0	0	0										0	1	0	0.5	2	2	0	0.0%
+Jerel Worthy	TAM	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Adarius Taylor	TAM	0	0	0										2	0	0	0.0	0	1	0	0.0%"

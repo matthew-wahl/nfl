@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Case Keenum	DEN	35	51	377	19	34.5	330	6.5	181	5.2	3.5	196	5.6	2	4.3%	5	10.6%	4	16	2	3	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Sam Darnold	NYJ	10	22	198	7	30.4	197	9.0	118	11.8	5.4	80	8.0	2	9.1%	3	13.6%	1	10	0	1	0	"
+advanced_rushing
+"Phillip Lindsay	DEN	12	61	3	38	3.2	23	1.9	0	
+Royce Freeman	DEN	5	31	2	2	0.4	29	5.8	1	5.0
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Bilal Powell	NYJ	20	99	3	59	3.0	40	2.0	1	20.0
+Isaiah Crowell	NYJ	15	219	6	134	8.9	85	5.7	2	7.5
+Sam Darnold	NYJ	3	5	2	1	0.3	4	1.3	0	"
+advanced_receiving
+"Emmanuel Sanders	DEN	14	9	72	6	43	4.8	29	3.2	1	9.0	0	0.0
+Devontae Booker	DEN	6	5	59	3	1	0.2	58	11.6	0		1	16.7
+Demaryius Thomas	DEN	6	5	105	4	84	16.8	21	4.2	0		0	0.0
+Royce Freeman	DEN	4	3	16	0	1	0.3	15	5.0	1	3.0	1	25.0
+DaeSean Hamilton	DEN	3	3	44	2	27	9.0	17	5.7	0		0	0.0
+Phillip Lindsay	DEN	4	3	20	0	-5	-1.7	25	8.3	0		0	0.0
+Jeff Heuerman	DEN	4	2	18	1	4	2.0	14	7.0	0		0	0.0
+Courtland Sutton	DEN	6	2	18	2	12	6.0	6	3.0	0		0	0.0
+Matt LaCosse	DEN	2	2	19	1	11	5.5	8	4.0	0		0	0.0
+Tim Patrick	DEN	1	1	6		3	3.0	3	3.0	0		0	0.0
+Brian Parker	DEN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Robby Anderson	NYJ	5	3	123	2	82	27.3	41	13.7	0		0	0.0
+Eric Tomlinson	NYJ	3	2	15	1	-5	-2.5	20	10.0	0		1	33.3
+Terrelle Pryor	NYJ	1	1	20	1	20	20.0	0	0.0	0		0	0.0
+Andre Roberts	NYJ	2	1	4		2	2.0	2	2.0	0		0	0.0
+Jordan Leggett	NYJ	1	1	10	1	1	1.0	9	9.0	0		0	0.0
+Jermaine Kearse	NYJ	4	1	14	1	14	14.0	0	0.0	0		0	0.0
+Isaiah Crowell	NYJ	1	1	12	1	4	4.0	8	8.0	0		0	0.0
+Quincy Enunwa	NYJ	5	0	0		0		0		0		1	20.0"
+advanced_defense
+"Bradley Roby	DEN	0	5	3	60.0%	125	41.7	25.0	2	143.7	18.2	84	41	0	0	0	0.0	0	0	1	100.0%
+Todd Davis	DEN	0	3	3	100.0%	27	9.0	9.0	0	104.2	-0.3	-1	28	2	0	0	0.0	0	6	1	14.3%
+Isaac Yiadom	DEN	0	3	2	66.7%	24	12.0	8.0	1	130.6	10.7	22	2	0	0	0	0.0	0	3	1	25.0%
+Shaquil Barrett	DEN	0	1	1	100.0%	12	12.0	12.0	0	116.7	12.0	12	0	0	0	1	0.0	1	1	0	0.0%
+Bradley Chubb	DEN	0	2	1	50.0%	12	12.0	6.0	0	68.7	3.5	4	8	0	0	0	0.0	0	2	1	33.3%
+Justin Simmons	DEN	0	1	1	100.0%	10	10.0	10.0	0	108.3	1.0	1	9	3	0	0	0.0	0	7	0	0.0%
+Chris Harris	DEN	0	6	1	16.7%	12	12.0	2.0	0	39.6	11.2	12	0	0	0	0	0.0	0	3	1	25.0%
+Domata Peko	DEN	0	0	0										0	0	0	0.5	1	3	1	25.0%
+Derek Wolfe	DEN	1	0	0										0	0	0	0.5	1	3	0	0.0%
+Brandon Marshall	DEN	0	0	0										2	0	0	0.0	0	4	1	20.0%
+Darian Stewart	DEN	0	2	0	0.0%					39.6	3.5			1	0	0	0.0	0	3	2	40.0%
+Josey Jewell	DEN	0	1	0	0.0%					39.6	-3.0			1	0	0	0.0	0	2	0	0.0%
+Von Miller	DEN	0	0	0										0	0	0	0.0	0	5	1	16.7%
+Zach Kerr	DEN	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Darron Lee	NYJ	0	11	10	90.9%	93	9.3	8.5	0	101.9	1.0	12	81	1	0	0	0.0	0	5	0	0.0%
+Parry Nickerson	NYJ	0	6	6	100.0%	78	13.0	13.0	0	118.7	6.0	36	42	3	0	0	0.0	0	7	0	0.0%
+Darryl Roberts	NYJ	0	8	6	75.0%	68	11.3	8.5	1	139.6	13.9	46	22	0	0	0	0.0	0	6	5	45.5%
+Morris Claiborne	NYJ	0	12	5	41.7%	57	11.4	4.8	0	56.6	9.8	38	19	0	0	0	0.0	0	5	0	0.0%
+Marcus Maye	NYJ	1	6	4	66.7%	35	8.8	5.8	1	81.9	12.0	20	15	0	0	0	0.5	1	8	0	0.0%
+Avery Williamson	NYJ	0	8	4	50.0%	33	8.3	4.1	0	60.9	3.8	21	12	3	1	0	0.0	1	9	0	0.0%
+Buster Skrine	NYJ	0	4	2	50.0%	25	12.5	6.3	0	69.8	5.3	12	13	0	0	0	0.0	0	3	0	0.0%
+Jamal Adams	NYJ	0	4	2	50.0%	14	7.0	3.5	0	58.3	4.0	7	7	5	0	0	0.0	0	6	1	14.3%
+Leonard Williams	NYJ	0	0	0										0	0	0	2.0	3	5	0	0.0%
+Frankie Luvu	NYJ	0	0	0										1	1	2	0.0	3	2	1	33.3%
+Brandon Copeland	NYJ	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Jordan Jenkins	NYJ	0	0	0										0	0	0	0.5	1	1	0	0.0%
+Jeremiah Attaochu	NYJ	0	1	0	0.0%					39.6	7.0			0	0	0	1.0	1	1	0	0.0%"

@@ -1,0 +1,58 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Mason Rudolph	PIT	8	16	85	3	17.6	178	11.1	53	6.6	3.3	32	4.0	0	0.0%	4	28.6%	1	5	0	3	2	1.5
+Devlin Hodges	PIT	5	11	118	3	23.1	57	5.2	43	8.6	3.9	75	15.0	0	0.0%	2	25.0%	2	3	0	1	1	5.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ryan Finley	CIN	12	26	192	5	16.7	295	11.3	127	10.6	4.9	65	5.4	1	4.0%	6	24.0%	4	12	2	5	1	7.0"
+advanced_rushing
+"Benny Snell	PIT	21	98	4	34	1.6	64	3.0	0	
+Kerrith Whyte	PIT	6	43	2	15	2.5	28	4.7	0	
+Mason Rudolph	PIT	4	4	1	0	0.0	4	1.0	0	
+Devlin Hodges	PIT	3	1	0	1	0.3	0	0.0	0	
+Trey Edmunds	PIT	2	7		2	1.0	5	2.5	0	
+Jaylen Samuels	PIT	2	6	0	-1	-0.5	7	3.5	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Joe Mixon	CIN	18	79	2	32	1.8	47	2.6	1	18.0
+Ryan Finley	CIN	2	8	0	8	4.0	0	0.0	0	
+Giovani Bernard	CIN	1	-1		-1	-1.0	0	0.0	0	"
+advanced_receiving
+"Diontae Johnson	PIT	6	3	29	2	25	8.3	4	1.3	0		0	0.0
+Jaylen Samuels	PIT	3	3	26	1	2	0.7	24	8.0	0		0	0.0
+James Washington	PIT	7	3	98	2	31	10.3	67	22.3	1	3.0	0	0.0
+Deon Cain	PIT	1	1	35	1	34	34.0	1	1.0	0		0	0.0
+Tevin Jones	PIT	3	1	9		-1	-1.0	10	10.0	0		0	0.0
+Vance McDonald	PIT	1	1	1		0	0.0	1	1.0	0		0	0.0
+Benny Snell	PIT	1	1	5	0	5	5.0	0	0.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyler Boyd	CIN	9	5	101	3	87	17.4	14	2.8	0		1	11.1
+Giovani Bernard	CIN	3	3	31		8	2.7	23	7.7	0		0	0.0
+Alex Erickson	CIN	8	2	43	1	19	9.5	24	12.0	0		0	0.0
+Tyler Eifert	CIN	1	1	7		6	6.0	1	1.0	0		0	0.0
+Auden Tate	CIN	3	1	10	1	7	7.0	3	3.0	0		0	0.0
+C.J. Uzomah	CIN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Mark Barron	PIT	0	5	4	80.0%	37	9.3	7.4	0	97.5	2.6	13	24	3	0	0	1.0	1	6	0	0.0%
+Joe Haden	PIT	0	8	2	25.0%	25	12.5	3.1	1	79.7	14.8	22	3	0	0	1	0.0	1	2	0	0.0%
+Terrell Edmunds	PIT	0	2	2	100.0%	58	29.0	29.0	0	118.7	24.5	49	9	0	0	0	0.0	0	5	1	16.7%
+Mike Hilton	PIT	0	5	2	40.0%	43	21.5	8.6	0	71.2	7.8	19	24	3	0	0	0.0	0	3	0	0.0%
+Devin Bush	PIT	0	1	1	100.0%	22	22.0	22.0	0	118.7	18.0	18	4	2	0	1	0.0	1	4	1	20.0%
+Cameron Sutton	PIT	0	1	1	100.0%	7	7.0	7.0	0	95.8	6.0	6	1	0	0	0	0.0	0	1	0	0.0%
+Cameron Heyward	PIT	0	0	0										0	0	3	1.0	4	6	0	0.0%
+Bud Dupree	PIT	0	0	0										3	1	0	1.0	2	2	0	0.0%
+T.J. Watt	PIT	0	0	0										2	1	0	1.0	2	2	1	33.3%
+Anthony Chickillo	PIT	0	0	0										1	1	0	0.0	1	2	0	0.0%
+Steven Nelson	PIT	0	3	0	0.0%					39.6	11.3			0	0	0	0.0	0	3	1	25.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+B.W. Webb	CIN	0	10	4	40.0%	134	33.5	13.4	1	120.8	18.5	74	60	0	0	0	0.0	0	4	0	0.0%
+William Jackson	CIN	0	4	3	75.0%	20	6.7	5.0	0	85.4	9.0	21	-1	1	0	0	0.0	0	4	0	0.0%
+Carlos Dunlap	CIN	0	1	1	100.0%	7	7.0	7.0	0	95.8	4.0	4	3	0	0	1	1.0	2	6	0	0.0%
+Sam Hubbard	CIN	0	1	1	100.0%	9	9.0	9.0	0	104.2	-1.0	-1	10	0	0	0	1.0	1	6	0	0.0%
+Nick Vigil	CIN	0	1	1	100.0%	8	8.0	8.0	0	100.0	-5.0	-5	13	3	0	1	0.0	1	7	0	0.0%
+Shawn Williams	CIN	1	2	1	50.0%	1	1.0	0.5	0	16.7	3.0	0	1	2	0	0	0.0	0	3	0	0.0%
+Germaine Pratt	CIN	0	1	1	100.0%	11	11.0	11.0	0	112.5	3.0	3	8	2	0	0	0.0	0	7	0	0.0%
+Carl Lawson	CIN	0	0	0										0	0	1	0.0	1	3	0	0.0%
+Andrew Billings	CIN	0	0	0										0	0	0	1.0	1	4	0	0.0%
+Darqueze Dennard	CIN	0	1	0	0.0%					39.6	8.0			2	0	1	0.0	1	5	1	16.7%
+Brandon Wilson	CIN	0	1	0	0.0%					39.6				0	0	0	0.0	0	1	0	0.0%"

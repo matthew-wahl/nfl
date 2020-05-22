@@ -1,0 +1,67 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Case Keenum	DEN	23	37	202	12	31.6	343	9.3	123	5.3	3.3	79	3.4	2	5.6%	8	22.2%	1	8	10	1	2	9.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Derek Carr	OAK	19	26	167	8	29.6	170	6.5	102	5.4	3.9	65	3.4	1	3.8%	2	7.7%	1	4	3	0	0	"
+advanced_rushing
+"Phillip Lindsay	DEN	10	46	1	25	2.5	21	2.1	2	5.0
+Royce Freeman	DEN	7	21		11	1.6	10	1.4	0	
+Devontae Booker	DEN	3	21	1	9	3.0	12	4.0	1	3.0
+Case Keenum	DEN	3	19	2	-5	-1.7	24	8.0	2	1.5
+Tim Patrick	DEN	1	-7	0	-9	-9.0	2	2.0	2	0.5
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Doug Martin	OAK	21	107	5	57	2.7	50	2.4	4	5.3
+Derek Carr	OAK	4	-3	0	-3	-0.8	0	0.0	0	
+Jalen Richard	OAK	4	11	1	7	1.8	4	1.0	2	2.0
+DeAndre Washington	OAK	1	-1		-1	-1.0	0	0.0	0	"
+advanced_receiving
+"DaeSean Hamilton	DEN	9	6	40	4	33	5.5	7	1.2	0		0	0.0
+Courtland Sutton	DEN	10	6	65	3	57	9.5	8	1.3	1	6.0	1	10.0
+Devontae Booker	DEN	5	3	21	0	6	2.0	15	5.0	0		0	0.0
+Tim Patrick	DEN	5	3	44	2	27	9.0	17	5.7	0		0	0.0
+Phillip Lindsay	DEN	2	2	11	1	-3	-1.5	14	7.0	0		0	0.0
+Brian Parker	DEN	3	2	10	1	0	0.0	10	5.0	0		1	33.3
+Andy Janovich	DEN	1	1	11	1	3	3.0	8	8.0	0		0	0.0
+Royce Freeman	DEN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Jordy Nelson	OAK	10	7	75	5	59	8.4	16	2.3	0		1	10.0
+Jalen Richard	OAK	5	4	40	1	20	5.0	20	5.0	0		0	0.0
+Jared Cook	OAK	3	2	20		9	4.5	11	5.5	0		0	0.0
+Seth Roberts	OAK	3	2	14	1	9	4.5	5	2.5	0		0	0.0
+Darren Waller	OAK	2	2	8		3	1.5	5	2.5	0		0	0.0
+Doug Martin	OAK	2	1	9	1	2	2.0	7	7.0	0		0	0.0
+Keith Smith	OAK	1	1	1		0	0.0	1	1.0	0		0	0.0"
+advanced_defense
+"Josey Jewell	DEN	0	4	4	100.0%	30	7.5	7.5	0	97.9	2.8	11	19	0	0	0	0.0	0	6	0	0.0%
+Tramaine Brock	DEN	0	6	4	66.7%	46	11.5	7.7	0	89.6	9.7	29	17	0	0	0	0.0	0	3	1	25.0%
+Isaac Yiadom	DEN	0	5	3	60.0%	27	9.0	5.4	0	74.6	10.4	19	8	0	0	0	0.0	0	3	1	25.0%
+Bradley Chubb	DEN	0	2	2	100.0%	12	6.0	6.0	0	91.7	3.5	7	5	0	2	0	0.0	2	4	1	20.0%
+Justin Simmons	DEN	0	3	2	66.7%	13	6.5	4.3	0	75.7	4.3	7	6	0	0	0	0.0	0	3	0	0.0%
+Todd Davis	DEN	0	1	1	100.0%	6	6.0	6.0	0	91.7	5.0	5	1	0	0	0	0.0	0	4	1	20.0%
+Shaquil Barrett	DEN	0	1	1	100.0%	10	10.0	10.0	0	108.3	5.0	5	5	0	0	0	0.0	0	3	0	0.0%
+Brandon Marshall	DEN	0	3	1	33.3%	10	10.0	3.3	0	43.7	2.0	6	4	0	0	0	0.0	0	4	0	0.0%
+Darian Stewart	DEN	0	1	1	100.0%	16	16.0	16.0	0	118.7	15.0	15	1	0	0	0	0.0	0	4	0	0.0%
+Bradley Roby	DEN	0	1	1	100.0%	3	3.0	3.0	0	79.2	3.0	3	0	0	0	0	0.0	0	3	1	25.0%
+Adam Gotsis	DEN	0	0	0										0	1	0	1.0	2	2	0	0.0%
+Von Miller	DEN	0	0	0										0	0	0	0.0	0	0	2	100.0%
+Will Parks	DEN	0	0	0										1	0	0	0.0	0	3	3	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Rashaan Melvin	OAK	0	8	7	87.5%	84	12.0	10.5	0	110.4	8.1	59	25	0	0	0	0.0	0	12	0	0.0%
+Tahir Whitehead	OAK	0	7	5	71.4%	61	12.2	8.7	0	97.9	13.3	42	19	3	1	0	0.0	1	9	2	18.2%
+Marcus Gilchrist	OAK	1	10	5	50.0%	34	6.8	3.4	1	51.7	12.7	30	4	1	0	0	0.0	0	6	0	0.0%
+Bene Benwikere	OAK	0	5	4	80.0%	20	5.0	4.0	0	83.3	4.8	5	15	0	0	0	0.0	0	2	1	33.3%
+Erik Harris	OAK	1	6	2	33.3%	25	12.5	4.2	1	47.2	19.2	22	3	1	0	0	0.0	0	7	0	0.0%
+Nicholas Morrow	OAK	0	2	2	100.0%	0	0.0	0.0	0	79.2	-2.0	-4	4	3	0	0	0.0	0	4	1	20.0%
+Karl Joseph	OAK	0	1	1	100.0%	8	8.0	8.0	0	100.0	6.0	6	2	5	1	0	1.0	2	7	2	22.2%
+Nick Nelson	OAK	0	2	1	50.0%					56.2	32.5			1	0	0	0.0	0	0	0	
+Jason Cabinda	OAK	0	1	1	100.0%	11	11.0	11.0	0	112.5	0.0	0	11	0	0	0	0.0	0	1	0	0.0%
+Kyle Wilber	OAK	0	1	0	0.0%					39.6	5.0			0	3	0	0.0	3	1	1	50.0%
+P.J. Hall	OAK	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Kony Ealy	OAK	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Arden Key	OAK	0	0	0										0	1	0	0.0	1	2	2	50.0%
+Clinton McDonald	OAK	0	0	0										0	1	0	0.0	1	4	1	20.0%
+Gabe Wright	OAK	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Marquel Lee	OAK	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Johnathan Hankins	OAK	0	0	0										0	0	0	0.0	0	2	1	33.3%"

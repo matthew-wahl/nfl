@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Patrick Mahomes	KAN	19	32	182	9	27.3	255	8.0	88	4.6	2.8	94	4.9	0	0.0%	7	22.6%	1	1	7	4	4	15.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Philip Rivers	LAC	28	52	353	14	25.9	412	7.9	163	5.8	3.1	190	6.8	5	10.4%	7	14.6%	2	10	7	5	0	"
+advanced_rushing
+"Darrel Williams	KAN	11	35	3	18	1.6	17	1.5	0	
+LeSean McCoy	KAN	7	29	1	13	1.9	16	2.3	0	
+Patrick Mahomes	KAN	5	59	3	40	8.0	19	3.8	0	
+Damien Williams	KAN	4	7		7	1.8	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Melvin Gordon	LAC	14	69	5	57	4.1	12	0.9	0	
+Austin Ekeler	LAC	5	24	1	16	3.2	8	1.6	0	"
+advanced_receiving
+"Travis Kelce	KAN	10	7	92	4	72	10.3	20	2.9	1	7.0	0	0.0
+LeSean McCoy	KAN	6	4	28	2	2	0.5	26	6.5	1	4.0	0	0.0
+Darrel Williams	KAN	3	2	8	1	0	0.0	8	4.0	0		0	0.0
+Mecole Hardman	KAN	4	2	13		-4	-2.0	17	8.5	0		0	0.0
+Sammy Watkins	KAN	3	2	26	2	7	3.5	19	9.5	0		0	0.0
+Damien Williams	KAN	1	1	6		3	3.0	3	3.0	0		0	0.0
+Byron Pringle	KAN	1	1	9		8	8.0	1	1.0	0		0	0.0
+Deon Yelder	KAN	1	0	0		0		0		0		0	0.0
+Tyreek Hill	KAN	2	0	0		0		0		0		0	0.0
+Demarcus Robinson	KAN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Austin Ekeler	LAC	12	8	108	4	4	0.5	104	13.0	1	8.0	0	0.0
+Keenan Allen	LAC	12	8	71	3	39	4.9	32	4.0	0		0	0.0
+Hunter Henry	LAC	9	6	69	4	48	8.0	21	3.5	0		1	11.1
+Melvin Gordon	LAC	5	3	21	1	-1	-0.3	22	7.3	1	3.0	2	40.0
+Mike Williams	LAC	6	2	76	2	69	34.5	7	3.5	0		1	16.7
+Virgil Green	LAC	1	1	8		4	4.0	4	4.0	0		0	0.0
+Troymaine Pope	LAC	1	0	0		0		0		0		1	100.0
+Andre Patton	LAC	1	0	0		0		0		0		0	0.0
+Jason Moore	LAC	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Tyrann Mathieu	KAN	1	13	7	53.8%	57	8.1	4.4	0	33.2	5.4	23	34	4	0	0	0.0	0	8	1	11.1%
+Daniel Sorensen	KAN	1	9	6	66.7%	72	12.0	8.0	0	51.4	7.1	39	33	1	0	0	0.0	0	8	0	0.0%
+Ben Niemann	KAN	0	3	3	100.0%	27	9.0	9.0	0	104.2	2.7	8	19	1	0	0	0.0	0	4	1	20.0%
+Reggie Ragland	KAN	0	2	2	100.0%	22	11.0	11.0	0	112.5	9.0	18	4	1	0	0	0.0	0	3	0	0.0%
+Anthony Hitchens	KAN	0	2	2	100.0%	15	7.5	7.5	0	97.9	5.0	10	5	3	0	0	0.0	0	10	0	0.0%
+Charvarius Ward	KAN	0	6	2	33.3%	50	25.0	8.3	0	64.6	18.7	48	2	0	0	0	0.0	0	2	0	0.0%
+Tanoh Kpassagnon	KAN	0	1	1	100.0%	37	37.0	37.0	0	118.7	4.0	4	33	0	2	0	0.0	2	2	0	0.0%
+Juan Thornhill	KAN	0	4	1	25.0%	11	11.0	2.8	0	39.6	11.8	-4	15	0	0	0	0.0	0	3	0	0.0%
+Damien Wilson	KAN	0	1	1	100.0%	7	7.0	7.0	1	135.4	6.0	6	1	3	0	0	0.0	0	6	1	14.3%
+Bashaud Breeland	KAN	0	2	1	50.0%	30	30.0	15.0	0	95.8	11.5	4	26	0	0	0	0.0	0	5	0	0.0%
+Rashad Fenton	KAN	1	2	1	50.0%	7	7.0	3.5	0	18.7	28.5	7	0	1	0	0	0.0	0	3	0	0.0%
+Frank Clark	KAN	0	0	0										1	4	2	1.0	7	5	0	0.0%
+Joey Ivie	KAN	0	0	0										0	1	1	0.0	2	0	0	
+Mike Pennel	KAN	0	0	0										0	0	1	1.0	2	3	0	0.0%
+Chris Jones	KAN	0	0	0										0	0	1	0.0	1	0	0	
+Jordan Lucas	KAN	0	0	0										0	0	0	0.0	0	1	2	66.7%
+Morris Claiborne	KAN	0	1	0	0.0%					39.6	-6.0			0	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Jaylen Watkins	LAC	0	7	6	85.7%	44	7.3	6.3	0	92.9	3.3	23	21	0	0	0	0.0	0	11	1	8.3%
+Thomas Davis	LAC	0	8	4	50.0%	26	6.5	3.3	0	57.3	4.0	7	19	1	0	0	0.0	0	12	3	20.0%
+Michael Davis	LAC	0	8	3	37.5%	45	15.0	5.6	1	96.4	16.8	30	15	0	0	0	0.0	0	1	3	75.0%
+Jatavis Brown	LAC	0	4	3	75.0%	29	9.7	7.3	0	94.8	3.3	10	19	1	0	0	0.0	0	3	1	25.0%
+Denzel Perryman	LAC	0	1	1	100.0%	8	8.0	8.0	0	100.0	6.0	6	2	0	0	0	0.0	0	7	0	0.0%
+Casey Hayward	LAC	0	1	1	100.0%	16	16.0	16.0	0	118.7	16.0	16	0	0	0	0	0.0	0	1	0	0.0%
+Joey Bosa	LAC	0	0	0										0	5	2	0.0	7	2	1	33.3%
+Melvin Ingram	LAC	0	0	0										0	3	1	1.0	5	5	0	0.0%
+Uchenna Nwosu	LAC	0	0	0										0	1	1	0.0	2	0	0	
+Desmond King	LAC	0	1	0	0.0%					39.6	7.0			0	0	0	0.0	0	0	0	
+Rayshawn Jenkins	LAC	1	1	0	0.0%					0.0	28.0			0	0	0	0.0	0	3	0	0.0%"

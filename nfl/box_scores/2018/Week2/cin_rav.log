@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Joe Flacco	BAL	32	55	376	20	33.9	509	9.3	229	7.2	4.2	147	4.6	3	5.7%	8	15.1%	4	18	7	6	1	2.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Andy Dalton	CIN	24	42	265	14	33.3	257	6.1	128	5.3	3.0	137	5.7	4	9.8%	6	14.6%	0	11	3	4	0	"
+advanced_rushing
+"Alex Collins	BAL	9	35	0	18	2.0	17	1.9	0	
+Javorius Allen	BAL	6	8	1	2	0.3	6	1.0	0	
+Joe Flacco	BAL	3	8	3	8	2.7	0	0.0	0	
+Lamar Jackson	BAL	2	6		2	1.0	4	2.0	0	
+Chris Moore	BAL	1	2		0	0.0	2	2.0	0	
+Maxx Williams	BAL	1	7	1	6	6.0	1	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Joe Mixon	CIN	21	84	4	55	2.6	29	1.4	0	
+Giovani Bernard	CIN	6	27	2	17	2.8	10	1.7	0	
+John Ross	CIN	1	-3		-3	-3.0	0	0.0	0	"
+advanced_receiving
+"Javorius Allen	BAL	7	5	36	3	25	5.0	11	2.2	0		0	0.0
+Willie Snead	BAL	8	5	54	3	24	4.8	30	6.0	0		0	0.0
+Michael Crabtree	BAL	10	5	56	3	39	7.8	17	3.4	0		1	10.0
+John Brown	BAL	10	4	92	3	82	20.5	10	2.5	0		1	10.0
+Mark Andrews	BAL	4	3	17	3	16	5.3	1	0.3	0		0	0.0
+Maxx Williams	BAL	3	3	31	2	17	5.7	14	4.7	0		0	0.0
+Alex Collins	BAL	4	3	55	2	3	1.0	52	17.3	4	0.8	1	25.0
+Nick Boyle	BAL	4	2	26	1	17	8.5	9	4.5	0		0	0.0
+Chris Moore	BAL	3	2	9		6	3.0	3	1.5	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyler Boyd	CIN	9	6	91	4	66	11.0	25	4.2	0		0	0.0
+A.J. Green	CIN	9	5	69	5	38	7.6	31	6.2	1	5.0	1	11.1
+Giovani Bernard	CIN	7	4	15	0	-2	-0.5	17	4.3	0		0	0.0
+C.J. Uzomah	CIN	4	3	45	2	4	1.3	41	13.7	0		1	25.0
+Tyler Eifert	CIN	4	2	23	1	20	10.0	3	1.5	0		1	25.0
+Tyler Kroft	CIN	2	2	11	2	6	3.0	5	2.5	0		0	0.0
+Joe Mixon	CIN	1	1	3	0	-7	-7.0	10	10.0	0		0	0.0
+John Ross	CIN	4	1	8		3	3.0	5	5.0	1	1.0	1	25.0
+Josh Malone	CIN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Tavon Young	BAL	0	7	6	85.7%	80	13.3	11.4	2	153.9	10.1	43	37	1	0	0	0.0	0	4	1	20.0%
+Kenny Young	BAL	0	8	5	62.5%	28	5.6	3.5	0	68.7	-0.3	-6	34	4	1	1	0.0	2	8	2	20.0%
+Patrick Onwuasor	BAL	0	5	4	80.0%	65	16.3	13.0	1	158.3	4.2	21	44	8	0	1	0.0	1	8	1	11.1%
+Tony Jefferson	BAL	0	5	4	80.0%	43	10.8	8.6	0	102.5	8.4	37	6	1	0	0	0.0	0	9	1	10.0%
+Marlon Humphrey	BAL	0	8	3	37.5%	23	7.7	2.9	1	85.4	9.6	16	7	0	0	0	0.0	0	7	0	0.0%
+Brandon Carr	BAL	0	4	1	25.0%	18	18.0	4.5	0	45.8	14.3	14	4	0	0	0	0.0	0	3	0	0.0%
+Za'Darius Smith	BAL	0	1	0	0.0%					39.6	3.0			5	0	1	0.0	1	1	0	0.0%
+Matt Judon	BAL	0	0	0										2	0	1	0.0	1	3	0	0.0%
+Chris Wormley	BAL	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Terrell Suggs	BAL	0	0	0										4	1	0	0.0	1	0	0	
+Eric Weddle	BAL	0	2	0	0.0%					39.6	2.5			2	0	0	0.0	0	7	1	12.5%
+Tyus Bowser	BAL	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Hardy Nickerson	CIN	0	9	7	77.8%	95	13.6	10.6	0	110.6	7.3	64	31	10	0	0	0.0	0	8	1	11.1%
+Nick Vigil	CIN	0	9	6	66.7%	78	13.0	8.7	0	93.7	4.8	35	43	8	1	0	0.0	1	9	3	25.0%
+Darqueze Dennard	CIN	0	8	6	75.0%	60	10.0	7.5	0	95.8	5.3	34	26	0	0	0	0.0	0	9	1	10.0%
+Dre Kirkpatrick	CIN	0	11	5	45.5%	68	13.6	6.2	1	96.0	16.8	53	15	0	0	0	0.0	0	3	3	50.0%
+Shawn Williams	CIN	1	5	3	60.0%	26	8.7	5.2	0	34.2	11.2	20	6	4	0	0	1.0	1	8	1	11.1%
+William Jackson	CIN	0	7	2	28.6%	13	6.5	1.9	0	39.6	16.1	13	0	0	0	0	0.0	0	1	2	66.7%
+Sam Hubbard	CIN	0	1	1	100.0%	11	11.0	11.0	0	112.5	9.0	9	2	0	0	0	1.0	1	5	0	0.0%
+Clayton Fejedelem	CIN	0	2	1	50.0%	1	1.0	0.5	1	95.8	28.5	1	0	0	0	0	0.0	0	2	0	0.0%
+Geno Atkins	CIN	0	0	0										0	2	2	2.0	6	5	0	0.0%
+Carl Lawson	CIN	0	0	0										0	3	1	0.0	4	2	0	0.0%
+Carlos Dunlap	CIN	0	0	0										0	1	2	0.0	3	1	0	0.0%
+Jordan Willis	CIN	0	0	0										0	0	1	0.0	1	1	1	50.0%
+Jordan Evans	CIN	0	1	0	0.0%					39.6	1.0			0	0	0	0.0	0	6	0	0.0%
+Jessie Bates	CIN	1	1	0	0.0%					0.0	22.0			0	0	0	0.0	0	3	0	0.0%"

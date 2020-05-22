@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Devlin Hodges	PIT	9	25	95	5	18.5	132	5.3	20	2.2	0.8	75	8.3	4	20.0%	7	35.0%	2	18	0	4	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Robert Griffin	BAL	11	21	96	3	12.5	135	6.4	46	4.2	2.2	50	4.5	0	0.0%	5	25.0%	3	14	0	3	1	16.0"
+advanced_rushing
+"Benny Snell	PIT	18	91	4	32	1.8	59	3.3	1	18.0
+Kerrith Whyte	PIT	3	1		-3	-1.0	4	1.3	0	
+Jordan Berry	PIT	1	0		0	0.0	0	0.0	0	
+Devlin Hodges	PIT	1	-1	0	-1	-1.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Gus Edwards	BAL	21	130	7	45	2.1	85	4.0	0	
+Justice Hill	BAL	10	39	2	13	1.3	26	2.6	3	3.3
+Robert Griffin	BAL	8	50	4	40	5.0	10	1.3	0	
+Anthony Levine	BAL	1	2	1	2	2.0	0	0.0	0	
+Trace McSorley	BAL	1	1	1	0	0.0	1	1.0	0	
+Chris Moore	BAL	1	0		0	0.0	0	0.0	0	
+Willie Snead	BAL	1	0		0	0.0	0	0.0	0	
+De'Anthony Thomas	BAL	1	1		0	0.0	1	1.0	0	"
+advanced_receiving
+"Diontae Johnson	PIT	7	4	54	2	23	5.8	31	7.8	0		0	0.0
+Vance McDonald	PIT	2	2	19	1	7	3.5	12	6.0	0		0	0.0
+JuJu Smith-Schuster	PIT	6	2	6	1	-10	-5.0	16	8.0	0		1	16.7
+Jaylen Samuels	PIT	2	1	16	1	0	0.0	16	16.0	0		1	50.0
+James Washington	PIT	3	0	0		0		0		0		2	66.7
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Willie Snead	BAL	5	3	22		16	5.3	6	2.0	0		0	0.0
+Marquise Brown	BAL	2	2	15		8	4.0	7	3.5	0		0	0.0
+Hayden Hurst	BAL	2	2	35	2	24	12.0	11	5.5	0		0	0.0
+Nick Boyle	BAL	2	1	6		6	6.0	0	0.0	0		0	0.0
+Gus Edwards	BAL	1	1	2	0	-2	-2.0	4	4.0	0		0	0.0
+Justice Hill	BAL	2	1	10	1	-6	-6.0	16	16.0	0		0	0.0
+Jaleel Scott	BAL	3	1	6		0	0.0	6	6.0	0		0	0.0
+Miles Boykin	BAL	2	0	0		0		0		0		0	0.0
+Seth Roberts	BAL	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Devin Bush	PIT	0	5	3	60.0%	24	8.0	4.8	0	72.1	1.4	12	12	4	0	0	0.0	0	12	0	0.0%
+Mark Barron	PIT	0	3	3	100.0%	32	10.7	10.7	0	111.1	4.0	12	20	0	0	0	0.0	0	1	0	0.0%
+Steven Nelson	PIT	0	6	2	33.3%	15	7.5	2.5	0	42.4	16.3	8	7	0	0	0	0.0	0	4	1	20.0%
+T.J. Watt	PIT	0	1	1	100.0%	6	6.0	6.0	0	91.7	6.0	6	0	0	0	1	0.5	2	5	1	16.7%
+Joe Haden	PIT	1	2	1	50.0%	15	15.0	7.5	0	35.4	3.5	4	11	0	0	0	0.0	0	3	1	25.0%
+Terrell Edmunds	PIT	0	1	1	100.0%	4	4.0	4.0	0	83.3	4.0	4	0	2	0	0	0.0	0	7	1	12.5%
+Bud Dupree	PIT	0	0	0										7	0	1	1.0	2	4	0	0.0%
+Cameron Heyward	PIT	0	0	0										0	0	1	1.0	2	4	2	33.3%
+Mike Hilton	PIT	0	1	0	0.0%					39.6	-4.0			2	0	0	0.5	1	3	0	0.0%
+Tyson Alualu	PIT	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Minkah Fitzpatrick	PIT	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Anthony Chickillo	PIT	0	0	0										1	0	0	0.0	0	0	0	
+Vince Williams	PIT	0	0	0										2	0	0	0.0	0	7	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+L.J. Fort	BAL	0	4	3	75.0%	42	14.0	10.5	0	108.3	-0.5	4	38	4	0	0	0.0	0	2	1	33.3%
+Brandon Carr	BAL	0	1	1	100.0%	-5	-5.0	-5.0	0	79.2	-6.0	-6	1	6	0	1	1.0	2	4	1	20.0%
+Anthony Levine	BAL	0	2	1	50.0%	8	8.0	4.0	0	60.4	2.0	0	8	7	0	1	0.0	1	1	0	0.0%
+Marcus Peters	BAL	0	3	1	33.3%	21	21.0	7.0	0	59.0	11.7	20	1	0	0	0	0.0	0	1	0	0.0%
+Marlon Humphrey	BAL	0	3	1	33.3%	11	11.0	3.7	0	45.1	5.3	3	8	6	0	0	0.0	0	3	2	40.0%
+Chuck Clark	BAL	0	2	1	50.0%	7	7.0	3.5	0	58.3	2.0	3	4	1	0	0	0.0	0	9	0	0.0%
+Matt Judon	BAL	0	0	0										0	0	2	1.0	3	2	0	0.0%
+Anthony Averett	BAL	0	4	0	0.0%					39.6	19.0			0	0	0	0.0	0	1	0	0.0%
+Josh Bynes	BAL	0	0	0										3	0	0	0.0	0	2	0	0.0%
+Patrick Onwuasor	BAL	0	0	0										2	0	0	0.0	0	4	1	20.0%
+Jaylon Ferguson	BAL	0	0	0										1	0	0	0.0	0	1	2	66.7%"

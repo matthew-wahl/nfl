@@ -1,0 +1,70 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jimmy Garoppolo	SFO	17	25	296	13	52.0	191	7.6	96	5.6	3.8	200	11.8	1	4.0%	6	24.0%	0	7	0	2	2	5.0
+Dante Pettis	SFO	1	1	16	1	100.0	-4	-4.0	-4	-4.0	-4.0	20	20.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Andy Dalton	CIN	26	42	311	11	23.9	315	7.5	121	4.7	2.9	190	7.3	2	4.8%	7	16.7%	4	4	5	2	0	"
+advanced_rushing
+"Raheem Mostert	SFO	13	83	4	34	2.6	49	3.8	1	13.0
+Matt Breida	SFO	12	121	4	62	5.2	59	4.9	0	
+Jeff Wilson	SFO	10	34	4	27	2.7	7	0.7	0	
+Jimmy Garoppolo	SFO	4	8	1	6	1.5	2	0.5	0	
+Deebo Samuel	SFO	2	7	0	5	2.5	2	1.0	0	
+Kyle Juszczyk	SFO	1	6	0	3	3.0	3	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Joe Mixon	CIN	11	17	2	7	0.6	10	0.9	0	
+Giovani Bernard	CIN	6	6		5	0.8	1	0.2	0	
+Andy Dalton	CIN	2	2	0	2	1.0	0	0.0	0	"
+advanced_receiving
+"Deebo Samuel	SFO	7	5	86	3	5	1.0	81	16.2	0		1	14.3
+Raheem Mostert	SFO	4	3	68	3	-5	-1.7	73	24.3	0		0	0.0
+George Kittle	SFO	3	3	54	2	22	7.3	32	10.7	0		0	0.0
+Marquise Goodwin	SFO	3	3	77	3	61	20.3	16	5.3	0		0	0.0
+Kendrick Bourne	SFO	2	1	4		4	4.0	0	0.0	0		0	0.0
+Kyle Juszczyk	SFO	2	1	5	1	1	1.0	4	4.0	0		0	0.0
+Richie James	SFO	4	1	7	1	7	7.0	0	0.0	0		0	0.0
+Matt Breida	SFO	1	1	11	1	-3	-3.0	14	14.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyler Boyd	CIN	10	10	122	6	70	7.0	52	5.2	0		0	0.0
+John Ross	CIN	8	4	112	2	24	6.0	88	22.0	0		1	12.5
+Tyler Eifert	CIN	5	3	9	1	3	1.0	6	2.0	0		0	0.0
+Joe Mixon	CIN	5	3	10	0	-4	-1.3	14	4.7	0		0	0.0
+Drew Sample	CIN	3	2	25	1	13	6.5	12	6.0	0		0	0.0
+Alex Erickson	CIN	3	1	14	1	12	12.0	2	2.0	0		0	0.0
+Giovani Bernard	CIN	3	1	7		1	1.0	6	6.0	0		0	0.0
+Auden Tate	CIN	2	1	6		-3	-3.0	9	9.0	0		0	0.0
+Damion Willis	CIN	3	1	6		5	5.0	1	1.0	0		1	33.3"
+advanced_defense
+"Richard Sherman	SFO	0	6	6	100.0%	30	5.0	5.0	0	87.5	1.5	9	21	0	0	0	0.0	0	4	1	20.0%
+K'Waun Williams	SFO	0	8	6	75.0%	105	17.5	13.1	1	156.2	5.9	47	58	3	0	0	0.0	0	7	1	12.5%
+Kwon Alexander	SFO	1	7	3	42.9%	21	7.0	3.0	0	10.7	5.3	9	12	0	0	0	0.0	0	6	1	14.3%
+D.J. Reed	SFO	0	6	3	50.0%	81	27.0	13.5	1	135.4	9.2	27	54	0	0	0	0.0	0	3	1	25.0%
+Dre Greenlaw	SFO	0	3	2	66.7%	7	3.5	2.3	0	70.1	9.0	2	5	0	0	0	0.0	0	3	0	0.0%
+Emmanuel Moseley	SFO	0	2	2	100.0%	17	8.5	8.5	0	102.1	0.0	0	17	0	0	0	0.0	0	0	1	100.0%
+Fred Warner	SFO	0	2	2	100.0%	20	10.0	10.0	0	108.3	8.0	16	4	0	0	0	0.0	0	7	0	0.0%
+Jaquiski Tartt	SFO	0	3	2	66.7%	19	9.5	6.3	0	84.0	7.3	11	8	1	0	0	0.0	0	5	0	0.0%
+Ahkello Witherspoon	SFO	0	6	1	16.7%	14	14.0	2.3	0	39.6	19.0	12	2	0	0	0	0.0	0	5	0	0.0%
+Azeez Al-Shaair	SFO	0	1	1	100.0%	21	21.0	21.0	0	118.7	9.0	9	12	0	0	0	0.0	0	1	1	50.0%
+Solomon Thomas	SFO	0	0	0										0	0	1	1.0	2	3	0	0.0%
+Arik Armstead	SFO	0	0	0										0	1	0	1.0	2	3	0	0.0%
+Ronald Blair	SFO	0	0	0										0	0	0	1.0	1	5	0	0.0%
+Jullian Taylor	SFO	0	0	0										0	0	1	0.0	1	0	0	
+Dee Ford	SFO	0	0	0										0	1	0	0.0	1	1	0	0.0%
+DeForest Buckner	SFO	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Tarvarius Moore	SFO	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Dre Kirkpatrick	CIN	0	8	5	62.5%	97	19.4	12.1	1	144.3	8.3	29	68	0	0	0	0.0	0	6	1	14.3%
+Preston Brown	CIN	0	3	3	100.0%	27	9.0	9.0	0	104.2	2.0	6	21	1	0	0	0.0	0	14	0	0.0%
+Jessie Bates	CIN	0	2	2	100.0%	74	37.0	37.0	1	158.3	19.5	39	35	0	0	0	0.0	0	11	1	8.3%
+Shawn Williams	CIN	0	3	2	66.7%	34	17.0	11.3	0	104.9	10.7	32	2	0	0	0	0.0	0	9	1	10.0%
+William Jackson	CIN	1	4	1	25.0%	11	11.0	2.8	0	0.0	11.3	-3	14	0	0	0	0.0	0	1	1	50.0%
+Nick Vigil	CIN	0	2	1	50.0%	7	7.0	3.5	0	58.3	13.0	-4	11	2	0	0	0.0	0	2	1	33.3%
+Geno Atkins	CIN	0	1	1	100.0%	16	16.0	16.0	0	118.7	-4.0	-4	20	0	0	0	0.0	0	5	0	0.0%
+B.W. Webb	CIN	0	1	1	100.0%	7	7.0	7.0	0	95.8	7.0	7	0	1	0	0	0.0	0	1	0	0.0%
+Ryan Glasgow	CIN	0	0	0										0	0	2	0.0	2	1	0	0.0%
+Carlos Dunlap	CIN	0	0	0										0	1	0	0.0	1	6	0	0.0%
+Sam Hubbard	CIN	0	0	0										1	0	0	0.0	0	5	1	16.7%
+Carl Lawson	CIN	0	0	0										1	0	0	0.0	0	1	1	50.0%
+Josh Tupou	CIN	0	0	0										0	0	0	0.0	0	2	1	33.3%"

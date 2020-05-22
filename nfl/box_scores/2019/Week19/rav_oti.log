@@ -1,0 +1,65 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ryan Tannehill	TEN	7	14	88	4	26.7	177	12.6	56	8.0	4.0	32	4.6	0	0.0%	3	21.4%	1	13	0	3	1	3.0
+Derrick Henry	TEN	1	1	3	1	100.0	3	3.0	3	3.0	3.0	0	0.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Lamar Jackson	BAL	31	59	365	18	28.6	663	11.2	273	8.8	4.6	92	3.0	7	13.0%	9	16.7%	4	10	2	3	8	9.9"
+advanced_rushing
+"Derrick Henry	TEN	30	195	6	68	2.3	127	4.2	4	7.5
+Ryan Tannehill	TEN	6	13	3	3	0.5	10	1.7	0	
+A.J. Brown	TEN	1	9	0	0	0.0	9	9.0	1	1.0
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Lamar Jackson	BAL	20	143	9	109	5.5	34	1.7	1	20.0
+Mark Ingram	BAL	6	22		4	0.7	18	3.0	0	
+Gus Edwards	BAL	3	20	1	14	4.7	6	2.0	0	"
+advanced_receiving
+"Derrick Henry	TEN	2	2	7	0	-5	-2.5	12	6.0	0		0	0.0
+Jonnu Smith	TEN	3	2	12	1	10	5.0	2	1.0	0		0	0.0
+A.J. Brown	TEN	3	1	9	1	2	2.0	7	7.0	1	1.0	0	0.0
+Corey Davis	TEN	2	1	3	1	3	3.0	0	0.0	0		0	0.0
+MyCole Pruitt	TEN	1	1	15	1	4	4.0	11	11.0	0		0	0.0
+Kalif Raymond	TEN	1	1	45	1	45	45.0	0	0.0	0		0	0.0
+Darius Jennings	TEN	1	0	0		0		0		0		0	0.0
+Tajae Sharpe	TEN	2	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Marquise Brown	BAL	11	7	126	6	105	15.0	21	3.0	0		0	0.0
+Willie Snead	BAL	8	6	56	3	45	7.5	11	1.8	0		2	25.0
+Mark Andrews	BAL	7	4	39	3	32	8.0	7	1.8	0		1	14.3
+Justice Hill	BAL	5	4	26	1	0	0.0	26	6.5	0		0	0.0
+Hayden Hurst	BAL	6	4	53	3	34	8.5	19	4.8	0		1	16.7
+Miles Boykin	BAL	7	3	26	1	26	8.7	0	0.0	0		1	14.3
+Seth Roberts	BAL	4	2	30	1	27	13.5	3	1.5	0		1	25.0
+Mark Ingram	BAL	2	1	9		4	4.0	5	5.0	0		1	50.0
+Chris Moore	BAL	1	0	0		0		0		0		0	0.0
+Nick Boyle	BAL	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Logan Ryan	TEN	0	10	6	60.0%	65	10.8	6.5	0	79.2	11.4	57	8	3	0	0	0.0	0	13	1	7.1%
+Kenny Vaccaro	TEN	1	10	5	50.0%	61	12.2	6.1	1	62.9	12.4	41	20	4	0	1	0.0	1	5	0	0.0%
+Adoree' Jackson	TEN	0	10	5	50.0%	94	18.8	9.4	0	82.9	17.1	70	24	0	0	0	0.0	0	3	1	25.0%
+Tramaine Brock	TEN	0	7	4	57.1%	22	5.5	3.1	0	62.8	9.3	22	0	0	0	0	0.0	0	5	0	0.0%
+Kevin Byard	TEN	1	5	4	80.0%	25	6.3	5.0	0	47.9	4.0	19	6	0	0	0	0.0	0	11	0	0.0%
+Dane Cruikshank	TEN	0	5	3	60.0%	60	20.0	12.0	0	102.1	15.8	46	14	0	0	0	0.0	0	0	0	
+Jurrell Casey	TEN	0	1	1	100.0%	14	14.0	14.0	0	118.7	3.0	3	11	0	0	0	2.0	2	4	0	0.0%
+Rashaan Evans	TEN	0	2	1	50.0%	6	6.0	3.0	0	56.2	9.5	5	1	1	0	0	0.0	0	7	0	0.0%
+Amani Hooker	TEN	0	2	1	50.0%	9	9.0	4.5	0	62.5	19.0	4	5	0	0	0	0.0	0	2	1	33.3%
+Derick Roberson	TEN	0	0	0										3	1	1	0.0	2	0	1	100.0%
+Harold Landry	TEN	0	0	0										7	0	0	1.0	1	4	1	20.0%
+Kamalei Correa	TEN	0	0	0										3	0	0	1.0	1	2	0	0.0%
+DaQuan Jones	TEN	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Wesley Woodyard	TEN	0	1	0	0.0%					39.6	9.0			1	1	0	0.0	1	5	1	16.7%
+David Long	TEN	0	0	0										3	0	0	0.0	0	6	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Earl Thomas	BAL	0	2	2	100.0%	3	1.5	1.5	1	118.7	0.5	1	2	6	0	0	1.0	1	7	1	12.5%
+Marcus Peters	BAL	0	4	2	50.0%	8	4.0	2.0	0	56.2	2.5	1	7	0	0	0	0.0	0	2	0	0.0%
+Marlon Humphrey	BAL	0	2	1	50.0%	45	45.0	22.5	1	135.4	35.5	45	0	0	0	0	0.0	0	2	1	33.3%
+L.J. Fort	BAL	0	2	1	50.0%	15	15.0	7.5	0	75.0	10.0	4	11	0	0	0	0.0	0	2	1	33.3%
+Jihad Ward	BAL	0	0	0										0	0	2	0.0	2	2	0	0.0%
+Jaylon Ferguson	BAL	0	0	0										8	0	1	0.0	1	1	1	50.0%
+Chuck Clark	BAL	0	0	0										6	0	0	0.0	0	2	1	33.3%
+Tyus Bowser	BAL	0	1	0	0.0%					39.6	17.0			2	0	0	0.0	0	0	0	
+Josh Bynes	BAL	0	0	0										1	0	0	0.0	0	6	0	0.0%
+Jimmy Smith	BAL	0	2	0	0.0%					39.6	26.5			0	0	0	0.0	0	0	0	
+Matt Judon	BAL	0	0	0										5	0	0	0.0	0	3	3	50.0%
+Patrick Onwuasor	BAL	0	0	0										2	0	0	0.0	0	4	0	0.0%"

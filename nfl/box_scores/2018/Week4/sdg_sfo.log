@@ -1,0 +1,62 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"C.J. Beathard	SFO	23	37	298	13	34.2	205	5.5	128	5.6	3.5	170	7.4	2	5.7%	4	11.4%	1	8	0	6	4	4.3
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Philip Rivers	LAC	25	39	250	14	35.0	261	6.7	139	5.6	3.6	111	4.4	1	2.8%	7	19.4%	1	7	0	1	0	"
+advanced_rushing
+"Matt Breida	SFO	9	39	3	16	1.8	23	2.6	0	
+C.J. Beathard	SFO	7	19	1	5	0.7	14	2.0	0	
+Alfred Morris	SFO	4	14	1	8	2.0	6	1.5	0	
+Marquise Goodwin	SFO	1	4	0	4	4.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Melvin Gordon	LAC	15	104	4	41	2.7	63	4.2	4	3.8
+Austin Ekeler	LAC	8	25	1	-1	-0.1	26	3.3	0	
+Philip Rivers	LAC	4	-3	1	-3	-0.8	0	0.0	0	"
+advanced_receiving
+"George Kittle	SFO	8	6	125	4	35	5.8	90	15.0	0		0	0.0
+Pierre Garcon	SFO	7	4	52	2	41	10.3	11	2.8	0		0	0.0
+Kendrick Bourne	SFO	4	3	34	3	32	10.7	2	0.7	0		0	0.0
+Matt Breida	SFO	3	3	32	1	-7	-2.3	39	13.0	2	1.5	0	0.0
+Trent Taylor	SFO	3	2	12		1	0.5	11	5.5	1	2.0	0	0.0
+Marquise Goodwin	SFO	4	2	24	2	20	10.0	4	2.0	0		1	25.0
+Kyle Juszczyk	SFO	3	2	15	1	10	5.0	5	2.5	0		0	0.0
+Alfred Morris	SFO	3	1	4	0	-4	-4.0	8	8.0	0		0	0.0
+Garrett Celek	SFO	1	0	0		0		0		0		1	100.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Keenan Allen	LAC	10	7	63	3	50	7.1	13	1.9	0		0	0.0
+Melvin Gordon	LAC	10	7	55	3	8	1.1	47	6.7	0		1	10.0
+Tyrell Williams	LAC	5	3	48	3	31	10.3	17	5.7	0		0	0.0
+Virgil Green	LAC	2	2	9	1	3	1.5	6	3.0	0		0	0.0
+Antonio Gates	LAC	4	2	27	2	20	10.0	7	3.5	0		0	0.0
+Austin Ekeler	LAC	3	2	31	1	21	10.5	10	5.0	1	2.0	0	0.0
+Mike Williams	LAC	3	1	15	1	13	13.0	2	2.0	0		0	0.0
+Travis Benjamin	LAC	1	1	2		-7	-7.0	9	9.0	0		0	0.0"
+advanced_defense
+"Fred Warner	SFO	0	5	5	100.0%	64	12.8	12.8	1	158.3	5.2	26	38	3	0	0	0.0	0	10	0	0.0%
+Ahkello Witherspoon	SFO	0	9	5	55.6%	45	9.0	5.0	2	108.8	7.4	40	5	0	0	0	0.0	0	4	0	0.0%
+Reuben Foster	SFO	0	6	3	50.0%	34	11.3	5.7	0	67.4	3.8	12	22	4	0	1	0.0	1	7	2	22.2%
+K'Waun Williams	SFO	0	3	3	100.0%	26	8.7	8.7	0	102.8	3.0	9	17	1	0	0	0.0	0	6	0	0.0%
+Greg Mabin	SFO	0	5	2	40.0%	18	9.0	3.6	0	50.4	14.0	14	4	0	0	0	0.0	0	4	2	33.3%
+Malcolm Smith	SFO	0	2	2	100.0%	4	2.0	2.0	0	79.2	1.0	2	2	2	0	0	0.0	0	5	2	28.6%
+Jimmie Ward	SFO	0	5	2	40.0%	28	14.0	5.6	0	58.7	9.6	21	7	0	0	0	0.0	0	3	0	0.0%
+Solomon Thomas	SFO	0	1	1	100.0%	22	22.0	22.0	0	118.7	15.0	15	7	0	0	0	0.0	0	2	0	0.0%
+Antone Exum	SFO	1	3	1	33.3%	9	9.0	3.0	0	2.8	2.7	0	9	1	0	0	0.0	0	3	1	25.0%
+Sheldon Day	SFO	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Earl Mitchell	SFO	0	0	0										0	0	0	0.0	0	2	1	33.3%
+D.J. Reed	SFO	0	0	0										0	0	0	0.0	0	2	2	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Trevor Williams	LAC	1	9	8	88.9%	89	11.1	9.9	0	68.3	8.6	69	20	0	0	0	0.0	0	8	0	0.0%
+Jatavis Brown	LAC	0	8	6	75.0%	73	12.2	9.1	0	102.6	5.5	27	46	2	0	0	0.0	0	9	1	10.0%
+Derwin James	LAC	0	8	4	50.0%	31	7.8	3.9	0	59.9	7.3	10	21	4	0	2	1.0	3	7	2	22.2%
+Casey Hayward	LAC	0	5	3	60.0%	29	9.7	5.8	1	115.8	6.8	21	8	0	0	0	0.0	0	4	0	0.0%
+Desmond King	LAC	0	3	3	100.0%	16	5.3	5.3	0	88.9	-1.0	-3	19	0	0	0	0.0	0	2	1	33.3%
+Denzel Perryman	LAC	0	6	1	16.7%	82	82.0	13.7	1	118.7	3.3	21	61	0	1	0	0.0	1	4	1	20.0%
+Jahleel Addae	LAC	0	1	1	100.0%	13	13.0	13.0	0	118.7	12.0	12	1	1	0	0	0.0	0	2	0	0.0%
+Darius Philon	LAC	0	0	0										0	1	1	0.0	2	2	0	0.0%
+Brandon Mebane	LAC	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Melvin Ingram	LAC	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Chris Landrum	LAC	0	0	0										0	0	1	0.0	1	0	0	
+Damion Square	LAC	0	0	0										0	0	1	0.0	1	5	0	0.0%
+Kyle Emanuel	LAC	0	0	0										3	0	0	0.0	0	2	0	0.0%"

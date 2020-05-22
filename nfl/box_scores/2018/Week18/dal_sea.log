@@ -1,0 +1,61 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Russell Wilson	SEA	18	27	233	6	21.4	224	8.3	135	7.5	5.0	98	5.4	1	3.8%	6	23.1%	1	4	1	2	1	3.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Dak Prescott	DAL	22	33	226	11	32.4	245	7.4	123	5.6	3.7	103	4.7	1	3.2%	6	19.4%	1	7	4	3	0	"
+advanced_rushing
+"Chris Carson	SEA	13	20		3	0.2	17	1.3	0	
+Mike Davis	SEA	4	10	1	7	1.8	3	0.8	0	
+Rashaad Penny	SEA	4	29	2	21	5.3	8	2.0	0	
+Russell Wilson	SEA	3	14	2	10	3.3	4	1.3	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Ezekiel Elliott	DAL	26	137	6	82	3.2	55	2.1	1	26.0
+Dak Prescott	DAL	6	29	3	15	2.5	14	2.3	0	
+Tavon Austin	DAL	1	-3	0	-3	-3.0	0	0.0	0	
+Rod Smith	DAL	1	1		-1	-1.0	2	2.0	0	"
+advanced_receiving
+"Ed Dickson	SEA	5	4	42	1	21	5.3	21	5.3	0		0	0.0
+Tyler Lockett	SEA	6	4	120	3	92	23.0	28	7.0	0		0	0.0
+Doug Baldwin	SEA	6	3	32	1	32	10.7	0	0.0	0		0	0.0
+Chris Carson	SEA	3	2	-1		-7	-3.5	6	3.0	0		1	33.3
+Mike Davis	SEA	2	2	22	0	-10	-5.0	32	16.0	0		0	0.0
+J.D. McKissic	SEA	3	2	13	1	6	3.0	7	3.5	0		0	0.0
+Nick Vannett	SEA	2	1	5		1	1.0	4	4.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Amari Cooper	DAL	9	7	106	4	72	10.3	34	4.9	0		0	0.0
+Ezekiel Elliott	DAL	5	4	32	0	-1	-0.3	33	8.3	0		0	0.0
+Cole Beasley	DAL	3	3	28	2	18	6.0	10	3.3	0		0	0.0
+Blake Jarwin	DAL	3	3	15	1	2	0.7	13	4.3	0		0	0.0
+Michael Gallup	DAL	6	2	18	1	18	9.0	0	0.0	0		0	0.0
+Tavon Austin	DAL	1	1	7	1	7	7.0	0	0.0	0		0	0.0
+Noah Brown	DAL	4	1	6	1	0	0.0	6	6.0	0		1	25.0
+Allen Hurns	DAL	1	1	14	1	7	7.0	7	7.0	0		0	0.0"
+advanced_defense
+"Shaquill Griffin	SEA	0	13	8	61.5%	108	13.5	8.3	1	113.6	10.8	71	37	0	0	0	0.0	0	4	2	33.3%
+Bradley McDougald	SEA	0	5	4	80.0%	24	6.0	4.8	0	86.7	0.4	5	19	0	0	0	0.0	0	10	2	16.7%
+Tre Flowers	SEA	0	5	3	60.0%	12	4.0	2.4	0	64.6	7.6	5	7	1	0	0	0.0	0	2	0	0.0%
+Bobby Wagner	SEA	0	2	2	100.0%	13	6.5	6.5	0	93.7	-2.0	-4	17	1	0	0	0.0	0	5	1	16.7%
+K.J. Wright	SEA	1	3	2	66.7%	24	12.0	8.0	0	51.4	7.7	7	17	1	0	0	0.0	0	8	2	20.0%
+Justin Coleman	SEA	0	2	1	50.0%	27	27.0	13.5	0	95.8	13.5	27	0	2	0	0	0.0	0	6	0	0.0%
+Tedric Thompson	SEA	0	2	1	50.0%	2	2.0	1.0	0	56.2	12.5	-2	4	0	0	0	0.0	0	5	0	0.0%
+Akeem King	SEA	0	1	1	100.0%	9	9.0	9.0	0	104.2	9.0	9	0	1	0	0	0.0	0	1	0	0.0%
+Frank Clark	SEA	0	0	0										1	1	2	1.0	4	4	0	0.0%
+Jarran Reed	SEA	0	0	0										0	2	1	0.0	3	4	0	0.0%
+Poona Ford	SEA	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Barkevious Mingo	SEA	0	0	0										2	0	0	0.0	0	1	0	0.0%
+Dion Jordan	SEA	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Jacob Martin	SEA	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Leighton Vander Esch	DAL	0	7	6	85.7%	39	6.5	5.6	0	89.9	1.7	2	37	2	0	0	0.0	0	10	1	9.1%
+Byron Jones	DAL	0	7	5	71.4%	94	18.8	13.4	1	153.3	9.3	58	36	0	0	0	0.0	0	4	0	0.0%
+Chidobe Awuzie	DAL	0	6	3	50.0%	52	17.3	8.7	0	79.9	17.5	52	0	0	0	0	0.0	0	6	0	0.0%
+Anthony Brown	DAL	0	3	2	66.7%	7	3.5	2.3	0	70.1	2.0	0	7	1	0	0	0.0	0	1	0	0.0%
+Jaylon Smith	DAL	0	3	2	66.7%	16	8.0	5.3	0	79.9	4.0	-1	17	3	0	0	0.0	0	7	0	0.0%
+Antwaun Woods	DAL	0	1	1	100.0%	-8	-8.0	-8.0	0	79.2	-9.0	-9	1	0	0	0	0.0	0	3	0	0.0%
+Jeff Heath	DAL	0	2	1	50.0%	26	26.0	13.0	0	95.8	22.0	18	8	0	0	0	0.0	0	4	1	20.0%
+Xavier Woods	DAL	0	1	1	100.0%	40	40.0	40.0	0	118.7	33.0	33	7	0	0	0	0.0	0	2	0	0.0%
+Maliek Collins	DAL	0	0	0										0	1	0	1.0	2	4	0	0.0%
+Randy Gregory	DAL	0	0	0										0	1	1	0.0	2	2	0	0.0%
+DeMarcus Lawrence	DAL	0	0	0										0	0	1	0.0	1	6	0	0.0%"

@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Russell Wilson	SEA	14	17	248	11	57.9	187	11.0	184	13.1	10.8	64	4.6	0	0.0%	3	17.6%	2	9	2	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Matthew Stafford	DET	27	40	310	17	39.5	289	7.2	146	5.4	3.7	164	6.1	2	5.1%	5	12.8%	3	4	5	2	1	6.0"
+advanced_rushing
+"Chris Carson	SEA	25	105	5	54	2.2	51	2.0	2	12.5
+Mike Davis	SEA	10	33		25	2.5	8	0.8	0	
+Tyler Lockett	SEA	2	13	1	13	6.5	0	0.0	0	
+Tre Madden	SEA	2	1		1	0.5	0	0.0	0	
+Russell Wilson	SEA	2	15	1	15	7.5	0	0.0	0	
+Michael Dickson	SEA	1	9	1	9	9.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Kerryon Johnson	DET	8	22	0	15	1.9	7	0.9	1	8.0
+LeGarrette Blount	DET	3	3	0	2	0.7	1	0.3	0	
+Matthew Stafford	DET	1	6	1	4	4.0	2	2.0	0	
+Golden Tate	DET	1	3	0	3	3.0	0	0.0	0	"
+advanced_receiving
+"David Moore	SEA	4	4	97	4	81	20.3	16	4.0	0		0	0.0
+Doug Baldwin	SEA	3	2	26	1	22	11.0	4	2.0	0		0	0.0
+Chris Carson	SEA	2	2	19	1	12	6.0	7	3.5	0		0	0.0
+Ed Dickson	SEA	2	2	54	1	23	11.5	31	15.5	0		0	0.0
+Tyler Lockett	SEA	2	2	34	2	31	15.5	3	1.5	0		0	0.0
+Mike Davis	SEA	1	1	2		2	2.0	0	0.0	0		0	0.0
+Nick Vannett	SEA	3	1	16	1	13	13.0	3	3.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Marvin Jones	DET	10	7	117	6	114	16.3	3	0.4	0		0	0.0
+Golden Tate	DET	12	7	50	2	22	3.1	28	4.0	1	7.0	1	8.3
+Kerryon Johnson	DET	8	6	69	4	-13	-2.2	82	13.7	1	6.0	0	0.0
+Luke Willson	DET	4	3	21	1	12	4.0	9	3.0	0		1	25.0
+Ameer Abdullah	DET	1	1	6	1	3	3.0	3	3.0	0		0	0.0
+LeGarrette Blount	DET	1	1	23	1	-3	-3.0	26	26.0	0		0	0.0
+Kenny Golladay	DET	1	1	12	1	7	7.0	5	5.0	1	1.0	0	0.0
+Levine Toilolo	DET	1	1	12	1	4	4.0	8	8.0	0		0	0.0
+Michael Roberts	DET	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Shaquill Griffin	SEA	0	5	4	80.0%	47	11.8	9.4	1	145.4	11.0	34	13	0	0	0	0.0	0	3	0	0.0%
+Tre Flowers	SEA	0	9	4	44.4%	56	14.0	6.2	0	65.0	11.0	36	20	0	0	0	0.0	0	3	3	50.0%
+K.J. Wright	SEA	0	7	3	42.9%	35	11.7	5.0	0	58.6	2.7	13	22	1	1	0	0.0	1	5	0	0.0%
+Bradley McDougald	SEA	0	5	3	60.0%	65	21.7	13.0	0	104.2	2.4	2	63	1	0	0	0.0	0	6	1	14.3%
+Bobby Wagner	SEA	0	5	3	60.0%	26	8.7	5.2	0	73.7	4.6	12	14	1	0	0	0.0	0	8	0	0.0%
+Justin Coleman	SEA	1	5	3	60.0%	36	12.0	7.2	0	42.5	2.0	7	29	2	0	0	0.0	0	4	1	20.0%
+Jarran Reed	SEA	0	1	1	100.0%	6	6.0	6.0	0	91.7	3.0	3	3	0	0	1	0.0	1	1	0	0.0%
+Frank Clark	SEA	0	0	0										0	1	0	1.0	2	1	0	0.0%
+Dion Jordan	SEA	0	0	0										0	1	1	0.0	2	4	0	0.0%
+Poona Ford	SEA	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Shamar Stephen	SEA	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Tedric Thompson	SEA	0	2	0	0.0%	39		19.5	1	118.7	24.0	39	0	0	0	0	0.0	0	6	1	14.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Teez Tabor	DET	0	4	1	25.0%	97	97.0	24.3	1	118.7	20.3	81	16	0	0	0	0.0	0	4	0	0.0%
+Darius Slay	DET	0	2	1	50.0%	16	16.0	8.0	0	77.1	6.0	12	4	0	0	0	0.0	0	3	0	0.0%
+Romeo Okwara	DET	0	0	0										1	0	1	1.0	2	4	1	20.0%
+Damon Harrison	DET	0	0	0										0	0	0	1.0	1	7	0	0.0%
+Jarrad Davis	DET	0	0	0										3	1	0	0.0	1	8	3	27.3%
+Devon Kennard	DET	0	0	0										7	1	0	0.0	1	5	1	16.7%
+Christian Jones	DET	0	2	0	0.0%	2		1.0	0	39.6	1.5	2	0	1	0	0	0.0	0	4	0	0.0%
+Quandre Diggs	DET	0	2	0	0.0%	14		7.0	1	95.8	7.0	14	0	0	0	0	0.0	0	8	1	11.1%
+Nevin Lawson	DET	0	3	0	0.0%	44		14.7	1	118.7	14.0	41	3	0	0	0	0.0	0	2	0	0.0%
+Tavon Wilson	DET	0	2	0	0.0%	17		8.5	0	62.5	5.5	10	7	0	0	0	0.0	0	1	0	0.0%
+Eric Lee	DET	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Glover Quin	DET	0	1	0	0.0%	16		16.0	0	79.2	13.0	13	3	1	0	0	0.0	0	5	0	0.0%"

@@ -1,0 +1,62 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Patrick Mahomes	KAN	23	38	295	14	36.8	450	11.8	189	8.2	5.0	106	4.6	2	5.4%	9	24.3%	0	6	7	4	3	14.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Derek Carr	OAK	29	38	285	16	39.0	317	8.3	173	6.0	4.6	112	3.9	1	2.8%	5	13.9%	3	9	4	1	0	"
+advanced_rushing
+"Spencer Ware	KAN	14	47	3	29	2.1	18	1.3	0	
+Patrick Mahomes	KAN	9	52	2	51	5.7	1	0.1	0	
+Damien Williams	KAN	5	38	2	33	6.6	5	1.0	0	
+Tyreek Hill	KAN	2	37	1	35	17.5	2	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Doug Martin	OAK	18	61	6	37	2.1	24	1.3	0	
+Jalen Richard	OAK	6	95	3	40	6.7	55	9.2	1	6.0
+DeAndre Washington	OAK	3	7	1	3	1.0	4	1.3	0	
+Derek Carr	OAK	1	8	0	8	8.0	0	0.0	0	"
+advanced_receiving
+"Travis Kelce	KAN	13	12	168	7	126	10.5	42	3.5	2	6.0	0	0.0
+Chris Conley	KAN	7	3	25	2	15	5.0	10	3.3	0		0	0.0
+Demetrius Harris	KAN	6	3	39	3	12	4.0	27	9.0	0		1	16.7
+Damien Williams	KAN	2	2	7	0	-5	-2.5	12	6.0	0		0	0.0
+Tyreek Hill	KAN	6	1	13	1	12	12.0	1	1.0	0		1	16.7
+Demarcus Robinson	KAN	1	1	38	1	28	28.0	10	10.0	0		0	0.0
+Spencer Ware	KAN	1	1	5	0	1	1.0	4	4.0	0		0	0.0
+Gehrig Dieter	KAN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Jordy Nelson	OAK	11	10	97	6	66	6.6	31	3.1	0		0	0.0
+Jared Cook	OAK	8	7	100	4	73	10.4	27	3.9	0		0	0.0
+Jalen Richard	OAK	4	3	31	3	9	3.0	22	7.3	1	3.0	1	25.0
+Seth Roberts	OAK	6	3	25	1	8	2.7	17	5.7	0		0	0.0
+Marcell Ateman	OAK	4	2	16	1	16	8.0	0	0.0	0		0	0.0
+Doug Martin	OAK	2	2	6	0	1	0.5	5	2.5	0		0	0.0
+Dwayne Harris	OAK	1	1	9		-1	-1.0	10	10.0	0		0	0.0
+Lee Smith	OAK	1	1	1	1	1	1.0	0	0.0	0		0	0.0"
+advanced_defense
+"Kendall Fuller	KAN	0	10	8	80.0%	52	6.5	5.2	0	88.3	2.6	10	42	1	0	0	0.0	0	8	0	0.0%
+Orlando Scandrick	KAN	0	10	6	60.0%	83	13.8	8.3	0	86.7	15.9	74	9	0	0	0	0.0	0	9	0	0.0%
+Steven Nelson	KAN	0	5	5	100.0%	52	10.4	10.4	1	149.6	7.6	38	14	1	0	0	0.0	0	6	0	0.0%
+Ron Parker	KAN	0	4	3	75.0%	37	12.3	9.3	0	103.1	12.3	18	19	0	0	0	0.0	0	7	1	12.5%
+Anthony Hitchens	KAN	0	2	2	100.0%	36	18.0	18.0	1	158.3	15.0	30	6	0	0	0	0.0	0	9	1	10.0%
+Reggie Ragland	KAN	0	2	1	50.0%	5	5.0	2.5	0	56.2	7.0	3	2	0	0	0	0.0	0	5	0	0.0%
+Daniel Sorensen	KAN	0	2	1	50.0%	15	15.0	7.5	0	75.0	3.5	6	9	1	0	0	0.0	0	2	1	33.3%
+Dorian O'Daniel	KAN	0	1	1	100.0%	4	4.0	4.0	0	83.3	0.0	0	4	0	0	0	0.0	0	2	2	50.0%
+Dee Ford	KAN	0	0	0										0	3	0	1.5	5	5	0	0.0%
+Chris Jones	KAN	0	0	0										0	1	0	1.5	3	5	0	0.0%
+Justin Houston	KAN	0	0	0										0	0	1	0.0	1	2	1	33.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Nick Nelson	OAK	0	10	8	80.0%	108	13.5	10.8	1	145.0	17.4	76	32	0	0	0	0.0	0	2	1	33.3%
+Tahir Whitehead	OAK	0	5	5	100.0%	90	18.0	18.0	0	118.7	10.8	54	36	0	1	1	0.0	2	7	0	0.0%
+Nicholas Morrow	OAK	0	4	4	100.0%	30	7.5	7.5	0	97.9	2.0	8	22	0	0	0	0.0	0	7	1	12.5%
+Reggie Nelson	OAK	0	5	3	60.0%	66	22.0	13.2	0	104.2	21.6	62	4	0	0	0	0.0	0	4	1	20.0%
+Marcus Gilchrist	OAK	0	5	2	40.0%	19	9.5	3.8	2	90.8	9.8	19	0	0	0	0	0.0	0	2	0	0.0%
+Daryl Worley	OAK	0	3	2	66.7%	12	6.0	4.0	1	113.9	17.0	10	2	0	0	0	0.0	0	5	1	16.7%
+Gareon Conley	OAK	0	4	2	50.0%	8	4.0	2.0	0	56.2	5.0	-3	11	0	0	0	0.0	0	4	0	0.0%
+Karl Joseph	OAK	0	2	1	50.0%	13	13.0	6.5	1	110.4	32.0	13	0	0	0	0	0.0	0	3	0	0.0%
+Shilique Calhoun	OAK	0	0	0										0	4	0	0.0	4	5	0	0.0%
+Arden Key	OAK	0	0	0										0	2	1	0.0	3	0	0	
+Fadol Brown	OAK	0	0	0										0	1	1	0.0	2	2	0	0.0%
+Clinton McDonald	OAK	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Frostee Rucker	OAK	0	0	0										0	0	1	0.0	1	4	2	33.3%
+Rashaan Melvin	OAK	0	4	0	0.0%					39.6	17.0			1	0	0	0.0	0	2	0	0.0%"

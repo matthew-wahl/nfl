@@ -1,0 +1,61 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Baker Mayfield	CLE	27	42	273	13	29.5	182	4.3	69	2.6	1.6	204	7.6	3	7.7%	5	12.8%	2	11	4	2	2	11.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Brandon Allen	DEN	12	20	193	6	26.1	181	9.1	87	7.3	4.4	106	8.8	1	5.6%	3	16.7%	3	8	2	2	2	8.0"
+advanced_rushing
+"Nick Chubb	CLE	20	65	4	24	1.2	41	2.1	2	10.0
+Dontrell Hilliard	CLE	5	8		5	1.0	3	0.6	0	
+Baker Mayfield	CLE	3	22	1	21	7.0	1	0.3	0	
+Odell Beckham	CLE	1	-5	0	-5	-5.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Phillip Lindsay	DEN	9	92	3	72	8.0	20	2.2	1	9.0
+Brandon Allen	DEN	5	13	1	11	2.2	2	0.4	0	
+Royce Freeman	DEN	5	15	1	5	1.0	10	2.0	0	
+Courtland Sutton	DEN	1	7	0	7	7.0	0	0.0	0	"
+advanced_receiving
+"Jarvis Landry	CLE	13	6	51	4	17	2.8	34	5.7	1	6.0	2	15.4
+Odell Beckham	CLE	6	5	87	4	37	7.4	50	10.0	0		1	16.7
+Antonio Callaway	CLE	5	4	56	1	15	3.8	41	10.3	0		0	0.0
+Nick Chubb	CLE	5	4	26	1	-2	-0.5	28	7.0	0		0	0.0
+Demetrius Harris	CLE	4	3	25	1	2	0.7	23	7.7	1	3.0	0	0.0
+Dontrell Hilliard	CLE	2	2	6		-11	-5.5	17	8.5	0		0	0.0
+Ricky Seals-Jones	CLE	2	2	12	1	4	2.0	8	4.0	0		0	0.0
+KhaDarel Hodge	CLE	1	1	10	1	7	7.0	3	3.0	0		0	0.0
+Stephen Carlson	CLE	1	0	0		0		0		0		0	0.0
+Rashard Higgins	CLE	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Courtland Sutton	DEN	8	5	56	3	36	7.2	20	4.0	1	5.0	0	0.0
+Noah Fant	DEN	4	3	115	3	42	14.0	73	24.3	1	3.0	0	0.0
+Devontae Booker	DEN	1	1	14		4	4.0	10	10.0	0		0	0.0
+Royce Freeman	DEN	1	1	-1	0	-1	-1.0	0	0.0	0		0	0.0
+Troy Fumagalli	DEN	1	1	9		9	9.0	0	0.0	0		0	0.0
+Diontae Spencer	DEN	3	1	0		-3	-3.0	3	3.0	0		1	33.3"
+advanced_defense
+"Denzel Ward	CLE	0	6	3	50.0%	50	16.7	8.3	1	118.1	17.5	31	19	0	0	0	0.0	0	2	1	33.3%
+Adarius Taylor	CLE	0	2	2	100.0%	16	8.0	8.0	0	100.0	6.0	12	4	2	0	0	0.0	0	1	1	50.0%
+Greedy Williams	CLE	0	4	2	50.0%	6	3.0	1.5	0	56.2	4.0	5	1	0	0	0	0.0	0	3	1	25.0%
+Olivier Vernon	CLE	0	1	1	100.0%	-1	-1.0	-1.0	0	79.2	-1.0	-1	0	2	2	1	1.0	4	2	1	33.3%
+Morgan Burnett	CLE	0	1	1	100.0%	9	9.0	9.0	0	104.2	9.0	9	0	1	0	0	0.0	0	4	0	0.0%
+Joe Schobert	CLE	0	1	1	100.0%	24	24.0	24.0	0	118.7	17.0	17	7	5	0	0	0.0	0	4	0	0.0%
+Larry Ogunjobi	CLE	0	0	0										0	0	0	1.0	1	3	0	0.0%
+Mack Wilson	CLE	0	1	0	0.0%					39.6	3.0			2	0	0	1.0	1	5	0	0.0%
+Myles Garrett	CLE	0	0	0										1	1	0	0.0	1	3	0	0.0%
+Devaroe Lawrence	CLE	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Davontae Harris	DEN	0	11	8	72.7%	86	10.8	7.8	1	125.6	4.8	29	57	0	0	0	0.0	0	7	1	12.5%
+Alexander Johnson	DEN	0	7	5	71.4%	22	4.4	3.1	0	74.7	0.3	-13	35	10	0	0	0.0	0	13	1	7.1%
+Duke Dawson	DEN	0	6	4	66.7%	43	10.8	7.2	0	87.5	4.8	22	21	2	0	0	0.0	0	4	2	33.3%
+Chris Harris	DEN	0	5	4	80.0%	81	20.3	16.2	0	118.7	10.6	32	49	0	0	0	0.0	0	4	1	20.0%
+Kareem Jackson	DEN	0	5	3	60.0%	26	8.7	5.2	0	73.7	5.2	10	16	0	0	0	0.0	0	4	3	42.9%
+Malik Reed	DEN	0	3	2	66.7%	10	5.0	3.3	0	71.5	-0.3	-7	17	6	1	0	0.0	1	3	1	25.0%
+Todd Davis	DEN	0	4	1	25.0%	11	11.0	2.8	0	39.6	-0.5	-1	12	5	0	0	0.0	0	10	0	0.0%
+Justin Simmons	DEN	0	3	1	33.3%	4	4.0	1.3	0	42.4	9.3	4	0	0	0	0	0.0	0	8	1	11.1%
+Von Miller	DEN	0	0	0										8	1	1	0.0	2	3	0	0.0%
+Derek Wolfe	DEN	0	0	0										0	0	1	1.0	2	5	0	0.0%
+Jeremiah Attaochu	DEN	0	0	0										0	1	0	0.0	1	0	0	
+Shelby Harris	DEN	0	0	0										0	1	0	0.0	1	3	1	25.0%
+Justin Hollins	DEN	0	0	0										4	0	0	1.0	1	2	0	0.0%
+Mike Purcell	DEN	0	0	0										0	0	0	0.0	0	2	1	33.3%"

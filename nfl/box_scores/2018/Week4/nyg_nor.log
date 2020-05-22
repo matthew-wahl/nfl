@@ -1,0 +1,70 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Drew Brees	NOR	18	32	217	10	30.3	239	7.5	98	5.4	3.1	119	6.6	2	6.9%	5	17.2%	1	13	6	1	0	
+Taysom Hill	NOR	1	2	10	1	50.0	16	8.0	8	8.0	4.0	2	2.0	1	50.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Eli Manning	NYG	31	41	255	18	40.9	250	6.1	117	3.8	2.9	138	4.5	0	0.0%	8	20.0%	3	12	5	2	1	6.0"
+advanced_rushing
+"Alvin Kamara	NOR	19	134	8	66	3.5	68	3.6	2	9.5
+Drew Brees	NOR	4	-1	1	-1	-0.3	0	0.0	0	
+Taysom Hill	NOR	4	28	1	11	2.8	17	4.3	0	
+Mike Gillislee	NOR	2	6		2	1.0	4	2.0	0	
+Dwayne Washington	NOR	2	2		0	0.0	2	1.0	0	
+Ted Ginn	NOR	1	1		0	0.0	1	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Saquon Barkley	NYG	10	44	2	27	2.7	17	1.7	1	10.0
+Wayne Gallman	NYG	2	6	0	1	0.5	5	2.5	0	
+Eli Manning	NYG	2	5	0	5	2.5	0	0.0	0	
+Odell Beckham	NYG	1	10	1	10	10.0	0	0.0	0	"
+advanced_receiving
+"Alvin Kamara	NOR	9	5	47	2	-8	-1.6	55	11.0	0		1	11.1
+Michael Thomas	NOR	4	4	47	4	26	6.5	21	5.3	0		0	0.0
+Cameron Meredith	NOR	4	3	32	1	26	8.7	6	2.0	0		0	0.0
+Josh Hill	NOR	3	3	63	3	35	11.7	28	9.3	0		0	0.0
+Ben Watson	NOR	3	1	23	1	23	23.0	0	0.0	0		0	0.0
+Taysom Hill	NOR	1	1	-4	0	-4	-4.0	0	0.0	0		0	0.0
+Justin Hardee	NOR	1	1	10	1	8	8.0	2	2.0	0		0	0.0
+Mike Gillislee	NOR	1	1	9		0	0.0	9	9.0	0		0	0.0
+Ted Ginn	NOR	3	0	0		0		0		0		0	0.0
+Zach Line	NOR	2	0	0		0		0		0		2	100.0
+Tre'Quan Smith	NOR	2	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Sterling Shepard	NYG	10	10	77	6	51	5.1	26	2.6	0		0	0.0
+Odell Beckham	NYG	11	7	60	3	32	4.6	28	4.0	1	7.0	0	0.0
+Saquon Barkley	NYG	8	6	56	4	-11	-1.8	67	11.2	0		0	0.0
+Wayne Gallman	NYG	3	3	17	2	14	4.7	3	1.0	0		0	0.0
+Rhett Ellison	NYG	5	3	29	1	19	6.3	10	3.3	0		0	0.0
+Russell Shepard	NYG	3	1	9	1	7	7.0	2	2.0	0		0	0.0
+Scott Simonson	NYG	1	1	7	1	5	5.0	2	2.0	0		0	0.0"
+advanced_defense
+"P.J. Williams	NOR	0	8	7	87.5%	22	3.1	2.8	0	79.2	3.9	29	-7	1	0	0	0.0	0	7	1	12.5%
+Marshon Lattimore	NOR	0	10	6	60.0%	70	11.7	7.0	0	81.2	10.0	30	40	0	0	0	0.0	0	4	2	33.3%
+Ken Crawley	NOR	0	7	6	85.7%	37	6.2	5.3	1	128.3	5.4	24	13	0	0	0	0.0	0	8	1	11.1%
+Alex Anzalone	NOR	0	5	5	100.0%	51	10.2	10.2	0	109.2	5.2	26	25	3	1	0	0.0	1	6	1	14.3%
+Demario Davis	NOR	0	3	2	66.7%	14	7.0	4.7	0	77.1	1.0	-3	17	4	0	0	2.0	2	11	2	15.4%
+Kurt Coleman	NOR	0	1	1	100.0%	7	7.0	7.0	0	95.8	5.0	5	2	1	0	0	0.0	0	2	0	0.0%
+A.J. Klein	NOR	0	1	1	100.0%	23	23.0	23.0	0	118.7	17.0	17	6	3	0	0	0.0	0	4	0	0.0%
+Craig Robertson	NOR	0	2	1	50.0%	11	11.0	5.5	0	66.7	4.5	7	4	1	0	0	0.0	0	1	0	0.0%
+Cameron Jordan	NOR	0	0	0										0	4	1	0.0	5	2	1	33.3%
+Sheldon Rankins	NOR	0	0	0										0	0	1	0.0	1	0	0	
+Tyeler Davison	NOR	0	0	0										0	0	0	1.0	1	3	0	0.0%
+Alex Okafor	NOR	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Vonn Bell	NOR	0	2	0	0.0%					39.6	19.5			2	0	0	0.0	0	6	1	14.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Janoris Jenkins	NYG	0	5	5	100.0%	53	10.6	10.6	0	110.8	6.0	30	23	0	0	0	0.0	0	6	3	33.3%
+Ray-Ray Armstrong	NYG	0	6	4	66.7%	57	14.3	9.5	0	97.2	5.7	25	32	0	0	0	0.0	0	7	1	12.5%
+Alec Ogletree	NYG	0	5	3	60.0%	25	8.3	5.0	0	72.9	5.4	9	16	9	1	0	0.0	1	12	0	0.0%
+Landon Collins	NYG	0	6	2	33.3%	15	7.5	2.5	0	42.4	7.8	12	3	3	1	0	0.0	1	14	0	0.0%
+B.W. Webb	NYG	0	4	2	50.0%	30	15.0	7.5	0	75.0	17.3	23	7	0	0	0	0.0	0	2	0	0.0%
+Kareem Martin	NYG	0	1	1	100.0%	21	21.0	21.0	0	118.7	10.0	10	11	8	0	1	0.0	1	3	1	25.0%
+Donte Deayon	NYG	0	4	1	25.0%	1	1.0	0.3	0	39.6	6.5	1	0	0	0	0	0.0	0	2	1	33.3%
+Kerry Wynn	NYG	0	0	0										0	2	0	0.0	2	1	0	0.0%
+B.J. Hill	NYG	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Dalvin Tomlinson	NYG	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Damon Harrison	NYG	0	0	0										0	1	0	0.0	1	2	0	0.0%
+B.J. Goodson	NYG	0	0	0										2	0	0	0.0	0	1	0	0.0%
+Curtis Riley	NYG	0	1	0	0.0%					39.6	11.0			0	0	0	0.0	0	5	2	28.6%
+Lorenzo Carter	NYG	0	1	0	0.0%					39.6	5.0			7	0	0	0.0	0	5	0	0.0%
+Connor Barwin	NYG	0	0	0										8	0	0	0.0	0	3	0	0.0%"

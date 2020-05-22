@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Matt Ryan	ATL	30	51	313	20	35.1	311	6.1	193	6.4	3.8	120	4.0	0	0.0%	12	25.0%	6	18	7	8	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jameis Winston	TAM	13	24	201	8	32.0	253	10.5	141	10.8	5.9	60	4.6	1	4.3%	4	17.4%	1	9	2	0	1	3.0"
+advanced_rushing
+"Devonta Freeman	ATL	18	58	4	29	1.6	29	1.6	0	
+Brian Hill	ATL	5	21	1	14	2.8	7	1.4	0	
+Qadree Ollison	ATL	4	9	1	4	1.0	5	1.3	0	
+Matt Ryan	ATL	2	0	0	0	0.0	0	0.0	0	
+Keith Smith	ATL	1	-1		-1	-1.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Ronald Jones	TAM	11	106	4	66	6.0	40	3.6	0	
+Peyton Barber	TAM	6	10	0	4	0.7	6	1.0	0	
+Jameis Winston	TAM	2	5	0	5	2.5	0	0.0	0	
+John Franklin	TAM	1	11	1	9	9.0	2	2.0	0	
+Dare Ogunbowale	TAM	1	4		0	0.0	4	4.0	0	"
+advanced_receiving
+"Russell Gage	ATL	13	7	68	6	42	6.0	26	3.7	0		0	0.0
+Austin Hooper	ATL	9	7	45	3	32	4.6	13	1.9	0		0	0.0
+Julio Jones	ATL	13	7	78	5	56	8.0	22	3.1	1	7.0	0	0.0
+Justin Hardy	ATL	3	3	40	2	24	8.0	16	5.3	0		0	0.0
+Devonta Freeman	ATL	4	2	15	1	8	4.0	7	3.5	0		0	0.0
+Olamide Zaccheaus	ATL	2	2	22	1	12	6.0	10	5.0	0		0	0.0
+Ty Sambrailo	ATL	1	1	35	1	15	15.0	20	20.0	0		0	0.0
+Luke Stocker	ATL	1	1	10	1	4	4.0	6	6.0	0		0	0.0
+Christian Blake	ATL	2	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Breshad Perriman	TAM	8	5	134	5	117	23.4	17	3.4	0		0	0.0
+Peyton Barber	TAM	4	2	25	1	-2	-1.0	27	13.5	0		0	0.0
+Ronald Jones	TAM	2	2	10	0	-6	-3.0	16	8.0	0		0	0.0
+Justin Watson	TAM	4	2	27	1	24	12.0	3	1.5	0		1	25.0
+Cameron Brate	TAM	3	1	2	1	1	1.0	1	1.0	0		0	0.0
+Cyril Grayson	TAM	1	1	3		2	2.0	1	1.0	0		0	0.0
+Tanner Hudson	TAM	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"De'Vondre Campbell	ATL	0	3	3	100.0%	34	11.3	11.3	1	153.5	8.3	25	9	3	0	0	0.0	0	3	0	0.0%
+Isaiah Oliver	ATL	0	5	3	60.0%	72	24.0	14.4	0	104.2	17.0	58	14	0	0	0	0.0	0	2	0	0.0%
+Deion Jones	ATL	1	6	2	33.3%	24	12.0	4.0	0	6.9	2.7	6	18	3	0	0	0.0	0	3	1	25.0%
+Kendall Sheffield	ATL	0	2	2	100.0%	34	17.0	17.0	0	118.7	16.0	32	2	0	0	0	0.0	0	1	0	0.0%
+Ricardo Allen	ATL	1	3	1	33.3%	2	2.0	0.7	1	42.4	9.7	1	1	0	0	0	0.0	0	3	0	0.0%
+Blidi Wreh-Wilson	ATL	0	2	1	50.0%	24	24.0	12.0	0	93.7	24.5	19	5	0	0	0	0.0	0	2	0	0.0%
+Grady Jarrett	ATL	0	0	0										0	1	0	1.0	2	1	0	0.0%
+Vic Beasley	ATL	0	0	0										5	1	0	0.0	1	3	0	0.0%
+John Cominsky	ATL	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Jamar Taylor	ATL	0	1	0	0.0%					39.6	24.0			0	0	0	0.0	0	1	0	0.0%
+Foyesade Oluokun	ATL	0	0	0										3	0	0	0.0	0	3	2	40.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Carlton Davis	TAM	0	13	8	61.5%	81	10.1	6.2	0	79.3	9.2	67	14	0	0	0	0.0	0	6	2	25.0%
+Jamel Dean	TAM	0	9	5	55.6%	44	8.8	4.9	0	68.7	5.7	28	16	0	0	0	0.0	0	4	1	20.0%
+Lavonte David	TAM	0	9	4	44.4%	35	8.8	3.9	0	55.3	3.2	24	11	3	0	0	0.0	0	7	1	12.5%
+Devin White	TAM	0	3	3	100.0%	21	7.0	7.0	0	95.8	3.0	9	12	9	0	0	0.0	0	5	3	37.5%
+Mazzi Wilkins	TAM	0	2	2	100.0%	24	12.0	12.0	0	116.7	6.0	12	12	0	0	0	0.0	0	1	0	0.0%
+Mike Edwards	TAM	0	3	2	66.7%	45	22.5	15.0	1	149.3	6.3	19	26	1	0	0	0.0	0	4	0	0.0%
+Jason Pierre-Paul	TAM	0	1	1	100.0%	9	9.0	9.0	0	104.2	5.0	5	4	7	3	0	2.0	5	4	0	0.0%
+Shaquil Barrett	TAM	0	1	1	100.0%	9	9.0	9.0	0	104.2	4.0	4	5	10	0	2	3.0	5	6	0	0.0%
+Andrew Adams	TAM	0	1	1	100.0%	12	12.0	12.0	0	116.7	4.0	4	8	0	0	0	0.0	0	7	0	0.0%
+M.J. Stewart	TAM	0	3	1	33.3%	6	6.0	2.0	0	42.4	2.0	3	3	2	0	0	0.0	0	5	1	16.7%
+Anthony Nelson	TAM	0	1	1	100.0%	6	6.0	6.0	0	91.7	5.0	5	1	0	0	0	0.0	0	1	1	50.0%
+Ndamukong Suh	TAM	0	0	0										0	3	1	0.0	4	2	0	0.0%
+William Gholston	TAM	0	0	0										0	0	2	0.0	2	4	0	0.0%
+Vita Vea	TAM	0	0	0										0	1	0	1.0	2	3	1	25.0%
+Darian Stewart	TAM	0	0	0										3	0	1	0.0	1	2	1	33.3%
+Pat O'Connor	TAM	0	0	0										0	0	1	0.0	1	2	0	0.0%
+Carl Nassib	TAM	0	0	0										3	0	1	0.0	1	4	0	0.0%
+Sean Murphy-Bunting	TAM	0	1	0	0.0%					39.6	32.0			0	0	0	0.0	0	2	1	33.3%"

@@ -1,0 +1,58 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Joe Flacco	DEN	20	29	213	12	34.3	132	4.6	84	4.2	2.9	129	6.5	1	3.6%	5	17.9%	6	6	1	1	1	3.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Aaron Rodgers	GNB	17	29	235	8	27.6	258	8.9	158	9.3	5.4	77	4.5	2	7.4%	6	22.2%	0	10	6	1	0	"
+advanced_rushing
+"Phillip Lindsay	DEN	21	81	4	64	3.0	17	0.8	2	10.5
+Royce Freeman	DEN	15	63	2	25	1.7	38	2.5	2	7.5
+Joe Flacco	DEN	2	5	2	5	2.5	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Jamaal Williams	GNB	12	59	3	29	2.4	30	2.5	1	12.0
+Aaron Jones	GNB	10	19	4	12	1.2	7	0.7	0	
+Aaron Rodgers	GNB	1	-1	0	-1	-1.0	0	0.0	0	"
+advanced_receiving
+"Courtland Sutton	DEN	7	5	87	5	53	10.6	34	6.8	0		0	0.0
+Royce Freeman	DEN	5	4	10	0	-8	-2.0	18	4.5	0		0	0.0
+Phillip Lindsay	DEN	5	4	49	2	2	0.5	47	11.8	0		1	20.0
+Noah Fant	DEN	3	3	37	2	20	6.7	17	5.7	0		0	0.0
+Jeff Heuerman	DEN	2	2	20	2	7	3.5	13	6.5	1	2.0	0	0.0
+Emmanuel Sanders	DEN	5	2	10	1	10	5.0	0	0.0	0		0	0.0
+Andrew Beck	DEN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Marquez Valdes-Scantling	GNB	10	6	99	2	91	15.2	8	1.3	0		1	10.0
+Davante Adams	GNB	4	4	56	3	46	11.5	10	2.5	0		0	0.0
+Jamaal Williams	GNB	2	2	27	1	-2	-1.0	29	14.5	0		0	0.0
+Geronimo Allison	GNB	3	1	-1		-4	-4.0	3	3.0	0		1	33.3
+Aaron Jones	GNB	1	1	4	0	2	2.0	2	2.0	0		0	0.0
+Marcedes Lewis	GNB	2	1	19	1	6	6.0	13	13.0	0		0	0.0
+Robert Tonyan	GNB	3	1	4		1	1.0	3	3.0	0		0	0.0
+Danny Vitale	GNB	1	1	27	1	18	18.0	9	9.0	0		0	0.0
+Jimmy Graham	GNB	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"De'Vante Bausby	DEN	0	7	4	57.1%	22	5.5	3.1	0	62.8	4.4	13	9	0	0	0	0.0	0	3	1	25.0%
+Kareem Jackson	DEN	0	3	2	66.7%	46	23.0	15.3	1	149.3	17.0	46	0	2	1	0	0.0	1	4	0	0.0%
+Chris Harris	DEN	0	3	2	66.7%	36	18.0	12.0	0	107.6	10.7	30	6	0	0	0	0.0	0	3	0	0.0%
+Josey Jewell	DEN	0	3	2	66.7%	31	15.5	10.3	0	100.7	8.7	20	11	3	0	0	0.0	0	7	1	12.5%
+Von Miller	DEN	0	1	1	100.0%	19	19.0	19.0	0	118.7	6.0	6	13	5	2	0	0.0	2	3	0	0.0%
+Todd Davis	DEN	0	2	1	50.0%	10	10.0	5.0	0	64.6	4.5	1	9	2	0	0	0.0	0	3	0	0.0%
+Trey Marshall	DEN	0	1	1	100.0%	28	28.0	28.0	0	118.7	28.0	28	0	0	0	0	0.0	0	2	0	0.0%
+Will Parks	DEN	0	4	1	25.0%	14	14.0	3.5	0	41.7	6.3	10	4	0	0	0	0.0	0	2	1	33.3%
+Justin Simmons	DEN	0	1	1	100.0%	4	4.0	4.0	0	83.3	1.0	1	3	0	0	0	0.0	0	3	0	0.0%
+Bradley Chubb	DEN	0	0	0										5	0	1	0.0	1	5	1	16.7%
+Corey Nelson	DEN	0	0	0										1	0	0	0.0	0	2	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Blake Martinez	GNB	0	7	7	100.0%	36	5.1	5.1	0	88.1	1.1	8	28	1	0	0	0.0	0	12	0	0.0%
+Kevin King	GNB	0	7	5	71.4%	123	24.6	17.6	0	113.7	10.4	49	74	0	0	0	0.0	0	9	3	25.0%
+Jaire Alexander	GNB	0	6	4	66.7%	26	6.5	4.3	0	75.7	6.7	21	5	0	0	0	0.0	0	7	0	0.0%
+Adrian Amos	GNB	0	5	4	80.0%	24	6.0	4.8	0	86.7	2.2	10	14	1	0	0	0.0	0	7	0	0.0%
+Will Redmond	GNB	0	1	1	100.0%	10	10.0	10.0	0	108.3	2.0	2	8	0	0	0	0.0	0	4	2	33.3%
+Za'Darius Smith	GNB	0	0	0										0	1	1	2.0	4	3	3	50.0%
+Preston Smith	GNB	0	0	0										0	0	0	3.0	3	5	0	0.0%
+Rashan Gary	GNB	0	0	0										0	0	0	1.0	1	4	2	33.3%
+Darnell Savage	GNB	1	1	0	0.0%					0.0	-3.0			2	0	0	0.0	0	5	0	0.0%
+Kenny Clark	GNB	0	0	0										0	0	0	0.0	0	4	3	42.9%
+Dean Lowry	GNB	0	0	0										0	0	0	0.0	0	6	3	33.3%
+B.J. Goodson	GNB	0	1	0	0.0%					39.6	-3.0			2	0	0	0.0	0	3	0	0.0%"

@@ -1,0 +1,60 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Baker Mayfield	CLE	19	26	258	14	53.8	256	9.8	144	7.6	5.5	114	6.0	1	4.0%	3	12.0%	0	5	3	1	1	5.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jeff Driskel	CIN	17	29	155	8	26.7	204	7.0	83	4.9	2.9	72	4.2	3	10.7%	5	17.9%	1	6	1	1	2	3.5
+Andy Dalton	CIN	10	17	100	6	35.3	148	8.7	54	5.4	3.2	46	4.6	0	0.0%	4	23.5%	0	4	0	0	1	21.0"
+advanced_rushing
+"Nick Chubb	CLE	28	84	5	26	0.9	58	2.1	0	
+Baker Mayfield	CLE	4	-4	0	-4	-1.0	0	0.0	0	
+Duke Johnson	CLE	2	16	2	14	7.0	2	1.0	0	
+Breshad Perriman	CLE	1	-12		-12	-12.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Joe Mixon	CIN	14	89	4	65	4.6	24	1.7	0	
+Jeff Driskel	CIN	3	9	1	8	2.7	1	0.3	0	
+Andy Dalton	CIN	2	21	1	-11	-5.5	32	16.0	1	2.0
+Giovani Bernard	CIN	1	10	1	2	2.0	8	8.0	0	"
+advanced_receiving
+"David Njoku	CLE	5	5	63	3	21	4.2	42	8.4	0		0	0.0
+Antonio Callaway	CLE	5	4	62	3	46	11.5	16	4.0	0		0	0.0
+Nick Chubb	CLE	3	3	44	2	9	3.0	35	11.7	0		0	0.0
+Jarvis Landry	CLE	5	3	30	3	19	6.3	11	3.7	0		0	0.0
+Darren Fells	CLE	1	1	6	1	6	6.0	0	0.0	0		0	0.0
+Rashard Higgins	CLE	3	1	24	1	17	17.0	7	7.0	0		0	0.0
+Duke Johnson	CLE	2	1	23	1	22	22.0	1	1.0	0		1	50.0
+Breshad Perriman	CLE	1	1	6		4	4.0	2	2.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyler Boyd	CIN	8	7	85	6	47	6.7	38	5.4	0		0	0.0
+Joe Mixon	CIN	7	7	66	3	6	0.9	60	8.6	0		0	0.0
+C.J. Uzomah	CIN	12	6	39		27	4.5	12	2.0	1	6.0	1	8.3
+John Ross	CIN	7	3	31	3	29	9.7	2	0.7	0		1	14.3
+Auden Tate	CIN	7	2	15	1	15	7.5	0	0.0	0		1	14.3
+Giovani Bernard	CIN	1	1	12	1	7	7.0	5	5.0	0		0	0.0
+Cody Core	CIN	2	1	7		6	6.0	1	1.0	0		0	0.0
+Matt Lengel	CIN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Jamie Collins	CLE	0	7	6	85.7%	39	6.5	5.6	0	89.9	1.7	8	31	5	0	1	0.0	1	4	2	33.3%
+Briean Boddy-Calhoun	CLE	0	7	6	85.7%	68	11.3	9.7	1	146.7	6.0	38	30	1	0	0	0.0	0	6	1	14.3%
+Joe Schobert	CLE	0	6	5	83.3%	67	13.4	11.2	0	113.2	7.3	33	34	10	1	0	0.0	1	8	0	0.0%
+Denzel Ward	CLE	0	10	4	40.0%	23	5.8	2.3	0	47.9	10.8	20	3	0	0	0	0.0	0	4	2	33.3%
+T.J. Carrie	CLE	0	7	3	42.9%	20	6.7	2.9	0	50.3	11.9	12	8	0	0	0	0.0	0	5	0	0.0%
+Damarious Randall	CLE	1	3	2	66.7%	29	14.5	9.7	0	58.3	13.7	20	9	1	0	0	0.0	0	3	0	0.0%
+Tanner Vallejo	CLE	0	2	2	100.0%	14	7.0	7.0	1	135.4	2.0	4	10	0	0	0	0.0	0	1	0	0.0%
+Genard Avery	CLE	0	2	2	100.0%	40	20.0	20.0	1	158.3	11.5	23	17	5	0	0	0.0	0	4	0	0.0%
+Derrick Kindred	CLE	0	1	1	100.0%	2	2.0	2.0	0	79.2	1.0	1	1	0	0	0	0.0	0	2	0	0.0%
+Jabrill Peppers	CLE	0	4	1	25.0%	11	11.0	2.8	0	39.6	5.0	4	7	0	0	0	0.0	0	6	0	0.0%
+Myles Garrett	CLE	0	0	0										0	1	0	1.0	2	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Shawn Williams	CIN	0	3	3	100.0%	38	12.7	12.7	2	158.3	11.3	34	4	2	0	0	0.0	0	7	0	0.0%
+Vontaze Burfict	CIN	0	4	3	75.0%	33	11.0	8.3	0	99.0	4.3	11	22	2	0	0	0.0	0	8	1	11.1%
+Jessie Bates	CIN	0	5	3	60.0%	56	18.7	11.2	0	98.7	23.2	43	13	0	0	0	0.0	0	5	2	28.6%
+William Jackson	CIN	0	2	2	100.0%	13	6.5	6.5	0	93.7	5.5	11	2	0	0	0	0.0	0	4	0	0.0%
+Jordan Evans	CIN	0	4	2	50.0%	13	6.5	3.3	1	96.9	2.3	-2	15	2	0	0	0.0	0	6	1	14.3%
+Darqueze Dennard	CIN	0	3	2	66.7%	38	19.0	12.7	0	109.7	10.3	14	24	1	0	0	0.0	0	5	2	28.6%
+Vincent Rey	CIN	0	1	1	100.0%	23	23.0	23.0	0	118.7	-2.0	-2	25	1	0	0	0.0	0	6	0	0.0%
+Darius Phillips	CIN	0	2	1	50.0%	9	9.0	4.5	0	62.5	29.5	5	4	0	0	0	0.0	0	1	0	0.0%
+Geno Atkins	CIN	0	0	0										0	1	0	0.0	1	3	0	0.0%
+Carlos Dunlap	CIN	0	0	0										0	0	1	0.0	1	4	0	0.0%
+Michael Johnson	CIN	0	0	0										0	1	0	0.0	1	1	0	0.0%"

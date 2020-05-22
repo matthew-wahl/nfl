@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Kyler Murray	ARI	26	42	325	13	30.2	400	9.5	184	7.1	4.4	141	5.4	0	0.0%	6	15.8%	1	9	3	0	0	
+Brett Hundley	ARI	1	1	0			-7	-7.0	-7	-7.0	-7.0	7	7.0	0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jared Goff	LAR	29	45	319	17	37.0	352	7.8	196	6.8	4.4	123	4.2	0	0.0%	9	20.0%	1	23	1	0	1	5.0"
+advanced_rushing
+"Kenyan Drake	ARI	12	60	5	40	3.3	20	1.7	0	
+Kyler Murray	ARI	2	0	0	0	0.0	0	0.0	0	
+Chase Edmonds	ARI	1	-1		-2	-2.0	1	1.0	0	
+Brett Hundley	ARI	1	6		4	4.0	2	2.0	0	
+Christian Kirk	ARI	1	6	0	4	4.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Todd Gurley	LAR	20	68	2	40	2.0	28	1.4	0	
+Malcolm Brown	LAR	9	26	2	10	1.1	16	1.8	0	
+Jared Goff	LAR	2	4	0	4	2.0	0	0.0	0	
+Nick Scott	LAR	1	6		6	6.0	0	0.0	0	
+Robert Woods	LAR	1	9	0	6	6.0	3	3.0	0	"
+advanced_receiving
+"Damiere Byrd	ARI	8	7	74	4	45	6.4	29	4.1	0		0	0.0
+Christian Kirk	ARI	10	7	60	2	32	4.6	28	4.0	0		0	0.0
+Dan Arnold	ARI	6	4	76	3	57	14.3	19	4.8	0		0	0.0
+Larry Fitzgerald	ARI	7	4	45	1	17	4.3	28	7.0	0		0	0.0
+Kenyan Drake	ARI	4	3	23	1	-5	-1.7	28	9.3	0		0	0.0
+Pharoh Cooper	ARI	2	1	24	1	24	24.0	0	0.0	0		0	0.0
+Maxx Williams	ARI	2	1	23	1	7	7.0	16	16.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Tyler Higbee	LAR	12	8	84	4	42	5.3	42	5.3	0		0	0.0
+Cooper Kupp	LAR	10	7	99	6	67	9.6	32	4.6	2	3.5	0	0.0
+Robert Woods	LAR	12	7	67	3	42	6.0	25	3.6	0		0	0.0
+Brandin Cooks	LAR	5	3	40	3	33	11.0	7	2.3	0		0	0.0
+Todd Gurley	LAR	2	2	21	1	9	4.5	12	6.0	1	2.0	0	0.0
+Malcolm Brown	LAR	1	1	6	0	3	3.0	3	3.0	0		0	0.0
+Johnny Mundt	LAR	1	1	2		0	0.0	2	2.0	0		0	0.0
+Josh Reynolds	LAR	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Byron Murphy	ARI	0	10	7	70.0%	51	7.3	5.1	1	115.0	4.1	25	26	5	0	0	0.0	0	7	0	0.0%
+Jalen Thompson	ARI	0	7	5	71.4%	59	11.8	8.4	0	96.7	4.6	29	30	1	0	0	0.0	0	6	1	14.3%
+Jordan Hicks	ARI	0	7	5	71.4%	45	9.0	6.4	0	88.4	4.4	18	27	7	0	0	0.0	0	13	0	0.0%
+Patrick Peterson	ARI	0	9	3	33.3%	49	16.3	5.4	1	89.6	13.7	33	16	0	0	0	0.0	0	7	0	0.0%
+Chris Jones	ARI	0	3	2	66.7%	36	18.0	12.0	0	107.6	16.0	36	0	2	0	0	0.0	0	4	0	0.0%
+Budda Baker	ARI	0	1	1	100.0%	13	13.0	13.0	0	118.7	13.0	13	0	8	0	0	0.5	1	13	0	0.0%
+Chandler Jones	ARI	0	1	1	100.0%	15	15.0	15.0	0	118.7	14.0	14	1	22	0	0	0.0	0	2	1	33.3%
+Joe Walker	ARI	0	3	1	33.3%	6	6.0	2.0	0	42.4	9.0	5	1	4	0	0	0.0	0	11	1	8.3%
+Chris Banjo	ARI	0	1	1	100.0%	9	9.0	9.0	0	104.2	6.0	6	3	1	0	0	0.0	0	1	1	50.0%
+Haason Reddick	ARI	0	1	1	100.0%	14	14.0	14.0	0	118.7	-3.0	-3	17	8	0	0	0.0	0	2	0	0.0%
+Caraun Reid	ARI	0	0	0										0	2	0	0.0	2	2	1	33.3%
+Cassius Marsh	ARI	0	0	0										12	0	0	0.5	1	5	0	0.0%
+Kylie Fitts	ARI	0	0	0										4	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Darious Williams	LAR	1	10	7	70.0%	76	10.9	7.6	0	52.5	12.2	53	23	0	0	0	0.0	0	3	0	0.0%
+David Long	LAR	0	7	5	71.4%	56	11.2	8.0	1	134.5	15.1	38	18	0	0	0	0.0	0	3	0	0.0%
+Nickell Robey-Coleman	LAR	0	5	3	60.0%	17	5.7	3.4	0	66.2	3.4	-12	29	0	0	0	0.0	0	2	1	33.3%
+Travin Howard	LAR	0	5	3	60.0%	65	21.7	13.0	0	104.2	13.2	40	25	0	0	0	0.0	0	5	0	0.0%
+Clay Matthews	LAR	0	2	2	100.0%	17	8.5	8.5	0	102.1	-4.5	-9	26	7	1	0	0.0	1	1	0	0.0%
+Taylor Rapp	LAR	1	2	2	100.0%	25	12.5	12.5	0	79.2	4.0	8	17	1	0	0	0.0	0	6	1	14.3%
+Troy Reeder	LAR	0	2	2	100.0%	21	10.5	10.5	0	110.4	5.5	11	10	0	0	0	0.0	0	5	1	16.7%
+Cory Littleton	LAR	0	2	1	50.0%	23	23.0	11.5	1	131.2	13.0	22	1	3	0	0	1.0	1	3	0	0.0%
+Eric Weddle	LAR	0	1	1	100.0%	24	24.0	24.0	0	118.7	24.0	24	0	0	0	0	0.0	0	7	0	0.0%
+Aaron Donald	LAR	0	0	0										0	4	0	0.0	4	2	0	0.0%
+Dante Fowler	LAR	0	0	0										8	0	0	0.0	0	2	0	0.0%
+Samson Ebukam	LAR	0	1	0	0.0%					39.6	0.0			2	0	0	0.0	0	1	0	0.0%"

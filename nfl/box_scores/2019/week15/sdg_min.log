@@ -1,0 +1,69 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Kirk Cousins	MIN	19	25	207	10	40.0	195	7.8	140	7.4	5.6	67	3.5	0	0.0%	1	4.2%	0	1	4	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Philip Rivers	LAC	28	39	307	14	33.3	339	8.7	180	6.4	4.6	127	4.5	0	0.0%	5	13.2%	3	6	1	2	0	"
+advanced_rushing
+"Mike Boone	MIN	13	56	3	22	1.7	34	2.6	0	
+Dalvin Cook	MIN	9	27	1	6	0.7	21	2.3	1	9.0
+Ameer Abdullah	MIN	5	25	1	14	2.8	11	2.2	0	
+Kirk Cousins	MIN	3	14	1	9	3.0	5	1.7	0	
+Sean Mannion	MIN	3	-3		-3	-1.0	0	0.0	0	
+Stefon Diggs	MIN	1	4	0	2	2.0	2	2.0	0	
+C.J. Ham	MIN	1	5	0	-1	-1.0	6	6.0	1	1.0
+Olabisi Johnson	MIN	1	6	0	4	4.0	2	2.0	0	
+Adam Thielen	MIN	1	3	0	0	0.0	3	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Austin Ekeler	LAC	7	19	1	7	1.0	12	1.7	0	
+Melvin Gordon	LAC	7	28	1	15	2.1	13	1.9	0	
+Justin Jackson	LAC	5	15	1	0	0.0	15	3.0	1	5.0"
+advanced_receiving
+"Stefon Diggs	MIN	6	4	76	2	70	17.5	6	1.5	0		0	0.0
+Dalvin Cook	MIN	3	3	16	1	-5	-1.7	21	7.0	1	3.0	0	0.0
+C.J. Ham	MIN	3	3	13	1	-1	-0.3	14	4.7	1	3.0	0	0.0
+Kyle Rudolph	MIN	3	3	48	3	26	8.7	22	7.3	0		0	0.0
+Adam Thielen	MIN	3	3	27	1	24	8.0	3	1.0	0		0	0.0
+Irv Smith	MIN	3	2	8	1	8	4.0	0	0.0	0		0	0.0
+Olabisi Johnson	MIN	1	1	19	1	18	18.0	1	1.0	0		0	0.0
+Ameer Abdullah	MIN	2	0	0	0	0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Keenan Allen	LAC	10	9	99	7	62	6.9	37	4.1	1	9.0	0	0.0
+Austin Ekeler	LAC	7	5	62	2	9	1.8	53	10.6	0		0	0.0
+Melvin Gordon	LAC	7	5	36	1	13	2.6	23	4.6	0		0	0.0
+Mike Williams	LAC	9	4	71	3	68	17.0	3	0.8	0		0	0.0
+Hunter Henry	LAC	2	2	29	1	26	13.0	3	1.5	0		0	0.0
+Justin Jackson	LAC	2	2	2	0	-2	-1.0	4	2.0	0		0	0.0
+Andre Patton	LAC	1	1	8		4	4.0	4	4.0	0		0	0.0"
+advanced_defense
+"Mike Hughes	MIN	1	10	6	60.0%	84	14.0	8.4	1	80.8	13.3	75	9	0	0	0	0.0	0	4	1	20.0%
+Eric Kendricks	MIN	0	6	4	66.7%	44	11.0	7.3	0	88.2	12.5	33	11	2	0	0	0.0	0	7	2	22.2%
+Mackensie Alexander	MIN	0	5	3	60.0%	52	17.3	10.4	0	95.4	11.6	38	14	0	0	0	0.0	0	2	0	0.0%
+Trae Waynes	MIN	0	3	3	100.0%	12	4.0	4.0	0	83.3	-0.7	-2	14	0	0	0	0.0	0	3	0	0.0%
+Kentrell Brothers	MIN	0	3	3	100.0%	32	10.7	10.7	0	111.1	0.3	1	31	0	0	0	0.0	0	2	0	0.0%
+Anthony Barr	MIN	0	2	2	100.0%	4	2.0	2.0	0	79.2	-4.0	-8	12	4	0	0	0.0	0	4	0	0.0%
+Holton Hill	MIN	0	2	2	100.0%	24	12.0	12.0	0	116.7	6.5	13	11	0	0	0	0.0	0	3	1	25.0%
+Kris Boyd	MIN	0	1	1	100.0%	8	8.0	8.0	0	100.0	0.0	0	8	0	0	0	0.0	0	2	0	0.0%
+Harrison Smith	MIN	1	1	1	100.0%	24	24.0	24.0	0	79.2	21.0	21	3	2	0	0	0.0	0	6	0	0.0%
+Xavier Rhodes	MIN	0	1	1	100.0%	11	11.0	11.0	0	112.5	10.0	10	1	0	0	0	0.0	0	1	0	0.0%
+Eric Wilson	MIN	0	2	1	50.0%	7	7.0	3.5	0	58.3	1.5	3	4	0	0	0	0.0	0	2	0	0.0%
+Jaleel Johnson	MIN	0	0	0										0	1	0	1.0	2	2	0	0.0%
+Danielle Hunter	MIN	0	0	0										0	0	0	1.0	1	5	1	16.7%
+Ifeadi Odenigbo	MIN	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Everson Griffen	MIN	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Stephen Weatherly	MIN	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Andrew Sendejo	MIN	0	1	0	0.0%					39.6	36.0			0	0	0	0.0	0	0	0	
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Michael Davis	LAC	0	8	5	62.5%	57	11.4	7.1	0	83.9	10.5	50	7	0	0	0	0.0	0	5	0	0.0%
+Thomas Davis	LAC	0	4	3	75.0%	26	8.7	6.5	0	91.7	-1.8	-7	33	0	0	0	0.0	0	5	1	16.7%
+Derwin James	LAC	0	2	2	100.0%	3	1.5	1.5	1	118.7	1.0	2	1	0	0	0	0.0	0	8	0	0.0%
+Casey Hayward	LAC	0	2	2	100.0%	26	13.0	13.0	0	118.7	12.5	25	1	0	0	0	0.0	0	2	0	0.0%
+Drue Tranquill	LAC	0	2	2	100.0%	14	7.0	7.0	0	95.8	5.5	11	3	0	0	0	0.0	0	4	1	20.0%
+Justin Jones	LAC	0	1	1	100.0%	1	1.0	1.0	0	79.2	0.0	0	1	0	0	0	0.0	0	2	0	0.0%
+Jaylen Watkins	LAC	0	2	1	50.0%	13	13.0	6.5	0	70.8	19.5	13	0	0	0	0	0.0	0	0	0	
+Rayshawn Jenkins	LAC	0	1	1	100.0%	46	46.0	46.0	0	118.7	43.0	43	3	0	0	0	0.0	0	3	0	0.0%
+Melvin Ingram	LAC	1	2	1	50.0%	21	21.0	10.5	0	47.9	-1.0	3	18	0	0	0	0.0	0	4	1	20.0%
+Joey Bosa	LAC	0	0	0										0	1	1	0.0	2	5	1	16.7%
+Kyzir White	LAC	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Brandon Mebane	LAC	0	0	0										0	0	0	0.0	0	2	1	33.3%"

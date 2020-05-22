@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Daniel Jones	NYG	23	36	336	11	26.8	353	9.8	187	8.1	5.2	149	6.5	2	5.6%	8	22.2%	5	14	13	8	3	7.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jameis Winston	TAM	23	37	380	16	39.0	482	13.0	295	12.8	8.0	85	3.7	0	0.0%	10	27.8%	4	17	8	6	2	1.5"
+advanced_rushing
+"Saquon Barkley	NYG	8	10	0	3	0.4	7	0.9	0	
+Wayne Gallman	NYG	5	13	1	4	0.8	9	1.8	0	
+Daniel Jones	NYG	4	28	3	26	6.5	2	0.5	0	
+Sterling Shepard	NYG	2	21	1	21	10.5	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Ronald Jones	TAM	14	80	3	56	4.0	24	1.7	0	
+Peyton Barber	TAM	13	48	2	24	1.8	24	1.8	2	6.5
+Jameis Winston	TAM	4	3	0	3	0.8	0	0.0	0	
+Breshad Perriman	TAM	1	13	1	13	13.0	0	0.0	0	"
+advanced_receiving
+"Sterling Shepard	NYG	9	7	100	3	59	8.4	41	5.9	3	2.3	0	0.0
+Evan Engram	NYG	8	6	113	4	30	5.0	83	13.8	1	6.0	0	0.0
+Saquon Barkley	NYG	5	4	27	1	13	3.3	14	3.5	0		1	20.0
+Darius Slayton	NYG	5	3	82	3	71	23.7	11	3.7	1	3.0	0	0.0
+Rhett Ellison	NYG	1	1	3		3	3.0	0	0.0	0		0	0.0
+Bennie Fowler	NYG	3	1	5		5	5.0	0	0.0	0		0	0.0
+Russell Shepard	NYG	5	1	6		6	6.0	0	0.0	0		1	20.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Mike Evans	TAM	15	8	190	7	172	21.5	18	2.3	0		0	0.0
+Chris Godwin	TAM	4	3	40	3	35	11.7	5	1.7	0		0	0.0
+O.J. Howard	TAM	4	3	66	3	58	19.3	8	2.7	0		0	0.0
+Dare Ogunbowale	TAM	3	3	23		16	5.3	7	2.3	0		0	0.0
+Peyton Barber	TAM	2	2	7	0	2	1.0	5	2.5	1	2.0	0	0.0
+Cameron Brate	TAM	3	2	7	1	6	3.0	1	0.5	0		0	0.0
+Breshad Perriman	TAM	2	1	6	1	6	6.0	0	0.0	0		0	0.0
+Ronald Jones	TAM	1	1	41	1	0	0.0	41	41.0	1	1.0	0	0.0
+Antony Auclair	TAM	1	0	0		0		0		0		0	0.0
+Bobo Wilson	TAM	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Janoris Jenkins	NYG	0	14	8	57.1%	188	23.5	13.4	3	141.4	16.1	165	23	1	0	0	0.0	0	5	1	16.7%
+Grant Haley	NYG	0	3	3	100.0%	58	19.3	19.3	0	118.7	18.3	55	3	2	0	0	0.0	0	3	0	0.0%
+Jabrill Peppers	NYG	0	3	2	66.7%	32	16.0	10.7	0	102.1	16.7	29	3	5	2	1	0.0	3	8	0	0.0%
+Ryan Connelly	NYG	1	4	2	50.0%	14	7.0	3.5	0	18.7	7.5	13	1	6	0	0	0.0	0	7	0	0.0%
+Deandre Baker	NYG	0	4	2	50.0%	24	12.0	6.0	0	68.7	24.8	22	2	0	0	0	0.0	0	7	0	0.0%
+Tae Davis	NYG	0	2	2	100.0%	7	3.5	3.5	0	81.2	1.0	2	5	0	0	0	0.0	0	2	0	0.0%
+Antoine Bethea	NYG	0	2	2	100.0%	15	7.5	7.5	0	97.9	4.5	9	6	1	0	0	0.0	0	9	0	0.0%
+Michael Thomas	NYG	0	1	1	100.0%	1	1.0	1.0	0	79.2	0.0	0	1	4	1	0	0.0	1	2	0	0.0%
+Olsen Pierre	NYG	0	1	1	100.0%	41	41.0	41.0	0	118.7	0.0	0	41	0	0	0	0.0	0	1	0	0.0%
+Markus Golden	NYG	0	0	0										12	0	2	2.0	4	5	0	0.0%
+Lorenzo Carter	NYG	0	0	0										11	3	1	0.0	4	5	1	16.7%
+Dexter Lawrence	NYG	0	0	0										0	2	1	1.0	4	2	0	0.0%
+Dalvin Tomlinson	NYG	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Oshane Ximines	NYG	0	0	0										8	0	0	1.0	1	4	0	0.0%
+Alec Ogletree	NYG	0	2	0	0.0%					39.6	6.0			5	0	0	0.0	0	2	1	33.3%
+Tuzar Skipper	NYG	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Mike Edwards	TAM	0	7	7	100.0%	158	22.6	22.6	2	158.3	10.6	74	84	1	0	0	0.0	0	6	1	14.3%
+M.J. Stewart	TAM	0	5	4	80.0%	55	13.8	11.0	0	112.5	7.2	33	22	1	0	0	0.0	0	5	1	16.7%
+Lavonte David	TAM	0	5	3	60.0%	11	3.7	2.2	0	64.6	2.4	7	4	3	2	1	0.0	3	9	0	0.0%
+Kevin Minter	TAM	0	4	3	75.0%	21	7.0	5.3	0	86.5	4.0	13	8	6	1	0	0.0	1	2	1	33.3%
+Carlton Davis	TAM	0	8	3	37.5%	41	13.7	5.1	0	54.7	16.4	36	5	0	0	0	0.0	0	4	1	20.0%
+Vernon Hargreaves	TAM	0	4	2	50.0%	53	26.5	13.3	1	135.4	17.3	47	6	0	0	0	0.0	0	1	1	50.0%
+Sean Murphy-Bunting	TAM	0	1	1	100.0%	26	26.0	26.0	0	118.7	16.0	16	10	1	0	0	0.0	0	1	0	0.0%
+Jordan Whitehead	TAM	0	1	1	100.0%	18	18.0	18.0	0	118.7	3.0	3	15	1	0	0	0.0	0	3	0	0.0%
+Shaquil Barrett	TAM	0	0	0										13	3	1	4.0	8	8	0	0.0%
+Vita Vea	TAM	0	0	0										0	3	2	0.0	5	1	0	0.0%
+Carl Nassib	TAM	0	0	0										11	2	1	1.0	4	4	0	0.0%
+William Gholston	TAM	0	0	0										6	2	2	0.0	4	2	0	0.0%
+Ndamukong Suh	TAM	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Anthony Nelson	TAM	0	0	0										2	0	0	0.0	0	3	0	0.0%"

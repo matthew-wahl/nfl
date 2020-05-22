@@ -1,0 +1,64 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ryan Fitzpatrick	MIA	23	41	279	13	29.5	324	7.9	155	6.7	3.8	124	5.4	7	17.1%	3	7.3%	3	15	3	6	4	8.3
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Eli Manning	NYG	20	28	283	12	41.4	291	10.4	182	9.1	6.5	101	5.1	1	3.6%	5	17.9%	1	6	1	0	0	
+Alex Tanney	NYG	1	1	1			1	1.0	1	1.0	1.0	0	0.0	0	0.0%	0	0.0%	0	1	0	0	0	"
+advanced_rushing
+"Patrick Laird	MIA	12	46	3	29	2.4	17	1.4	0	
+Myles Gaskin	MIA	9	43	2	-3	-0.3	46	5.1	0	
+Ryan Fitzpatrick	MIA	4	33	2	29	7.3	4	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Saquon Barkley	NYG	24	112	7	41	1.7	71	3.0	1	24.0
+Javorius Allen	NYG	8	28	2	-5	-0.6	33	4.1	0	
+Elijhaa Penny	NYG	1	-2		-2	-2.0	0	0.0	0	"
+advanced_receiving
+"Albert Wilson	MIA	8	5	59	2	24	4.8	35	7.0	0		0	0.0
+Mike Gesicki	MIA	8	4	47	2	36	9.0	11	2.8	0		0	0.0
+DeVante Parker	MIA	7	4	72	4	71	17.8	1	0.3	0		1	14.3
+Isaiah Ford	MIA	5	3	21	2	14	4.7	7	2.3	0		1	20.0
+Myles Gaskin	MIA	3	2	29	1	-3	-1.5	32	16.0	0		1	33.3
+Patrick Laird	MIA	5	2	8	0	-11	-5.5	19	9.5	0		2	40.0
+Clive Walford	MIA	4	2	34	2	15	7.5	19	9.5	0		2	50.0
+Allen Hurns	MIA	1	1	9		9	9.0	0	0.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Sterling Shepard	NYG	11	9	111	6	85	9.4	26	2.9	0		1	9.1
+Saquon Barkley	NYG	5	4	31	1	9	2.3	22	5.5	0		0	0.0
+Kaden Smith	NYG	3	3	38	1	24	8.0	14	4.7	0		0	0.0
+Darius Slayton	NYG	3	2	31	2	28	14.0	3	1.5	0		0	0.0
+Cody Latimer	NYG	2	1	21	1	10	10.0	11	11.0	0		0	0.0
+Scott Simonson	NYG	1	1	1		1	1.0	0	0.0	0		0	0.0
+Golden Tate	NYG	4	1	51	1	26	26.0	25	25.0	0		0	0.0"
+advanced_defense
+"Jomal Wiltz	MIA	0	7	5	71.4%	63	12.6	9.0	0	99.1	7.9	40	23	2	0	0	0.0	0	9	1	10.0%
+Eric Rowe	MIA	0	5	4	80.0%	58	14.5	11.6	0	115.0	11.4	26	32	1	0	0	0.0	0	4	0	0.0%
+Nate Brooks	MIA	0	4	3	75.0%	36	12.0	9.0	1	141.7	12.3	33	3	0	0	0	0.0	0	4	0	0.0%
+Jerome Baker	MIA	1	3	3	100.0%	15	5.0	5.0	0	47.9	4.0	12	3	0	0	0	0.0	0	12	0	0.0%
+Linden Stephens	MIA	0	2	2	100.0%	25	12.5	12.5	0	118.7	9.0	18	7	0	0	0	0.0	0	2	0	0.0%
+Nik Needham	MIA	1	3	2	66.7%	75	37.5	25.0	1	109.7	26.0	50	25	1	0	0	0.0	0	4	2	33.3%
+Adrian Colbert	MIA	0	1	1	100.0%	1	1.0	1.0	0	79.2	1.0	1	0	0	0	0	0.0	0	5	3	37.5%
+Samuel Eguavoen	MIA	0	1	0	0.0%					39.6	13.0			0	0	0	1.0	1	2	0	0.0%
+Christian Wilkins	MIA	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Vince Biegel	MIA	1	1	0	0.0%					0.0	4.0			4	0	0	0.0	0	5	0	0.0%
+Andrew Van Ginkel	MIA	0	0	0										2	0	0	0.0	0	0	0	
+Raekwon McMillan	MIA	0	0	0										2	0	0	0.0	0	4	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Sam Beal	NYG	0	8	5	62.5%	61	12.2	7.6	0	85.9	7.9	48	13	0	0	0	0.0	0	11	0	0.0%
+Alec Ogletree	NYG	0	4	4	100.0%	51	12.8	12.8	0	118.7	0.8	3	48	8	2	0	0.0	2	3	2	40.0%
+Julian Love	NYG	0	6	3	50.0%	32	10.7	5.3	0	66.0	10.0	15	17	6	0	1	0.0	1	5	1	16.7%
+Deandre Baker	NYG	0	7	3	42.9%	51	17.0	7.3	1	107.7	12.4	47	4	0	0	0	0.0	0	6	0	0.0%
+Corey Ballentine	NYG	0	7	3	42.9%	47	15.7	6.7	1	105.4	11.0	35	12	3	0	0	0.0	0	3	1	25.0%
+Antoine Bethea	NYG	0	2	1	50.0%	19	19.0	9.5	0	83.3	9.5	14	5	0	0	0	0.0	0	5	1	16.7%
+Deone Bucannon	NYG	0	2	1	50.0%	0	0.0	0.0	0	56.2	-2.0	-1	1	1	0	0	0.0	0	6	0	0.0%
+David Mayo	NYG	0	1	1	100.0%	10	10.0	10.0	0	108.3	4.0	4	6	3	0	0	0.0	0	6	1	14.3%
+Markus Golden	NYG	0	0	0										13	1	2	0.5	4	3	0	0.0%
+Leonard Williams	NYG	0	0	0										0	1	2	0.0	3	3	0	0.0%
+Dexter Lawrence	NYG	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Lorenzo Carter	NYG	0	0	0										6	1	0	0.0	1	1	0	0.0%
+R.J. McIntosh	NYG	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Oshane Ximines	NYG	0	1	0	0.0%					39.6	4.0			5	0	0	0.5	1	1	0	0.0%
+Dalvin Tomlinson	NYG	0	0	0										0	0	0	1.0	1	3	0	0.0%
+Michael Thomas	NYG	0	2	0	0.0%					39.6	10.5			1	0	0	0.0	0	1	0	0.0%
+Sean Chandler	NYG	0	0	0										1	0	0	0.0	0	0	0	"

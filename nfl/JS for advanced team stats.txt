@@ -1,0 +1,3 @@
+advanced_rushing = document.querySelectorAll("#advanced_rushing")[0].innerText;
+advanced_defense = document.querySelectorAll("#advanced_defense")[0].innerText;
+advanced_receiving = document.querySelectorAll("#advanced_receiving")[0].innerText;

@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Dwayne Haskins	WAS	9	17	107	5	26.3	132	7.8	35	3.9	2.1	72	8.0	1	6.3%	1	6.3%	2	2	1	2	2	11.5
+Case Keenum	WAS	6	11	37	1	8.3	124	11.3	21	3.5	1.9	16	2.7	0	0.0%	3	30.0%	1	3	2	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Daniel Jones	NYG	23	31	225	13	41.9	167	5.4	64	2.8	2.1	161	7.0	1	3.2%	5	16.1%	0	10	8	4	3	11.7"
+advanced_rushing
+"Adrian Peterson	WAS	11	28	1	5	0.5	23	2.1	1	11.0
+Chris Thompson	WAS	4	4	0	3	0.8	1	0.3	0	
+Dwayne Haskins	WAS	2	23	1	19	9.5	4	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Wayne Gallman	NYG	18	63	2	43	2.4	20	1.1	0	
+Jon Hilliman	NYG	10	33	2	19	1.9	14	1.4	0	
+Daniel Jones	NYG	5	33	2	33	6.6	0	0.0	0	
+Elijhaa Penny	NYG	3	12		8	2.7	4	1.3	0	
+Sterling Shepard	NYG	1	23	1	21	21.0	2	2.0	0	"
+advanced_receiving
+"Chris Thompson	WAS	5	4	56	2	6	1.5	50	12.5	0		0	0.0
+Paul Richardson	WAS	5	3	14		4	1.3	10	3.3	0		0	0.0
+Kelvin Harmon	WAS	2	2	14	1	13	6.5	1	0.5	0		0	0.0
+Trey Quinn	WAS	4	2	10	1	10	5.0	0	0.0	0		0	0.0
+Robert Davis	WAS	2	1	11	1	11	11.0	0	0.0	0		0	0.0
+Vernon Davis	WAS	4	1	5		4	4.0	1	1.0	0		1	25.0
+Wendell Smallwood	WAS	1	1	14		5	5.0	9	9.0	0		0	0.0
+Jeremy Sprinkle	WAS	3	1	20	1	3	3.0	17	17.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Sterling Shepard	NYG	9	7	76	5	43	6.1	33	4.7	0		0	0.0
+Wayne Gallman	NYG	7	6	55	3	-9	-1.5	64	10.7	1	6.0	0	0.0
+Evan Engram	NYG	7	4	54	2	13	3.3	41	10.3	0		0	0.0
+Rhett Ellison	NYG	4	3	24	1	4	1.3	20	6.7	1	3.0	1	25.0
+Darius Slayton	NYG	2	2	13	1	10	5.0	3	1.5	0		0	0.0
+Bennie Fowler	NYG	2	1	3	1	3	3.0	0	0.0	0		0	0.0"
+advanced_defense
+"Landon Collins	WAS	0	7	5	71.4%	44	8.8	6.3	0	87.8	4.1	11	33	0	0	0	0.0	0	9	1	10.0%
+Fabian Moreau	WAS	0	5	4	80.0%	48	12.0	9.6	0	106.7	5.6	24	24	0	0	0	0.0	0	7	1	12.5%
+Cole Holcomb	WAS	0	2	2	100.0%	51	25.5	25.5	0	118.7	4.0	8	43	2	2	0	0.0	2	4	2	33.3%
+Jonathan Bostic	WAS	0	4	2	50.0%	23	11.5	5.8	0	67.7	5.8	18	5	2	0	0	0.0	0	11	0	0.0%
+Josh Norman	WAS	0	3	2	66.7%	13	6.5	4.3	0	75.7	14.0	10	3	0	0	0	0.0	0	6	0	0.0%
+Shaun Dion Hamilton	WAS	0	1	1	100.0%	3	3.0	3.0	0	79.2	3.0	3	0	0	0	0	0.0	0	2	0	0.0%
+Ryan Kerrigan	WAS	0	0	0										4	4	0	0.0	4	3	0	0.0%
+Ryan Anderson	WAS	0	0	0										1	3	0	0.0	3	2	0	0.0%
+Montez Sweat	WAS	0	0	0										3	2	0	0.0	2	2	0	0.0%
+Matthew Ioannidis	WAS	0	0	0										0	0	1	0.0	1	7	0	0.0%
+Jonathan Allen	WAS	0	0	0										0	0	1	0.0	1	3	0	0.0%
+Noah Spence	WAS	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Tim Settle	WAS	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Quinton Dunbar	WAS	2	2	0	0.0%					0.0	12.5			0	0	0	0.0	0	3	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Grant Haley	NYG	0	5	3	60.0%	30	10.0	6.0	0	77.1	18.2	13	17	0	0	0	0.0	0	5	0	0.0%
+Janoris Jenkins	NYG	2	5	2	40.0%	15	7.5	3.0	0	8.3	11.2	15	0	0	0	0	0.0	0	4	0	0.0%
+Ryan Connelly	NYG	1	1	1	100.0%	5	5.0	5.0	0	47.9	4.0	4	1	1	0	0	1.0	1	5	0	0.0%
+Deandre Baker	NYG	0	1	1	100.0%	11	11.0	11.0	0	112.5	11.0	11	0	0	0	0	0.0	0	2	0	0.0%
+Markus Golden	NYG	0	0	0										0	1	2	0.5	4	2	0	0.0%
+Dalvin Tomlinson	NYG	0	0	0										0	0	1	0.5	2	2	0	0.0%
+Oshane Ximines	NYG	0	0	0										0	1	0	0.5	2	3	0	0.0%
+Tuzar Skipper	NYG	0	0	0										0	0	0	0.5	1	1	0	0.0%
+Dexter Lawrence	NYG	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Sean Chandler	NYG	0	0	0										2	0	0	0.0	0	1	0	0.0%
+Michael Thomas	NYG	0	2	0	0.0%					39.6	13.5			0	0	0	0.0	0	2	0	0.0%
+Jabrill Peppers	NYG	1	3	0	0.0%					0.0	4.7			0	0	0	0.0	0	4	0	0.0%
+Lorenzo Carter	NYG	0	0	0										0	0	0	0.0	0	2	1	33.3%"

@@ -1,0 +1,58 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Russell Wilson	SEA	22	28	240	10	31.3	213	7.6	147	6.7	5.3	93	4.2	0	0.0%	3	11.1%	4	14	3	2	2	3.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Kyler Murray	ARI	22	32	241	12	33.3	168	5.3	81	3.7	2.5	160	7.3	2	6.7%	4	13.3%	4	6	3	1	2	9.5"
+advanced_rushing
+"Chris Carson	SEA	22	104	8	26	1.2	78	3.5	6	3.7
+C.J. Prosise	SEA	3	4	1	-5	-1.7	9	3.0	1	3.0
+Russell Wilson	SEA	2	7	0	1	0.5	6	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+David Johnson	ARI	11	40	3	24	2.2	16	1.5	0	
+Chase Edmonds	ARI	6	37	1	21	3.5	16	2.7	1	6.0
+Kyler Murray	ARI	4	27	2	16	4.0	11	2.8	1	4.0
+Andy Isabella	ARI	1	5		3	3.0	2	2.0	0	
+Christian Kirk	ARI	1	6	0	5	5.0	1	1.0	0	"
+advanced_receiving
+"Will Dissly	SEA	8	7	57	3	47	6.7	10	1.4	0		0	0.0
+Chris Carson	SEA	4	4	41	2	4	1.0	37	9.3	2	2.0	0	0.0
+Tyler Lockett	SEA	4	4	51	2	42	10.5	9	2.3	0		0	0.0
+Jaron Brown	SEA	3	3	50	2	26	8.7	24	8.0	0		0	0.0
+Luke Willson	SEA	2	2	26	1	23	11.5	3	1.5	0		0	0.0
+D.K. Metcalf	SEA	4	1	6		0	0.0	6	6.0	0		0	0.0
+David Moore	SEA	2	1	9		5	5.0	4	4.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+David Johnson	ARI	11	8	99	3	8	1.0	91	11.4	1	8.0	1	9.1
+Larry Fitzgerald	ARI	5	5	47	3	11	2.2	36	7.2	0		0	0.0
+Christian Kirk	ARI	5	4	37	3	33	8.3	4	1.0	0		1	20.0
+KeeSean Johnson	ARI	3	2	19	1	9	4.5	10	5.0	0		0	0.0
+Charles Clay	ARI	2	1	3		0	0.0	3	3.0	0		0	0.0
+Trent Sherfield	ARI	3	1	15	1	14	14.0	1	1.0	0		0	0.0
+Maxx Williams	ARI	1	1	21	1	6	6.0	15	15.0	0		0	0.0"
+advanced_defense
+"Mychal Kendricks	SEA	0	5	5	100.0%	50	10.0	10.0	0	108.3	1.6	8	42	2	0	0	2.0	2	6	3	33.3%
+Tre Flowers	SEA	0	6	5	83.3%	48	9.6	8.0	0	100.0	7.7	27	21	0	0	0	0.0	0	5	0	0.0%
+Bobby Wagner	SEA	0	3	3	100.0%	37	12.3	12.3	0	118.1	1.3	4	33	1	0	0	0.0	0	11	1	8.3%
+Jamar Taylor	SEA	0	3	3	100.0%	28	9.3	9.3	0	105.6	4.3	13	15	1	0	0	0.0	0	2	0	0.0%
+K.J. Wright	SEA	0	4	2	50.0%	41	20.5	10.3	0	86.5	0.8	4	37	2	0	0	0.0	0	7	0	0.0%
+Shaquill Griffin	SEA	0	3	2	66.7%	13	6.5	4.3	0	75.7	3.0	4	9	0	0	0	0.0	0	7	0	0.0%
+Bradley McDougald	SEA	0	2	1	50.0%	18	18.0	9.0	0	81.2	22.0	16	2	1	0	0	0.0	0	6	1	14.3%
+Tedric Thompson	SEA	0	2	1	50.0%	6	6.0	3.0	0	56.2	12.5	5	1	0	0	0	0.0	0	3	0	0.0%
+Ezekiel Ansah	SEA	0	1	0	0.0%					39.6	-4.0			0	1	1	1.0	3	5	0	0.0%
+Rasheem Green	SEA	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Quinton Jefferson	SEA	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Jadeveon Clowney	SEA	1	1	0	0.0%					0.0	-3.0			0	1	0	0.0	1	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Byron Murphy	ARI	0	8	5	62.5%	38	7.6	4.8	1	113.5	7.8	32	6	0	0	0	0.0	0	5	0	0.0%
+Chris Jones	ARI	0	5	4	80.0%	53	13.3	10.6	0	110.8	7.2	21	32	0	0	0	0.0	0	3	0	0.0%
+Jordan Hicks	ARI	0	3	3	100.0%	25	8.3	8.3	0	101.4	8.3	25	0	5	1	0	0.5	2	12	2	14.3%
+D.J. Swearinger	ARI	0	3	3	100.0%	51	17.0	17.0	0	118.7	12.7	38	13	2	0	1	0.0	1	8	1	11.1%
+Haason Reddick	ARI	0	2	2	100.0%	22	11.0	11.0	0	112.5	0.0	0	22	9	0	0	1.0	1	9	1	10.0%
+Budda Baker	ARI	0	2	2	100.0%	26	13.0	13.0	0	118.7	9.5	19	7	2	0	0	0.0	0	5	1	16.7%
+Tramaine Brock	ARI	0	2	2	100.0%	19	9.5	9.5	0	106.2	6.0	12	7	2	0	0	0.0	0	2	0	0.0%
+Kevin Peterson	ARI	0	2	1	50.0%	6	6.0	3.0	0	56.2	3.0	0	6	0	0	0	0.0	0	3	1	25.0%
+Jonathan Bullard	ARI	0	0	0										0	2	0	1.0	3	3	3	50.0%
+Terrell Suggs	ARI	0	0	0										8	0	1	1.5	3	8	3	27.3%
+Corey Peters	ARI	0	0	0										0	0	0	0.0	0	1	1	50.0%"

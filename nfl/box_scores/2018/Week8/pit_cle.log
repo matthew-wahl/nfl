@@ -1,0 +1,61 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Baker Mayfield	CLE	22	36	180	9	23.7	283	7.9	69	3.1	1.9	111	5.0	1	3.0%	7	21.2%	2	21	8	5	1	9.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Ben Roethlisberger	PIT	24	36	257	14	37.8	291	8.1	137	5.7	3.8	120	5.0	2	5.7%	6	17.1%	1	11	3	0	0	"
+advanced_rushing
+"Nick Chubb	CLE	18	65	4	33	1.8	32	1.8	1	18.0
+Duke Johnson	CLE	2	0	0	-4	-2.0	4	2.0	0	
+Baker Mayfield	CLE	1	9	1	5	5.0	4	4.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+James Conner	PIT	24	146	7	51	2.1	95	4.0	3	8.0
+Jaylen Samuels	PIT	4	17	1	11	2.8	6	1.5	0	
+Ben Roethlisberger	PIT	2	6	2	4	2.0	2	1.0	0	
+Joshua Dobbs	PIT	1	-1		-1	-1.0	0	0.0	0	"
+advanced_receiving
+"Jarvis Landry	CLE	12	8	39	2	25	3.1	14	1.8	0		0	0.0
+Antonio Callaway	CLE	6	5	36	3	19	3.8	17	3.4	0		1	16.7
+Nick Chubb	CLE	3	2	10	0	-8	-4.0	18	9.0	0		0	0.0
+Seth Devalve	CLE	2	2	28	1	28	14.0	0	0.0	0		0	0.0
+Duke Johnson	CLE	3	2	16	1	-12	-6.0	28	14.0	0		0	0.0
+Darren Fells	CLE	1	1	6		6	6.0	0	0.0	0		0	0.0
+Dontrell Hilliard	CLE	1	1	24	1	0	0.0	24	24.0	1	1.0	0	0.0
+Damion Ratley	CLE	4	1	21	1	11	11.0	10	10.0	0		0	0.0
+Breshad Perriman	CLE	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Antonio Brown	PIT	8	6	74	4	60	10.0	14	2.3	0		0	0.0
+James Conner	PIT	6	5	66	4	0	0.0	66	13.2	1	5.0	1	16.7
+JuJu Smith-Schuster	PIT	6	4	33	2	26	6.5	7	1.8	0		0	0.0
+Vance McDonald	PIT	3	3	47	2	28	9.3	19	6.3	1	3.0	0	0.0
+Jesse James	PIT	3	2	9		8	4.0	1	0.5	0		0	0.0
+Stevan Ridley	PIT	2	2	13	1	2	1.0	11	5.5	0		0	0.0
+Justin Hunter	PIT	4	2	15	1	13	6.5	2	1.0	0		0	0.0
+Ryan Switzer	PIT	1	0	0		0		0		0		1	100.0"
+advanced_defense
+"T.J. Carrie	CLE	0	7	5	71.4%	42	8.4	6.0	0	86.6	12.7	33	9	0	0	0	0.0	0	7	0	0.0%
+Denzel Ward	CLE	0	5	4	80.0%	58	14.5	11.6	2	154.6	11.0	47	11	0	0	0	0.0	0	7	0	0.0%
+Jabrill Peppers	CLE	0	3	3	100.0%	26	8.7	8.7	0	102.8	4.0	12	14	3	0	0	0.0	0	4	0	0.0%
+Christian Kirksey	CLE	0	4	3	75.0%	45	15.0	11.3	0	111.5	7.8	19	26	3	0	0	0.0	0	7	1	12.5%
+Jamie Collins	CLE	0	2	2	100.0%	28	14.0	14.0	0	118.7	1.5	3	25	1	0	0	0.0	0	11	1	8.3%
+Derrick Kindred	CLE	1	3	2	66.7%	6	3.0	2.0	0	30.6	0.7	3	3	3	0	0	0.0	0	5	0	0.0%
+Briean Boddy-Calhoun	CLE	0	5	2	40.0%	12	6.0	2.4	0	47.9	7.8	11	1	0	0	0	0.0	0	3	0	0.0%
+Damarious Randall	CLE	0	3	1	33.3%	15	15.0	5.0	0	50.7	32.0	15	0	0	0	0	0.0	0	4	1	20.0%
+Myles Garrett	CLE	0	0	0										0	1	0	1.0	2	1	0	0.0%
+Larry Ogunjobi	CLE	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Genard Avery	CLE	0	0	0										3	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Joe Haden	PIT	1	10	5	50.0%	50	10.0	5.0	0	25.0	11.8	39	11	0	0	0	0.0	0	3	2	40.0%
+T.J. Watt	PIT	0	4	3	75.0%	36	12.0	9.0	0	102.1	4.0	-2	38	7	3	0	1.0	4	7	2	22.2%
+Coty Sensabaugh	PIT	0	4	3	75.0%	12	4.0	3.0	1	116.7	5.0	-5	17	0	0	0	0.0	0	3	1	25.0%
+Mike Hilton	PIT	0	6	2	33.3%	10	5.0	1.7	0	42.4	10.2	7	3	7	1	0	0.0	1	4	0	0.0%
+L.J. Fort	PIT	0	2	2	100.0%	6	3.0	3.0	0	79.2	0.5	1	5	4	1	0	0.0	1	3	0	0.0%
+Jonathan Bostic	PIT	0	2	2	100.0%	14	7.0	7.0	0	95.8	0.0	0	14	7	0	1	0.0	1	4	0	0.0%
+Vince Williams	PIT	0	1	1	100.0%	-1	-1.0	-1.0	0	79.2	-1.0	-1	0	4	1	1	0.0	2	5	0	0.0%
+Terrell Edmunds	PIT	0	2	1	50.0%	21	21.0	10.5	0	87.5	14.5	11	10	7	0	0	0.0	0	4	0	0.0%
+Sean Davis	PIT	0	2	1	50.0%	24	24.0	12.0	1	133.3	16.5	24	0	0	0	0	0.0	0	5	0	0.0%
+Anthony Chickillo	PIT	0	2	1	50.0%	8	8.0	4.0	0	60.4	1.0	-5	13	3	0	0	0.0	0	2	0	0.0%
+Stephon Tuitt	PIT	0	0	0										0	1	1	1.0	3	7	0	0.0%
+Bud Dupree	PIT	0	0	0										14	1	2	0.0	3	4	1	20.0%
+Cameron Heyward	PIT	0	0	0										0	1	0	0.0	1	1	0	0.0%"

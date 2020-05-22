@@ -1,0 +1,65 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jimmy Garoppolo	SFO	18	27	166	7	25.0	156	5.8	59	3.3	2.2	107	5.9	0	0.0%	7	25.9%	1	12	3	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jameis Winston	TAM	20	36	194	10	25.6	315	8.8	104	5.2	2.9	90	4.5	2	5.9%	3	8.8%	3	4	7	4	3	4.7"
+advanced_rushing
+"Matt Breida	SFO	15	37	3	28	1.9	9	0.6	0	
+Raheem Mostert	SFO	9	40	2	19	2.1	21	2.3	2	4.5
+Tevin Coleman	SFO	6	23	1	12	2.0	11	1.8	0	
+Jimmy Garoppolo	SFO	2	-2	0	-2	-1.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Ronald Jones	TAM	13	75	4	61	4.7	14	1.1	1	13.0
+Peyton Barber	TAM	8	33	2	27	3.4	6	0.8	0	
+Jameis Winston	TAM	5	13	1	13	2.6	0	0.0	0	"
+advanced_receiving
+"George Kittle	SFO	10	8	54	4	19	2.4	35	4.4	0		0	0.0
+Deebo Samuel	SFO	3	3	17	1	2	0.7	15	5.0	1	3.0	0	0.0
+Tevin Coleman	SFO	3	2	33	1	-3	-1.5	36	18.0	0		0	0.0
+Kendrick Bourne	SFO	3	1	9		6	6.0	3	3.0	0		0	0.0
+Dante Pettis	SFO	1	1	7		6	6.0	1	1.0	0		0	0.0
+Raheem Mostert	SFO	1	1	0	0	-3	-3.0	3	3.0	0		0	0.0
+Richie James	SFO	2	1	39	1	27	27.0	12	12.0	0		0	0.0
+Marquise Goodwin	SFO	3	1	7		5	5.0	2	2.0	0		0	0.0
+Matt Breida	SFO	1	0	0	0	0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+O.J. Howard	TAM	5	4	32	2	24	6.0	8	2.0	0		1	20.0
+Dare Ogunbowale	TAM	5	4	33		14	3.5	19	4.8	1	4.0	0	0.0
+Chris Godwin	TAM	6	3	53	3	33	11.0	20	6.7	0		0	0.0
+Mike Evans	TAM	5	2	28	2	27	13.5	1	0.5	0		0	0.0
+Breshad Perriman	TAM	5	2	10	2	10	5.0	0	0.0	0		0	0.0
+Cameron Brate	TAM	2	2	8		-1	-0.5	9	4.5	0		0	0.0
+Peyton Barber	TAM	4	2	12	0	-2	-1.0	14	7.0	0		1	25.0
+Ronald Jones	TAM	1	1	18	1	-1	-1.0	19	19.0	1	1.0	0	0.0
+Bobo Wilson	TAM	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Fred Warner	SFO	0	12	8	66.7%	83	10.4	6.9	0	86.5	6.6	43	40	0	0	0	0.0	0	9	1	10.0%
+Richard Sherman	SFO	1	6	3	50.0%	27	9.0	4.5	1	62.5	11.7	26	1	0	0	0	0.0	0	5	1	16.7%
+Kwon Alexander	SFO	0	2	2	100.0%	7	3.5	3.5	0	81.2	-2.5	-5	12	0	0	0	0.0	0	3	0	0.0%
+K'Waun Williams	SFO	0	2	2	100.0%	33	16.5	16.5	0	118.7	2.5	5	28	1	0	0	0.0	0	1	2	66.7%
+Ahkello Witherspoon	SFO	1	7	2	28.6%	21	10.5	3.0	0	0.0	13.7	21	0	0	0	0	0.0	0	2	0	0.0%
+Jaquiski Tartt	SFO	0	2	1	50.0%	15	15.0	7.5	0	75.0	28.0	15	0	2	1	0	0.0	1	5	0	0.0%
+Dre Greenlaw	SFO	0	2	1	50.0%	1	1.0	0.5	0	56.2	0.5	-3	4	0	0	0	0.0	0	4	0	0.0%
+Emmanuel Moseley	SFO	0	1	1	100.0%	7	7.0	7.0	0	95.8	2.0	2	5	0	0	0	0.0	0	1	0	0.0%
+Nick Bosa	SFO	0	0	0										0	2	2	1.0	5	3	0	0.0%
+Dee Ford	SFO	0	0	0										2	2	1	1.0	4	1	0	0.0%
+DeForest Buckner	SFO	0	0	0										0	1	1	0.0	2	2	0	0.0%
+D.J. Jones	SFO	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Ronald Blair	SFO	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Arik Armstead	SFO	0	0	0										0	0	0	1.0	1	5	1	16.7%
+Tarvarius Moore	SFO	0	2	0	0.0%					39.6	13.5			0	0	0	0.0	0	8	2	20.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Devin White	TAM	0	5	5	100.0%	58	11.6	11.6	0	115.0	3.0	15	43	2	0	0	0.0	0	6	1	14.3%
+M.J. Stewart	TAM	0	4	4	100.0%	47	11.8	11.8	1	155.2	5.0	20	27	0	0	0	0.0	0	5	0	0.0%
+Lavonte David	TAM	0	2	2	100.0%	3	1.5	1.5	0	79.2	-2.0	-4	7	4	1	0	0.0	1	7	1	12.5%
+Shaquil Barrett	TAM	0	2	2	100.0%	26	13.0	13.0	0	118.7	6.0	12	14	8	0	0	1.0	1	5	1	16.7%
+Vernon Hargreaves	TAM	1	4	2	50.0%	14	7.0	3.5	0	18.7	7.8	10	4	0	0	0	0.0	0	3	1	25.0%
+Carl Nassib	TAM	0	1	1	100.0%	0	0.0	0.0	0	79.2	-3.0	-3	3	0	0	0	0.0	0	2	0	0.0%
+Jordan Whitehead	TAM	0	2	1	50.0%	11	11.0	5.5	0	66.7	2.0	4	7	3	0	0	0.0	0	8	1	11.1%
+Carlton Davis	TAM	0	6	1	16.7%	7	7.0	1.2	0	39.6	11.3	5	2	0	0	0	0.0	0	3	1	25.0%
+Vita Vea	TAM	0	0	0										0	1	0	0.0	1	3	0	0.0%
+William Gholston	TAM	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Mike Edwards	TAM	0	1	0	0.0%					39.6	3.0			0	0	0	0.0	0	0	0	
+Darian Stewart	TAM	0	1	0	0.0%					39.6	10.0			0	0	0	0.0	0	5	3	37.5%"

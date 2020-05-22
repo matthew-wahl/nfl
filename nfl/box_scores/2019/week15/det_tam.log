@@ -1,0 +1,69 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Jameis Winston	TAM	28	42	458	19	43.2	468	11.1	266	9.5	6.3	192	6.9	0	0.0%	12	29.3%	2	14	1	4	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+David Blough	DET	24	43	260	11	24.4	354	8.2	191	8.0	4.4	69	2.9	2	4.7%	11	25.6%	2	24	4	4	3	6.7"
+advanced_rushing
+"Ronald Jones	TAM	11	23	1	8	0.7	15	1.4	0	
+Peyton Barber	TAM	10	17	1	1	0.1	16	1.6	0	
+Ryan Griffin	TAM	4	-1		-1	-0.3	0	0.0	0	
+Jameis Winston	TAM	2	4	2	1	0.5	3	1.5	0	
+Dare Ogunbowale	TAM	1	3	0	3	3.0	0	0.0	0	
+Breshad Perriman	TAM	1	3	0	2	2.0	1	1.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Wes Hills	DET	10	21	3	9	0.9	12	1.2	0	
+David Blough	DET	5	19	0	16	3.2	3	0.6	0	
+Ty Johnson	DET	2	3		0	0.0	3	1.5	0	
+J.D. McKissic	DET	1	2	1	-1	-1.0	3	3.0	0	"
+advanced_receiving
+"Chris Godwin	TAM	8	5	121	4	47	9.4	74	14.8	1	5.0	0	0.0
+Breshad Perriman	TAM	6	5	113	5	86	17.2	27	5.4	0		0	0.0
+O.J. Howard	TAM	7	4	46	3	27	6.8	19	4.8	0		0	0.0
+Cameron Brate	TAM	7	3	33	1	31	10.3	2	0.7	0		0	0.0
+Scott Miller	TAM	3	3	49	2	42	14.0	7	2.3	0		0	0.0
+Peyton Barber	TAM	2	2	23	0	-7	-3.5	30	15.0	0		0	0.0
+Justin Watson	TAM	2	2	17		15	7.5	2	1.0	0		0	0.0
+Tanner Hudson	TAM	1	1	14	1	12	12.0	2	2.0	0		0	0.0
+Ishmael Hyman	TAM	1	1	3	1	2	2.0	1	1.0	0		0	0.0
+Ronald Jones	TAM	3	1	26	1	4	4.0	22	22.0	0		0	0.0
+Dare Ogunbowale	TAM	1	1	13	1	7	7.0	6	6.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Danny Amendola	DET	13	8	102	5	81	10.1	21	2.6	2	4.0	0	0.0
+Ty Johnson	DET	5	4	17		8	2.0	9	2.3	0		0	0.0
+Jesse James	DET	5	3	31	1	22	7.3	9	3.0	0		1	20.0
+Kenny Golladay	DET	7	3	44	3	40	13.3	4	1.3	0		0	0.0
+J.D. McKissic	DET	3	2	7	0	-5	-2.5	12	6.0	0		0	0.0
+Wes Hills	DET	2	2	1	0	-2	-1.0	3	1.5	0		0	0.0
+Chris Lacy	DET	2	1	48	1	44	44.0	4	4.0	0		0	0.0
+Isaac Nauta	DET	2	1	10	1	3	3.0	7	7.0	0		1	50.0
+Logan Thomas	DET	4	0	0		0		0		0		0	0.0"
+advanced_defense
+"Sean Murphy-Bunting	TAM	1	8	7	87.5%	100	14.3	12.5	0	79.2	10.3	77	23	4	0	0	0.0	0	8	0	0.0%
+Devin White	TAM	0	4	4	100.0%	22	5.5	5.5	0	89.6	3.5	12	10	8	0	0	0.0	0	3	0	0.0%
+Lavonte David	TAM	0	7	3	42.9%	54	18.0	7.7	0	69.9	8.1	47	7	4	0	0	0.0	0	9	1	10.0%
+Jamel Dean	TAM	0	7	3	42.9%	32	10.7	4.6	0	56.8	8.6	25	7	0	0	0	0.0	0	3	0	0.0%
+Jason Pierre-Paul	TAM	0	2	2	100.0%	13	6.5	6.5	0	93.7	4.5	9	4	4	0	0	0.0	0	1	0	0.0%
+Darian Stewart	TAM	0	2	2	100.0%	18	9.0	9.0	0	104.2	6.5	13	5	2	0	0	0.0	0	1	1	50.0%
+Carlton Davis	TAM	0	4	2	50.0%	18	9.0	4.5	0	62.5	16.3	16	2	0	0	0	0.0	0	3	0	0.0%
+Shaquil Barrett	TAM	0	2	1	50.0%	4	4.0	2.0	0	56.2	-2.0	-5	9	14	1	1	1.0	3	5	0	0.0%
+Jordan Whitehead	TAM	0	1	0	0.0%					39.6	14.0			5	1	1	0.0	2	1	0	0.0%
+Ndamukong Suh	TAM	0	0	0										0	0	1	1.0	2	3	0	0.0%
+Carl Nassib	TAM	0	0	0										8	1	0	0.0	1	2	0	0.0%
+William Gholston	TAM	0	0	0										0	0	1	0.0	1	3	0	0.0%
+Andrew Adams	TAM	1	1	0	0.0%					0.0	9.0			1	0	0	0.0	0	1	0	0.0%
+Mike Edwards	TAM	0	3	0	0.0%					39.6	10.7			0	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Tracy Walker	DET	0	10	6	60.0%	106	17.7	10.6	1	129.6	12.4	60	46	0	0	0	0.0	0	7	2	22.2%
+Jalen Reeves-Maybin	DET	0	4	4	100.0%	97	24.3	24.3	0	118.7	9.8	39	58	1	0	0	0.0	0	6	0	0.0%
+Amani Oruwariye	DET	0	5	4	80.0%	83	20.8	16.6	1	158.3	14.8	55	28	1	0	0	0.0	0	2	0	0.0%
+Tavon Wilson	DET	0	3	3	100.0%	22	7.3	7.3	0	97.2	4.3	13	9	3	0	0	0.0	0	6	0	0.0%
+Rashaan Melvin	DET	0	6	3	50.0%	59	19.7	9.8	1	124.3	13.7	58	1	1	0	0	0.0	0	7	0	0.0%
+Darius Slay	DET	0	3	3	100.0%	18	6.0	6.0	0	91.7	1.0	3	15	0	0	0	0.0	0	3	2	40.0%
+Jahlani Tavai	DET	1	4	2	50.0%	27	13.5	6.8	0	32.3	1.3	4	23	8	0	1	0.0	1	5	0	0.0%
+Justin Coleman	DET	0	4	2	50.0%	13	6.5	3.3	0	57.3	19.0	1	12	1	0	0	0.0	0	1	0	0.0%
+Will Harris	DET	0	2	1	50.0%	33	33.0	16.5	1	135.4	20.5	33	0	0	0	0	0.0	0	3	0	0.0%
+Trey Flowers	DET	0	0	0										0	0	3	0.0	3	3	0	0.0%
+Devon Kennard	DET	0	0	0										5	0	0	1.0	1	4	0	0.0%
+Romeo Okwara	DET	0	0	0										0	0	0	1.0	1	3	0	0.0%"

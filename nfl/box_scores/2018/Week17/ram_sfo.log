@@ -1,0 +1,69 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Nick Mullens	SFO	23	33	282	13	36.1	184	5.6	132	5.7	4.0	150	6.5	0	0.0%	3	9.7%	3	12	2	6	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jared Goff	LAR	15	26	199	12	46.2	256	9.8	119	7.9	4.6	80	5.3	0	0.0%	6	26.1%	0	5	2	2	0	
+Sean Mannion	LAR	2	3	23	1	33.3	-10	-3.3	-4	-2.0	-1.3	27	13.5	1	33.3%	0	0.0%	0	1	0	0	0	"
+advanced_rushing
+"Alfred Morris	SFO	16	111	5	43	2.7	68	4.3	3	5.3
+Jeff Wilson	SFO	3	9		7	2.3	2	0.7	0	
+Kyle Juszczyk	SFO	2	9	0	7	3.5	2	1.0	0	
+Nick Mullens	SFO	1	-2	0	-2	-2.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+C.J. Anderson	LAR	23	132	9	68	3.0	64	2.8	0	
+John Kelly	LAR	15	30	3	2	0.1	28	1.9	0	
+Sean Mannion	LAR	2	-8	0	-8	-4.0	0	0.0	0	
+Jared Goff	LAR	1	0	0	0	0.0	0	0.0	0	
+Robert Woods	LAR	1	1	0	1	1.0	0	0.0	0	"
+advanced_receiving
+"George Kittle	SFO	14	9	149	6	54	6.0	95	10.6	1	9.0	0	0.0
+Kendrick Bourne	SFO	6	5	59	4	41	8.2	18	3.6	0		0	0.0
+Richie James	SFO	5	3	32	2	22	7.3	10	3.3	0		0	0.0
+Trent Taylor	SFO	4	3	17		6	2.0	11	3.7	0		0	0.0
+Ross Dwelley	SFO	1	1	6		5	5.0	1	1.0	0		0	0.0
+Kyle Juszczyk	SFO	2	1	15	1	2	2.0	13	13.0	0		0	0.0
+Alfred Morris	SFO	1	1	4	0	2	2.0	2	2.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Brandin Cooks	LAR	9	5	62	4	35	7.0	27	5.4	2	2.5	0	0.0
+Josh Reynolds	LAR	7	4	55	4	47	11.8	8	2.0	0		0	0.0
+C.J. Anderson	LAR	3	3	22	1	7	2.3	15	5.0	0		0	0.0
+Robert Woods	LAR	3	2	24	2	6	3.0	18	9.0	0		0	0.0
+Tyler Higbee	LAR	1	1	36	1	24	24.0	12	12.0	0		0	0.0
+John Kelly	LAR	2	1	18	1	-4	-4.0	22	22.0	0		1	50.0
+Johnny Mundt	LAR	1	1	5		0	0.0	5	5.0	0		0	0.0
+Gerald Everett	LAR	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Tarvarius Moore	SFO	0	9	6	66.7%	72	12.0	8.0	2	130.6	6.6	28	44	0	0	0	0.0	0	2	0	0.0%
+Marcell Harris	SFO	0	4	3	75.0%	20	6.7	5.0	1	125.0	2.0	3	17	2	1	0	0.0	1	6	2	25.0%
+Fred Warner	SFO	0	4	3	75.0%	26	8.7	6.5	0	91.7	2.5	16	10	4	0	0	0.0	0	14	0	0.0%
+K'Waun Williams	SFO	0	3	2	66.7%	24	12.0	8.0	0	91.0	8.7	18	6	2	0	0	0.0	0	5	0	0.0%
+Elijah Lee	SFO	0	2	2	100.0%	54	27.0	27.0	0	118.7	16.0	32	22	4	0	0	0.0	0	10	0	0.0%
+D.J. Reed	SFO	0	2	2	100.0%	32	16.0	16.0	0	118.7	4.5	9	23	1	0	0	0.0	0	3	0	0.0%
+Greg Mabin	SFO	0	1	1	100.0%	29	29.0	29.0	1	158.3	29.0	29	0	0	0	0	0.0	0	1	0	0.0%
+DeForest Buckner	SFO	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Ryan Delaire	SFO	0	0	0										0	0	1	0.0	1	0	0	
+Ronald Blair	SFO	0	0	0										0	0	1	0.0	1	6	0	0.0%
+Richard Sherman	SFO	0	2	0	0.0%					39.6	13.0			0	0	0	0.0	0	2	0	0.0%
+Solomon Thomas	SFO	0	0	0										0	0	0	0.0	0	4	1	20.0%
+Antone Exum	SFO	0	2	0	0.0%					39.6	25.5			0	0	0	0.0	0	4	2	33.3%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Marcus Peters	LAR	0	4	3	75.0%	55	18.3	13.8	0	116.7	12.5	49	6	0	0	0	0.0	0	2	0	0.0%
+John Johnson	LAR	0	4	3	75.0%	32	10.7	8.0	1	137.5	11.0	28	4	2	0	0	0.0	0	8	0	0.0%
+Nickell Robey-Coleman	LAR	0	4	3	75.0%	11	3.7	2.8	1	116.7	-0.3	-2	13	0	0	0	0.0	0	2	0	0.0%
+Dante Fowler	LAR	0	2	2	100.0%	16	8.0	8.0	0	100.0	4.0	8	8	3	0	1	0.0	1	4	0	0.0%
+Troy Hill	LAR	0	3	2	66.7%	26	13.0	8.7	0	93.7	7.3	15	11	0	0	0	0.0	0	2	1	33.3%
+Justin Lawler	LAR	0	2	2	100.0%	14	7.0	7.0	0	95.8	1.0	2	12	1	0	0	0.0	0	2	0	0.0%
+Aqib Talib	LAR	0	4	2	50.0%	25	12.5	6.3	0	69.8	5.3	13	12	0	0	0	0.0	0	5	0	0.0%
+Mark Barron	LAR	0	3	1	33.3%	6	6.0	2.0	0	42.4	11.7	5	1	2	0	0	1.0	1	6	0	0.0%
+Marqui Christian	LAR	0	2	1	50.0%	13	13.0	6.5	0	70.8	7.5	11	2	1	0	1	0.0	1	4	0	0.0%
+Blake Countess	LAR	1	1	1	100.0%	12	12.0	12.0	0	77.1	6.0	6	6	0	0	0	0.0	0	2	1	33.3%
+Samson Ebukam	LAR	0	1	1	100.0%	15	15.0	15.0	0	118.7	2.0	2	13	4	0	0	0.0	0	3	0	0.0%
+Cory Littleton	LAR	2	4	1	25.0%	34	34.0	8.5	0	22.9	5.0	13	21	5	0	0	0.0	0	4	0	0.0%
+Aaron Donald	LAR	0	0	0										0	1	2	1.0	4	4	0	0.0%
+John Franklin-Myers	LAR	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Ndamukong Suh	LAR	0	0	0										0	0	1	0.0	1	3	1	25.0%
+Michael Brockers	LAR	0	0	0										0	0	1	0.0	1	4	0	0.0%
+Matt Longacre	LAR	0	0	0										2	0	0	1.0	1	1	1	50.0%
+Ramik Wilson	LAR	0	1	0	0.0%					39.6	1.0			0	0	0	0.0	0	1	0	0.0%"

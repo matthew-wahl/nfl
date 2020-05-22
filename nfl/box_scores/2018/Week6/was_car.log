@@ -1,0 +1,67 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Cam Newton	CAR	27	40	275	15	36.6	306	7.7	154	5.7	3.9	121	4.5	1	2.7%	8	21.6%	1	11	4	1	2	10.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Alex Smith	WAS	21	36	163	10	25.6	260	7.2	119	5.7	3.3	44	2.1	1	3.0%	5	15.2%	3	9	7	1	3	3.3"
+advanced_rushing
+"Cam Newton	CAR	9	43	6	30	3.3	13	1.4	1	9.0
+Christian McCaffrey	CAR	8	20	0	15	1.9	5	0.6	0	
+D.J. Moore	CAR	1	18	1	18	18.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Adrian Peterson	WAS	17	97	4	54	3.2	43	2.5	2	8.5
+Alex Smith	WAS	6	13	2	13	2.2	0	0.0	0	
+Kapri Bibbs	WAS	2	11		5	2.5	6	3.0	1	2.0
+Maurice Harris	WAS	1	6	1	6	6.0	0	0.0	0	
+Samaje Perine	WAS	1	3		3	3.0	0	0.0	0	
+Paul Richardson	WAS	1	2	0	2	2.0	0	0.0	0	"
+advanced_receiving
+"Christian McCaffrey	CAR	8	7	46	2	8	1.1	38	5.4	0		0	0.0
+Torrey Smith	CAR	5	5	43	3	40	8.0	3	0.6	0		0	0.0
+Devin Funchess	CAR	8	5	74	5	60	12.0	14	2.8	0		0	0.0
+Greg Olsen	CAR	7	4	48	3	17	4.3	31	7.8	0		0	0.0
+D.J. Moore	CAR	5	4	59	2	32	8.0	27	6.8	1	4.0	0	0.0
+Jarius Wright	CAR	2	1	3		3	3.0	0	0.0	0		0	0.0
+Chris Manhertz	CAR	2	1	2		-6	-6.0	8	8.0	0		1	50.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Jordan Reed	WAS	9	5	36	2	16	3.2	20	4.0	0		0	0.0
+Maurice Harris	WAS	4	3	13	1	10	3.3	3	1.0	0		0	0.0
+Josh Doctson	WAS	5	3	20		17	5.7	3	1.0	0		0	0.0
+Paul Richardson	WAS	5	3	31	3	24	8.0	7	2.3	0		0	0.0
+Vernon Davis	WAS	3	3	48	2	46	15.3	2	0.7	0		0	0.0
+Brian Quick	WAS	2	2	12	2	12	6.0	0	0.0	0		0	0.0
+Samaje Perine	WAS	1	1	-3		-5	-5.0	2	2.0	0		0	0.0
+Kapri Bibbs	WAS	2	1	6		-1	-1.0	7	7.0	0		1	50.0
+Michael Floyd	WAS	1	0	0		0		0		0		0	0.0
+Adrian Peterson	WAS	1	0	0	0	0		0		0		0	0.0"
+advanced_defense
+"James Bradberry	CAR	0	6	5	83.3%	32	6.4	5.3	0	88.9	5.5	22	10	0	0	0	0.0	0	5	0	0.0%
+Luke Kuechly	CAR	0	4	4	100.0%	15	3.8	3.8	0	82.3	2.3	9	6	1	1	0	0.0	1	10	1	9.1%
+Shaq Thompson	CAR	0	3	3	100.0%	13	4.3	4.3	0	84.7	0.3	1	12	3	0	0	1.0	1	4	1	20.0%
+Captain Munnerlyn	CAR	0	5	3	60.0%	15	5.0	3.0	0	64.6	5.2	13	2	2	0	0	0.0	0	5	0	0.0%
+Eric Reid	CAR	0	3	2	66.7%	35	17.5	11.7	1	145.8	20.0	34	1	2	0	0	0.0	0	5	0	0.0%
+Mario Addison	CAR	0	1	1	100.0%	21	21.0	21.0	0	118.7	14.0	14	7	0	1	0	1.0	2	4	1	20.0%
+Mike Adams	CAR	0	1	1	100.0%	2	2.0	2.0	1	118.7	2.0	2	0	2	1	0	0.0	1	6	0	0.0%
+Thomas Davis	CAR	0	4	1	25.0%	9	9.0	2.3	0	39.6	9.5	5	4	1	0	0	0.0	0	6	0	0.0%
+Donte Jackson	CAR	0	6	1	16.7%	21	21.0	3.5	0	41.7	16.0	19	2	0	0	0	0.0	0	3	0	0.0%
+Vernon Butler	CAR	0	0	0										0	2	0	0.0	2	1	0	0.0%
+Kyle Love	CAR	0	0	0										0	1	1	0.0	2	0	0	
+Julius Peppers	CAR	0	0	0										0	0	0	1.0	1	2	0	0.0%
+Kawann Short	CAR	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Wes Horton	CAR	0	0	0										0	1	0	0.0	1	4	0	0.0%
+Dontari Poe	CAR	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Rashaan Gaulden	CAR	0	1	0	0.0%					39.6	5.0			0	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Quinton Dunbar	WAS	0	9	7	77.8%	89	12.7	9.9	2	147.5	10.7	67	22	0	0	0	0.0	0	7	2	22.2%
+Mason Foster	WAS	0	4	4	100.0%	49	12.3	12.3	0	117.7	4.3	17	32	3	1	0	0.0	1	5	0	0.0%
+Josh Norman	WAS	1	5	4	80.0%	44	11.0	8.8	0	63.7	15.0	43	1	0	0	0	0.0	0	5	0	0.0%
+Josh Harvey-Clemons	WAS	0	3	3	100.0%	8	2.7	2.7	0	79.2	2.0	6	2	0	0	0	0.0	0	4	0	0.0%
+D.J. Swearinger	WAS	0	4	2	50.0%	26	13.0	6.5	0	70.8	8.0	23	3	2	0	1	1.0	2	7	0	0.0%
+Fabian Moreau	WAS	0	3	2	66.7%	19	9.5	6.3	0	84.0	4.3	7	12	0	0	0	0.0	0	2	0	0.0%
+Zach Brown	WAS	0	3	2	66.7%	10	5.0	3.3	0	71.5	0.0	-3	13	1	0	0	0.0	0	6	1	14.3%
+Preston Smith	WAS	0	2	1	50.0%	2	2.0	1.0	0	56.2	0.5	-6	8	1	1	0	0.0	1	1	0	0.0%
+Da'Ron Payne	WAS	0	0	0										0	2	0	0.0	2	3	0	0.0%
+Ryan Kerrigan	WAS	0	0	0										1	0	0	0.0	0	1	0	0.0%
+Ryan Anderson	WAS	0	0	0										2	0	0	0.0	0	1	0	0.0%
+Montae Nicholson	WAS	0	2	0	0.0%					39.6	18.5			0	0	0	0.0	0	4	0	0.0%"

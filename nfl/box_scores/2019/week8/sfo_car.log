@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Kyle Allen	CAR	19	37	158	8	18.2	326	8.8	73	3.8	2.0	85	4.5	3	8.1%	10	27.0%	7	4	5	2	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Jimmy Garoppolo	SFO	18	22	175	12	48.0	117	5.3	80	4.4	3.6	95	5.3	0	0.0%	2	9.1%	3	7	2	1	0	"
+advanced_rushing
+"Christian McCaffrey	CAR	14	117	4	93	6.6	24	1.7	1	14.0
+Jordan Scarlett	CAR	4	9		4	1.0	5	1.3	0	
+Reggie Bonnafon	CAR	1	4		2	2.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Matt Breida	SFO	11	35	2	21	1.9	14	1.3	0	
+Tevin Coleman	SFO	11	105	5	89	8.1	16	1.5	0	
+Raheem Mostert	SFO	9	60	2	49	5.4	11	1.2	0	
+Nick Mullens	SFO	3	-3		-3	-1.0	0	0.0	0	
+Deebo Samuel	SFO	2	29	1	29	14.5	0	0.0	0	
+Jeff Wilson	SFO	2	6		1	0.5	5	2.5	0	"
+advanced_receiving
+"D.J. Moore	CAR	9	5	38	2	9	1.8	29	5.8	0		0	0.0
+Christian McCaffrey	CAR	5	4	38	1	10	2.5	28	7.0	0		1	20.0
+Curtis Samuel	CAR	11	4	46	3	35	8.8	11	2.8	0		1	9.1
+Greg Olsen	CAR	2	2	13	1	12	6.0	1	0.5	0		0	0.0
+Jarius Wright	CAR	4	2	12	1	7	3.5	5	2.5	0		1	25.0
+Reggie Bonnafon	CAR	3	1	3		-5	-5.0	8	8.0	0		0	0.0
+DeAndrew White	CAR	1	1	8		5	5.0	3	3.0	0		0	0.0
+Ian Thomas	CAR	1	0	0		0		0		0		0	0.0
+Brandon Zylstra	CAR	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+George Kittle	SFO	7	6	86	5	43	7.2	43	7.2	0		0	0.0
+Emmanuel Sanders	SFO	5	4	25	3	25	6.3	0	0.0	0		0	0.0
+Deebo Samuel	SFO	3	3	19	1	3	1.0	16	5.3	0		0	0.0
+Tevin Coleman	SFO	2	2	13	1	-4	-2.0	17	8.5	0		0	0.0
+Kendrick Bourne	SFO	1	1	12	1	10	10.0	2	2.0	0		0	0.0
+Matt Breida	SFO	1	1	15	1	-3	-3.0	18	18.0	0		0	0.0
+Dante Pettis	SFO	3	1	5		6	6.0	-1	-1.0	0		0	0.0"
+advanced_defense
+"Shaq Thompson	CAR	0	7	6	85.7%	75	12.5	10.7	1	150.9	1.3	16	59	2	0	0	0.0	0	4	0	0.0%
+Tre Boston	CAR	0	3	3	100.0%	67	22.3	22.3	0	118.7	19.7	59	8	0	0	0	0.0	0	7	0	0.0%
+Luke Kuechly	CAR	1	4	3	75.0%	20	6.7	5.0	0	45.8	-0.3	-5	25	1	0	0	0.0	0	10	1	9.1%
+Eric Reid	CAR	0	2	2	100.0%	29	14.5	14.5	1	158.3	12.5	25	4	2	0	0	1.0	1	8	0	0.0%
+Donte Jackson	CAR	0	3	2	66.7%	20	10.0	6.7	0	85.4	12.3	18	2	0	0	0	0.0	0	2	0	0.0%
+Mario Addison	CAR	0	1	1	100.0%	5	5.0	5.0	0	87.5	6.0	6	-1	1	0	0	0.0	0	3	0	0.0%
+James Bradberry	CAR	0	2	1	50.0%	11	11.0	5.5	0	66.7	5.5	11	0	0	0	0	0.0	0	3	0	0.0%
+Bruce Irvin	CAR	0	0	0										1	1	0	2.0	3	5	0	0.0%
+Efe Obada	CAR	0	0	0										0	1	0	0.0	1	2	1	33.3%
+Marquis Haynes	CAR	0	0	0										0	0	1	0.0	1	1	1	50.0%
+Ross Cockrell	CAR	0	1	0	0.0%					39.6	21.0			2	0	0	0.0	0	1	0	0.0%
+Kyle Love	CAR	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Richard Sherman	SFO	1	7	5	71.4%	39	7.8	5.6	0	45.2	9.1	30	9	0	0	0	0.0	0	5	0	0.0%
+K'Waun Williams	SFO	0	6	4	66.7%	27	6.8	4.5	0	76.4	5.2	20	7	1	0	0	0.0	0	2	1	33.3%
+Emmanuel Moseley	SFO	1	8	2	25.0%	20	10.0	2.5	0	0.0	16.8	8	12	0	0	0	0.0	0	2	0	0.0%
+Kwon Alexander	SFO	0	4	2	50.0%	13	6.5	3.3	0	57.3	3.3	4	9	1	0	0	0.0	0	4	0	0.0%
+Fred Warner	SFO	0	4	2	50.0%	9	4.5	2.3	0	56.2	1.5	-8	17	1	0	0	0.0	0	6	1	14.3%
+Dontae Johnson	SFO	0	2	2	100.0%	13	6.5	6.5	0	93.7	2.0	4	9	0	0	0	0.0	0	2	0	0.0%
+Nick Bosa	SFO	1	1	1	100.0%	24	24.0	24.0	0	79.2	11.0	11	13	0	1	0	3.0	4	4	1	20.0%
+Marcell Harris	SFO	0	1	1	100.0%	20	20.0	20.0	0	118.7	18.0	18	2	0	0	0	0.0	0	0	0	
+Dre Greenlaw	SFO	0	1	1	100.0%	3	3.0	3.0	0	79.2	-5.0	-5	8	1	0	0	0.0	0	2	0	0.0%
+Ronald Blair	SFO	0	0	0										0	2	0	1.0	3	4	1	20.0%
+D.J. Jones	SFO	0	0	0										0	1	0	1.0	2	5	1	16.7%
+DeForest Buckner	SFO	0	0	0										0	1	1	0.0	2	2	1	33.3%
+Arik Armstead	SFO	0	0	0										0	0	0	2.0	2	3	1	25.0%
+Solomon Thomas	SFO	0	0	0										0	0	1	0.0	1	2	0	0.0%
+Jaquiski Tartt	SFO	0	0	0										1	0	0	0.0	0	1	1	50.0%
+Jimmie Ward	SFO	0	1	0	0.0%					39.6	15.0			0	0	0	0.0	0	2	0	0.0%
+Sheldon Day	SFO	0	0	0										0	0	0	0.0	0	1	1	50.0%
+Mark Nzeocha	SFO	0	1	0	0.0%					39.6	3.0			0	0	0	0.0	0	0	0	"

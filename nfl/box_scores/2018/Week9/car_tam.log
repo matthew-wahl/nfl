@@ -1,0 +1,62 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ryan Fitzpatrick	TAM	24	40	243	17	39.5	353	8.8	135	5.6	3.4	108	4.5	0	0.0%	8	20.5%	3	24	5	3	4	5.5
+Bryan Anger	TAM	0	1	0			10	10.0	0		0.0	0		0	0.0%	0	0.0%	0	0	0	0	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Cam Newton	CAR	19	25	247	11	40.7	183	7.3	120	6.3	4.8	127	6.7	1	4.2%	3	12.5%	2	7	0	2	1	2.0"
+advanced_rushing
+"Peyton Barber	TAM	11	31	1	26	2.4	5	0.5	1	11.0
+Ryan Fitzpatrick	TAM	5	23	1	21	4.2	2	0.4	0	
+Jacquizz Rodgers	TAM	2	14	1	4	2.0	10	5.0	1	2.0
+Shaun Wilson	TAM	2	7		5	2.5	2	1.0	0	
+Adam Humphries	TAM	1	7	0	7	7.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Christian McCaffrey	CAR	17	79	3	31	1.8	48	2.8	2	8.5
+Cam Newton	CAR	11	33	2	28	2.5	5	0.5	1	11.0
+C.J. Anderson	CAR	1	1		1	1.0	0	0.0	0	
+Alex Armah	CAR	1	1	1	1	1.0	0	0.0	0	
+D.J. Moore	CAR	1	32	1	3	3.0	29	29.0	1	1.0
+Curtis Samuel	CAR	1	33	1	23	23.0	10	10.0	1	1.0"
+advanced_receiving
+"Adam Humphries	TAM	8	8	82	6	29	3.6	53	6.6	1	8.0	0	0.0
+O.J. Howard	TAM	6	4	53	4	35	8.8	18	4.5	0		0	0.0
+Cameron Brate	TAM	3	3	15	1	14	4.7	1	0.3	0		0	0.0
+Peyton Barber	TAM	3	2	9	1	-4	-2.0	13	6.5	0		0	0.0
+Chris Godwin	TAM	3	2	40	2	36	18.0	4	2.0	0		0	0.0
+DeSean Jackson	TAM	4	2	32	2	25	12.5	7	3.5	0		0	0.0
+Jacquizz Rodgers	TAM	3	2	-4	0	-16	-8.0	12	6.0	0		0	0.0
+Mike Evans	TAM	10	1	16	1	16	16.0	0	0.0	0		0	0.0
+Alan Cross	TAM	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Greg Olsen	CAR	6	6	76	4	49	8.2	27	4.5	0		0	0.0
+Christian McCaffrey	CAR	6	5	78	2	-4	-0.8	82	16.4	1	5.0	0	0.0
+Devin Funchess	CAR	5	4	44	2	37	9.3	7	1.8	0		0	0.0
+Curtis Samuel	CAR	4	2	25	1	15	7.5	10	5.0	0		1	25.0
+D.J. Moore	CAR	2	1	16	1	16	16.0	0	0.0	0		0	0.0
+Jarius Wright	CAR	1	1	8	1	7	7.0	1	1.0	0		0	0.0"
+advanced_defense
+"Lavonte David	TAM	0	4	4	100.0%	45	11.3	11.3	0	113.5	4.3	17	28	3	0	0	0.5	1	8	1	11.1%
+Carlton Davis	TAM	0	5	4	80.0%	40	10.0	8.0	1	139.6	11.8	38	2	0	0	0	0.0	0	5	2	28.6%
+Adarius Taylor	TAM	0	4	3	75.0%	38	12.7	9.5	1	143.7	4.5	18	20	1	0	0	0.0	0	9	1	10.0%
+Brent Grimes	TAM	0	5	2	40.0%	39	19.5	7.8	0	67.9	14.8	34	5	0	0	0	0.0	0	3	0	0.0%
+Javien Elliott	TAM	0	2	2	100.0%	16	8.0	8.0	0	100.0	6.0	12	4	4	0	0	0.0	0	1	1	50.0%
+Jordan Whitehead	TAM	0	1	1	100.0%	11	11.0	11.0	0	112.5	10.0	10	1	1	0	0	0.0	0	8	3	27.3%
+Devante Bond	TAM	0	1	1	100.0%	20	20.0	20.0	0	118.7	3.0	3	17	0	0	0	0.0	0	4	0	0.0%
+Carl Nassib	TAM	0	0	0										0	0	1	1.0	2	3	0	0.0%
+Gerald McCoy	TAM	0	0	0										0	0	0	0.5	1	2	0	0.0%
+Beau Allen	TAM	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Captain Munnerlyn	CAR	0	7	6	85.7%	48	8.0	6.9	1	134.8	7.9	20	28	2	1	0	0.0	1	8	0	0.0%
+Donte Jackson	CAR	1	8	6	75.0%	90	15.0	11.3	1	111.5	10.6	44	46	0	0	0	0.0	0	5	2	28.6%
+Mike Adams	CAR	0	6	5	83.3%	84	16.8	14.0	1	158.3	14.2	67	17	2	0	0	0.0	0	6	0	0.0%
+Luke Kuechly	CAR	0	2	2	100.0%	2	1.0	1.0	1	118.7	-1.5	-3	5	9	0	1	0.0	1	7	1	12.5%
+Thomas Davis	CAR	0	2	1	50.0%	4	4.0	2.0	0	56.2	1.5	-1	5	12	0	1	0.0	1	8	0	0.0%
+Shaq Thompson	CAR	0	2	1	50.0%	3	3.0	1.5	0	56.2	2.0	3	0	5	1	0	0.0	1	4	0	0.0%
+Eric Reid	CAR	1	3	1	33.3%	4	4.0	1.3	0	2.8	13.0	4	0	4	1	0	0.0	1	3	1	25.0%
+James Bradberry	CAR	0	9	1	11.1%	16	16.0	1.8	0	39.6	11.1	16	0	0	0	0	0.0	0	4	0	0.0%
+Mario Addison	CAR	0	0	0										0	0	0	3.0	3	5	0	0.0%
+Kyle Love	CAR	0	0	0										0	1	1	0.0	2	1	0	0.0%
+Vernon Butler	CAR	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Kawann Short	CAR	0	0	0										0	1	0	0.0	1	4	0	0.0%"

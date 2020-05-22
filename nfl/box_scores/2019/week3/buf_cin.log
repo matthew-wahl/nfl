@@ -1,0 +1,67 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Andy Dalton	CIN	20	36	250	12	31.6	285	7.9	137	6.9	3.8	113	5.7	1	2.9%	11	32.4%	2	12	4	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Josh Allen	BUF	23	36	243	12	32.4	302	8.4	121	5.3	3.4	122	5.3	2	6.1%	6	18.2%	1	16	4	7	4	7.3"
+advanced_rushing
+"Joe Mixon	CIN	15	60	3	24	1.6	36	2.4	1	15.0
+Giovani Bernard	CIN	3	5		0	0.0	5	1.7	0	
+Andy Dalton	CIN	1	1	1	1	1.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Frank Gore	BUF	14	76	5	39	2.8	37	2.6	1	14.0
+Josh Allen	BUF	9	46	3	11	1.2	35	3.9	1	9.0
+T.J. Yeldon	BUF	8	30	1	9	1.1	21	2.6	0	
+Isaiah McKenzie	BUF	3	10	1	6	2.0	4	1.3	0	
+John Brown	BUF	1	4	0	2	2.0	2	2.0	0	
+Dawson Knox	BUF	1	9	1	6	6.0	3	3.0	0	"
+advanced_receiving
+"Tyler Boyd	CIN	11	6	68	4	47	7.8	21	3.5	2	3.0	0	0.0
+Auden Tate	CIN	10	6	88	3	53	8.8	35	5.8	1	6.0	0	0.0
+Giovani Bernard	CIN	2	2	7		-1	-0.5	8	4.0	0		0	0.0
+John Ross	CIN	6	2	22	1	18	9.0	4	2.0	1	2.0	1	16.7
+Joe Mixon	CIN	2	2	34	2	-3	-1.5	37	18.5	0		0	0.0
+Tyler Eifert	CIN	1	1	18	1	17	17.0	1	1.0	0		0	0.0
+Alex Erickson	CIN	1	1	13	1	6	6.0	7	7.0	0		0	0.0
+C.J. Uzomah	CIN	1	0	0		0		0		0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Cole Beasley	BUF	10	8	48	2	26	3.3	22	2.8	0		0	0.0
+John Brown	BUF	5	4	51	3	51	12.8	0	0.0	0		0	0.0
+Dawson Knox	BUF	4	3	67	3	29	9.7	38	12.7	2	1.5	1	25.0
+Zay Jones	BUF	3	2	33	2	20	10.0	13	6.5	0		0	0.0
+Frank Gore	BUF	2	2	13	1	-3	-1.5	16	8.0	0		0	0.0
+T.J. Yeldon	BUF	3	2	19	1	1	0.5	18	9.0	1	2.0	0	0.0
+Isaiah McKenzie	BUF	1	1	9	0	-5	-5.0	14	14.0	0		0	0.0
+Tommy Sweeney	BUF	3	1	3		2	2.0	1	1.0	0		0	0.0
+Lee Smith	BUF	1	0	0		0		0		0		1	100.0
+Robert Foster	BUF	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Tony McRae	CIN	0	3	3	100.0%	17	5.7	5.7	0	90.3	2.3	7	10	2	0	1	0.0	1	4	0	0.0%
+Dre Kirkpatrick	CIN	0	5	3	60.0%	43	14.3	8.6	0	87.9	16.6	43	0	0	0	0	0.0	0	6	0	0.0%
+Jessie Bates	CIN	0	4	3	75.0%	42	14.0	10.5	1	147.9	5.8	23	19	0	0	0	0.0	0	8	1	11.1%
+William Jackson	CIN	0	5	3	60.0%	14	4.7	2.8	0	64.6	11.0	9	5	0	0	0	0.0	0	3	1	25.0%
+Nick Vigil	CIN	0	4	2	50.0%	23	11.5	5.8	0	67.7	5.0	7	16	3	0	2	0.0	2	5	2	28.6%
+Clayton Fejedelem	CIN	0	2	2	100.0%	25	12.5	12.5	0	118.7	5.0	10	15	0	0	0	0.0	0	2	0	0.0%
+Shawn Williams	CIN	0	3	2	66.7%	53	26.5	17.7	0	109.7	14.3	23	30	6	0	0	0.0	0	9	1	10.0%
+Preston Brown	CIN	0	2	2	100.0%	10	5.0	5.0	0	87.5	3.5	7	3	2	0	0	0.0	0	4	0	0.0%
+Carlos Dunlap	CIN	0	1	1	100.0%	7	7.0	7.0	0	95.8	-3.0	-3	10	0	2	2	0.0	4	2	0	0.0%
+Sam Hubbard	CIN	0	1	1	100.0%	9	9.0	9.0	0	104.2	-5.0	-5	14	0	1	0	0.0	1	7	0	0.0%
+Geno Atkins	CIN	0	0	0										0	1	0	1.0	2	6	3	33.3%
+LaRoy Reynolds	CIN	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Andrew Brown	CIN	0	0	0										0	0	1	0.0	1	3	1	25.0%
+Jordan Evans	CIN	0	0	0										1	0	0	0.0	0	0	0	
+Andrew Billings	CIN	0	0	0										0	0	0	0.0	0	5	1	16.7%
+Darius Phillips	CIN	1	2	0	0.0%					0.0	6.0			2	0	0	0.0	0	0	0	
+Brandon Wilson	CIN	0	1	0	0.0%					39.6	40.0			1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Kevin Johnson	BUF	0	5	4	80.0%	52	13.0	10.4	0	110.0	8.2	30	22	1	0	0	1.0	1	3	0	0.0%
+Levi Wallace	BUF	0	7	4	57.1%	40	10.0	5.7	0	73.5	9.1	30	10	0	0	0	0.0	0	2	2	50.0%
+Jordan Poyer	BUF	0	4	3	75.0%	34	11.3	8.5	1	139.6	9.3	32	2	2	1	0	0.0	1	10	0	0.0%
+Tremaine Edmunds	BUF	0	4	2	50.0%	44	22.0	11.0	0	89.6	6.3	7	37	6	0	0	0.0	0	3	1	25.0%
+Siran Neal	BUF	0	2	2	100.0%	5	2.5	2.5	0	79.2	-2.5	-5	10	0	0	0	0.0	0	4	2	33.3%
+Matt Milano	BUF	0	2	1	50.0%	2	2.0	1.0	0	56.2	2.0	0	2	4	1	0	0.0	1	5	1	16.7%
+Tre'Davious White	BUF	2	7	1	14.3%	26	26.0	3.7	0	3.0	13.7	19	7	0	0	0	0.0	0	2	1	33.3%
+Micah Hyde	BUF	0	1	1	100.0%	10	10.0	10.0	0	108.3	4.0	4	6	0	0	0	0.0	0	5	0	0.0%
+Jordan Phillips	BUF	0	0	0										0	0	1	1.0	2	3	0	0.0%
+Jerry Hughes	BUF	0	0	0										0	2	0	0.0	2	1	0	0.0%"

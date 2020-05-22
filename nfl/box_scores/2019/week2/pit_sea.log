@@ -1,0 +1,63 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Russell Wilson	SEA	29	35	300	15	38.5	256	7.3	154	5.3	4.4	146	5.0	0	0.0%	3	8.6%	4	25	2	2	2	12.5
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Mason Rudolph	PIT	12	19	112	7	36.8	150	7.9	69	5.8	3.6	43	3.6	1	5.3%	6	31.6%	0	6	1	1	1	7.0
+Ben Roethlisberger	PIT	8	15	75	3	18.8	111	7.4	22	2.8	1.5	53	6.6	1	6.7%	4	26.7%	1	4	1	0	0	"
+advanced_rushing
+"Chris Carson	SEA	15	60	4	33	2.2	27	1.8	0	
+Rashaad Penny	SEA	10	62	2	8	0.8	54	5.4	0	
+Russell Wilson	SEA	6	22	1	7	1.2	15	2.5	0	
+C.J. Prosise	SEA	2	7	1	1	0.5	6	3.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+James Conner	PIT	11	33	2	4	0.4	29	2.6	1	11.0
+Jaylen Samuels	PIT	3	18	1	8	2.7	10	3.3	0	
+Mason Rudolph	PIT	1	7	1	2	2.0	5	5.0	0	
+Benny Snell	PIT	1	23	1	1	1.0	22	22.0	0	"
+advanced_receiving
+"Tyler Lockett	SEA	12	10	79	4	44	4.4	35	3.5	0		0	0.0
+Will Dissly	SEA	5	5	50	4	37	7.4	13	2.6	0		0	0.0
+Chris Carson	SEA	3	3	27	1	-9	-3.0	36	12.0	0		0	0.0
+Malik Turner	SEA	3	3	54	2	23	7.7	31	10.3	0		0	0.0
+D.K. Metcalf	SEA	7	3	61	3	48	16.0	13	4.3	1	3.0	0	0.0
+C.J. Prosise	SEA	3	3	13	0	3	1.0	10	3.3	0		0	0.0
+Nick Vannett	SEA	1	1	13	1	13	13.0	0	0.0	0		0	0.0
+Rashaad Penny	SEA	1	1	3	0	-5	-5.0	8	8.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Vance McDonald	PIT	7	7	38	2	12	1.7	26	3.7	0		0	0.0
+JuJu Smith-Schuster	PIT	8	5	84	4	61	12.2	23	4.6	0		0	0.0
+James Conner	PIT	4	3	12	0	-6	-2.0	18	6.0	0		0	0.0
+James Washington	PIT	3	2	23	2	15	7.5	8	4.0	0		0	0.0
+Jaylen Samuels	PIT	1	1	13	1	-5	-5.0	18	18.0	0		0	0.0
+Ryan Switzer	PIT	4	1	0		0	0.0	0	0.0	0		0	0.0
+Diontae Johnson	PIT	4	1	17	1	14	14.0	3	3.0	0		1	25.0
+Donte Moncrief	PIT	1	0	0		0		0		0		1	100.0
+Johnny Holton	PIT	1	0	0		0		0		0		0	0.0
+Xavier Grimble	PIT	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"K.J. Wright	SEA	0	7	5	71.4%	40	8.0	5.7	1	125.0	2.7	11	29	3	0	0	0.0	0	8	0	0.0%
+Mychal Kendricks	SEA	0	4	4	100.0%	19	4.8	4.8	0	86.5	-2.8	-11	30	1	0	0	0.0	0	3	1	25.0%
+Bobby Wagner	SEA	0	6	4	66.7%	28	7.0	4.7	0	77.1	0.8	7	21	7	0	0	0.0	0	7	1	12.5%
+Shaquill Griffin	SEA	0	7	4	57.1%	32	8.0	4.6	1	108.3	11.3	26	6	0	0	0	0.0	0	4	2	33.3%
+Bradley McDougald	SEA	1	5	2	40.0%	20	10.0	4.0	0	12.5	16.4	11	9	0	0	0	0.0	0	3	1	25.0%
+Branden Jackson	SEA	0	1	1	100.0%	12	12.0	12.0	0	116.7	6.0	6	6	0	0	1	1.0	2	3	0	0.0%
+Delano Hill	SEA	0	1	1	100.0%	45	45.0	45.0	0	118.7	43.0	43	2	1	1	0	0.0	1	3	1	25.0%
+Quinton Jefferson	SEA	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Jadeveon Clowney	SEA	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Tre Flowers	SEA	0	4	0	0.0%					39.6	6.8			0	0	0	0.0	0	2	0	0.0%
+Jamar Taylor	SEA	0	3	0	0.0%					39.6	28.3			1	0	0	0.0	0	1	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Devin Bush	PIT	0	7	7	100.0%	70	10.0	10.0	2	147.9	5.4	38	32	4	1	0	0.0	1	7	2	22.2%
+Mark Barron	PIT	0	6	6	100.0%	65	10.8	10.8	0	111.8	2.5	15	50	6	0	0	0.5	1	6	0	0.0%
+Terrell Edmunds	PIT	0	7	6	85.7%	79	13.2	11.3	1	153.3	12.0	51	28	0	0	0	0.0	0	11	1	8.3%
+Sean Davis	PIT	0	6	5	83.3%	65	13.0	10.8	2	151.4	14.3	53	12	0	0	0	0.0	0	5	1	16.7%
+Steven Nelson	PIT	0	10	5	50.0%	45	9.0	4.5	0	62.5	9.0	21	24	0	0	0	0.0	0	7	0	0.0%
+Joe Haden	PIT	0	3	3	100.0%	28	9.3	9.3	0	105.6	5.0	15	13	0	0	0	0.0	0	4	0	0.0%
+Cameron Sutton	PIT	0	3	3	100.0%	9	3.0	3.0	0	79.2	1.3	4	5	0	0	0	0.0	0	3	0	0.0%
+Vince Williams	PIT	0	1	1	100.0%	6	6.0	6.0	0	91.7	5.0	5	1	0	0	0	0.0	0	2	0	0.0%
+Stephon Tuitt	PIT	0	0	0										0	0	0	2.5	3	4	0	0.0%
+Bud Dupree	PIT	0	0	0										9	0	2	0.0	2	4	0	0.0%
+T.J. Watt	PIT	0	0	0										9	1	0	1.0	2	6	0	0.0%
+Mike Hilton	PIT	0	0	0										8	1	0	0.0	1	4	0	0.0%"

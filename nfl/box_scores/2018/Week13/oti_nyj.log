@@ -1,0 +1,68 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Josh McCown	NYJ	17	30	128	8	25.0	250	8.3	56	3.3	1.9	72	4.2	4	13.3%	4	13.3%	2	16	1	0	1	3.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Marcus Mariota	TEN	20	35	282	11	28.9	364	10.4	169	8.5	4.8	113	5.7	2	6.3%	7	21.9%	3	11	2	0	3	14.7"
+advanced_rushing
+"Isaiah Crowell	NYJ	21	98	3	44	2.1	54	2.6	0	
+Elijah McGuire	NYJ	6	19	1	7	1.2	12	2.0	0	
+Trenton Cannon	NYJ	4	18	1	6	1.5	12	3.0	0	
+Josh McCown	NYJ	1	3	0	3	3.0	0	0.0	0	
+Andre Roberts	NYJ	1	18	1	16	16.0	2	2.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Derrick Henry	TEN	10	40	3	12	1.2	28	2.8	1	10.0
+Dion Lewis	TEN	6	36		20	3.3	16	2.7	1	6.0
+Marcus Mariota	TEN	4	43	2	34	8.5	9	2.3	0	
+Corey Davis	TEN	1	12	1	12	12.0	0	0.0	0	
+Blaine Gabbert	TEN	1	-1		-1	-1.0	0	0.0	0	"
+advanced_receiving
+"Robby Anderson	NYJ	7	4	48	4	41	10.3	7	1.8	0		1	14.3
+Isaiah Crowell	NYJ	5	4	9	0	-8	-2.0	17	4.3	0		0	0.0
+Quincy Enunwa	NYJ	6	2	9		3	1.5	6	3.0	0		2	33.3
+Chris Herndon	NYJ	6	2	31	2	18	9.0	13	6.5	0		0	0.0
+Jordan Leggett	NYJ	2	2	18	1	2	1.0	16	8.0	0		0	0.0
+Trenton Cannon	NYJ	1	1	7	0	-5	-5.0	12	12.0	0		0	0.0
+Elijah McGuire	NYJ	2	1	-4	0	-5	-5.0	1	1.0	0		1	50.0
+Andre Roberts	NYJ	1	1	10	1	10	10.0	0	0.0	0		0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Corey Davis	TEN	7	3	42	2	28	9.3	14	4.7	0		1	14.3
+Anthony Firkser	TEN	3	3	42	2	26	8.7	16	5.3	0		0	0.0
+Taywan Taylor	TEN	5	3	104	2	94	31.3	10	3.3	0		0	0.0
+Tajae Sharpe	TEN	6	3	51	2	36	12.0	15	5.0	0		0	0.0
+Derrick Henry	TEN	2	2	5	0	0	0.0	5	2.5	0		0	0.0
+Dion Lewis	TEN	3	2	-2		-10	-5.0	8	4.0	0		0	0.0
+Jonnu Smith	TEN	3	2	29	2	-7	-3.5	36	18.0	0		1	33.3
+Cameron Batson	TEN	2	1	7	1	0	0.0	7	7.0	0		0	0.0
+MyCole Pruitt	TEN	1	1	4		2	2.0	2	2.0	0		0	0.0
+Darius Jennings	TEN	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Avery Williamson	NYJ	0	6	5	83.3%	31	6.2	5.2	1	127.8	1.5	5	26	6	0	0	0.0	0	9	1	10.0%
+Morris Claiborne	NYJ	0	4	3	75.0%	94	31.3	23.5	0	116.7	30.5	72	22	0	0	0	0.0	0	3	0	0.0%
+Frankie Luvu	NYJ	0	2	2	100.0%	14	7.0	7.0	0	95.8	-6.5	-13	27	5	1	0	1.0	2	2	1	33.3%
+Jamal Adams	NYJ	0	4	2	50.0%	9	4.5	2.3	0	56.2	2.5	7	2	4	0	0	1.0	1	11	1	8.3%
+Trumaine Johnson	NYJ	1	9	2	22.2%	31	15.5	3.4	1	38.9	12.6	27	4	0	0	0	0.0	0	3	1	25.0%
+Darron Lee	NYJ	0	2	2	100.0%	13	6.5	6.5	0	93.7	4.0	8	5	1	0	0	0.0	0	7	2	22.2%
+Rashard Robinson	NYJ	0	1	1	100.0%	25	25.0	25.0	0	118.7	15.0	15	10	1	0	0	0.0	0	1	0	0.0%
+Buster Skrine	NYJ	0	3	1	33.3%	3	3.0	1.0	0	42.4	11.3	3	0	0	0	0	0.0	0	0	1	100.0%
+Darryl Roberts	NYJ	0	1	1	100.0%	55	55.0	55.0	0	118.7	45.0	45	10	1	0	0	0.0	0	3	0	0.0%
+Brandon Copeland	NYJ	0	0	0										0	1	0	0.0	1	2	0	0.0%
+Leonard Williams	NYJ	0	0	0										0	1	0	0.0	1	1	1	50.0%
+Jordan Jenkins	NYJ	0	0	0										7	0	0	1.0	1	4	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Adoree' Jackson	TEN	0	9	6	66.7%	51	8.5	5.7	0	81.2	13.1	36	15	1	0	0	0.0	0	7	2	22.2%
+Harold Landry	TEN	0	2	2	100.0%	14	7.0	7.0	0	95.8	-2.0	-4	18	8	0	0	0.0	0	6	0	0.0%
+Derrick Morgan	TEN	0	2	2	100.0%	21	10.5	10.5	0	110.4	2.0	4	17	7	0	0	0.0	0	3	2	40.0%
+Malcolm Butler	TEN	1	5	2	40.0%	6	3.0	1.2	0	8.3	6.6	5	1	0	0	0	0.0	0	6	0	0.0%
+Wesley Woodyard	TEN	0	1	1	100.0%	20	20.0	20.0	0	118.7	16.0	16	4	4	1	0	0.0	1	7	1	12.5%
+LeShaun Sims	TEN	0	1	1	100.0%	8	8.0	8.0	0	100.0	0.0	0	8	0	0	0	0.0	0	2	0	0.0%
+Sharif Finch	TEN	0	1	1	100.0%	-4	-4.0	-4.0	0	79.2	-4.0	-4	0	3	0	0	0.0	0	2	0	0.0%
+Logan Ryan	TEN	0	1	1	100.0%	7	7.0	7.0	0	95.8	3.0	3	4	2	0	0	0.0	0	6	0	0.0%
+Jayon Brown	TEN	0	3	0	0.0%					39.6	5.0			3	0	0	1.0	1	5	0	0.0%
+Jurrell Casey	TEN	0	0	0										1	0	0	1.0	1	4	1	20.0%
+Kevin Byard	TEN	0	1	0	0.0%					39.6	34.0			0	0	0	0.0	0	6	1	14.3%
+Brian Orakpo	TEN	0	1	0	0.0%					39.6	15.0			6	0	0	0.0	0	0	2	100.0%
+DaQuan Jones	TEN	0	0	0										0	0	0	0.0	0	3	1	25.0%
+Rashaan Evans	TEN	0	0	0										1	0	0	0.0	0	8	0	0.0%
+Kenny Vaccaro	TEN	0	2	0	0.0%					39.6	10.0			3	0	0	0.0	0	2	0	0.0%"

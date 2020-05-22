@@ -1,0 +1,69 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Mason Rudolph	PIT	14	20	129	7	33.3	130	6.5	80	5.7	4.0	49	3.5	4	20.0%	2	10.0%	1	12	1	2	1	5.0
+Devlin Hodges	PIT	11	17	84	4	20.0	157	9.2	42	3.8	2.5	42	3.8	1	6.3%	0	0.0%	3	13	0	1	0	
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Sam Darnold	NYJ	16	26	183	7	25.0	217	8.3	79	4.9	3.0	104	6.5	3	12.0%	3	12.0%	2	13	3	5	1	4.0"
+advanced_rushing
+"Benny Snell	PIT	7	14		2	0.3	12	1.7	0	
+James Conner	PIT	6	32	2	2	0.3	30	5.0	0	
+Kerrith Whyte	PIT	6	22	1	12	2.0	10	1.7	0	
+Jaylen Samuels	PIT	3	7	0	2	0.7	5	1.7	0	
+Mason Rudolph	PIT	2	0	0	-5	-2.5	5	2.5	0	
+Devlin Hodges	PIT	1	0	0	0	0.0	0	0.0	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+Le'Veon Bell	NYJ	25	72	3	17	0.7	55	2.2	0	
+Sam Darnold	NYJ	4	3	1	-1	-0.3	4	1.0	0	
+Ty Montgomery	NYJ	2	7	1	2	1.0	5	2.5	0	
+Bilal Powell	NYJ	1	3		1	1.0	2	2.0	0	"
+advanced_receiving
+"Diontae Johnson	PIT	9	8	81	4	58	7.3	23	2.9	1	8.0	1	11.1
+James Washington	PIT	8	5	41	2	37	7.4	4	0.8	0		0	0.0
+Jaylen Samuels	PIT	6	4	32	1	-8	-2.0	40	10.0	0		1	16.7
+Vance McDonald	PIT	6	3	9		4	1.3	5	1.7	0		1	16.7
+Deon Cain	PIT	2	2	10	1	6	3.0	4	2.0	0		0	0.0
+JuJu Smith-Schuster	PIT	4	2	22	2	20	10.0	2	1.0	0		2	50.0
+Nick Vannett	PIT	1	1	18	1	5	5.0	13	13.0	1	1.0	0	0.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Le'Veon Bell	NYJ	4	4	21	0	-4	-1.0	25	6.3	1	4.0	0	0.0
+Jamison Crowder	NYJ	8	4	60	3	33	8.3	27	6.8	0		1	12.5
+Vyncint Smith	NYJ	4	3	32	2	21	7.0	11	3.7	0		0	0.0
+Robby Anderson	NYJ	4	2	32	1	28	14.0	4	2.0	0		1	25.0
+Ty Montgomery	NYJ	1	1	1	0	1	1.0	0	0.0	0		0	0.0
+Bilal Powell	NYJ	2	1	5		1	1.0	4	4.0	0		1	50.0
+Trevon Wesco	NYJ	1	1	32	1	-1	-1.0	33	33.0	0		0	0.0
+Daniel Brown	NYJ	1	0	0		0		0		0		0	0.0"
+advanced_defense
+"Terrell Edmunds	PIT	0	4	3	75.0%	37	12.3	9.3	0	103.1	7.3	17	20	1	0	0	0.0	0	4	1	20.0%
+Devin Bush	PIT	0	5	3	60.0%	38	12.7	7.6	0	83.7	0.2	-2	40	3	0	0	0.0	0	5	0	0.0%
+Mike Hilton	PIT	0	2	2	100.0%	6	3.0	3.0	0	79.2	1.0	2	4	6	0	0	0.0	0	8	0	0.0%
+Mark Barron	PIT	0	4	2	50.0%	18	9.0	4.5	0	62.5	11.0	9	9	1	0	0	0.0	0	8	0	0.0%
+Joe Haden	PIT	0	4	2	50.0%	31	15.5	7.8	1	115.6	22.8	29	2	0	0	0	0.0	0	2	0	0.0%
+Javon Hargrave	PIT	0	1	1	100.0%	12	12.0	12.0	0	116.7	-6.0	-6	18	0	0	1	0.0	1	6	1	14.3%
+Bud Dupree	PIT	0	1	1	100.0%	17	17.0	17.0	0	118.7	15.0	15	2	6	0	0	1.0	1	6	0	0.0%
+Minkah Fitzpatrick	PIT	0	2	1	50.0%	10	10.0	5.0	0	64.6	9.5	6	4	0	0	0	0.0	0	5	0	0.0%
+Steven Nelson	PIT	0	2	1	50.0%	14	14.0	7.0	0	72.9	5.0	9	5	0	0	0	0.0	0	1	0	0.0%
+T.J. Watt	PIT	0	0	0										5	2	2	1.0	5	5	2	28.6%
+Vince Williams	PIT	0	0	0										1	0	1	0.0	1	1	0	0.0%
+Tyson Alualu	PIT	0	0	0										0	1	0	0.0	1	5	1	16.7%
+Cameron Heyward	PIT	0	0	0										0	0	1	0.0	1	6	1	14.3%
+Anthony Chickillo	PIT	0	0	0										2	0	0	0.0	0	2	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Arthur Maulet	NYJ	0	8	7	87.5%	48	6.9	6.0	0	91.7	7.4	39	9	0	0	0	0.0	0	8	2	20.0%
+Blessuan Austin	NYJ	0	5	5	100.0%	86	17.2	17.2	1	158.3	10.0	50	36	0	0	0	0.0	0	4	1	20.0%
+Jamal Adams	NYJ	0	4	4	100.0%	22	5.5	5.5	0	89.6	1.3	5	17	12	0	1	0.0	1	8	0	0.0%
+Neville Hewitt	NYJ	0	4	3	75.0%	19	6.3	4.8	0	84.4	2.8	9	10	12	0	0	1.0	1	8	0	0.0%
+Maurice Canady	NYJ	0	2	2	100.0%	19	9.5	9.5	0	106.2	9.5	19	0	0	0	0	0.0	0	5	0	0.0%
+Brian Poole	NYJ	0	3	1	33.3%	1	1.0	0.3	0	42.4	18.3	0	1	1	0	1	0.0	1	3	1	25.0%
+James Burgess	NYJ	0	3	1	33.3%	9	9.0	3.0	0	42.4	0.7	1	8	12	0	0	0.0	0	8	0	0.0%
+Jordan Jenkins	NYJ	0	2	1	50.0%	1	1.0	0.5	0	56.2	2.0	-7	8	12	0	0	0.0	0	2	1	33.3%
+Henry Anderson	NYJ	0	1	1	100.0%	8	8.0	8.0	0	100.0	6.0	6	2	0	0	0	0.0	0	2	1	33.3%
+Quinnen Williams	NYJ	0	0	0										0	1	0	1.0	2	4	1	20.0%
+Folorunso Fatukasi	NYJ	0	0	0										0	0	0	1.0	1	4	0	0.0%
+Kyle Phillips	NYJ	0	0	0										0	0	0	1.0	1	3	0	0.0%
+Nathan Shepherd	NYJ	0	0	0										0	0	1	0.0	1	1	0	0.0%
+Tarell Basham	NYJ	1	1	0	0.0%					0.0	1.0			8	0	0	0.0	0	0	0	
+Marcus Maye	NYJ	1	2	0	0.0%					0.0	31.5			0	0	0	0.0	0	4	0	0.0%
+Brandon Copeland	NYJ	0	1	0	0.0%					39.6	5.0			5	0	0	0.0	0	2	1	33.3%"

@@ -1,0 +1,66 @@
+advanced_rushing = document.querySelectorAll("#rushing_advanced > tbody")[0].innerText;
+advanced_receiving = document.querySelectorAll("#receiving_advanced > tbody")[0].innerText;
+advanced_defense = document.querySelectorAll("#defense_advanced > tbody")[0].innerText;
+advanced_passing = document.querySelectorAll("#passing_advanced > tbody")[0].innerText;
+"Ryan Fitzpatrick	MIA	21	34	190	11	28.9	299	8.8	129	6.1	3.8	61	2.9	3	9.1%	7	21.2%	4	14	6	6	3	6.0
+Player	Tm	Cmp	Att	Yds	1D	1D%	IAY	IAY/PA	CAY	CAY/Cmp	CAY/PA	YAC	YAC/Cmp	Drops	Drop%	BadTh	Bad%	Sk	Bltz	Hrry	Hits	Scrm	Yds/Scr
+Mason Rudolph	PIT	20	36	251	12	31.6	479	13.3	151	7.6	4.2	100	5.0	1	2.9%	7	20.0%	2	22	2	5	0	"
+advanced_rushing
+"Mark Walton	MIA	11	35	3	25	2.3	10	0.9	0	
+Ryan Fitzpatrick	MIA	5	17	1	11	2.2	6	1.2	0	
+Kalen Ballage	MIA	3	8	0	6	2.0	2	0.7	0	
+Player	Tm	Att	Yds	1D	YBC	YBC/Att	YAC	YAC/Att	BrkTkl	Att/Br
+James Conner	PIT	23	145	7	81	3.5	64	2.8	1	23.0
+Benny Snell	PIT	5	13		7	1.4	6	1.2	1	5.0
+Trey Edmunds	PIT	1	0		0	0.0	0	0.0	0	"
+advanced_receiving
+"DeVante Parker	MIA	8	6	59	3	49	8.2	10	1.7	0		0	0.0
+Preston Williams	MIA	7	4	42	3	36	9.0	6	1.5	0		1	14.3
+Mark Walton	MIA	6	3	19	0	2	0.7	17	5.7	0		1	16.7
+Mike Gesicki	MIA	3	2	10		6	3.0	4	2.0	0		0	0.0
+Jakeem Grant	MIA	3	2	32	2	31	15.5	1	0.5	0		0	0.0
+Kalen Ballage	MIA	1	1	11	1	-3	-3.0	14	14.0	0		0	0.0
+Michael Deiter	MIA	1	1	0		0	0.0	0	0.0	0		0	0.0
+Allen Hurns	MIA	1	1	12	1	6	6.0	6	6.0	1	1.0	0	0.0
+Albert Wilson	MIA	2	1	5	1	2	2.0	3	3.0	0		0	0.0
+Nick O'Leary	MIA	1	0	0		0		0		0		1	100.0
+Player	Tm	Tgt	Rec	Yds	1D	YBC	YBC/R	YAC	YAC/R	BrkTkl	Rec/Br	Drop	Drop%
+Diontae Johnson	PIT	7	5	84	4	41	8.2	43	8.6	1	5.0	0	0.0
+JuJu Smith-Schuster	PIT	9	5	103	4	90	18.0	13	2.6	0		0	0.0
+James Conner	PIT	4	3	5	1	-7	-2.3	12	4.0	1	3.0	0	0.0
+Vance McDonald	PIT	4	3	19	1	12	4.0	7	2.3	0		0	0.0
+Roosevelt Nix	PIT	2	2	4		-5	-2.5	9	4.5	0		0	0.0
+Nick Vannett	PIT	2	1	15	1	1	1.0	14	14.0	0		0	0.0
+James Washington	PIT	6	1	21	1	19	19.0	2	2.0	0		1	16.7
+Donte Moncrief	PIT	2	0	0		0		0		0		0	0.0"
+advanced_defense
+"Ryan Lewis	MIA	0	7	4	57.1%	79	19.8	11.3	0	96.7	21.3	69	10	0	0	0	0.0	0	6	1	14.3%
+Nik Needham	MIA	0	4	3	75.0%	38	12.7	9.5	0	104.2	11.8	28	10	3	0	1	0.0	1	3	0	0.0%
+Vince Biegel	MIA	0	3	2	66.7%	3	1.5	1.0	0	70.1	2.3	1	2	6	2	2	0.0	4	9	0	0.0%
+Jerome Baker	MIA	0	2	2	100.0%	9	4.5	4.5	0	85.4	1.0	2	7	6	0	1	0.0	1	9	0	0.0%
+Eric Rowe	MIA	0	3	2	66.7%	16	8.0	5.3	0	79.9	8.0	1	15	3	0	0	0.0	0	5	1	16.7%
+Xavien Howard	MIA	1	6	2	33.3%	57	28.5	9.5	1	69.4	17.3	15	42	1	0	0	0.0	0	1	0	0.0%
+Chris Lammons	MIA	0	2	2	100.0%	27	13.5	13.5	1	158.3	12.0	24	3	1	0	0	0.0	0	2	0	0.0%
+Trent Harris	MIA	0	1	1	100.0%	4	4.0	4.0	0	83.3	4.0	4	0	1	0	0	0.0	0	2	0	0.0%
+Bobby McCain	MIA	0	1	1	100.0%	9	9.0	9.0	0	104.2	8.0	8	1	4	0	0	0.0	0	1	0	0.0%
+Jomal Wiltz	MIA	0	4	1	25.0%	9	9.0	2.3	0	39.6	12.5	-1	10	1	0	0	0.0	0	1	1	50.0%
+Taco Charlton	MIA	0	0	0										0	0	0	1.0	1	1	0	0.0%
+Samuel Eguavoen	MIA	0	1	0	0.0%					39.6	-1.0			10	0	0	1.0	1	3	0	0.0%
+Davon Godchaux	MIA	0	0	0										0	0	1	0.0	1	4	0	0.0%
+Raekwon McMillan	MIA	0	0	0										1	0	0	0.0	0	7	1	12.5%
+Ken Webster	MIA	0	2	0	0.0%					39.6	30.5			0	0	0	0.0	0	2	0	0.0%
+Player	Tm	Int	Tgt	Cmp	Cmp%	Yds	Yds/Cmp	Yds/Tgt	TD	Rat	DADOT	Air	YAC	Bltz	Hrry	QBKD	Sk	Prss	Comb	MTkl	MTkl%
+Joe Haden	PIT	0	6	5	83.3%	57	11.4	9.5	0	106.2	10.0	51	6	0	0	0	0.0	0	8	0	0.0%
+Devin Bush	PIT	0	4	4	100.0%	29	7.3	7.3	1	136.5	4.5	18	11	2	0	0	0.0	0	7	1	12.5%
+Steven Nelson	PIT	0	7	3	42.9%	30	10.0	4.3	0	55.7	12.7	30	0	0	0	0	0.0	0	1	0	0.0%
+Mark Barron	PIT	0	4	3	75.0%	31	10.3	7.8	0	96.9	5.8	11	20	0	0	0	0.0	0	5	2	28.6%
+Vince Williams	PIT	0	2	2	100.0%	14	7.0	7.0	1	135.4	2.5	5	9	6	0	2	0.0	2	4	0	0.0%
+Terrell Edmunds	PIT	0	3	2	66.7%	22	11.0	7.3	0	88.2	9.3	18	4	0	0	0	0.0	0	4	0	0.0%
+Bud Dupree	PIT	0	1	1	100.0%	7	7.0	7.0	0	95.8	-4.0	-4	11	0	1	0	1.0	2	5	2	28.6%
+T.J. Watt	PIT	0	0	0										1	3	1	2.0	6	3	0	0.0%
+Tyson Alualu	PIT	0	0	0										0	1	1	0.0	2	2	0	0.0%
+Cameron Heyward	PIT	0	1	0	0.0%					39.6	-7.0			0	0	1	1.0	2	6	0	0.0%
+Javon Hargrave	PIT	0	0	0										0	1	0	0.0	1	1	0	0.0%
+Mike Hilton	PIT	0	1	0	0.0%					39.6	-5.0			4	0	1	0.0	1	1	0	0.0%
+Jayrone Elliott	PIT	0	0	0										1	0	0	0.0	0	0	0	
+Minkah Fitzpatrick	PIT	2	2	0	0.0%					0.0	37.5			0	0	0	0.0	0	2	0	0.0%"

@@ -1,6 +1,6 @@
 import pandas as pd
 
-df0 = pd.read_csv('C:/Users/matth/PycharmProjects/untitled1/team_abbreviations_list.csv', header=None)
+df0 = pd.read_csv('/nfl/team_abbreviations_list.csv', header=None)
 team_list = df0.values.tolist()
 
 year = '19'

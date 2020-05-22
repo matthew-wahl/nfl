@@ -22,14 +22,14 @@ def get_list_of_files(dir_name):
 
 
 nfl = get_list_of_files('C:/Users/matth/PycharmProjects/untitled1/nfl/box_scores/')
-team_list = pd.read_csv('C:/Users/matth/PycharmProjects/untitled1/team_abbreviations_list.csv',
+team_list = pd.read_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/team_abbreviations_list.csv',
                         header=None).values.tolist()
 
 p_cols = ['Year', 'Week', 'Home', 'Cmp', 'Att', 'Yds', '1D', 'IAY', 'CAY', 'YAC', 'Drops', 'BadTh', 'Sk', 'Bltz',
           'Hrry',
           'Hits',
           'Scrm', 'ScrambleYds', 'Att', 'Yds', '1D', 'YBC', 'YAC', 'BrkTkl', 'Tgt', 'Rec', 'Yds', '1D', 'YBC', 'YAC',
-          'BrkTkl', 'Drop', 'Int', 'Tgt', 'Cmp', 'Yds', 'TD', 'Rat', 'Air', 'YAC', 'Bltz', 'Hrry',
+          'BrkTkl', 'Drop', 'Int', 'Tgt', 'Cmp', 'Yds', 'TD', 'Air', 'YAC', 'Bltz', 'Hrry',
           'QBKD', 'Sk', 'Prss', 'Comb', 'MTkl', 'total.DADOT']
 
 # empty list for each team
@@ -171,7 +171,7 @@ for file in nfl:
 
         # defense
         defense = clean_df[6 + k]
-        defense.drop(['Player', 'Tm', 'MTkl%', 'Cmp%', 'Yds/Cmp', 'Yds/Tgt'], inplace=True, axis=1)
+        defense.drop(['Player', 'Tm', 'Rat', 'MTkl%', 'Cmp%', 'Yds/Cmp', 'Yds/Tgt'], inplace=True, axis=1)
         defense = defense.apply(pd.to_numeric)
         defense['total.DADOT'] = defense.apply(lambda row: (row['Tgt'] * row['DADOT']
                                                             if row['Tgt'] and row['DADOT']

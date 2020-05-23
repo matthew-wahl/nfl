@@ -134,7 +134,7 @@ for team in team_list:
             element[1] = missing_week
             frame_list.insert(position_to_insert, element)
 
-    # concat dataframes for each season ands thenconvert them to a list and update team_list in list_of_team_lists
+    # concat dataframes for each season ands then convert them to a list and update team_list in list_of_team_lists
     p_cols = df2018.columns.values
     newdf_2018 = pd.DataFrame(df2018_values, columns=p_cols)
     newdf_2019 = pd.DataFrame(df2019_values, columns=p_cols)

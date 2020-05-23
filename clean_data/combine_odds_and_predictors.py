@@ -26,4 +26,4 @@ df2 = pd.DataFrame(combined, columns=df1.columns.values)
 
 # combine
 df_merged = pd.merge(df, df2, how='left', on=['Year', 'Month', 'Day Number', 'Team 1'])
-df_merged.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors_with_odds.csv')
+df_merged.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors_with_odds.csv', index=False)

@@ -60,5 +60,5 @@ df1.drop(['blank1', 'blank2', 'YdsW', 'TOW', 'YdsL', 'TOL'], inplace=True, axis=
 df1['Total'] = df1.apply(lambda row: (row['Team 1'] + row['Team 2']), axis=1)
 df1['Spread'] = df1.apply(lambda row: (row['Team 1'] - row['Team 2']), axis=1)
 
-df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/clean_data/schedule_results.csv')
+df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/schedule/schedule_results.csv')
 

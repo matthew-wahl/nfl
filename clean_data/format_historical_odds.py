@@ -116,5 +116,8 @@ for game in games_list:
 
 df1 = pd.DataFrame(games_list, columns=cols)
 df1.drop(['Team 2 Line Close', 'Team 2 Line Odds Close'], inplace=True, axis=1)
+df1 = df1.reindex(columns=['Year', 'Month', 'Day Number', 'Total Score Close', 'Total Score Over Close',
+                           'Team 1', 'Team 2', 'Team 1 Odds Close', 'Team 2 Odds Close',
+                           'Team 1 Line Close', 'Team 1 Line Odds Close'])
 
 df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/odds/nfl_odds_historical_sorted.csv', index=False)

@@ -19,7 +19,7 @@ for game in no_first_week:
                  + game[6].upper() + '_cumsum.CSV'
     df1 = pd.read_csv(file_path1)
     # get game data of cumulative stats as of the end of previous week
-    df1 = df1.loc[(df1['Year'] == game[0]) & (df1['Week'] == game[1] - 1)]
+    df1 = df1.loc[(df1['Year'] == game[0]) & (df1['Week'] == game[1] - 1) ]
     stats = df1.values.tolist()
     if stats:
         for stat in stats[0]:

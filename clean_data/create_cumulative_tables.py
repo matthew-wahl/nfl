@@ -119,6 +119,7 @@ for team in team_list:
     df2019_values = df2019.values.tolist()
     df_list = [df2018_values, df2019_values]
 
+    # repeat previous week for BYEs, and PLAYOFFS if tem is eliminated
     for frame_list in df_list:
         all_weeks = list(range(1, 22))
         played_Weeks = [item[1] for item in frame_list]
@@ -134,6 +135,15 @@ for team in team_list:
             element[1] = missing_week
             frame_list.insert(position_to_insert, element)
 
+    # update year for turn of calendar
+    for week in df2018_values:
+        if week[1] > 17:
+            week[0] += 1
+
+    for week in df2019_values:
+        if week[1] > 17:
+            week[0] += 1
+
     # concat dataframes for each season ands then convert them to a list and update team_list in list_of_team_lists
     p_cols = df2018.columns.values
     newdf_2018 = pd.DataFrame(df2018_values, columns=p_cols)
@@ -141,7 +151,6 @@ for team in team_list:
     df_cumsum = pd.concat([newdf_2018, newdf_2019], axis=0)
     combined_list = df_cumsum.values.tolist()
     list_of_team_lists[team_list.index(team)].append(combined_list)
-
 
 SDG_dfcumsum = pd.DataFrame(SDG[0], columns=p_cols)
 RAI_dfcumsum = pd.DataFrame(RAI[0], columns=p_cols)

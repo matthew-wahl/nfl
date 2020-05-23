@@ -18,8 +18,14 @@ for game in no_first_week:
     file_path1 = 'C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/' \
                  + game[6].upper() + '_cumsum.CSV'
     df1 = pd.read_csv(file_path1)
+
     # get game data of cumulative stats as of the end of previous week
-    df1 = df1.loc[(df1['Year'] == game[0]) & (df1['Week'] == game[1] - 1) ]
+    # the previous week for week 18 is in the previous year
+    if game[1] == 18:
+        df1 = df1.loc[(df1['Year'] == game[0] - 1) & (df1['Week'] == game[1] - 1)]
+    else:
+        df1 = df1.loc[(df1['Year'] == game[0]) & (df1['Week'] == game[1] - 1)]
+
     stats = df1.values.tolist()
     if stats:
         for stat in stats[0]:
@@ -30,7 +36,10 @@ for game in no_first_week:
                  + game[7].upper() + '_cumsum.CSV'
     df2 = pd.read_csv(file_path2)
     # get game data of cumulative stats as of the end of previous week
-    df2 = df2.loc[(df2['Year'] == game[0]) & (df2['Week'] == game[1] - 1)]
+    if game[1] == 18:
+        df2 = df2.loc[(df2['Year'] == game[0] - 1) & (df2['Week'] == game[1] - 1)]
+    else:
+        df2 = df2.loc[(df2['Year'] == game[0]) & (df2['Week'] == game[1] - 1)]
     stats = df2.values.tolist()
     if stats:
         for stat in stats[0]:

@@ -85,4 +85,5 @@ new_col_order = ['Home.team1',
                  'games_played_team_2_17.0', 'games_played_team_2_18.0',
                  'Total', 'Spread']
 df_predictors = df_predictors.reindex(columns=new_col_order)
-df_predictors.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors_with_dummies.csv')
+df_predictors.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors_with_dummies.csv',
+                     index=False)

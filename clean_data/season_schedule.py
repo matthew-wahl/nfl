@@ -52,13 +52,13 @@ for season in seasons:
 
             season_list.append(split_item)
 
-cols = ['Week', 'Day', 'Date', 'Time', 'Winner/tie', 'blank1', 'Loser/tie', 'blank2', 'Team 1', 'Team 2', 'YdsW', 'TOW',
+cols = ['Week', 'Day', 'Date', 'Time', 'Team 1', 'blank1', 'Team 2', 'blank2', 'Team 1 Score', 'Team 2 Score', 'YdsW', 'TOW',
         'YdsL', 'TOL']
 
 df1 = pd.DataFrame(season_list, columns=cols)
 df1.drop(['blank1', 'blank2', 'YdsW', 'TOW', 'YdsL', 'TOL'], inplace=True, axis=1)
-df1['Total'] = df1.apply(lambda row: (row['Team 1'] + row['Team 2']), axis=1)
-df1['Spread'] = df1.apply(lambda row: (row['Team 1'] - row['Team 2']), axis=1)
+df1['Total'] = df1.apply(lambda row: (row['Team 1 Score'] + row['Team 2 Score']), axis=1)
+df1['Spread'] = df1.apply(lambda row: (row['Team 1 Score'] - row['Team 2 Score']), axis=1)
 
 df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/schedule/schedule_results.csv')
 

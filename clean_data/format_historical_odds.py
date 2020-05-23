@@ -117,4 +117,4 @@ for game in games_list:
 df1 = pd.DataFrame(games_list, columns=cols)
 df1.drop(['Team 2 Line Close', 'Team 2 Line Odds Close'], inplace=True, axis=1)
 
-df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/odds/nfl_odds_historical_sorted.csv')
+df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/odds/nfl_odds_historical_sorted.csv', index=False)

@@ -59,6 +59,7 @@ df1 = pd.DataFrame(season_list, columns=cols)
 df1.drop(['blank1', 'blank2', 'YdsW', 'TOW', 'YdsL', 'TOL'], inplace=True, axis=1)
 df1['Total'] = df1.apply(lambda row: (row['Team 1 Score'] + row['Team 2 Score']), axis=1)
 df1['Spread'] = df1.apply(lambda row: (row['Team 1 Score'] - row['Team 2 Score']), axis=1)
+df1['Team 1 Win'] = df1.apply(lambda row: (row['Spread'] > 0), axis=1)
 
 df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/schedule/schedule_results.csv', index=False)
 

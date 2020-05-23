@@ -197,6 +197,7 @@ CRD_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_
 NWE_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/NWE_cumsum.CSV', index=False)
 BUF_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/BUF_cumsum.CSV', index=False)
 NYJ_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/NYJ_cumsum.CSV', index=False)
+MIA_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/MIA_cumsum.CSV', index=False)
 RAV_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/RAV_cumsum.CSV', index=False)
 PIT_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/PIT_cumsum.CSV', index=False)
 CLE_dfcumsum.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/season_cumsum_box_scores/CLE_cumsum.CSV', index=False)

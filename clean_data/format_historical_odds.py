@@ -120,4 +120,4 @@ df1 = df1.reindex(columns=['Year', 'Month', 'Day Number', 'Total Score Close', '
                            'Team 1', 'Team 2', 'Team 1 Odds Close', 'Team 2 Odds Close',
                            'Team 1 Line Close', 'Team 1 Line Odds Close'])
 
-df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/odds/nfl_odds_historical_sorted.csv', index=False)
+df1.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/odds/nfl_odds_historical_sorted_full.csv', index=False)

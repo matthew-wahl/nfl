@@ -137,4 +137,4 @@ p_cols = ['Year', 'Week', 'Month', 'Day of Week', 'Day Number', 'Hour', 'Team 1'
           'avg.total.DADOT.team2']
 
 df_p = pd.DataFrame(p_list, columns=p_cols)
-df_p.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/raw_predictors', index=False)
+df_p.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors.csv', index=False)

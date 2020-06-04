@@ -24,7 +24,7 @@ X = data.drop(['Total',
                'Team 1 Win'], axis=1).values
 
 y = data['Team 1 Win'].values
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.199, random_state=42)
 
 scaler = MinMaxScaler()
 X_train = scaler.fit_transform(X_train)
@@ -34,16 +34,11 @@ X_test = scaler.transform(X_test)
 # >>(376, 152)
 
 model = Sequential()
-
 model.add(Dense(units=152, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(units=304, activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(units=152, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(units=304, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(units=152, activation='relu'))
+model.add(Dense(units=608, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(units=1, activation='sigmoid'))
 

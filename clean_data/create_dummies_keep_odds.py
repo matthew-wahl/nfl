@@ -11,9 +11,8 @@ hour_dummies = pd.get_dummies(df['Hour'], prefix='hour', drop_first=True)
 games_played_team1 = pd.get_dummies(df['Games Played.team1'], prefix='games_played_team_1', drop_first=True)
 games_played_team2 = pd.get_dummies(df['Games Played.team2'], prefix='games_played_team_2', drop_first=True)
 
-df.drop(['Week', 'Day of Week', 'Hour', 'Games Played.team1', 'Games Played.team2',
-         'Total Score Close', 'Total Score Over Close', 'Team 1 Odds Close',
-         'Team 2 Odds Close', 'Team 1 Line Close', 'Team 1 Line Odds Close', 'Home.team2', 'Team 1 Score',
+df.drop(['Week', 'Day of Week', 'Hour', 'Games Played.team1', 'Games Played.team2'
+            , 'Home.team2', 'Team 1 Score',
          'Team 2 Score', 'Team 1 Win'
          ], inplace=True, axis=1)
 
@@ -83,7 +82,9 @@ new_col_order = ['Home.team1',
                  'games_played_team_2_13.0', 'games_played_team_2_14.0',
                  'games_played_team_2_15.0', 'games_played_team_2_16.0',
                  'games_played_team_2_17.0', 'games_played_team_2_18.0',
-                 'Total', 'Spread']
+                 'Total', 'Spread',
+                 'Total Score Close', 'Total Score Over Close', 'Team 1 Odds Close',
+                 'Team 2 Odds Close', 'Team 1 Line Close', 'Team 1 Line Odds Close']
 df_predictors = df_predictors.reindex(columns=new_col_order)
-df_predictors.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors_with_dummies.csv',
+df_predictors.to_csv('C:/Users/matth/PycharmProjects/untitled1/nfl/predictors/stat_predictors_with_dummies_and_odds.csv',
                      index=False)
